@@ -2,7 +2,7 @@ data
 archived
 token.json
 .DS_Store
-w001.*.ipynb
+w001_*.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
