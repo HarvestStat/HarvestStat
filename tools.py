@@ -276,7 +276,7 @@ def PlotAdminShapes(shape_plot, label=True):
     # plt.show()
     plt.close(fig)
     country_code = shape_plot['COUNTRY'].unique()[0]
-    fn_save = './data/shapefile/fewsnet/figures/%s_admin_shapes.png' % country_code
+    fn_save = './figures/%s_admin_shapes.png' % country_code
     fig.savefig(fn_save, bbox_inches='tight', facecolor='w',edgecolor='w')
     print('%s is saved.' % fn_save)
     
