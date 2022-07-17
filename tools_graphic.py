@@ -71,7 +71,7 @@ def PlotMapCropSystem(df, footnote):
     return fig
 
 
-def PlotHeatSeasonData(data, code, comb, comb_name, footnote):
+def PlotHeatSeasonData(data, code, comb, comb_name, footnote, fn_save=False):
     # Combinations of "seasons"
     years = np.arange(data['year'].min(), data['year'].max()+1)
     data['season_name'].replace(code, inplace=True)
@@ -144,10 +144,13 @@ def PlotHeatSeasonData(data, code, comb, comb_name, footnote):
         showarrow=False,
         font = {'family':'arial','size':15, 'color':'dimgrey'},
     )
+    if fn_save:
+        fig.write_image(fn_save)
+        print('%s is saved.' % fn_save)
     return fig
 
 
-def PlotHeatCropSystem(data, code, comb, comb_name, footnote):
+def PlotHeatCropSystem(data, code, comb, comb_name, footnote, fn_save=False):
     # Combinations of "crop production system"
     years = np.arange(data['year'].min(), data['year'].max()+1)
     data['crop_production_system'].replace(code, inplace=True)
@@ -220,6 +223,9 @@ def PlotHeatCropSystem(data, code, comb, comb_name, footnote):
         showarrow=False,
         font = {'family':'arial','size':15, 'color':'dimgrey'},
     )
+    if fn_save:
+        fig.write_image(fn_save)
+        print('%s is saved.' % fn_save)
     return fig
 
 
@@ -265,11 +271,10 @@ def PlotLinePAY(df, footnote, fn_save=False):
     if fn_save:
         fig.write_image(fn_save)
         print('%s is saved.' % fn_save)
-        
     return fig
 
 
-def PlotBarProduction(df, footnote, product_order, fn_save=False):
+def PlotBarProduction(df, product_order, footnote, fn_save=False):
     # Pivot table format
     year = [df['year'].min(), df['year'].max()]
     # product_order = df[df['indicator'] == 'production'].groupby('product')['value'].sum().sort_values().index[::-1]
