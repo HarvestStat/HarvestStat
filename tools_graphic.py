@@ -21,6 +21,83 @@ warnings.simplefilter(action='ignore', category=pd.errors.PerformanceWarning)
 pd.options.mode.chained_assignment = None
 
 
+def PlotLineCropTS(df, fnid, product_name, season_name, link_ratio, year_all, fn_save):
+    # Restacking to add missing values
+    df = df.pivot_table(index='year', columns=['fnid','country','name','product','season_name','harvest_end','indicator'], values='value')
+    df = df.reindex(index=year_all)
+    df = df.T.stack(dropna=False).rename('value').reset_index()
+    # Add level
+    df['level'] = ''
+    fnids_old = link_ratio[fnid].columns
+    level_div = sorted(np.unique([fnid[:8] for fnid in fnids_old]))
+    year_div = np.sort([int(level[2:6]) for level in level_div])
+    for i, (year, level) in enumerate(zip(year_div, level_div)):
+        if i == 0:
+            df.loc[(df['year'] < year) | (df['year'] >= year), 'level'] = level
+        else:
+            df.loc[(df['year'] >= year), 'level'] = level
+    # Footnote
+    grain_code = pd.read_hdf('./data/crop/grain_cpcv2_code.hdf')
+    product_category = grain_code[['product', 'product_category']].set_index('product').to_dict()['product_category']
+    fnid_link_ratio = link_ratio[fnid].rename(product_category, axis=0)
+    fnid_link_ratio = fnid_link_ratio.loc[pd.IndexSlice[product_name, season_name],:].T.squeeze(axis=1).sort_index()
+    equation = ''
+    for i, (f,r) in enumerate(fnid_link_ratio.iteritems()):
+        if i == 0:
+            equation += '<br>= %s * %.3f' % (f,r)
+        else:
+            equation += '<br>+ %s * %.3f' % (f,r)
+    footnote = "%s (%s - %s)%s" % (fnid, product_name, season_name, equation)
+    # Plotting
+    fig = px.line(df, x='year', y='value', color='level', markers=True,
+                  range_x=list(year_all[[0,-1]]),
+                  facet_row='indicator', facet_row_spacing=0.02,
+                  category_orders = {'indicator': ['production','area','yield']},
+                 )
+    fig.update_layout(
+        width=700, height=400,
+        font=dict(family='arial', size=12, color='black'),
+        margin={"r":0,"t":0,"l":0,"b":0},
+        annotations=[],
+        xaxis=dict(range=year_all[[0,-1]], title={'text': ''}),
+        yaxis3=dict(title='Production'),
+        yaxis2=dict(title='Area'),
+        yaxis=dict(title='Yield'),
+        template='plotly',
+        # hovermode="x",
+        legend=dict(title='',font_size=12,x=1.35,y=1,xanchor='right',yanchor='top',bgcolor='rgba(0,0,0,0)'),
+    )
+    fig.for_each_annotation(lambda x: x.update(text=''))
+    fig.update_xaxes(dtick=1)
+    fig.update_yaxes(matches=None, rangemode="tozero")
+    fig.update_traces(connectgaps=False)
+    fig.add_annotation(
+        xref='paper',yref='paper',
+        x=1.35, y=0,
+        text=footnote,
+        align="right",
+        yanchor='bottom',
+        showarrow=False,
+        font = {'family':'arial','size':12, 'color':'dimgrey'},
+    )
+    fig.add_annotation(
+        xref='x domain',yref='y3 domain',x=0.0,y=1,text='(mt)',align="left",showarrow=False,
+        font={'family':'arial','size':12, 'color':'dimgrey'},
+    )
+    fig.add_annotation(
+        xref='x domain',yref='y2 domain',x=0.0,y=1,text='(ha)',align="left",showarrow=False,
+        font={'family':'arial','size':12, 'color':'dimgrey'},
+    )
+    fig.add_annotation(
+        xref='x domain',yref='y domain',x=0.0,y=1,text='(mt/ha)',align="left",showarrow=False,
+        font={'family':'arial','size':12, 'color':'dimgrey'},
+    )
+    if fn_save:
+        fig.write_image(fn_save, scale=1.3)
+        print('%s is saved.' % fn_save)
+    return fig
+
+
 def PlotMapCropSystem(df, footnote, fn_save=False):
     shape = gpd.read_file('./data/shapefile/fewsnet/SO_Admin2_1990.shp')
     shape.geometry = shape.geometry.simplify(0.01)
@@ -69,7 +146,7 @@ def PlotMapCropSystem(df, footnote, fn_save=False):
             font = {'family':'arial','size':15,'color':'dimgrey'},
         )
     if fn_save:
-        fig.write_image(fn_save)
+        fig.write_image(fn_save, scale=1.0)
         print('%s is saved.' % fn_save)
     return fig
 

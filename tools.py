@@ -558,3 +558,15 @@ def save_hdf(filn, df, set_print=True):
     df.to_hdf(filn, key='df', complib='blosc:zstd', complevel=9)
     if set_print:
         print('%s is saved.' % filn)
+    return
+
+
+def save_npz(filn, data, set_print=True):
+    np.savez_compressed(filn, data=data)
+    if set_print:
+        print('%s is saved.' % filn)
+    return
+        
+def load_npz(filn, key='data'):
+    data = np.load(filn, allow_pickle=True)[key].tolist()
+    return data
