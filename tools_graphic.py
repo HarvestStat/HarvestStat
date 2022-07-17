@@ -21,7 +21,7 @@ warnings.simplefilter(action='ignore', category=pd.errors.PerformanceWarning)
 pd.options.mode.chained_assignment = None
 
 
-def PlotMapCropSystem(df, footnote):
+def PlotMapCropSystem(df, footnote, fn_save=False):
     shape = gpd.read_file('./data/shapefile/fewsnet/SO_Admin2_1990.shp')
     shape.geometry = shape.geometry.simplify(0.01)
     geojson = json.loads(shape[['FNID','geometry']].to_json())
@@ -68,6 +68,9 @@ def PlotMapCropSystem(df, footnote):
             showarrow=False,
             font = {'family':'arial','size':15,'color':'dimgrey'},
         )
+    if fn_save:
+        fig.write_image(fn_save)
+        print('%s is saved.' % fn_save)
     return fig
 
 
