@@ -11,6 +11,7 @@ from matplotlib.pyplot import cm
 import seaborn as sns
 import fiona
 import rasterio
+from rasterio.mask import mask
 from rasterio import features
 
 
@@ -163,7 +164,7 @@ def FDW_PD_ValiateAdminLink(link):
     
     return link_ABR, link_CBR, link_CBR_sim, link_CBR_inv
 
-def FDW_PD_CreateAdminLink(shape_old, shape_new, old_on, new_on, crs):
+def FDW_PD_CreateAdminLink(shape_old, shape_new, old_on, new_on, area, crs):
     # Create intersection between shapefiles
     over = gpd.overlay(shape_old, shape_new, how='intersection', keep_geom_type=False)
     over = over.to_crs(crs)
@@ -172,6 +173,7 @@ def FDW_PD_CreateAdminLink(shape_old, shape_new, old_on, new_on, crs):
     # Create Link between admin units
     # - Mean Area-based Ratio (ABR) is applied when boundaries are matched with 10% of errors.
     # - Crop mask-based Ratio (CBR) is applied when boundaries are not matched.
+    # *** The identified links will be examined by manually.
     link = {}
     for fnid_old in shape_old.FNID:
         temp = over.loc[over['FNID_1'] == fnid_old, ['FNID_2', '%s_2' % new_on,'area']]
@@ -185,6 +187,12 @@ def FDW_PD_CreateAdminLink(shape_old, shape_new, old_on, new_on, crs):
         fnid_new = temp['FNID_2'].to_list()
         if (temp['area_old'].sum() > 90) & all(temp['area_new'] > 90):
             method = 'ABR'
+            # if any fnids_new have no records, consider CBR
+            no_record = area[fnid_new].isna().all().groupby('fnid').all()
+            if no_record.any():
+                method = 'CBR'
+                list_fnid_no_record = list(no_record.index[no_record])
+                print("CBR is considered for '%s' as no record found in:" % (fnid_old), list_fnid_no_record)
         else:
             method = 'CBR'
         fnids = {}
@@ -203,48 +211,36 @@ def FDW_PD_CreateAdminLink(shape_old, shape_new, old_on, new_on, crs):
 
 
 def CountNumbCropCell(shape_org, fn_cropland):
-    # Insert numeric ID
+    """
+    This function counts the number of positive cropland cells per each feature of the shapefile.
+    Donghoon Lee @ 2022.07.16
+    """
+    # Generate numeric ID for burning features into the raster
     shapefile = shape_org.to_crs('EPSG:4326').copy()
     shapefile.loc[:,'ID'] = np.arange(1,shapefile.shape[0]+1)
     shapefile['ID'] = shapefile['ID'].astype(rasterio.int16)
-
-    # Create a generator of geom and field value pairs
-    shapes = ((geom,value) for geom, value in zip(shapefile.geometry, shapefile['ID']))
+    # Clip the raster to the domain of the shapefile
+    geojson = json.loads(shapefile['geometry'].to_json()) 
+    shapes_clip = [i['geometry'] for i in geojson['features']]
     with rasterio.open(fn_cropland) as src:
-        src_meta = src.meta.copy()
-        data = src.read(1)
+        data, out_transform = mask(src, shapes_clip, crop=True)
+        src_meta = src.meta
+        src_meta.update({
+            "height": data.shape[1],
+            "width": data.shape[2],
+            "transform": out_transform
+        })    
+    # Burning features into the raster
+    shapes = ((geom,value) for geom, value in zip(shapefile.geometry, shapefile['ID']))
     burned = features.rasterize(shapes=shapes, 
                                 fill=0, 
                                 out_shape=[src_meta['height'], src_meta['width']], 
                                 transform=src_meta['transform'])
     burned = burned.astype(rasterio.int16)
     for i in shapefile['ID'].unique():
-        shapefile.loc[shapefile['ID'] == i, 'CropCell'] = sum(data[burned==i] > 0)
+        shapefile.loc[shapefile['ID'] == i, 'CropCell'] = sum(data.squeeze()[burned==i] > 0)
+        
     return shapefile
-# REDUCE Extent ######################################
-# # Exchange FNID to numeric ID
-# shapefile = BF_Admin2_2001.to_crs('EPSG:4326').copy()
-# shapefile.loc[:,'ID'] = np.arange(1,shapefile.shape[0]+1)
-# shapefile['ID'] = shapefile['ID'].astype(rasterio.int16)
-# fnid_dict = shapefile[['ID','FNID']].set_index('ID').to_dict()['FNID']
-
-# with fiona.open("./data/shapefile/fewsnet/BF_Admin2_2001.shp", "r") as shapefile:
-#     shapes = [feature["geometry"] for feature in shapefile]
-
-# with rasterio.open(fn_cropland) as src:
-#     out_image, out_transform = rasterio.mask.mask(src, shapes, crop=True)
-#     src_meta = src.meta.copy()
-#     src_meta.update({
-#                  "height": out_image.shape[1],
-#                  "width": out_image.shape[2],
-#                  "transform": out_transform
-#     })
-# burned = features.rasterize(shapes=shapes, 
-#                             fill=0, 
-#                             out_shape=[src_meta['height'], src_meta['width']], 
-#                             transform=src_meta['transform'])
-# burned = burned.astype(rasterio.int16)
-# ####################################################
 
 
 def PlotAdminShapes(shape_plot, label=True):
@@ -523,7 +519,7 @@ def invert_dict(d):
             # Check if in the inverted dict the key exists
             if item not in inverse: 
                 # If not create a new list
-                inverse[item] = key 
+                inverse[item] = [key]
             else: 
                 inverse[item].append(key) 
     return inverse

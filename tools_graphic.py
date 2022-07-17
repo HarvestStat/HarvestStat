@@ -223,7 +223,7 @@ def PlotHeatCropSystem(data, code, comb, comb_name, footnote):
     return fig
 
 
-def PlotLinePAY(df, footnote):
+def PlotLinePAY(df, footnote, fn_save=False):
     # Restacking to add missing values
     year = [df['year'].min(), df['year'].max()]
     df = df.pivot_table(index='year', columns=['fnid','country','name','product','season_name','harvest_end','indicator'], values='value')
@@ -262,10 +262,14 @@ def PlotLinePAY(df, footnote):
         font = {'family':'arial','size':15, 'color':'dimgrey'},
     )
     fig.update_traces(connectgaps=False)
+    if fn_save:
+        fig.write_image(fn_save)
+        print('%s is saved.' % fn_save)
+        
     return fig
 
 
-def PlotBarProduction(df, footnote, product_order):
+def PlotBarProduction(df, footnote, product_order, fn_save=False):
     # Pivot table format
     year = [df['year'].min(), df['year'].max()]
     # product_order = df[df['indicator'] == 'production'].groupby('product')['value'].sum().sort_values().index[::-1]
@@ -337,7 +341,10 @@ def PlotBarProduction(df, footnote, product_order):
         showarrow=False,
         font = {'family':'arial','size':15, 'color':'dimgrey'},
     )
-    # fig.show()
+    if fn_save:
+        fig.write_image(fn_save)
+        print('%s is saved.' % fn_save)
+    
     return fig
 
 
