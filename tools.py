@@ -392,7 +392,26 @@ def FDW_PD_Sweeper(df):
     print('Current data points: {:,}'.format(df.shape[0]))
     print('')
     assert list(df['status'].unique()) == ['Collected']
-
+    # - Stop the process IF
+    # a) Either quantity produced, harvested area, or yield is missing
+    miss_indicator = (len(df['indicator'].unique()) < 3)
+    # b) records less than 5 years
+    less_record = (len(df['season_year'].unique()) < 5)
+    if miss_indicator | less_record :
+        table1 = df.pivot_table(index='season_year', columns='indicator', values='value', aggfunc=len, fill_value=0)
+        table1 = table1.reindex(['Area Harvested', 'Area Planted', 'Quantity Produced', 'Yield'], axis=1, fill_value=0)
+        table1.loc['Total'] = table1.sum(numeric_only=True)
+        df['level'] = df['fnid'].apply(lambda x: x[:8])
+        table2 = df.pivot_table(index='level', columns='indicator', values='value', aggfunc=len, fill_value=0)
+        table2 = table2.reindex(['Area Harvested', 'Area Planted', 'Quantity Produced', 'Yield'], axis=1, fill_value=0)
+        table2.loc['Total'] = table2.sum(numeric_only=True)
+        print('- Stop process is triggerd -------------------- #')
+        print(table1)
+        print('')
+        print(table2)
+        print('----------------------------------------------- #')
+        raise ValueError('*** Process is stopped ***')
+        
     # Minor changes in raw data -------------------------- #
     # Force a day of season_date to be 1st
     df['season_date'] = pd.to_datetime(df['season_date']).dt.strftime('%Y-%m-01').astype(str)

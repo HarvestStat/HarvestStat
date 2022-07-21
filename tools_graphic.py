@@ -309,7 +309,7 @@ def PlotHeatCropSystem(data, code, comb, comb_name, footnote, fn_save=False):
     return fig
 
 
-def PlotLinePAY(df, footnote, fn_save=False):
+def PlotLinePAY(df, year, footnote, fn_save=False):
     # Restacking to add missing values
     year = [df['year'].min(), df['year'].max()]
     df = df.pivot_table(index='year', columns=['fnid','country','name','product','season_name','harvest_end','indicator'], values='value')
@@ -354,9 +354,7 @@ def PlotLinePAY(df, footnote, fn_save=False):
     return fig
 
 
-def PlotBarProduction(df, product_order, footnote, fn_save=False):
-    # Pivot table format
-    year = [df['year'].min(), df['year'].max()]
+def PlotBarProduction(df, year, product_order, footnote, fn_save=False):
     # product_order = df[df['indicator'] == 'production'].groupby('product')['value'].sum().sort_values().index[::-1]
     table = df.pivot_table(
         index='year',          
