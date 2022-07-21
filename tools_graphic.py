@@ -311,7 +311,6 @@ def PlotHeatCropSystem(data, code, comb, comb_name, footnote, fn_save=False):
 
 def PlotLinePAY(df, year, footnote, fn_save=False):
     # Restacking to add missing values
-    year = [df['year'].min(), df['year'].max()]
     df = df.pivot_table(index='year', columns=['fnid','country','name','product','season_name','harvest_end','indicator'], values='value')
     df = df.reindex(index=np.arange(df.index[0], df.index[-1]+1))
     df = df.T.stack(dropna=False).reset_index().rename(columns={0:'value'})
