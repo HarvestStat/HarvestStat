@@ -4,7 +4,7 @@ This repository processes and stores subnational global crop production data fro
 
 Current GSCD-FDW status:
 
-![image](https://github.com/chc-ucsb/GlobalCropData/blob/main/figures/map_gscd_fdw_status.png?raw=true)
+<img src="https://github.com/chc-ucsb/GlobalCropData/blob/main/figures/map_gscd_fdw_status.png?raw=true" alt="drawing" width="600"/>
 
 More details will be provided soon.
 
