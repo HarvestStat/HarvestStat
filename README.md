@@ -1,4 +1,4 @@
-### Global Subnational Crop Data (GSCD)
+# Global Subnational Crop Data (GSCD)
 
 This repository processes and stores subnational global crop production data from a variety of sources, including FEWS NET (USAID) and FAO.</br>
 
