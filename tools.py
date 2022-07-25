@@ -290,7 +290,9 @@ def PrintAdminUnits(shape_all):
     adm_year['# units'] = adm_year['# units'].fillna(0).astype(int)
     adm_year = adm_year.sort_index()
     print('- FEWS NET admin shapefiles ------------------- #')
-    print(adm_year)
+    print('| year\t | Admin1   | # units   | Admin2   | # units   |')
+    for i, (adm1, nadm1, adm2, nadm2) in adm_year.iterrows():
+        print('| %d\t | %s | %d\t| %s\t| %d\t|' % (i, adm1, nadm1, adm2, nadm2))
     print('----------------------------------------------- #')
     return
 
@@ -392,26 +394,7 @@ def FDW_PD_Sweeper(df):
     print('Current data points: {:,}'.format(df.shape[0]))
     print('')
     assert list(df['status'].unique()) == ['Collected']
-    # - Stop the process IF
-    # a) Either quantity produced, harvested area, or yield is missing
-    miss_indicator = (len(df['indicator'].unique()) < 3)
-    # b) records less than 5 years
-    less_record = (len(df['season_year'].unique()) < 5)
-    if miss_indicator | less_record :
-        table1 = df.pivot_table(index='season_year', columns='indicator', values='value', aggfunc=len, fill_value=0)
-        table1 = table1.reindex(['Area Harvested', 'Area Planted', 'Quantity Produced', 'Yield'], axis=1, fill_value=0)
-        table1.loc['Total'] = table1.sum(numeric_only=True)
-        df['level'] = df['fnid'].apply(lambda x: x[:8])
-        table2 = df.pivot_table(index='level', columns='indicator', values='value', aggfunc=len, fill_value=0)
-        table2 = table2.reindex(['Area Harvested', 'Area Planted', 'Quantity Produced', 'Yield'], axis=1, fill_value=0)
-        table2.loc['Total'] = table2.sum(numeric_only=True)
-        print('- Stop process is triggerd -------------------- #')
-        print(table1)
-        print('')
-        print(table2)
-        print('----------------------------------------------- #')
-        raise ValueError('*** Process is stopped ***')
-        
+    
     # Minor changes in raw data -------------------------- #
     # Force a day of season_date to be 1st
     df['season_date'] = pd.to_datetime(df['season_date']).dt.strftime('%Y-%m-01').astype(str)
@@ -433,6 +416,49 @@ def FDW_PD_Sweeper(df):
     print('- Minor changes are applied.. ----------------- #')
     print('')
     # ---------------------------------------------------- #
+    
+    # Basic information ---------------------------------- #
+    print('- Basic information --------------------------- #')
+    year_min, year_max = df['year'].min(), df['year'].max()
+    season_table = df[['season_name', 'season_date']]
+    season_table['season_date'] = pd.to_datetime(season_table['season_date']).dt.strftime('%m-01')
+    season_table = season_table.drop_duplicates().reset_index(drop=True)
+    season_list = list(season_table['season_name']+' ('+season_table['season_date']+')')
+    seasons = df['season_name'].unique()
+    products = df['product'].unique()
+    cps = df['crop_production_system'].unique()
+    print("Data period: %d - %d" % (year_min, year_max))
+    print("%d grain types are found: %s" % (len(products), ", ".join(sorted(products))))
+    print("%d seasons are found: %s" % (len(seasons), ", ".join(season_list)))
+    print("%d crop production system are found: %s" % (len(cps), ", ".join(cps)))
+    print('Data sources include:')
+    sources = df[['source_organization','source_document']].drop_duplicates().reset_index(drop=True)
+    for i, (organization, document) in sources.iterrows():
+        print('[%d] %s --- %s' % (i+1,organization,document))
+    print("Administrative-1 fnids: {:,}".format(sum([t[7] == '1' for t in df.fnid.unique()])))
+    print("Administrative-2 fnids: {:,}".format(sum([t[7] == '2' for t in df.fnid.unique()])))
+    print('%d reporting units are found: %s' % (len(reporting_unit), ", ".join(reporting_unit)))
+    print('')
+    
+    # - Stop the process IF
+    # a) Either quantity produced, harvested area, or yield is missing
+    miss_indicator = (len(df['indicator'].unique()) < 3)
+    # b) records less than 5 years
+    less_record = (len(df['season_year'].unique()) <= 5)
+    if miss_indicator | less_record :
+        table1 = df.pivot_table(index='season_year', columns='indicator', values='value', aggfunc=len, fill_value=0)
+        table1 = table1.reindex(['Area Harvested', 'Area Planted', 'Quantity Produced', 'Yield'], axis=1, fill_value=0)
+        table1.loc['Total'] = table1.sum(numeric_only=True)
+        df['level'] = df['fnid'].apply(lambda x: x[:8])
+        table2 = df.pivot_table(index='level', columns='indicator', values='value', aggfunc=len, fill_value=0)
+        table2 = table2.reindex(['Area Harvested', 'Area Planted', 'Quantity Produced', 'Yield'], axis=1, fill_value=0)
+        table2.loc['Total'] = table2.sum(numeric_only=True)
+        print('- Stop process is triggerd -------------------- #')
+        print(table1)
+        print('')
+        print(table2)
+        print('----------------------------------------------- #')
+        raise ValueError('*** Process is stopped ***')
 
     # Remove incomplete records -------------------------- #
     # Generate virtual IDs to each set of ['fnid','crop_production_system','season_year', 'product'].
@@ -472,28 +498,6 @@ def FDW_PD_Sweeper(df):
     df['indicator'] = df['indicator'].replace({'Area Planted': 'Area Harvested'}).values
     # ---------------------------------------------------- #
 
-    # Basic information ---------------------------------- #
-    print('- Basic information --------------------------- #')
-    year_min, year_max = df['year'].min(), df['year'].max()
-    season_table = df[['season_name', 'season_date']]
-    season_table['season_date'] = pd.to_datetime(season_table['season_date']).dt.strftime('%m-01')
-    season_table = season_table.drop_duplicates().reset_index(drop=True)
-    season_list = list(season_table['season_name']+' ('+season_table['season_date']+')')
-    seasons = df['season_name'].unique()
-    products = df['product'].unique()
-    cps = df['crop_production_system'].unique()
-    print("Data period: %d - %d" % (year_min, year_max))
-    print("%d grain types are found: %s" % (len(products), ", ".join(sorted(products))))
-    print("%d seasons are found: %s" % (len(seasons), ", ".join(season_list)))
-    print("%d crop production system are found: %s" % (len(cps), ", ".join(cps)))
-    print('Data sources include:')
-    sources = df[['source_organization','source_document']].drop_duplicates().reset_index(drop=True)
-    for i, (organization, document) in sources.iterrows():
-        print('[%d] %s --- %s' % (i+1,organization,document))
-    print("Administrative-1 fnids: {:,}".format(sum([t[7] == '1' for t in df.fnid.unique()])))
-    print("Administrative-2 fnids: {:,}".format(sum([t[7] == '2' for t in df.fnid.unique()])))
-    print('%d reporting units are found: %s' % (len(reporting_unit), ", ".join(reporting_unit)))
-    print('')
     # Record years per season
     print('- Recorded years per season ------------------- #')
     for season in seasons:
