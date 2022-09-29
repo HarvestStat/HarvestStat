@@ -1,9 +1,13 @@
+Compile_FAO_cropdata.ipynb
+data/fao_*
 data/cropmask
 data/shapefile
 archived
 token.json
 .DS_Store
 w*.ipynb
+remova*.ipynb
+removable/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
