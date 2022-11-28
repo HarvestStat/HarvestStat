@@ -8,6 +8,10 @@ token.json
 w*.ipynb
 remova*.ipynb
 removable/
+data/adm.prcp.chirps-v2.crop.*hdf
+CP_*_CropData.ipynb
+data/crop/adm_fao_agromaps.csv
+data/crop/adm_fao_stat.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
