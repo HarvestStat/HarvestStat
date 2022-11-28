@@ -23,7 +23,7 @@ pd.options.mode.chained_assignment = None
 
 def PlotLineCropTS(df, fnid, product_name, season_name, link_ratio, year_all, fn_save):
     # Restacking to add missing values
-    df = df.pivot_table(index='year', columns=['fnid','country','name','product','season_name','harvest_end','indicator'], values='value')
+    df = df.pivot_table(index='year', columns=['fnid','country','name','product','season_name','harvest_month','indicator'], values='value')
     df = df.reindex(index=year_all)
     df = df.T.stack(dropna=False).rename('value').reset_index()
     # Add level
@@ -42,12 +42,26 @@ def PlotLineCropTS(df, fnid, product_name, season_name, link_ratio, year_all, fn
     fnid_link_ratio = link_ratio[fnid].rename(product_category, axis=0)
     fnid_link_ratio = fnid_link_ratio.loc[pd.IndexSlice[product_name, season_name],:].T.squeeze(axis=1).sort_index()
     equation = ''
-    for i, (f,r) in enumerate(fnid_link_ratio.iteritems()):
-        if i == 0:
-            equation += '<br>= %s * %.3f' % (f,r)
-        else:
-            equation += '<br>+ %s * %.3f' % (f,r)
-    footnote = "%s (%s - %s)%s" % (fnid, product_name, season_name, equation)
+    if isinstance(fnid_link_ratio, pd.Series):
+        for i, (f,r) in enumerate(fnid_link_ratio.iteritems()):
+            if i == 0:
+                equation += '<br>= %s * %.3f' % (f,r)
+            else:
+                equation += '<br>+ %s * %.3f' % (f,r)
+        footnote = "%s (%s - %s)%s" % (fnid, product_name, season_name, equation)
+    else:
+        for i, (f,r) in enumerate(fnid_link_ratio.droplevel([0,1],axis=1).iterrows()):
+            r = r[r.notna()]
+            if i == 0:
+                equation += f'<br>= {f} ('
+            else:
+                equation += f')<br>+ {f} ('
+            for j, (c, v) in enumerate(r.iteritems()):
+                if j == 0:
+                    equation += f'{c}*{v:.3f}'
+                else:
+                    equation += f' + {c}*{v:.3f}'
+        footnote = "%s (%s - %s)%s)" % (fnid, product_name, season_name, equation)
     # Plotting
     fig = px.line(df, x='year', y='value', color='level', markers=True,
                   range_x=list(year_all[[0,-1]]),
@@ -311,7 +325,7 @@ def PlotHeatCropSystem(data, code, comb, comb_name, footnote, fn_save=False):
 
 def PlotLinePAY(df, year, footnote, fn_save=False):
     # Restacking to add missing values
-    df = df.pivot_table(index='year', columns=['fnid','country','name','product','season_name','harvest_end','indicator'], values='value')
+    df = df.pivot_table(index='year', columns=['fnid','country','name','product','season_name','harvest_month','indicator'], values='value')
     df = df.reindex(index=np.arange(df.index[0], df.index[-1]+1))
     df = df.T.stack(dropna=False).reset_index().rename(columns={0:'value'})
 
@@ -357,7 +371,7 @@ def PlotBarProduction(df, year, product_order, footnote, fn_save=False):
     # product_order = df[df['indicator'] == 'production'].groupby('product')['value'].sum().sort_values().index[::-1]
     table = df.pivot_table(
         index='year',          
-        columns=['fnid','country','name','product','season_name','harvest_end','indicator'],         
+        columns=['fnid','country','name','product','season_name','harvest_month','indicator'],         
         values='value'
     )
 
