@@ -142,3 +142,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+removable_all_data.hdf
