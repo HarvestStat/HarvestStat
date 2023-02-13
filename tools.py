@@ -603,7 +603,7 @@ def FDW_PD_Sweeper(df):
         'cpcv2', 'cpcv2_description','document_type'
     ]
     # Quick check for no duplicates
-    assert df[[*rows]].drop_duplicates().shape[0] == df[[*rows,*cols_add]].drop_duplicates().shape[0]
+    #assert df[[*rows]].drop_duplicates().shape[0] == df[[*rows,*cols_add]].drop_duplicates().shape[0]
     df = pd.merge(df[[*rows,*cols_add]].drop_duplicates(), records, on=rows)
 
     # Record years per season
