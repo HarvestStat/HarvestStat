@@ -1,3 +1,6 @@
+#Ignore the outputs of the gridding script as they are large
+data/gridded/*
+
 Compile_FAO_cropdata.ipynb
 data/fao_*
 data/cropmask
