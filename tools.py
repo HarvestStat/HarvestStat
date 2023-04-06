@@ -500,7 +500,8 @@ def FDW_PD_AvalTable(df, shape_all):
 #     return table_dict
 
 
-def FDW_PD_Sweeper(df):
+#Default the area field to be harvested area
+def FDW_PD_Sweeper(df,area_default='harvested'):
     df_raw = df.copy()
     # Remove missing records ----------------------------- # 
     # Missing data if "status" is "Missing Historic Data" or "Not Collected"
@@ -591,8 +592,22 @@ def FDW_PD_Sweeper(df):
     records = df.pivot_table(index=rows, columns='indicator', values='value', fill_value=np.nan)
     records = records.reindex(columns=cols)
     # Fill missing "Area Harvested" with "Area Planted"
-    records["Area Harvested"].fillna(records['Area Planted'], inplace=True)
-    records.drop(columns=['Area Planted'], inplace=True)
+    
+    # Fill area based on option given.-------------------- #
+    # Default is harvested if nothing specified ---------- #
+    #check for valid option
+    assert ((area_default=='harvested')|(area_default=='planted'))
+    if area_default=='harvested':
+        records["Area Harvested"].fillna(records['Area Planted'], inplace=True)
+        records.drop(columns=['Area Planted'], inplace=True)
+    elif area_default=='planted':
+        records["Area Harvested_temp"] = records["Area Harvested"] #swap area harvested and planted
+        records["Area Harvested"] = records["Area Planted"]
+        records["Area Planted"] = records["Area Harvested_temp"]
+        records.drop(columns=['Area Harvested_temp'], inplace=True) #drop temp column     
+        records["Area Harvested"].fillna(records['Area Planted'], inplace=True) #planted and harvested area now swapped
+        records.drop(columns=['Area Planted'], inplace=True) 
+    
     # Stacking and Merging
     records = records.stack().rename('value').reset_index()
     cols_add = [
@@ -603,7 +618,7 @@ def FDW_PD_Sweeper(df):
         'cpcv2', 'cpcv2_description','document_type'
     ]
     # Quick check for no duplicates
-    #assert df[[*rows]].drop_duplicates().shape[0] == df[[*rows,*cols_add]].drop_duplicates().shape[0]
+    assert df[[*rows]].drop_duplicates().shape[0] == df[[*rows,*cols_add]].drop_duplicates().shape[0]
     df = pd.merge(df[[*rows,*cols_add]].drop_duplicates(), records, on=rows)
 
     # Record years per season
