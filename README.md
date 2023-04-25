@@ -1,7 +1,7 @@
 # Global Subnational Crop Data (GSCD)
 
 Global Subnational Crop Data (GSCD)
-The Global Subnational Crop Data (GSCD) is a repository that contains organized, cleaned, and stored subnational global crop production data from various sources, including the Famine [Early Warning Systems Network (FEWS NET)](https://fews.net/) of the United States Agency for International Development (USAID) and the Food and Agriculture Organization (FAO).</br>
+The Global Subnational Crop Data (GSCD) is a repository that contains cleaned and harmonized subnational global crop production data from various sources, including the Famine [Early Warning Systems Network (FEWS NET)](https://fews.net/) of the United States Agency for International Development (USAID) and the Food and Agriculture Organization (FAO).</br>
 
 This repository provides access to a comprehensive dataset that allows researchers, policymakers, and stakeholders to explore trends and patterns in crop production at the subnational level, enabling better-informed decisions related to food security, trade, and development.</br>
 
@@ -15,7 +15,7 @@ The data in this repository is compiled from various sources, including:
 - National agricultural agencies
 
 ## Data Processing
-The data in this repository is organized, cleaned, and stored using open-source software tools and programming languages such as Python and R. The code used for processing the data is included in the repository, and users can use it to reproduce the dataset or build on it.
+The crop data in this repository is organized and calibrated using Python. The code used for processing the data is included in the repository.
 
 ## Repository Structure
 This repository is organized as follows:
