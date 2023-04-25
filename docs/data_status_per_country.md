@@ -1,0 +1,47 @@
+- ## Data status per country
+	- ### East Africa
+		- Burundi
+		- Djibouti
+		- Ethiopia
+		- `Kenya (processed)`
+			- Annual data (1982-1990 and 2002-2014) and seasonal data (1991-2001 and 2015-2019)
+		- Rwanda
+		- `Somalia (processed)`
+			- Year-off issue is reported
+		- Sudan
+		- South Sudan
+		- Tanzania
+		- Uganda
+		- `Yemen (temporarily processed)`
+			- The YE_admin1_1990.shp is not provided. We confirmed that three districts are divided and added to YE_admin1_1998.shp.
+	- ### West Africa
+		- `Burkina Faso (processed)`
+		- Cameroon
+		- Central African Republic
+		- `Chad (processed)`
+		- Guinea
+		- Liberia
+		- `Mali (processed)`
+		- Mauritania
+		- Niger
+		- Nigeria
+		- `Senegal (processed)`
+		- Sierra Leone
+	- ### Southern Africa
+		- Angola
+		- Democratic Republic of Congo
+		- `Lesotho (processed)`
+			- Year-off issue is reported
+		- `Madagascar (processed)`
+			- Year-off issue is reported
+			- Aggregation of admin level-3 to admin level-2
+		- `Malawi (processed)`
+		- Mozambique
+		- `South Africa (processed)`
+			- Year-off issue is reported
+		- Zambia
+		- Zimbabwe
+	- ### Central Asia
+		- `Afghanistan (temporarily processed)`
+			- Current FDW has several issues
+			- Admin level-1 wheat production is processed with auxiliary data source; this is validated with precipitation and FAO data
