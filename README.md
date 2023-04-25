@@ -31,6 +31,10 @@ GSCD currently contains subnational crop data for **`12`** countries (see [curre
 
 <img src="./docs/current_status_map.svg" alt="drawing" width="800"/>
 
+## Contributors
+- Dr. Donghoon Lee (UCSB)
+- Dr. Weston Anderson (NASA)
+
 ## Contact 
 Please contact to Donghoon Lee ([donghoonlee@ucsb.edu](donghoonlee@ucsb.edu)).
 
