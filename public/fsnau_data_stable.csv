@@ -1,4 +1,4 @@
-,fnid,country,zone,admin_1,admin_2,product,crop_production_system,season_name,growing_season,growing_year,harvest_end,harvest_year,indicator,value
+,fnid,country,zone,admin_1,admin_2,product,crop_production_system,season_name,planting_season,planting_year,harvest_end,harvest_year,indicator,value
 0,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Maize,combined,Deyr,OND,1995,Feb,1996,production,130.5873903
 1,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Maize,combined,Gu,MAM,1995,Aug,1995,production,518.0135674
 2,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sorghum,combined,Deyr,OND,1995,Feb,1996,production,900.0
@@ -301,8 +301,8 @@
 299,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,combined,Deyr,OND,1997,Feb,1998,production,233.0
 300,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,combined,Gu,MAM,1997,Aug,1997,production,1730.475158
 301,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sorghum,combined,Gu,MAM,1997,Aug,1997,production,483.0
-302,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,combined,Deyr,OND,1997,Feb,1998,production,700.0
-303,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sorghum,combined,Deyr,OND,1997,Feb,1998,production,700.0
+302,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sorghum,combined,Deyr,OND,1997,Feb,1998,production,700.0
+303,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,combined,Deyr,OND,1997,Feb,1998,production,700.0
 304,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Maize,combined,Deyr,OND,1997,Feb,1998,production,84.0
 305,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sorghum,combined,Deyr,OND,1997,Feb,1998,production,120.0
 306,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Maize,combined,Deyr,OND,1997,Feb,1998,production,194.0
@@ -498,8 +498,8 @@
 496,SO1990A22606,Somalia,South,Gedo,Luuq,Maize,combined,Gu,MAM,1999,Aug,1999,production,630.0
 497,SO1990A22606,Somalia,South,Gedo,Luuq,Maize,combined,Deyr,OND,1999,Feb,2000,production,720.0
 498,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,combined,Deyr,OND,1999,Feb,2000,production,420.0
-499,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,combined,Gu,MAM,1999,Aug,1999,production,600.0
-500,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,combined,Deyr,OND,1999,Feb,2000,production,600.0
+499,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,combined,Deyr,OND,1999,Feb,2000,production,600.0
+500,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,combined,Gu,MAM,1999,Aug,1999,production,600.0
 501,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,combined,Gu,MAM,1999,Aug,1999,production,2320.0
 502,SO1990A22702,Somalia,South,Middle Juba,Jilib,Sorghum,combined,Gu,MAM,1999,Aug,1999,production,210.0
 503,SO1990A22702,Somalia,South,Middle Juba,Jilib,Sorghum,combined,Deyr,OND,1999,Feb,2000,production,320.0
@@ -515,8 +515,8 @@
 513,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sorghum,combined,Deyr,OND,1999,Feb,2000,production,320.0
 514,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,combined,Deyr,OND,1999,Feb,2000,production,600.0
 515,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,combined,Gu,MAM,1999,Aug,1999,production,1520.0
-516,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Sorghum,combined,Deyr,OND,1999,Feb,2000,production,60.0
-517,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Sorghum,combined,Gu,MAM,1999,Aug,1999,production,60.0
+516,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Sorghum,combined,Gu,MAM,1999,Aug,1999,production,60.0
+517,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Sorghum,combined,Deyr,OND,1999,Feb,2000,production,60.0
 518,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Maize,combined,Deyr,OND,1999,Feb,2000,production,360.0
 519,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Maize,combined,Gu,MAM,1999,Aug,1999,production,455.0
 520,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Maize,combined,Deyr,OND,1999,Feb,2000,production,2100.0
@@ -716,8 +716,8 @@
 714,SO1990A22502,Somalia,South,Bakool,Ceel Barde,Sorghum,combined,Gu,MAM,2001,Aug,2001,production,100.0
 715,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Maize,combined,Gu,MAM,2001,Aug,2001,production,23.0
 716,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Maize,combined,Deyr,OND,2001,Feb,2002,production,100.0
-717,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Sorghum,combined,Deyr,OND,2001,Feb,2002,production,700.0
-718,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Sorghum,combined,Gu,MAM,2001,Aug,2001,production,700.0
+717,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Sorghum,combined,Gu,MAM,2001,Aug,2001,production,700.0
+718,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Sorghum,combined,Deyr,OND,2001,Feb,2002,production,700.0
 719,SO1990A22504,Somalia,South,Bakool,Waajid,Maize,combined,Gu,MAM,2001,Aug,2001,production,15.0
 720,SO1990A22504,Somalia,South,Bakool,Waajid,Maize,combined,Deyr,OND,2001,Feb,2002,production,20.0
 721,SO1990A22504,Somalia,South,Bakool,Waajid,Sorghum,combined,Deyr,OND,2001,Feb,2002,production,300.0
@@ -737,8 +737,8 @@
 735,SO1990A22606,Somalia,South,Gedo,Luuq,Sorghum,combined,Gu,MAM,2001,Aug,2001,production,0.5
 736,SO1990A22606,Somalia,South,Gedo,Luuq,Maize,combined,Deyr,OND,2001,Feb,2002,production,350.0
 737,SO1990A22606,Somalia,South,Gedo,Luuq,Maize,combined,Gu,MAM,2001,Aug,2001,production,540.0
-738,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,combined,Deyr,OND,2001,Feb,2002,production,250.0
-739,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,combined,Gu,MAM,2001,Aug,2001,production,250.0
+738,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,combined,Gu,MAM,2001,Aug,2001,production,250.0
+739,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,combined,Deyr,OND,2001,Feb,2002,production,250.0
 740,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,combined,Deyr,OND,2001,Feb,2002,production,525.0
 741,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,combined,Gu,MAM,2001,Aug,2001,production,3300.0
 742,SO1990A22702,Somalia,South,Middle Juba,Jilib,Sorghum,combined,Gu,MAM,2001,Aug,2001,production,195.0
@@ -785,8 +785,8 @@
 783,SO1990A22102,Somalia,Central,Middle Shabelle,Aadan Yabaal,Sorghum,combined,Gu,MAM,2002,Aug,2002,production,20.0
 784,SO1990A22102,Somalia,Central,Middle Shabelle,Aadan Yabaal,Sorghum,combined,Deyr,OND,2002,Feb,2003,production,275.0
 785,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sorghum,combined,Gu,MAM,2002,Aug,2002,production,3200.0
-786,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sorghum,combined,Deyr,OND,2002,Feb,2003,production,4000.0
-787,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Maize,combined,Gu,MAM,2002,Aug,2002,production,4000.0
+786,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Maize,combined,Gu,MAM,2002,Aug,2002,production,4000.0
+787,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sorghum,combined,Deyr,OND,2002,Feb,2003,production,4000.0
 788,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Maize,combined,Deyr,OND,2002,Feb,2003,production,6000.0
 789,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Sorghum,combined,Gu,MAM,2002,Aug,2002,production,9.0
 790,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Sorghum,combined,Deyr,OND,2002,Feb,2003,production,106.0
@@ -821,15 +821,15 @@
 819,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Sorghum,combined,Deyr,OND,2002,Feb,2003,production,9900.0
 820,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Sorghum,combined,Gu,MAM,2002,Aug,2002,production,11840.0
 821,SO1990A22501,Somalia,South,Bakool,Xudur,Maize,combined,Gu,MAM,2002,Aug,2002,production,30.0
-822,SO1990A22501,Somalia,South,Bakool,Xudur,Sorghum,combined,Gu,MAM,2002,Aug,2002,production,375.0
-823,SO1990A22501,Somalia,South,Bakool,Xudur,Maize,combined,Deyr,OND,2002,Feb,2003,production,375.0
+822,SO1990A22501,Somalia,South,Bakool,Xudur,Maize,combined,Deyr,OND,2002,Feb,2003,production,375.0
+823,SO1990A22501,Somalia,South,Bakool,Xudur,Sorghum,combined,Gu,MAM,2002,Aug,2002,production,375.0
 824,SO1990A22501,Somalia,South,Bakool,Xudur,Sorghum,combined,Deyr,OND,2002,Feb,2003,production,840.0
 825,SO1990A22502,Somalia,South,Bakool,Ceel Barde,Maize,combined,Deyr,OND,2002,Feb,2003,production,8.0
-826,SO1990A22502,Somalia,South,Bakool,Ceel Barde,Sorghum,combined,Deyr,OND,2002,Feb,2003,production,75.0
-827,SO1990A22502,Somalia,South,Bakool,Ceel Barde,Sorghum,combined,Gu,MAM,2002,Aug,2002,production,75.0
+826,SO1990A22502,Somalia,South,Bakool,Ceel Barde,Sorghum,combined,Gu,MAM,2002,Aug,2002,production,75.0
+827,SO1990A22502,Somalia,South,Bakool,Ceel Barde,Sorghum,combined,Deyr,OND,2002,Feb,2003,production,75.0
 828,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Maize,combined,Gu,MAM,2002,Aug,2002,production,15.0
-829,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Sorghum,combined,Gu,MAM,2002,Aug,2002,production,300.0
-830,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Maize,combined,Deyr,OND,2002,Feb,2003,production,300.0
+829,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Maize,combined,Deyr,OND,2002,Feb,2003,production,300.0
+830,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Sorghum,combined,Gu,MAM,2002,Aug,2002,production,300.0
 831,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Sorghum,combined,Deyr,OND,2002,Feb,2003,production,1320.0
 832,SO1990A22504,Somalia,South,Bakool,Waajid,Sorghum,combined,Gu,MAM,2002,Aug,2002,production,180.0
 833,SO1990A22504,Somalia,South,Bakool,Waajid,Sorghum,combined,Deyr,OND,2002,Feb,2003,production,360.0
@@ -847,8 +847,8 @@
 845,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Maize,combined,Gu,MAM,2002,Aug,2002,production,30.0
 846,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Sorghum,combined,Deyr,OND,2002,Feb,2003,production,50.0
 847,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Maize,combined,Deyr,OND,2002,Feb,2003,production,180.0
-848,SO1990A22605,Somalia,South,Gedo,Doolow,Sorghum,combined,Deyr,OND,2002,Feb,2003,production,60.0
-849,SO1990A22605,Somalia,South,Gedo,Doolow,Maize,combined,Gu,MAM,2002,Aug,2002,production,60.0
+848,SO1990A22605,Somalia,South,Gedo,Doolow,Maize,combined,Gu,MAM,2002,Aug,2002,production,60.0
+849,SO1990A22605,Somalia,South,Gedo,Doolow,Sorghum,combined,Deyr,OND,2002,Feb,2003,production,60.0
 850,SO1990A22605,Somalia,South,Gedo,Doolow,Maize,combined,Deyr,OND,2002,Feb,2003,production,300.0
 851,SO1990A22606,Somalia,South,Gedo,Luuq,Maize,combined,Gu,MAM,2002,Aug,2002,production,90.0
 852,SO1990A22606,Somalia,South,Gedo,Luuq,Sorghum,combined,Deyr,OND,2002,Feb,2003,production,150.0
@@ -962,8 +962,8 @@
 960,SO1990A22602,Somalia,South,Gedo,Baardheere,Maize,combined,Gu,MAM,2003,Aug,2003,production,2160.0
 961,SO1990A22602,Somalia,South,Gedo,Baardheere,Sorghum,combined,Deyr,OND,2003,Feb,2004,production,5700.0
 962,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Maize,combined,Gu,MAM,2003,Aug,2003,production,30.0
-963,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Sorghum,combined,Deyr,OND,2003,Feb,2004,production,30.0
-964,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Maize,combined,Deyr,OND,2003,Feb,2004,production,30.0
+963,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Maize,combined,Deyr,OND,2003,Feb,2004,production,30.0
+964,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Sorghum,combined,Deyr,OND,2003,Feb,2004,production,30.0
 965,SO1990A22605,Somalia,South,Gedo,Doolow,Sorghum,combined,Deyr,OND,2003,Feb,2004,production,30.0
 966,SO1990A22605,Somalia,South,Gedo,Doolow,Maize,combined,Deyr,OND,2003,Feb,2004,production,80.0
 967,SO1990A22605,Somalia,South,Gedo,Doolow,Maize,combined,Gu,MAM,2003,Aug,2003,production,100.0
@@ -1060,12 +1060,12 @@
 1058,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Maize,combined,Gu,MAM,2004,Aug,2004,production,900.0
 1059,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Sorghum,combined,Gu,MAM,2004,Aug,2004,production,5400.0
 1060,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Sorghum,combined,Deyr,OND,2004,Feb,2005,production,14000.0
-1061,SO1990A22403,Somalia,South,Bay,Diinsoor,Maize,combined,Gu,MAM,2004,Aug,2004,production,400.0
-1062,SO1990A22403,Somalia,South,Bay,Diinsoor,Maize,combined,Deyr,OND,2004,Feb,2005,production,400.0
+1061,SO1990A22403,Somalia,South,Bay,Diinsoor,Maize,combined,Deyr,OND,2004,Feb,2005,production,400.0
+1062,SO1990A22403,Somalia,South,Bay,Diinsoor,Maize,combined,Gu,MAM,2004,Aug,2004,production,400.0
 1063,SO1990A22403,Somalia,South,Bay,Diinsoor,Sorghum,combined,Gu,MAM,2004,Aug,2004,production,5200.0
 1064,SO1990A22403,Somalia,South,Bay,Diinsoor,Sorghum,combined,Deyr,OND,2004,Feb,2005,production,10000.0
-1065,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Maize,combined,Gu,MAM,2004,Aug,2004,production,400.0
-1066,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Maize,combined,Deyr,OND,2004,Feb,2005,production,400.0
+1065,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Maize,combined,Deyr,OND,2004,Feb,2005,production,400.0
+1066,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Maize,combined,Gu,MAM,2004,Aug,2004,production,400.0
 1067,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Sorghum,combined,Gu,MAM,2004,Aug,2004,production,4600.0
 1068,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Sorghum,combined,Deyr,OND,2004,Feb,2005,production,7800.0
 1069,SO1990A22501,Somalia,South,Bakool,Xudur,Maize,combined,Gu,MAM,2004,Aug,2004,production,10.0
@@ -1102,8 +1102,8 @@
 1100,SO1990A22605,Somalia,South,Gedo,Doolow,Maize,combined,Gu,MAM,2004,Aug,2004,production,40.0
 1101,SO1990A22605,Somalia,South,Gedo,Doolow,Sorghum,combined,Deyr,OND,2004,Feb,2005,production,80.0
 1102,SO1990A22605,Somalia,South,Gedo,Doolow,Maize,combined,Deyr,OND,2004,Feb,2005,production,280.0
-1103,SO1990A22606,Somalia,South,Gedo,Luuq,Sorghum,combined,Deyr,OND,2004,Feb,2005,production,200.0
-1104,SO1990A22606,Somalia,South,Gedo,Luuq,Maize,combined,Gu,MAM,2004,Aug,2004,production,200.0
+1103,SO1990A22606,Somalia,South,Gedo,Luuq,Maize,combined,Gu,MAM,2004,Aug,2004,production,200.0
+1104,SO1990A22606,Somalia,South,Gedo,Luuq,Sorghum,combined,Deyr,OND,2004,Feb,2005,production,200.0
 1105,SO1990A22606,Somalia,South,Gedo,Luuq,Maize,combined,Deyr,OND,2004,Feb,2005,production,900.0
 1106,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Cowpea,combined,Deyr,OND,2004,Feb,2005,production,23.0
 1107,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,combined,Gu,MAM,2004,Aug,2004,production,99.0
@@ -1234,14 +1234,14 @@
 1232,SO1990A22702,Somalia,South,Middle Juba,Jilib,Sorghum,combined,Gu,MAM,2005,Aug,2005,production,75.0
 1233,SO1990A22702,Somalia,South,Middle Juba,Jilib,Maize,combined,Gu,MAM,2005,Aug,2005,production,1815.0
 1234,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sorghum,combined,Gu,MAM,2005,Aug,2005,production,20.0
-1235,SO1990A22703,Somalia,South,Middle Juba,Saakow,Maize,combined,Deyr,OND,2005,Feb,2006,production,70.0
-1236,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sorghum,combined,Deyr,OND,2005,Feb,2006,production,70.0
+1235,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sorghum,combined,Deyr,OND,2005,Feb,2006,production,70.0
+1236,SO1990A22703,Somalia,South,Middle Juba,Saakow,Maize,combined,Deyr,OND,2005,Feb,2006,production,70.0
 1237,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,combined,Gu,MAM,2005,Aug,2005,production,120.0
 1238,SO1990A22703,Somalia,South,Middle Juba,Saakow,Cowpea,combined,Gu,MAM,2005,Aug,2005,production,320.0
 1239,SO1990A22703,Somalia,South,Middle Juba,Saakow,Maize,combined,Gu,MAM,2005,Aug,2005,production,850.0
 1240,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,combined,Gu,MAM,2005,Aug,2005,production,180.0
-1241,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,combined,Deyr,OND,2005,Feb,2006,production,18.0
-1242,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sorghum,combined,Gu,MAM,2005,Aug,2005,production,18.0
+1241,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sorghum,combined,Gu,MAM,2005,Aug,2005,production,18.0
+1242,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,combined,Deyr,OND,2005,Feb,2006,production,18.0
 1243,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,combined,Gu,MAM,2005,Aug,2005,production,70.0
 1244,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Sorghum,combined,Gu,MAM,2005,Aug,2005,production,24.0
 1245,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Maize,combined,Gu,MAM,2005,Aug,2005,production,200.0
@@ -1289,8 +1289,8 @@
 1287,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Maize,combined,Deyr,OND,2006,Feb,2007,production,2205.0
 1288,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sorghum,combined,Gu,MAM,2006,Aug,2006,production,2550.0
 1289,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Maize,combined,Gu,MAM,2006,Aug,2006,production,3850.0
-1290,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Sorghum,combined,Gu,MAM,2006,Aug,2006,production,20.0
-1291,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Sorghum,combined,Deyr,OND,2006,Feb,2007,production,20.0
+1290,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Sorghum,combined,Deyr,OND,2006,Feb,2007,production,20.0
+1291,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Sorghum,combined,Gu,MAM,2006,Aug,2006,production,20.0
 1292,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Sorghum,combined,Deyr,OND,2006,Feb,2007,production,20.0
 1293,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Maize,combined,Deyr,OND,2006,Feb,2007,production,1400.0
 1294,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Maize,combined,Gu,MAM,2006,Aug,2006,production,14400.0
@@ -1552,8 +1552,8 @@
 1550,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Maize,combined,Gu,MAM,2008,Aug,2008,production,292.5
 1551,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Maize,combined,Deyr,OND,2008,Feb,2009,production,360.0
 1552,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sesame,combined,Deyr,OND,2008,Feb,2009,production,160.0
-1553,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sorghum,combined,Deyr,OND,2008,Feb,2009,production,800.0
-1554,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sorghum,combined,Gu,MAM,2008,Aug,2008,production,800.0
+1553,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sorghum,combined,Gu,MAM,2008,Aug,2008,production,800.0
+1554,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sorghum,combined,Deyr,OND,2008,Feb,2009,production,800.0
 1555,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Rice,combined,Gu,MAM,2008,Aug,2008,production,2000.0
 1556,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Rice,combined,Deyr,OND,2008,Feb,2009,production,2500.0
 1557,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Maize,combined,Deyr,OND,2008,Feb,2009,production,3000.0
@@ -1561,8 +1561,8 @@
 1559,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sesame,combined,Deyr,OND,2008,Feb,2009,production,140.0
 1560,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sorghum,combined,Gu,MAM,2008,Aug,2008,production,400.0
 1561,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sorghum,combined,Deyr,OND,2008,Feb,2009,production,400.0
-1562,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Maize,combined,Deyr,OND,2008,Feb,2009,production,1250.0
-1563,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Maize,combined,Gu,MAM,2008,Aug,2008,production,1250.0
+1562,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Maize,combined,Gu,MAM,2008,Aug,2008,production,1250.0
+1563,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Maize,combined,Deyr,OND,2008,Feb,2009,production,1250.0
 1564,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Sorghum,combined,Gu,MAM,2008,Aug,2008,production,15.0
 1565,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Sesame,combined,Gu,MAM,2008,Aug,2008,production,100.0
 1566,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Cowpea,combined,Gu,MAM,2008,Aug,2008,production,150.0
@@ -1689,8 +1689,8 @@
 1687,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Maize,combined,Deyr,OND,2009,Feb,2010,production,165.0
 1688,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sorghum,combined,Gu,MAM,2009,Aug,2009,production,240.0
 1689,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sorghum,combined,Deyr,OND,2009,Feb,2010,production,840.0
-1690,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sesame,combined,Deyr,OND,2009,Feb,2010,production,10.0
-1691,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Cowpea,combined,Deyr,OND,2009,Feb,2010,production,10.0
+1690,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Cowpea,combined,Deyr,OND,2009,Feb,2010,production,10.0
+1691,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sesame,combined,Deyr,OND,2009,Feb,2010,production,10.0
 1692,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Maize,combined,Gu,MAM,2009,Aug,2009,production,100.0
 1693,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Maize,combined,Deyr,OND,2009,Feb,2010,production,120.0
 1694,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sorghum,combined,Gu,MAM,2009,Aug,2009,production,170.0
@@ -1935,8 +1935,8 @@
 1933,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Pepper,combined,Deyr,OND,2010,Feb,2011,production,30.0
 1934,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sorghum,combined,Deyr,OND,2010,Feb,2011,production,40.0
 1935,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Maize,combined,Gu,MAM,2010,Aug,2010,production,51.0
-1936,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Tomatoe,combined,Deyr,OND,2010,Feb,2011,production,75.0
-1937,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sesame,combined,Deyr,OND,2010,Feb,2011,production,75.0
+1936,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sesame,combined,Deyr,OND,2010,Feb,2011,production,75.0
+1937,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Tomatoe,combined,Deyr,OND,2010,Feb,2011,production,75.0
 1938,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Maize,combined,Deyr,OND,2010,Feb,2011,production,90.0
 1939,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sorghum,combined,Gu,MAM,2010,Aug,2010,production,120.0
 1940,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sesame,combined,Gu,MAM,2010,Aug,2010,production,225.0
@@ -2130,15 +2130,15 @@
 2128,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,WaterMelon,combined,Deyr,OND,2011,Feb,2012,production,1000.0
 2129,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Maize,combined,Deyr,OND,2011,Feb,2012,production,1020.0
 2130,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sorghum,combined,Deyr,OND,2011,Feb,2012,production,1450.0
-2131,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Onion,combined,Deyr,OND,2011,Feb,2012,production,3000.0
-2132,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Onion,combined,Gu,MAM,2011,Aug,2011,production,3000.0
+2131,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Onion,combined,Gu,MAM,2011,Aug,2011,production,3000.0
+2132,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Onion,combined,Deyr,OND,2011,Feb,2012,production,3000.0
 2133,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sesame,combined,Gu,MAM,2011,Aug,2011,production,0.49
 2134,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sesame,combined,Deyr,OND,2011,Feb,2012,production,4.5
 2135,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Pepper,combined,Deyr,OND,2011,Feb,2012,production,20.0
 2136,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Pepper,combined,Gu,MAM,2011,Aug,2011,production,24.0
 2137,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Tomatoe,combined,Deyr,OND,2011,Feb,2012,production,60.0
-2138,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Tomatoe,combined,Gu,MAM,2011,Aug,2011,production,75.0
-2139,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,WaterMelon,combined,Gu,MAM,2011,Aug,2011,production,75.0
+2138,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,WaterMelon,combined,Gu,MAM,2011,Aug,2011,production,75.0
+2139,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Tomatoe,combined,Gu,MAM,2011,Aug,2011,production,75.0
 2140,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sorghum,combined,Gu,MAM,2011,Aug,2011,production,90.0
 2141,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Maize,combined,Gu,MAM,2011,Aug,2011,production,100.0
 2142,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,WaterMelon,combined,Deyr,OND,2011,Feb,2012,production,500.0
@@ -2160,8 +2160,8 @@
 2158,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Maize,combined,Deyr,OND,2011,Feb,2012,production,540.0
 2159,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Onion,combined,Deyr,OND,2011,Feb,2012,production,750.0
 2160,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sorghum,combined,Deyr,OND,2011,Feb,2012,production,819.99
-2161,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Cowpea,combined,Gu,MAM,2011,Aug,2011,production,60.0
-2162,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sesame,combined,Gu,MAM,2011,Aug,2011,production,60.0
+2161,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sesame,combined,Gu,MAM,2011,Aug,2011,production,60.0
+2162,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Cowpea,combined,Gu,MAM,2011,Aug,2011,production,60.0
 2163,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sorghum,combined,Gu,MAM,2011,Aug,2011,production,350.0
 2164,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Cowpea,combined,Deyr,OND,2011,Feb,2012,production,600.0
 2165,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sesame,combined,Deyr,OND,2011,Feb,2012,production,800.0
@@ -2379,8 +2379,8 @@
 2377,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sesame,riverine,Deyr,OND,2012,Feb,2013,production,15.0
 2378,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Pepper,riverine,Deyr,OND,2012,Feb,2013,production,30.0
 2379,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sorghum,agro_pastoral,Gu,MAM,2012,Aug,2012,production,40.0
-2380,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Tomatoe,riverine,Deyr,OND,2012,Feb,2013,production,300.0
-2381,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Maize,riverine,Gu,MAM,2012,Aug,2012,production,300.0
+2380,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Maize,riverine,Gu,MAM,2012,Aug,2012,production,300.0
+2381,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Tomatoe,riverine,Deyr,OND,2012,Feb,2013,production,300.0
 2382,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sorghum,riverine,Gu,MAM,2012,Aug,2012,production,510.0
 2383,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sorghum,riverine,Deyr,OND,2012,Feb,2013,production,600.0
 2384,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Maize,riverine,Deyr,OND,2012,Feb,2013,production,800.0
@@ -2494,8 +2494,8 @@
 2492,SO1990A22505,Somalia,South,Bakool,Rabdhuure,Sorghum,agro_pastoral,Deyr,OND,2012,Feb,2013,production,720.0
 2493,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,agro_pastoral,Deyr,OND,2012,Feb,2013,production,1.6
 2494,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,agro_pastoral,Gu,MAM,2012,Aug,2012,production,2.0
-2495,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,riverine,Deyr,OND,2012,Feb,2013,production,4.0
-2496,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,riverine,Gu,MAM,2012,Aug,2012,production,4.0
+2495,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,riverine,Gu,MAM,2012,Aug,2012,production,4.0
+2496,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,riverine,Deyr,OND,2012,Feb,2013,production,4.0
 2497,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Tomatoe,riverine,Deyr,OND,2012,Feb,2013,production,48.0
 2498,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Onion,riverine,Deyr,OND,2012,Feb,2013,production,88.0
 2499,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Sorghum,agro_pastoral,Deyr,OND,2012,Feb,2013,production,120.0
@@ -2504,8 +2504,8 @@
 2502,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Maize,riverine,Deyr,OND,2012,Feb,2013,production,259.0
 2503,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Maize,agro_pastoral,Deyr,OND,2012,Feb,2013,production,400.0
 2504,SO1990A22602,Somalia,South,Gedo,Baardheere,Cowpea,riverine,Deyr,OND,2012,Feb,2013,production,3.6
-2505,SO1990A22602,Somalia,South,Gedo,Baardheere,Cowpea,agro_pastoral,Gu,MAM,2012,Aug,2012,production,4.0
-2506,SO1990A22602,Somalia,South,Gedo,Baardheere,Cowpea,agro_pastoral,Deyr,OND,2012,Feb,2013,production,4.0
+2505,SO1990A22602,Somalia,South,Gedo,Baardheere,Cowpea,agro_pastoral,Deyr,OND,2012,Feb,2013,production,4.0
+2506,SO1990A22602,Somalia,South,Gedo,Baardheere,Cowpea,agro_pastoral,Gu,MAM,2012,Aug,2012,production,4.0
 2507,SO1990A22602,Somalia,South,Gedo,Baardheere,Sesame,agro_pastoral,Deyr,OND,2012,Feb,2013,production,15.0
 2508,SO1990A22602,Somalia,South,Gedo,Baardheere,Sesame,agro_pastoral,Gu,MAM,2012,Aug,2012,production,15.0
 2509,SO1990A22602,Somalia,South,Gedo,Baardheere,Tomatoe,riverine,Deyr,OND,2012,Feb,2013,production,90.0
@@ -2539,8 +2539,8 @@
 2537,SO1990A22606,Somalia,South,Gedo,Luuq,Onion,riverine,Deyr,OND,2012,Feb,2013,production,104.0
 2538,SO1990A22606,Somalia,South,Gedo,Luuq,Maize,agro_pastoral,Deyr,OND,2012,Feb,2013,production,120.0
 2539,SO1990A22606,Somalia,South,Gedo,Luuq,Maize,riverine,Gu,MAM,2012,Aug,2012,production,132.0
-2540,SO1990A22606,Somalia,South,Gedo,Luuq,Onion,riverine,Gu,MAM,2012,Aug,2012,production,240.0
-2541,SO1990A22606,Somalia,South,Gedo,Luuq,Sorghum,agro_pastoral,Deyr,OND,2012,Feb,2013,production,240.0
+2540,SO1990A22606,Somalia,South,Gedo,Luuq,Sorghum,agro_pastoral,Deyr,OND,2012,Feb,2013,production,240.0
+2541,SO1990A22606,Somalia,South,Gedo,Luuq,Onion,riverine,Gu,MAM,2012,Aug,2012,production,240.0
 2542,SO1990A22606,Somalia,South,Gedo,Luuq,Maize,riverine,Deyr,OND,2012,Feb,2013,production,255.5
 2543,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Cowpea,riverine,Gu,MAM,2012,Aug,2012,production,40.0
 2544,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Cowpea,agro_pastoral,Deyr,OND,2012,Feb,2013,production,80.0
@@ -2548,13 +2548,13 @@
 2546,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sesame,riverine,Gu,MAM,2012,Aug,2012,production,90.0
 2547,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,agro_pastoral,Gu,MAM,2012,Aug,2012,production,160.0
 2548,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,riverine,Gu,MAM,2012,Aug,2012,production,320.0
-2549,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,riverine,Deyr,OND,2012,Feb,2013,production,600.0
-2550,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,agro_pastoral,Deyr,OND,2012,Feb,2013,production,600.0
+2549,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,agro_pastoral,Deyr,OND,2012,Feb,2013,production,600.0
+2550,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,riverine,Deyr,OND,2012,Feb,2013,production,600.0
 2551,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sesame,agro_pastoral,Deyr,OND,2012,Feb,2013,production,640.0
 2552,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sesame,riverine,Deyr,OND,2012,Feb,2013,production,1280.0
 2553,SO1990A22702,Somalia,South,Middle Juba,Jilib,Cowpea,agro_pastoral,Deyr,OND,2012,Feb,2013,production,40.0
-2554,SO1990A22702,Somalia,South,Middle Juba,Jilib,Cowpea,riverine,Gu,MAM,2012,Aug,2012,production,40.0
-2555,SO1990A22702,Somalia,South,Middle Juba,Jilib,Maize,agro_pastoral,Gu,MAM,2012,Aug,2012,production,40.0
+2554,SO1990A22702,Somalia,South,Middle Juba,Jilib,Maize,agro_pastoral,Gu,MAM,2012,Aug,2012,production,40.0
+2555,SO1990A22702,Somalia,South,Middle Juba,Jilib,Cowpea,riverine,Gu,MAM,2012,Aug,2012,production,40.0
 2556,SO1990A22702,Somalia,South,Middle Juba,Jilib,Sesame,riverine,Gu,MAM,2012,Aug,2012,production,60.0
 2557,SO1990A22702,Somalia,South,Middle Juba,Jilib,Maize,agro_pastoral,Deyr,OND,2012,Feb,2013,production,180.0
 2558,SO1990A22702,Somalia,South,Middle Juba,Jilib,Maize,riverine,Gu,MAM,2012,Aug,2012,production,300.0
@@ -2582,8 +2582,8 @@
 2580,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,riverine,Deyr,OND,2012,Feb,2013,production,80.0
 2581,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,agro_pastoral,Deyr,OND,2012,Feb,2013,production,240.0
 2582,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sorghum,agro_pastoral,Gu,MAM,2012,Aug,2012,production,2.0
-2583,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sesame,agro_pastoral,Deyr,OND,2012,Feb,2013,production,3.0
-2584,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Cowpea,agro_pastoral,Deyr,OND,2012,Feb,2013,production,3.0
+2583,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Cowpea,agro_pastoral,Deyr,OND,2012,Feb,2013,production,3.0
+2584,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sesame,agro_pastoral,Deyr,OND,2012,Feb,2013,production,3.0
 2585,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Cowpea,riverine,Deyr,OND,2012,Feb,2013,production,4.0
 2586,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Cowpea,riverine,Gu,MAM,2012,Aug,2012,production,6.0
 2587,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Cowpea,agro_pastoral,Gu,MAM,2012,Aug,2012,production,20.0
@@ -2595,8 +2595,8 @@
 2593,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,agro_pastoral,Gu,MAM,2012,Aug,2012,production,240.0
 2594,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,agro_pastoral,Deyr,OND,2012,Feb,2013,production,250.0
 2595,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Sorghum,agro_pastoral,Deyr,OND,2012,Feb,2013,production,6.0
-2596,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Sesame,agro_pastoral,Deyr,OND,2012,Feb,2013,production,15.0
-2597,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Cowpea,agro_pastoral,Deyr,OND,2012,Feb,2013,production,15.0
+2596,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Cowpea,agro_pastoral,Deyr,OND,2012,Feb,2013,production,15.0
+2597,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Sesame,agro_pastoral,Deyr,OND,2012,Feb,2013,production,15.0
 2598,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Maize,agro_pastoral,Deyr,OND,2012,Feb,2013,production,70.0
 2599,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sesame,riverine,Gu,MAM,2012,Aug,2012,production,75.0
 2600,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Cowpea,riverine,Gu,MAM,2012,Aug,2012,production,80.0
@@ -2633,11 +2633,11 @@
 2631,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Maize,riverine,Gu,MAM,2013,Aug,2013,production,100.0
 2632,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sorghum,agro_pastoral,Gu,MAM,2013,Aug,2013,production,245.0
 2633,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Tomatoe,riverine,Gu,MAM,2013,Aug,2013,production,270.0
-2634,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Tomatoe,riverine,Deyr,OND,2013,Feb,2014,production,450.0
-2635,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Maize,riverine,Deyr,OND,2013,Feb,2014,production,450.0
+2634,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Maize,riverine,Deyr,OND,2013,Feb,2014,production,450.0
+2635,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Tomatoe,riverine,Deyr,OND,2013,Feb,2014,production,450.0
 2636,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sorghum,riverine,Deyr,OND,2013,Feb,2014,production,480.0
-2637,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,WaterMelon,riverine,Deyr,OND,2013,Feb,2014,production,1500.0
-2638,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,WaterMelon,riverine,Gu,MAM,2013,Aug,2013,production,1500.0
+2637,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,WaterMelon,riverine,Gu,MAM,2013,Aug,2013,production,1500.0
+2638,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,WaterMelon,riverine,Deyr,OND,2013,Feb,2014,production,1500.0
 2639,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Onion,riverine,Gu,MAM,2013,Aug,2013,production,3600.0
 2640,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Onion,riverine,Deyr,OND,2013,Feb,2014,production,4500.0
 2641,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sesame,riverine,Gu,MAM,2013,Aug,2013,production,4.0
@@ -2650,8 +2650,8 @@
 2648,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sorghum,riverine,Deyr,OND,2013,Feb,2014,production,320.0
 2649,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Maize,riverine,Deyr,OND,2013,Feb,2014,production,350.0
 2650,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sorghum,agro_pastoral,Gu,MAM,2013,Aug,2013,production,420.0
-2651,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,WaterMelon,riverine,Deyr,OND,2013,Feb,2014,production,500.0
-2652,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,WaterMelon,riverine,Gu,MAM,2013,Aug,2013,production,500.0
+2651,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,WaterMelon,riverine,Gu,MAM,2013,Aug,2013,production,500.0
+2652,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,WaterMelon,riverine,Deyr,OND,2013,Feb,2014,production,500.0
 2653,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sorghum,agro_pastoral,Deyr,OND,2013,Feb,2014,production,750.0
 2654,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Onion,riverine,Gu,MAM,2013,Aug,2013,production,1650.0
 2655,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Onion,riverine,Deyr,OND,2013,Feb,2014,production,2250.0
@@ -2663,9 +2663,9 @@
 2661,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Tomatoe,riverine,Gu,MAM,2013,Aug,2013,production,75.0
 2662,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Tomatoe,riverine,Deyr,OND,2013,Feb,2014,production,90.0
 2663,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sorghum,riverine,Deyr,OND,2013,Feb,2014,production,280.0
-2664,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,WaterMelon,riverine,Deyr,OND,2013,Feb,2014,production,300.0
+2664,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,WaterMelon,riverine,Gu,MAM,2013,Aug,2013,production,300.0
 2665,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Maize,riverine,Deyr,OND,2013,Feb,2014,production,300.0
-2666,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,WaterMelon,riverine,Gu,MAM,2013,Aug,2013,production,300.0
+2666,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,WaterMelon,riverine,Deyr,OND,2013,Feb,2014,production,300.0
 2667,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sorghum,agro_pastoral,Gu,MAM,2013,Aug,2013,production,315.0
 2668,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sorghum,agro_pastoral,Deyr,OND,2013,Feb,2014,production,600.0
 2669,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Onion,riverine,Gu,MAM,2013,Aug,2013,production,1050.0
@@ -2790,15 +2790,15 @@
 2788,SO1990A22505,Somalia,South,Bakool,Rabdhuure,Maize,agro_pastoral,Deyr,OND,2013,Feb,2014,production,7.5
 2789,SO1990A22505,Somalia,South,Bakool,Rabdhuure,Cowpea,agro_pastoral,Deyr,OND,2013,Feb,2014,production,16.0
 2790,SO1990A22505,Somalia,South,Bakool,Rabdhuure,Cowpea,agro_pastoral,Gu,MAM,2013,Aug,2013,production,18.0
-2791,SO1990A22505,Somalia,South,Bakool,Rabdhuure,Sorghum,agro_pastoral,Gu,MAM,2013,Aug,2013,production,150.0
-2792,SO1990A22505,Somalia,South,Bakool,Rabdhuure,Sorghum,agro_pastoral,Deyr,OND,2013,Feb,2014,production,150.0
-2793,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,agro_pastoral,Gu,MAM,2013,Aug,2013,production,2.0
-2794,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,agro_pastoral,Deyr,OND,2013,Feb,2014,production,2.0
+2791,SO1990A22505,Somalia,South,Bakool,Rabdhuure,Sorghum,agro_pastoral,Deyr,OND,2013,Feb,2014,production,150.0
+2792,SO1990A22505,Somalia,South,Bakool,Rabdhuure,Sorghum,agro_pastoral,Gu,MAM,2013,Aug,2013,production,150.0
+2793,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,agro_pastoral,Deyr,OND,2013,Feb,2014,production,2.0
+2794,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,agro_pastoral,Gu,MAM,2013,Aug,2013,production,2.0
 2795,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,riverine,Gu,MAM,2013,Aug,2013,production,4.0
 2796,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,riverine,Deyr,OND,2013,Feb,2014,production,5.0
 2797,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Sorghum,agro_pastoral,Deyr,OND,2013,Feb,2014,production,140.0
-2798,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Tomatoe,riverine,Deyr,OND,2013,Feb,2014,production,150.0
-2799,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Sorghum,agro_pastoral,Gu,MAM,2013,Aug,2013,production,150.0
+2798,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Sorghum,agro_pastoral,Gu,MAM,2013,Aug,2013,production,150.0
+2799,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Tomatoe,riverine,Deyr,OND,2013,Feb,2014,production,150.0
 2800,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Tomatoe,riverine,Gu,MAM,2013,Aug,2013,production,300.0
 2801,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Onion,riverine,Gu,MAM,2013,Aug,2013,production,490.0
 2802,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Maize,riverine,Gu,MAM,2013,Aug,2013,production,513.0
@@ -2837,8 +2837,8 @@
 2835,SO1990A22605,Somalia,South,Gedo,Doolow,Onion,riverine,Gu,MAM,2013,Aug,2013,production,210.0
 2836,SO1990A22605,Somalia,South,Gedo,Doolow,Onion,riverine,Deyr,OND,2013,Feb,2014,production,520.0
 2837,SO1990A22605,Somalia,South,Gedo,Doolow,Tomatoe,riverine,Gu,MAM,2013,Aug,2013,production,720.0
-2838,SO1990A22606,Somalia,South,Gedo,Luuq,Sesame,agro_pastoral,Deyr,OND,2013,Feb,2014,production,3.0
-2839,SO1990A22606,Somalia,South,Gedo,Luuq,Cowpea,agro_pastoral,Gu,MAM,2013,Aug,2013,production,3.0
+2838,SO1990A22606,Somalia,South,Gedo,Luuq,Cowpea,agro_pastoral,Gu,MAM,2013,Aug,2013,production,3.0
+2839,SO1990A22606,Somalia,South,Gedo,Luuq,Sesame,agro_pastoral,Deyr,OND,2013,Feb,2014,production,3.0
 2840,SO1990A22606,Somalia,South,Gedo,Luuq,Cowpea,riverine,Gu,MAM,2013,Aug,2013,production,4.0
 2841,SO1990A22606,Somalia,South,Gedo,Luuq,Cowpea,riverine,Deyr,OND,2013,Feb,2014,production,6.0
 2842,SO1990A22606,Somalia,South,Gedo,Luuq,Cowpea,agro_pastoral,Deyr,OND,2013,Feb,2014,production,8.0
@@ -2870,8 +2870,8 @@
 2868,SO1990A22702,Somalia,South,Middle Juba,Jilib,Sesame,riverine,Deyr,OND,2013,Feb,2014,production,625.0
 2869,SO1990A22702,Somalia,South,Middle Juba,Jilib,Maize,riverine,Gu,MAM,2013,Aug,2013,production,3600.0
 2870,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,agro_pastoral,Deyr,OND,2013,Feb,2014,production,40.0
-2871,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,agro_pastoral,Gu,MAM,2013,Aug,2013,production,60.0
-2872,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,riverine,Gu,MAM,2013,Aug,2013,production,60.0
+2871,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,riverine,Gu,MAM,2013,Aug,2013,production,60.0
+2872,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,agro_pastoral,Gu,MAM,2013,Aug,2013,production,60.0
 2873,SO1990A22703,Somalia,South,Middle Juba,Saakow,Cowpea,riverine,Deyr,OND,2013,Feb,2014,production,80.0
 2874,SO1990A22703,Somalia,South,Middle Juba,Saakow,Cowpea,agro_pastoral,Gu,MAM,2013,Aug,2013,production,120.0
 2875,SO1990A22703,Somalia,South,Middle Juba,Saakow,Cowpea,riverine,Gu,MAM,2013,Aug,2013,production,150.0
@@ -2882,8 +2882,8 @@
 2880,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sorghum,agro_pastoral,Gu,MAM,2013,Aug,2013,production,2000.0
 2881,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Sesame,agro_pastoral,Deyr,OND,2013,Feb,2014,production,20.0
 2882,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,agro_pastoral,Deyr,OND,2013,Feb,2014,production,40.0
-2883,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Sesame,riverine,Deyr,OND,2013,Feb,2014,production,60.0
-2884,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,riverine,Deyr,OND,2013,Feb,2014,production,60.0
+2883,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,riverine,Deyr,OND,2013,Feb,2014,production,60.0
+2884,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Sesame,riverine,Deyr,OND,2013,Feb,2014,production,60.0
 2885,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Sesame,riverine,Gu,MAM,2013,Aug,2013,production,90.0
 2886,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,riverine,Gu,MAM,2013,Aug,2013,production,200.0
 2887,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,agro_pastoral,Gu,MAM,2013,Aug,2013,production,480.0
@@ -2911,8 +2911,8 @@
 2909,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Cowpea,agro_pastoral,Gu,MAM,2013,Aug,2013,production,105.0
 2910,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sesame,agro_pastoral,Gu,MAM,2013,Aug,2013,production,150.0
 2911,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Cowpea,riverine,Gu,MAM,2013,Aug,2013,production,195.0
-2912,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Maize,riverine,Deyr,OND,2013,Feb,2014,production,300.0
-2913,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sesame,agro_pastoral,Deyr,OND,2013,Feb,2014,production,300.0
+2912,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sesame,agro_pastoral,Deyr,OND,2013,Feb,2014,production,300.0
+2913,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Maize,riverine,Deyr,OND,2013,Feb,2014,production,300.0
 2914,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sesame,riverine,Deyr,OND,2013,Feb,2014,production,435.0
 2915,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Maize,agro_pastoral,Deyr,OND,2013,Feb,2014,production,450.0
 2916,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sesame,riverine,Gu,MAM,2013,Aug,2013,production,1000.0
@@ -2946,15 +2946,15 @@
 2944,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Onion,riverine,Deyr,OND,2014,Feb,2015,production,3000.0
 2945,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Onion,riverine,Gu,MAM,2014,Aug,2014,production,4050.0
 2946,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Pepper,riverine,Deyr,OND,2014,Feb,2015,production,8.0
-2947,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sesame,riverine,Gu,MAM,2014,Aug,2014,production,10.0
-2948,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Pepper,riverine,Gu,MAM,2014,Aug,2014,production,10.0
+2947,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Pepper,riverine,Gu,MAM,2014,Aug,2014,production,10.0
+2948,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sesame,riverine,Gu,MAM,2014,Aug,2014,production,10.0
 2949,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sesame,riverine,Deyr,OND,2014,Feb,2015,production,16.0
 2950,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sorghum,riverine,Gu,MAM,2014,Aug,2014,production,90.0
 2951,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Maize,riverine,Gu,MAM,2014,Aug,2014,production,90.0
 2952,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Tomatoe,riverine,Deyr,OND,2014,Feb,2015,production,150.0
 2953,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Tomatoe,riverine,Gu,MAM,2014,Aug,2014,production,165.0
-2954,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,WaterMelon,riverine,Gu,MAM,2014,Aug,2014,production,300.0
-2955,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sorghum,agro_pastoral,Deyr,OND,2014,Feb,2015,production,300.0
+2954,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sorghum,agro_pastoral,Deyr,OND,2014,Feb,2015,production,300.0
+2955,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,WaterMelon,riverine,Gu,MAM,2014,Aug,2014,production,300.0
 2956,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,WaterMelon,riverine,Deyr,OND,2014,Feb,2015,production,350.0
 2957,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Maize,riverine,Deyr,OND,2014,Feb,2015,production,455.0
 2958,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sorghum,riverine,Deyr,OND,2014,Feb,2015,production,640.0
@@ -2994,8 +2994,8 @@
 2992,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sorghum,agro_pastoral,Gu,MAM,2014,Aug,2014,production,450.0
 2993,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sesame,riverine,Deyr,OND,2014,Feb,2015,production,840.0
 2994,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sorghum,agro_pastoral,Deyr,OND,2014,Feb,2015,production,2000.0
-2995,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Maize,riverine,Gu,MAM,2014,Aug,2014,production,3200.0
-2996,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Maize,riverine,Deyr,OND,2014,Feb,2015,production,3200.0
+2995,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Maize,riverine,Deyr,OND,2014,Feb,2015,production,3200.0
+2996,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Maize,riverine,Gu,MAM,2014,Aug,2014,production,3200.0
 2997,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Sorghum,agro_pastoral,Gu,MAM,2014,Aug,2014,production,7.0
 2998,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Sorghum,agro_pastoral,Deyr,OND,2014,Feb,2015,production,20.0
 2999,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Cowpea,agro_pastoral,Deyr,OND,2014,Feb,2015,production,50.0
@@ -3036,8 +3036,8 @@
 3034,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Maize,riverine,Gu,MAM,2014,Aug,2014,production,15120.0
 3035,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Sorghum,agro_pastoral,Gu,MAM,2014,Aug,2014,production,20.0
 3036,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Cowpea,agro_pastoral,Deyr,OND,2014,Feb,2015,production,95.0
-3037,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Cowpea,riverine,Gu,MAM,2014,Aug,2014,production,130.0
-3038,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Cowpea,riverine,Deyr,OND,2014,Feb,2015,production,130.0
+3037,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Cowpea,riverine,Deyr,OND,2014,Feb,2015,production,130.0
+3038,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Cowpea,riverine,Gu,MAM,2014,Aug,2014,production,130.0
 3039,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Maize,agro_pastoral,Gu,MAM,2014,Aug,2014,production,200.0
 3040,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Sesame,riverine,Deyr,OND,2014,Feb,2015,production,360.0
 3041,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Sesame,agro_pastoral,Deyr,OND,2014,Feb,2015,production,525.0
@@ -3097,8 +3097,8 @@
 3095,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Sorghum,agro_pastoral,Deyr,OND,2014,Feb,2015,production,9180.0
 3096,SO1990A22501,Somalia,South,Bakool,Xudur,Maize,agro_pastoral,Gu,MAM,2014,Aug,2014,production,22.5
 3097,SO1990A22501,Somalia,South,Bakool,Xudur,Cowpea,agro_pastoral,Gu,MAM,2014,Aug,2014,production,106.0
-3098,SO1990A22501,Somalia,South,Bakool,Xudur,Cowpea,agro_pastoral,Deyr,OND,2014,Feb,2015,production,150.0
-3099,SO1990A22501,Somalia,South,Bakool,Xudur,Maize,agro_pastoral,Deyr,OND,2014,Feb,2015,production,150.0
+3098,SO1990A22501,Somalia,South,Bakool,Xudur,Maize,agro_pastoral,Deyr,OND,2014,Feb,2015,production,150.0
+3099,SO1990A22501,Somalia,South,Bakool,Xudur,Cowpea,agro_pastoral,Deyr,OND,2014,Feb,2015,production,150.0
 3100,SO1990A22501,Somalia,South,Bakool,Xudur,Sorghum,agro_pastoral,Gu,MAM,2014,Aug,2014,production,200.0
 3101,SO1990A22501,Somalia,South,Bakool,Xudur,Sorghum,agro_pastoral,Deyr,OND,2014,Feb,2015,production,1520.0
 3102,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Maize,agro_pastoral,Gu,MAM,2014,Aug,2014,production,43.5
@@ -3216,8 +3216,8 @@
 3214,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,riverine,Gu,MAM,2014,Aug,2014,production,72.0
 3215,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sesame,riverine,Deyr,OND,2014,Feb,2015,production,90.0
 3216,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,riverine,Deyr,OND,2014,Feb,2015,production,100.0
-3217,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,agro_pastoral,Gu,MAM,2014,Aug,2014,production,120.0
-3218,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,agro_pastoral,Deyr,OND,2014,Feb,2015,production,120.0
+3217,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,agro_pastoral,Deyr,OND,2014,Feb,2015,production,120.0
+3218,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,agro_pastoral,Gu,MAM,2014,Aug,2014,production,120.0
 3219,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Cowpea,agro_pastoral,Gu,MAM,2014,Aug,2014,production,4.0
 3220,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Sesame,agro_pastoral,Gu,MAM,2014,Aug,2014,production,5.0
 3221,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Maize,agro_pastoral,Deyr,OND,2014,Feb,2015,production,15.0
@@ -3288,8 +3288,8 @@
 3286,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Pepper,riverine,Deyr,OND,2015,Feb,2016,production,4.0
 3287,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Pepper,riverine,Gu,MAM,2015,Aug,2015,production,8.0
 3288,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sesame,riverine,Deyr,OND,2015,Feb,2016,production,43.0
-3289,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sorghum,agro_pastoral,Gu,MAM,2015,Aug,2015,production,60.0
-3290,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Tomatoe,riverine,Deyr,OND,2015,Feb,2016,production,60.0
+3289,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Tomatoe,riverine,Deyr,OND,2015,Feb,2016,production,60.0
+3290,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sorghum,agro_pastoral,Gu,MAM,2015,Aug,2015,production,60.0
 3291,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sesame,agro_pastoral,Deyr,OND,2015,Feb,2016,production,81.5
 3292,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Maize,riverine,Gu,MAM,2015,Aug,2015,production,100.0
 3293,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sesame,riverine,Gu,MAM,2015,Aug,2015,production,100.0
@@ -3396,8 +3396,8 @@
 3394,SO1990A22401,Somalia,South,Bay,Baydhabo,Sorghum,agro_pastoral,Gu,MAM,2015,Aug,2015,production,6600.0
 3395,SO1990A22401,Somalia,South,Bay,Baydhabo,Sorghum,agro_pastoral,Deyr,OND,2015,Feb,2016,production,16200.0
 3396,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Maize,agro_pastoral,Gu,MAM,2015,Aug,2015,production,68.0
-3397,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Sesame,agro_pastoral,Gu,MAM,2015,Aug,2015,production,87.5
-3398,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Sesame,agro_pastoral,Deyr,OND,2015,Feb,2016,production,87.5
+3397,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Sesame,agro_pastoral,Deyr,OND,2015,Feb,2016,production,87.5
+3398,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Sesame,agro_pastoral,Gu,MAM,2015,Aug,2015,production,87.5
 3399,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Maize,agro_pastoral,Deyr,OND,2015,Feb,2016,production,240.0
 3400,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Cowpea,agro_pastoral,Gu,MAM,2015,Aug,2015,production,542.0
 3401,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Cowpea,agro_pastoral,Deyr,OND,2015,Feb,2016,production,810.0
@@ -3437,8 +3437,8 @@
 3435,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Sorghum,agro_pastoral,Deyr,OND,2015,Feb,2016,production,1980.0
 3436,SO1990A22504,Somalia,South,Bakool,Waajid,Maize,agro_pastoral,Gu,MAM,2015,Aug,2015,production,37.5
 3437,SO1990A22504,Somalia,South,Bakool,Waajid,Cowpea,agro_pastoral,Gu,MAM,2015,Aug,2015,production,40.0
-3438,SO1990A22504,Somalia,South,Bakool,Waajid,Cowpea,agro_pastoral,Deyr,OND,2015,Feb,2016,production,60.0
-3439,SO1990A22504,Somalia,South,Bakool,Waajid,Maize,agro_pastoral,Deyr,OND,2015,Feb,2016,production,60.0
+3438,SO1990A22504,Somalia,South,Bakool,Waajid,Maize,agro_pastoral,Deyr,OND,2015,Feb,2016,production,60.0
+3439,SO1990A22504,Somalia,South,Bakool,Waajid,Cowpea,agro_pastoral,Deyr,OND,2015,Feb,2016,production,60.0
 3440,SO1990A22504,Somalia,South,Bakool,Waajid,Sorghum,agro_pastoral,Gu,MAM,2015,Aug,2015,production,312.0
 3441,SO1990A22504,Somalia,South,Bakool,Waajid,Sorghum,agro_pastoral,Deyr,OND,2015,Feb,2016,production,680.0
 3442,SO1990A22505,Somalia,South,Bakool,Rabdhuure,Maize,agro_pastoral,Deyr,OND,2015,Feb,2016,production,18.0
@@ -3471,11 +3471,11 @@
 3469,SO1990A22602,Somalia,South,Gedo,Baardheere,Onion,riverine,Gu,MAM,2015,Aug,2015,production,935.0
 3470,SO1990A22602,Somalia,South,Gedo,Baardheere,Sorghum,agro_pastoral,Gu,MAM,2015,Aug,2015,production,1820.0
 3471,SO1990A22602,Somalia,South,Gedo,Baardheere,Sorghum,agro_pastoral,Deyr,OND,2015,Feb,2016,production,4020.0
-3472,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Sesame,agro_pastoral,Gu,MAM,2015,Aug,2015,production,4.0
-3473,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Cowpea,agro_pastoral,Deyr,OND,2015,Feb,2016,production,4.0
+3472,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Cowpea,agro_pastoral,Deyr,OND,2015,Feb,2016,production,4.0
+3473,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Sesame,agro_pastoral,Gu,MAM,2015,Aug,2015,production,4.0
 3474,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Sesame,riverine,Gu,MAM,2015,Aug,2015,production,6.0
-3475,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Cowpea,riverine,Deyr,OND,2015,Feb,2016,production,14.0
-3476,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Sorghum,agro_pastoral,Gu,MAM,2015,Aug,2015,production,14.0
+3475,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Sorghum,agro_pastoral,Gu,MAM,2015,Aug,2015,production,14.0
+3476,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Cowpea,riverine,Deyr,OND,2015,Feb,2016,production,14.0
 3477,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Maize,riverine,Deyr,OND,2015,Feb,2016,production,35.0
 3478,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Maize,riverine,Gu,MAM,2015,Aug,2015,production,42.0
 3479,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Sorghum,agro_pastoral,Deyr,OND,2015,Feb,2016,production,70.0
@@ -3497,8 +3497,8 @@
 3495,SO1990A22605,Somalia,South,Gedo,Doolow,Tomatoe,agro_pastoral,Deyr,OND,2015,Feb,2016,production,1000.0
 3496,SO1990A22605,Somalia,South,Gedo,Doolow,Onion,agro_pastoral,Deyr,OND,2015,Feb,2016,production,1040.0
 3497,SO1990A22606,Somalia,South,Gedo,Luuq,Cowpea,agro_pastoral,Deyr,OND,2015,Feb,2016,production,2.0
-3498,SO1990A22606,Somalia,South,Gedo,Luuq,Sesame,agro_pastoral,Gu,MAM,2015,Aug,2015,production,7.0
-3499,SO1990A22606,Somalia,South,Gedo,Luuq,Sesame,riverine,Gu,MAM,2015,Aug,2015,production,7.0
+3498,SO1990A22606,Somalia,South,Gedo,Luuq,Sesame,riverine,Gu,MAM,2015,Aug,2015,production,7.0
+3499,SO1990A22606,Somalia,South,Gedo,Luuq,Sesame,agro_pastoral,Gu,MAM,2015,Aug,2015,production,7.0
 3500,SO1990A22606,Somalia,South,Gedo,Luuq,Cowpea,riverine,Deyr,OND,2015,Feb,2016,production,10.0
 3501,SO1990A22606,Somalia,South,Gedo,Luuq,Sorghum,agro_pastoral,Gu,MAM,2015,Aug,2015,production,45.0
 3502,SO1990A22606,Somalia,South,Gedo,Luuq,Onion,agro_pastoral,Deyr,OND,2015,Feb,2016,production,120.0
@@ -3512,8 +3512,8 @@
 3510,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,riverine,Gu,MAM,2015,Aug,2015,production,150.0
 3511,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sesame,riverine,Gu,MAM,2015,Aug,2015,production,200.0
 3512,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Cowpea,riverine,Deyr,OND,2015,Feb,2016,production,240.0
-3513,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sesame,agro_pastoral,Gu,MAM,2015,Aug,2015,production,300.0
-3514,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,agro_pastoral,Gu,MAM,2015,Aug,2015,production,300.0
+3513,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,agro_pastoral,Gu,MAM,2015,Aug,2015,production,300.0
+3514,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sesame,agro_pastoral,Gu,MAM,2015,Aug,2015,production,300.0
 3515,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sesame,agro_pastoral,Deyr,OND,2015,Feb,2016,production,320.0
 3516,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,agro_pastoral,Deyr,OND,2015,Feb,2016,production,400.0
 3517,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,riverine,Deyr,OND,2015,Feb,2016,production,600.0
@@ -3534,14 +3534,14 @@
 3532,SO1990A22703,Somalia,South,Middle Juba,Saakow,Maize,riverine,Deyr,OND,2015,Feb,2016,production,540.0
 3533,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,riverine,Deyr,OND,2015,Feb,2016,production,600.0
 3534,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,agro_pastoral,Gu,MAM,2015,Aug,2015,production,1200.0
-3535,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sorghum,agro_pastoral,Gu,MAM,2015,Aug,2015,production,1500.0
-3536,SO1990A22703,Somalia,South,Middle Juba,Saakow,Maize,riverine,Gu,MAM,2015,Aug,2015,production,1500.0
+3535,SO1990A22703,Somalia,South,Middle Juba,Saakow,Maize,riverine,Gu,MAM,2015,Aug,2015,production,1500.0
+3536,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sorghum,agro_pastoral,Gu,MAM,2015,Aug,2015,production,1500.0
 3537,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,agro_pastoral,Deyr,OND,2015,Feb,2016,production,2000.0
 3538,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sorghum,agro_pastoral,Deyr,OND,2015,Feb,2016,production,2500.0
 3539,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Cowpea,riverine,Deyr,OND,2015,Feb,2016,production,30.0
-3540,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Sesame,riverine,Deyr,OND,2015,Feb,2016,production,40.0
-3541,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,riverine,Gu,MAM,2015,Aug,2015,production,40.0
-3542,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Cowpea,agro_pastoral,Deyr,OND,2015,Feb,2016,production,40.0
+3540,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Cowpea,agro_pastoral,Deyr,OND,2015,Feb,2016,production,40.0
+3541,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Sesame,riverine,Deyr,OND,2015,Feb,2016,production,40.0
+3542,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,riverine,Gu,MAM,2015,Aug,2015,production,40.0
 3543,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,agro_pastoral,Deyr,OND,2015,Feb,2016,production,50.0
 3544,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Sesame,agro_pastoral,Deyr,OND,2015,Feb,2016,production,60.0
 3545,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,riverine,Deyr,OND,2015,Feb,2016,production,150.0
@@ -3622,8 +3622,8 @@
 3620,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sorghum,riverine,Gu,MAM,2016,Aug,2016,production,80.0
 3621,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sesame,riverine,Gu,MAM,2016,Aug,2016,production,112.5
 3622,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Maize,riverine,Deyr,OND,2016,Feb,2017,production,165.0
-3623,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,WaterMelon,riverine,Deyr,OND,2016,Feb,2017,production,200.0
-3624,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,WaterMelon,riverine,Gu,MAM,2016,Aug,2016,production,200.0
+3623,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,WaterMelon,riverine,Gu,MAM,2016,Aug,2016,production,200.0
+3624,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,WaterMelon,riverine,Deyr,OND,2016,Feb,2017,production,200.0
 3625,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sorghum,riverine,Deyr,OND,2016,Feb,2017,production,210.0
 3626,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Maize,riverine,Gu,MAM,2016,Aug,2016,production,350.0
 3627,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Onion,riverine,Gu,MAM,2016,Aug,2016,production,750.0
@@ -3640,8 +3640,8 @@
 3638,SO1990A22102,Somalia,Central,Middle Shabelle,Aadan Yabaal,Sorghum,agro_pastoral,Gu,MAM,2016,Aug,2016,production,10.0
 3639,SO1990A22102,Somalia,Central,Middle Shabelle,Aadan Yabaal,Cowpea,agro_pastoral,Gu,MAM,2016,Aug,2016,production,10.0
 3640,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sesame,riverine,Deyr,OND,2016,Feb,2017,production,100.0
-3641,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Cowpea,riverine,Deyr,OND,2016,Feb,2017,production,120.0
-3642,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Cowpea,riverine,Gu,MAM,2016,Aug,2016,production,120.0
+3641,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Cowpea,riverine,Gu,MAM,2016,Aug,2016,production,120.0
+3642,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Cowpea,riverine,Deyr,OND,2016,Feb,2017,production,120.0
 3643,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sorghum,agro_pastoral,Deyr,OND,2016,Feb,2017,production,150.0
 3644,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sesame,riverine,Gu,MAM,2016,Aug,2016,production,200.0
 3645,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sorghum,agro_pastoral,Gu,MAM,2016,Aug,2016,production,300.0
@@ -3779,8 +3779,8 @@
 3777,SO1990A22602,Somalia,South,Gedo,Baardheere,Onion,agro_pastoral,Deyr,OND,2016,Feb,2017,production,1235.0
 3778,SO1990A22602,Somalia,South,Gedo,Baardheere,Onion,agro_pastoral,Gu,MAM,2016,Aug,2016,production,1820.0
 3779,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Cowpea,agro_pastoral,Deyr,OND,2016,Feb,2017,production,0.3
-3780,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Cowpea,agro_pastoral,Gu,MAM,2016,Aug,2016,production,1.0
-3781,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Cowpea,riverine,Gu,MAM,2016,Aug,2016,production,1.0
+3780,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Cowpea,riverine,Gu,MAM,2016,Aug,2016,production,1.0
+3781,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Cowpea,agro_pastoral,Gu,MAM,2016,Aug,2016,production,1.0
 3782,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Sorghum,agro_pastoral,Gu,MAM,2016,Aug,2016,production,14.0
 3783,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Maize,riverine,Deyr,OND,2016,Feb,2017,production,35.0
 3784,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Maize,riverine,Gu,MAM,2016,Aug,2016,production,49.0
@@ -3790,8 +3790,8 @@
 3788,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Tomatoe,agro_pastoral,Deyr,OND,2016,Feb,2017,production,825.0
 3789,SO1990A22605,Somalia,South,Gedo,Doolow,Cowpea,agro_pastoral,Gu,MAM,2016,Aug,2016,production,3.5
 3790,SO1990A22605,Somalia,South,Gedo,Doolow,Cowpea,riverine,Deyr,OND,2016,Feb,2017,production,6.0
-3791,SO1990A22605,Somalia,South,Gedo,Doolow,Sorghum,agro_pastoral,Gu,MAM,2016,Aug,2016,production,8.0
-3792,SO1990A22605,Somalia,South,Gedo,Doolow,Cowpea,riverine,Gu,MAM,2016,Aug,2016,production,8.0
+3791,SO1990A22605,Somalia,South,Gedo,Doolow,Cowpea,riverine,Gu,MAM,2016,Aug,2016,production,8.0
+3792,SO1990A22605,Somalia,South,Gedo,Doolow,Sorghum,agro_pastoral,Gu,MAM,2016,Aug,2016,production,8.0
 3793,SO1990A22605,Somalia,South,Gedo,Doolow,Maize,riverine,Deyr,OND,2016,Feb,2017,production,240.0
 3794,SO1990A22605,Somalia,South,Gedo,Doolow,Tomatoe,agro_pastoral,Deyr,OND,2016,Feb,2017,production,300.0
 3795,SO1990A22605,Somalia,South,Gedo,Doolow,Tomatoe,agro_pastoral,Gu,MAM,2016,Aug,2016,production,300.0
@@ -3813,8 +3813,8 @@
 3811,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Cowpea,agro_pastoral,Gu,MAM,2016,Aug,2016,production,20.0
 3812,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sesame,riverine,Deyr,OND,2016,Feb,2017,production,30.0
 3813,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Cowpea,riverine,Gu,MAM,2016,Aug,2016,production,90.0
-3814,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sesame,agro_pastoral,Gu,MAM,2016,Aug,2016,production,100.0
-3815,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,agro_pastoral,Deyr,OND,2016,Feb,2017,production,100.0
+3814,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,agro_pastoral,Deyr,OND,2016,Feb,2017,production,100.0
+3815,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sesame,agro_pastoral,Gu,MAM,2016,Aug,2016,production,100.0
 3816,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,agro_pastoral,Gu,MAM,2016,Aug,2016,production,200.0
 3817,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,riverine,Deyr,OND,2016,Feb,2017,production,250.0
 3818,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,riverine,Gu,MAM,2016,Aug,2016,production,500.0
@@ -3933,8 +3933,8 @@
 3931,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Rice,riverine,Deyr,OND,2017,Feb,2018,production,2000.0
 3932,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Maize,riverine,Gu,MAM,2017,Aug,2017,production,3822.0
 3933,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Maize,riverine,Deyr,OND,2017,Feb,2018,production,4200.0
-3934,SO1990A22102,Somalia,Central,Middle Shabelle,Aadan Yabaal,Sorghum,agro_pastoral,Deyr,OND,2017,Feb,2018,production,60.0
-3935,SO1990A22102,Somalia,Central,Middle Shabelle,Aadan Yabaal,Cowpea,agro_pastoral,Deyr,OND,2017,Feb,2018,production,60.0
+3934,SO1990A22102,Somalia,Central,Middle Shabelle,Aadan Yabaal,Cowpea,agro_pastoral,Deyr,OND,2017,Feb,2018,production,60.0
+3935,SO1990A22102,Somalia,Central,Middle Shabelle,Aadan Yabaal,Sorghum,agro_pastoral,Deyr,OND,2017,Feb,2018,production,60.0
 3936,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Cowpea,riverine,Gu,MAM,2017,Aug,2017,production,30.0
 3937,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Cowpea,riverine,Deyr,OND,2017,Feb,2018,production,360.0
 3938,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sesame,riverine,Deyr,OND,2017,Feb,2018,production,500.0
@@ -4070,8 +4070,8 @@
 4068,SO1990A22602,Somalia,South,Gedo,Baardheere,Tomatoe,riverine,Gu,MAM,2017,Aug,2017,production,520.0
 4069,SO1990A22602,Somalia,South,Gedo,Baardheere,Tomatoe,riverine,Deyr,OND,2017,Feb,2018,production,600.0
 4070,SO1990A22602,Somalia,South,Gedo,Baardheere,Maize,riverine,Gu,MAM,2017,Aug,2017,production,875.0
-4071,SO1990A22602,Somalia,South,Gedo,Baardheere,Onion,riverine,Deyr,OND,2017,Feb,2018,production,1200.0
-4072,SO1990A22602,Somalia,South,Gedo,Baardheere,Sorghum,agro_pastoral,Gu,MAM,2017,Aug,2017,production,1200.0
+4071,SO1990A22602,Somalia,South,Gedo,Baardheere,Sorghum,agro_pastoral,Gu,MAM,2017,Aug,2017,production,1200.0
+4072,SO1990A22602,Somalia,South,Gedo,Baardheere,Onion,riverine,Deyr,OND,2017,Feb,2018,production,1200.0
 4073,SO1990A22602,Somalia,South,Gedo,Baardheere,Sorghum,agro_pastoral,Deyr,OND,2017,Feb,2018,production,1680.0
 4074,SO1990A22602,Somalia,South,Gedo,Baardheere,Onion,riverine,Gu,MAM,2017,Aug,2017,production,1885.0
 4075,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Cowpea,agro_pastoral,Deyr,OND,2017,Feb,2018,production,0.3
@@ -4123,11 +4123,11 @@
 4121,SO1990A22702,Somalia,South,Middle Juba,Jilib,Maize,riverine,Deyr,OND,2017,Feb,2018,production,2000.0
 4122,SO1990A22702,Somalia,South,Middle Juba,Jilib,Maize,riverine,Gu,MAM,2017,Aug,2017,production,2800.0
 4123,SO1990A22703,Somalia,South,Middle Juba,Saakow,Cowpea,riverine,Deyr,OND,2017,Feb,2018,production,20.0
-4124,SO1990A22703,Somalia,South,Middle Juba,Saakow,Cowpea,riverine,Gu,MAM,2017,Aug,2017,production,200.0
-4125,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,agro_pastoral,Gu,MAM,2017,Aug,2017,production,200.0
-4126,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sorghum,agro_pastoral,Deyr,OND,2017,Feb,2018,production,400.0
+4124,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,agro_pastoral,Gu,MAM,2017,Aug,2017,production,200.0
+4125,SO1990A22703,Somalia,South,Middle Juba,Saakow,Cowpea,riverine,Gu,MAM,2017,Aug,2017,production,200.0
+4126,SO1990A22703,Somalia,South,Middle Juba,Saakow,Cowpea,agro_pastoral,Deyr,OND,2017,Feb,2018,production,400.0
 4127,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,agro_pastoral,Deyr,OND,2017,Feb,2018,production,400.0
-4128,SO1990A22703,Somalia,South,Middle Juba,Saakow,Cowpea,agro_pastoral,Deyr,OND,2017,Feb,2018,production,400.0
+4128,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sorghum,agro_pastoral,Deyr,OND,2017,Feb,2018,production,400.0
 4129,SO1990A22703,Somalia,South,Middle Juba,Saakow,Maize,riverine,Deyr,OND,2017,Feb,2018,production,1200.0
 4130,SO1990A22703,Somalia,South,Middle Juba,Saakow,Maize,riverine,Gu,MAM,2017,Aug,2017,production,1400.0
 4131,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sorghum,agro_pastoral,Gu,MAM,2017,Aug,2017,production,1840.0
@@ -4204,8 +4204,8 @@
 4202,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sesame,riverine,Gu,MAM,2018,Aug,2018,production,180.0
 4203,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Maize,riverine,Gu,MAM,2018,Aug,2018,production,200.0
 4204,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sorghum,agro_pastoral,Gu,MAM,2018,Aug,2018,production,240.0
-4205,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Tomatoe,riverine,Gu,MAM,2018,Aug,2018,production,350.0
-4206,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Tomatoe,riverine,Deyr,OND,2018,Feb,2019,production,350.0
+4205,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Tomatoe,riverine,Deyr,OND,2018,Feb,2019,production,350.0
+4206,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Tomatoe,riverine,Gu,MAM,2018,Aug,2018,production,350.0
 4207,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sorghum,riverine,Gu,MAM,2018,Aug,2018,production,390.0
 4208,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,WaterMelon,riverine,Deyr,OND,2018,Feb,2019,production,840.0
 4209,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sorghum,riverine,Deyr,OND,2018,Feb,2019,production,1080.0
@@ -4234,8 +4234,8 @@
 4232,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Tomatoe,riverine,Deyr,OND,2018,Feb,2019,production,82.5
 4233,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Tomatoe,riverine,Gu,MAM,2018,Aug,2018,production,132.0
 4234,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Maize,riverine,Deyr,OND,2018,Feb,2019,production,180.0
-4235,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,WaterMelon,riverine,Deyr,OND,2018,Feb,2019,production,200.0
-4236,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,WaterMelon,riverine,Gu,MAM,2018,Aug,2018,production,200.0
+4235,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,WaterMelon,riverine,Gu,MAM,2018,Aug,2018,production,200.0
+4236,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,WaterMelon,riverine,Deyr,OND,2018,Feb,2019,production,200.0
 4237,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sorghum,riverine,Gu,MAM,2018,Aug,2018,production,315.0
 4238,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Maize,riverine,Gu,MAM,2018,Aug,2018,production,337.5
 4239,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sesame,riverine,Gu,MAM,2018,Aug,2018,production,350.0
@@ -4246,8 +4246,8 @@
 4244,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Cowpea,agro_pastoral,Gu,MAM,2018,Aug,2018,production,150.0
 4245,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Cowpea,riverine,Gu,MAM,2018,Aug,2018,production,180.0
 4246,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Rice,riverine,Gu,MAM,2018,Aug,2018,production,200.0
-4247,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sesame,agro_pastoral,Gu,MAM,2018,Aug,2018,production,480.0
-4248,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Cowpea,riverine,Deyr,OND,2018,Feb,2019,production,480.0
+4247,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Cowpea,riverine,Deyr,OND,2018,Feb,2019,production,480.0
+4248,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sesame,agro_pastoral,Gu,MAM,2018,Aug,2018,production,480.0
 4249,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sesame,agro_pastoral,Deyr,OND,2018,Feb,2019,production,700.0
 4250,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sesame,riverine,Deyr,OND,2018,Feb,2019,production,855.0
 4251,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sorghum,agro_pastoral,Deyr,OND,2018,Feb,2019,production,1080.0
@@ -4275,8 +4275,8 @@
 4273,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Cowpea,agro_pastoral,Deyr,OND,2018,Feb,2019,production,28.5
 4274,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Cowpea,agro_pastoral,Gu,MAM,2018,Aug,2018,production,60.0
 4275,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Cowpea,agro_pastoral,Gu,MAM,2018,Aug,2018,production,75.0
-4276,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Maize,agro_pastoral,Gu,MAM,2018,Aug,2018,production,350.0
-4277,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Sesame,riverine,Gu,MAM,2018,Aug,2018,production,350.0
+4276,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Sesame,riverine,Gu,MAM,2018,Aug,2018,production,350.0
+4277,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Maize,agro_pastoral,Gu,MAM,2018,Aug,2018,production,350.0
 4278,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Cowpea,riverine,Deyr,OND,2018,Feb,2019,production,460.0
 4279,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Cowpea,riverine,Gu,MAM,2018,Aug,2018,production,780.0
 4280,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Sorghum,agro_pastoral,Gu,MAM,2018,Aug,2018,production,900.0
@@ -4368,8 +4368,8 @@
 4366,SO1990A22403,Somalia,South,Bay,Diinsoor,Sorghum,agro_pastoral,Gu,MAM,2018,Aug,2018,production,9000.0
 4367,SO1990A22404,Somalia,South,Bay,Qansax Dheere,GroundNuts,agro_pastoral,Deyr,OND,2018,Feb,2019,production,48.0
 4368,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Cowpea,agro_pastoral,Deyr,OND,2018,Feb,2019,production,196.25
-4369,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Sesame,agro_pastoral,Deyr,OND,2018,Feb,2019,production,300.0
-4370,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Maize,agro_pastoral,Deyr,OND,2018,Feb,2019,production,300.0
+4369,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Maize,agro_pastoral,Deyr,OND,2018,Feb,2019,production,300.0
+4370,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Sesame,agro_pastoral,Deyr,OND,2018,Feb,2019,production,300.0
 4371,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Sesame,agro_pastoral,Gu,MAM,2018,Aug,2018,production,480.0
 4372,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Cowpea,agro_pastoral,Gu,MAM,2018,Aug,2018,production,857.5
 4373,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Maize,agro_pastoral,Gu,MAM,2018,Aug,2018,production,2000.0
@@ -4399,8 +4399,8 @@
 4397,SO1990A22505,Somalia,South,Bakool,Rabdhuure,Maize,agro_pastoral,Gu,MAM,2018,Aug,2018,production,14.0
 4398,SO1990A22505,Somalia,South,Bakool,Rabdhuure,Sorghum,agro_pastoral,Deyr,OND,2018,Feb,2019,production,100.0
 4399,SO1990A22505,Somalia,South,Bakool,Rabdhuure,Sorghum,agro_pastoral,Gu,MAM,2018,Aug,2018,production,150.0
-4400,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,riverine,Gu,MAM,2018,Aug,2018,production,5.0
-4401,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,agro_pastoral,Gu,MAM,2018,Aug,2018,production,5.0
+4400,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,agro_pastoral,Gu,MAM,2018,Aug,2018,production,5.0
+4401,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,riverine,Gu,MAM,2018,Aug,2018,production,5.0
 4402,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,riverine,Deyr,OND,2018,Feb,2019,production,10.0
 4403,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,agro_pastoral,Deyr,OND,2018,Feb,2019,production,12.0
 4404,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Tomatoe,riverine,Gu,MAM,2018,Aug,2018,production,65.0
@@ -4431,8 +4431,8 @@
 4429,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Maize,riverine,Gu,MAM,2018,Aug,2018,production,6.0
 4430,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Cowpea,agro_pastoral,Gu,MAM,2018,Aug,2018,production,7.0
 4431,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Sorghum,agro_pastoral,Deyr,OND,2018,Feb,2019,production,56.0
-4432,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Sorghum,agro_pastoral,Gu,MAM,2018,Aug,2018,production,60.0
-4433,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Onion,riverine,Gu,MAM,2018,Aug,2018,production,60.0
+4432,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Onion,riverine,Gu,MAM,2018,Aug,2018,production,60.0
+4433,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Sorghum,agro_pastoral,Gu,MAM,2018,Aug,2018,production,60.0
 4434,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Maize,riverine,Deyr,OND,2018,Feb,2019,production,105.0
 4435,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Tomatoe,riverine,Gu,MAM,2018,Aug,2018,production,130.0
 4436,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Tomatoe,riverine,Deyr,OND,2018,Feb,2019,production,240.0
@@ -4455,8 +4455,8 @@
 4453,SO1990A22606,Somalia,South,Gedo,Luuq,Cowpea,agro_pastoral,Deyr,OND,2018,Feb,2019,production,18.0
 4454,SO1990A22606,Somalia,South,Gedo,Luuq,Sorghum,agro_pastoral,Gu,MAM,2018,Aug,2018,production,92.0
 4455,SO1990A22606,Somalia,South,Gedo,Luuq,Tomatoe,riverine,Gu,MAM,2018,Aug,2018,production,130.0
-4456,SO1990A22606,Somalia,South,Gedo,Luuq,Maize,riverine,Gu,MAM,2018,Aug,2018,production,240.0
-4457,SO1990A22606,Somalia,South,Gedo,Luuq,Sorghum,agro_pastoral,Deyr,OND,2018,Feb,2019,production,240.0
+4456,SO1990A22606,Somalia,South,Gedo,Luuq,Sorghum,agro_pastoral,Deyr,OND,2018,Feb,2019,production,240.0
+4457,SO1990A22606,Somalia,South,Gedo,Luuq,Maize,riverine,Gu,MAM,2018,Aug,2018,production,240.0
 4458,SO1990A22606,Somalia,South,Gedo,Luuq,Onion,riverine,Gu,MAM,2018,Aug,2018,production,325.0
 4459,SO1990A22606,Somalia,South,Gedo,Luuq,Maize,riverine,Deyr,OND,2018,Feb,2019,production,525.0
 4460,SO1990A22606,Somalia,South,Gedo,Luuq,Tomatoe,riverine,Deyr,OND,2018,Feb,2019,production,1040.0
@@ -4473,11 +4473,11 @@
 4471,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,agro_pastoral,Gu,MAM,2018,Aug,2018,production,480.0
 4472,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,riverine,Deyr,OND,2018,Feb,2019,production,550.0
 4473,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,agro_pastoral,Gu,MAM,2018,Aug,2018,production,720.0
-4474,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sesame,riverine,Gu,MAM,2018,Aug,2018,production,800.0
-4475,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,riverine,Gu,MAM,2018,Aug,2018,production,800.0
+4474,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,riverine,Gu,MAM,2018,Aug,2018,production,800.0
+4475,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sesame,riverine,Gu,MAM,2018,Aug,2018,production,800.0
 4476,SO1990A22702,Somalia,South,Middle Juba,Jilib,Cowpea,agro_pastoral,Deyr,OND,2018,Feb,2019,production,6.0
-4477,SO1990A22702,Somalia,South,Middle Juba,Jilib,Sesame,agro_pastoral,Deyr,OND,2018,Feb,2019,production,12.0
-4478,SO1990A22702,Somalia,South,Middle Juba,Jilib,Maize,agro_pastoral,Deyr,OND,2018,Feb,2019,production,12.0
+4477,SO1990A22702,Somalia,South,Middle Juba,Jilib,Maize,agro_pastoral,Deyr,OND,2018,Feb,2019,production,12.0
+4478,SO1990A22702,Somalia,South,Middle Juba,Jilib,Sesame,agro_pastoral,Deyr,OND,2018,Feb,2019,production,12.0
 4479,SO1990A22702,Somalia,South,Middle Juba,Jilib,Cowpea,riverine,Gu,MAM,2018,Aug,2018,production,80.0
 4480,SO1990A22702,Somalia,South,Middle Juba,Jilib,Cowpea,riverine,Deyr,OND,2018,Feb,2019,production,105.0
 4481,SO1990A22702,Somalia,South,Middle Juba,Jilib,Cowpea,agro_pastoral,Gu,MAM,2018,Aug,2018,production,210.0
@@ -4495,8 +4495,8 @@
 4493,SO1990A22703,Somalia,South,Middle Juba,Saakow,Maize,riverine,Deyr,OND,2018,Feb,2019,production,250.0
 4494,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,agro_pastoral,Deyr,OND,2018,Feb,2019,production,320.0
 4495,SO1990A22703,Somalia,South,Middle Juba,Saakow,Cowpea,agro_pastoral,Gu,MAM,2018,Aug,2018,production,480.0
-4496,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,agro_pastoral,Gu,MAM,2018,Aug,2018,production,600.0
-4497,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,riverine,Gu,MAM,2018,Aug,2018,production,600.0
+4496,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,riverine,Gu,MAM,2018,Aug,2018,production,600.0
+4497,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,agro_pastoral,Gu,MAM,2018,Aug,2018,production,600.0
 4498,SO1990A22703,Somalia,South,Middle Juba,Saakow,Maize,riverine,Gu,MAM,2018,Aug,2018,production,640.0
 4499,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sorghum,agro_pastoral,Deyr,OND,2018,Feb,2019,production,1400.0
 4500,SO1990A22703,Somalia,South,Middle Juba,Saakow,Maize,agro_pastoral,Gu,MAM,2018,Aug,2018,production,1440.0
@@ -4517,8 +4517,8 @@
 4515,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sesame,agro_pastoral,Deyr,OND,2018,Feb,2019,production,2.4
 4516,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Cowpea,agro_pastoral,Deyr,OND,2018,Feb,2019,production,7.6
 4517,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Cowpea,agro_pastoral,Gu,MAM,2018,Aug,2018,production,16.0
-4518,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,riverine,Deyr,OND,2018,Feb,2019,production,19.2
-4519,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Cowpea,riverine,Deyr,OND,2018,Feb,2019,production,19.2
+4518,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Cowpea,riverine,Deyr,OND,2018,Feb,2019,production,19.2
+4519,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,riverine,Deyr,OND,2018,Feb,2019,production,19.2
 4520,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Cowpea,riverine,Gu,MAM,2018,Aug,2018,production,26.8
 4521,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sesame,riverine,Gu,MAM,2018,Aug,2018,production,30.0
 4522,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sesame,riverine,Deyr,OND,2018,Feb,2019,production,48.0
@@ -4587,8 +4587,8 @@
 4585,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Cowpea,riverine,Deyr,OND,2019,Feb,2020,production,26.5
 4586,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Tomatoe,riverine,Deyr,OND,2019,Feb,2020,production,60.0
 4587,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sorghum,agro_pastoral,Gu,MAM,2019,Aug,2019,production,120.0
-4588,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Maize,riverine,Gu,MAM,2019,Aug,2019,production,185.0
-4589,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sesame,riverine,Gu,MAM,2019,Aug,2019,production,185.0
+4588,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sesame,riverine,Gu,MAM,2019,Aug,2019,production,185.0
+4589,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Maize,riverine,Gu,MAM,2019,Aug,2019,production,185.0
 4590,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Tomatoe,riverine,Gu,MAM,2019,Aug,2019,production,195.0
 4591,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sesame,riverine,Deyr,OND,2019,Feb,2020,production,232.5
 4592,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,WaterMelon,riverine,Deyr,OND,2019,Feb,2020,production,285.0
@@ -4615,16 +4615,16 @@
 4613,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sorghum,agro_pastoral,Deyr,OND,2019,Feb,2020,production,920.0
 4614,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sorghum,riverine,Deyr,OND,2019,Feb,2020,production,995.0
 4615,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Onion,riverine,Gu,MAM,2019,Aug,2019,production,1240.0
-4616,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Cowpea,riverine,Deyr,OND,2019,Feb,2020,production,20.0
-4617,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Cowpea,agro_pastoral,Deyr,OND,2019,Feb,2020,production,20.0
+4616,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Cowpea,agro_pastoral,Deyr,OND,2019,Feb,2020,production,20.0
+4617,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Cowpea,riverine,Deyr,OND,2019,Feb,2020,production,20.0
 4618,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sesame,agro_pastoral,Gu,MAM,2019,Aug,2019,production,30.0
 4619,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Cowpea,riverine,Gu,MAM,2019,Aug,2019,production,67.0
 4620,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sesame,agro_pastoral,Deyr,OND,2019,Feb,2020,production,400.0
 4621,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sesame,riverine,Gu,MAM,2019,Aug,2019,production,640.0
 4622,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Maize,riverine,Deyr,OND,2019,Feb,2020,production,1000.0
 4623,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sesame,riverine,Deyr,OND,2019,Feb,2020,production,1125.0
-4624,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Rice,riverine,Deyr,OND,2019,Feb,2020,production,1800.0
-4625,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Rice,riverine,Gu,MAM,2019,Aug,2019,production,1800.0
+4624,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Rice,riverine,Gu,MAM,2019,Aug,2019,production,1800.0
+4625,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Rice,riverine,Deyr,OND,2019,Feb,2020,production,1800.0
 4626,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sorghum,agro_pastoral,Deyr,OND,2019,Feb,2020,production,1805.0
 4627,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Maize,riverine,Gu,MAM,2019,Aug,2019,production,2250.0
 4628,SO1990A22102,Somalia,Central,Middle Shabelle,Aadan Yabaal,Sorghum,agro_pastoral,Gu,MAM,2019,Aug,2019,production,15.0
@@ -4668,8 +4668,8 @@
 4666,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Cowpea,agro_pastoral,Deyr,OND,2019,Feb,2020,production,12.0
 4667,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Cowpea,riverine,Deyr,OND,2019,Feb,2020,production,60.0
 4668,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Cowpea,riverine,Gu,MAM,2019,Aug,2019,production,95.0
-4669,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Maize,agro_pastoral,Gu,MAM,2019,Aug,2019,production,240.0
-4670,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Maize,agro_pastoral,Deyr,OND,2019,Feb,2020,production,240.0
+4669,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Maize,agro_pastoral,Deyr,OND,2019,Feb,2020,production,240.0
+4670,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Maize,agro_pastoral,Gu,MAM,2019,Aug,2019,production,240.0
 4671,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Sesame,agro_pastoral,Deyr,OND,2019,Feb,2020,production,300.0
 4672,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Sesame,riverine,Gu,MAM,2019,Aug,2019,production,370.0
 4673,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Sesame,riverine,Deyr,OND,2019,Feb,2020,production,1297.5
@@ -4700,8 +4700,8 @@
 4698,SO1990A22307,Somalia,South,Lower Shabelle,Wanla Weyn,Sorghum,agro_pastoral,Gu,MAM,2019,Aug,2019,production,4800.0
 4699,SO1990A22307,Somalia,South,Lower Shabelle,Wanla Weyn,Sorghum,agro_pastoral,Deyr,OND,2019,Feb,2020,production,8412.0
 4700,SO1990A22401,Somalia,South,Bay,Baydhabo,Sesame,agro_pastoral,Gu,MAM,2019,Aug,2019,production,90.0
-4701,SO1990A22401,Somalia,South,Bay,Baydhabo,Cowpea,agro_pastoral,Gu,MAM,2019,Aug,2019,production,150.0
-4702,SO1990A22401,Somalia,South,Bay,Baydhabo,GroundNuts,agro_pastoral,Gu,MAM,2019,Aug,2019,production,150.0
+4701,SO1990A22401,Somalia,South,Bay,Baydhabo,GroundNuts,agro_pastoral,Gu,MAM,2019,Aug,2019,production,150.0
+4702,SO1990A22401,Somalia,South,Bay,Baydhabo,Cowpea,agro_pastoral,Gu,MAM,2019,Aug,2019,production,150.0
 4703,SO1990A22401,Somalia,South,Bay,Baydhabo,Maize,agro_pastoral,Gu,MAM,2019,Aug,2019,production,450.0
 4704,SO1990A22401,Somalia,South,Bay,Baydhabo,GroundNuts,agro_pastoral,Deyr,OND,2019,Feb,2020,production,800.0
 4705,SO1990A22401,Somalia,South,Bay,Baydhabo,Sesame,agro_pastoral,Deyr,OND,2019,Feb,2020,production,960.0
@@ -4729,8 +4729,8 @@
 4727,SO1990A22404,Somalia,South,Bay,Qansax Dheere,GroundNuts,agro_pastoral,Gu,MAM,2019,Aug,2019,production,60.0
 4728,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Sesame,agro_pastoral,Gu,MAM,2019,Aug,2019,production,90.0
 4729,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Cowpea,agro_pastoral,Gu,MAM,2019,Aug,2019,production,140.0
-4730,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Sesame,agro_pastoral,Deyr,OND,2019,Feb,2020,production,225.0
-4731,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Maize,agro_pastoral,Gu,MAM,2019,Aug,2019,production,225.0
+4730,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Maize,agro_pastoral,Gu,MAM,2019,Aug,2019,production,225.0
+4731,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Sesame,agro_pastoral,Deyr,OND,2019,Feb,2020,production,225.0
 4732,SO1990A22404,Somalia,South,Bay,Qansax Dheere,GroundNuts,agro_pastoral,Deyr,OND,2019,Feb,2020,production,480.0
 4733,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Cowpea,agro_pastoral,Deyr,OND,2019,Feb,2020,production,560.0
 4734,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Maize,agro_pastoral,Deyr,OND,2019,Feb,2020,production,1280.0
@@ -4968,8 +4968,8 @@
 4966,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Maize,riverine,Deyr,OND,2020,Feb,2021,production,1850.0
 4967,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Maize,riverine,Gu,MAM,2020,Aug,2020,production,2480.0
 4968,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Sorghum,agro_pastoral,Gu,MAM,2020,Aug,2020,production,20.0
-4969,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Cowpea,agro_pastoral,Deyr,OND,2020,Feb,2021,production,30.0
-4970,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Sorghum,agro_pastoral,Deyr,OND,2020,Feb,2021,production,30.0
+4969,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Sorghum,agro_pastoral,Deyr,OND,2020,Feb,2021,production,30.0
+4970,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Cowpea,agro_pastoral,Deyr,OND,2020,Feb,2021,production,30.0
 4971,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Cowpea,agro_pastoral,Gu,MAM,2020,Aug,2020,production,60.0
 4972,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Cowpea,riverine,Gu,MAM,2020,Aug,2020,production,140.0
 4973,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Cowpea,riverine,Deyr,OND,2020,Feb,2021,production,340.0
@@ -5015,8 +5015,8 @@
 5013,SO1990A22306,Somalia,South,Lower Shabelle,Sablaale,Maize,riverine,Deyr,OND,2020,Feb,2021,production,800.0
 5014,SO1990A22306,Somalia,South,Lower Shabelle,Sablaale,Maize,riverine,Gu,MAM,2020,Aug,2020,production,3600.0
 5015,SO1990A22307,Somalia,South,Lower Shabelle,Wanla Weyn,Maize,agro_pastoral,Gu,MAM,2020,Aug,2020,production,45.0
-5016,SO1990A22307,Somalia,South,Lower Shabelle,Wanla Weyn,Cowpea,agro_pastoral,Deyr,OND,2020,Feb,2021,production,240.0
-5017,SO1990A22307,Somalia,South,Lower Shabelle,Wanla Weyn,Cowpea,agro_pastoral,Gu,MAM,2020,Aug,2020,production,240.0
+5016,SO1990A22307,Somalia,South,Lower Shabelle,Wanla Weyn,Cowpea,agro_pastoral,Gu,MAM,2020,Aug,2020,production,240.0
+5017,SO1990A22307,Somalia,South,Lower Shabelle,Wanla Weyn,Cowpea,agro_pastoral,Deyr,OND,2020,Feb,2021,production,240.0
 5018,SO1990A22307,Somalia,South,Lower Shabelle,Wanla Weyn,Maize,agro_pastoral,Deyr,OND,2020,Feb,2021,production,300.0
 5019,SO1990A22307,Somalia,South,Lower Shabelle,Wanla Weyn,Sesame,agro_pastoral,Gu,MAM,2020,Aug,2020,production,405.0
 5020,SO1990A22307,Somalia,South,Lower Shabelle,Wanla Weyn,Sesame,agro_pastoral,Deyr,OND,2020,Feb,2021,production,960.0
@@ -5093,8 +5093,8 @@
 5091,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Onion,riverine,Gu,MAM,2020,Aug,2020,production,1400.0
 5092,SO1990A22602,Somalia,South,Gedo,Baardheere,Cowpea,riverine,Gu,MAM,2020,Aug,2020,production,10.0
 5093,SO1990A22602,Somalia,South,Gedo,Baardheere,Cowpea,riverine,Deyr,OND,2020,Feb,2021,production,10.0
-5094,SO1990A22602,Somalia,South,Gedo,Baardheere,Sesame,riverine,Gu,MAM,2020,Aug,2020,production,20.0
-5095,SO1990A22602,Somalia,South,Gedo,Baardheere,Cowpea,agro_pastoral,Deyr,OND,2020,Feb,2021,production,20.0
+5094,SO1990A22602,Somalia,South,Gedo,Baardheere,Cowpea,agro_pastoral,Deyr,OND,2020,Feb,2021,production,20.0
+5095,SO1990A22602,Somalia,South,Gedo,Baardheere,Sesame,riverine,Gu,MAM,2020,Aug,2020,production,20.0
 5096,SO1990A22602,Somalia,South,Gedo,Baardheere,Sesame,agro_pastoral,Deyr,OND,2020,Feb,2021,production,120.0
 5097,SO1990A22602,Somalia,South,Gedo,Baardheere,Maize,riverine,Deyr,OND,2020,Feb,2021,production,493.0
 5098,SO1990A22602,Somalia,South,Gedo,Baardheere,Tomatoe,riverine,Deyr,OND,2020,Feb,2021,production,640.0
@@ -5156,8 +5156,8 @@
 5154,SO1990A22703,Somalia,South,Middle Juba,Saakow,Maize,riverine,Gu,MAM,2020,Aug,2020,production,800.0
 5155,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sorghum,agro_pastoral,Deyr,OND,2020,Feb,2021,production,855.0
 5156,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Cowpea,agro_pastoral,Deyr,OND,2020,Feb,2021,production,0.9
-5157,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Sesame,agro_pastoral,Deyr,OND,2020,Feb,2021,production,1.5
-5158,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Sesame,agro_pastoral,Gu,MAM,2020,Aug,2020,production,1.5
+5157,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Sesame,agro_pastoral,Gu,MAM,2020,Aug,2020,production,1.5
+5158,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Sesame,agro_pastoral,Deyr,OND,2020,Feb,2021,production,1.5
 5159,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Cowpea,agro_pastoral,Gu,MAM,2020,Aug,2020,production,3.0
 5160,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,agro_pastoral,Deyr,OND,2020,Feb,2021,production,7.0
 5161,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Sesame,riverine,Deyr,OND,2020,Feb,2021,production,21.5
@@ -5176,8 +5176,8 @@
 5174,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Cowpea,riverine,Gu,MAM,2020,Aug,2020,production,26.4
 5175,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Cowpea,agro_pastoral,Gu,MAM,2020,Aug,2020,production,50.1
 5176,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,agro_pastoral,Gu,MAM,2020,Aug,2020,production,56.0
-5177,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sesame,riverine,Gu,MAM,2020,Aug,2020,production,83.0
-5178,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sesame,riverine,Deyr,OND,2020,Feb,2021,production,83.0
+5177,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sesame,riverine,Deyr,OND,2020,Feb,2021,production,83.0
+5178,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sesame,riverine,Gu,MAM,2020,Aug,2020,production,83.0
 5179,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sorghum,agro_pastoral,Gu,MAM,2020,Aug,2020,production,120.0
 5180,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,riverine,Gu,MAM,2020,Aug,2020,production,216.0
 5181,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,riverine,Deyr,OND,2020,Feb,2021,production,219.0
@@ -5191,8 +5191,8 @@
 5189,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Cowpea,agro_pastoral,Gu,MAM,2020,Aug,2020,production,75.0
 5190,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Cowpea,riverine,Gu,MAM,2020,Aug,2020,production,80.1
 5191,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Cowpea,agro_pastoral,Deyr,OND,2020,Feb,2021,production,90.75
-5192,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sesame,riverine,Gu,MAM,2020,Aug,2020,production,129.0
-5193,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sesame,agro_pastoral,Deyr,OND,2020,Feb,2021,production,129.0
+5192,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sesame,agro_pastoral,Deyr,OND,2020,Feb,2021,production,129.0
+5193,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sesame,riverine,Gu,MAM,2020,Aug,2020,production,129.0
 5194,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Maize,agro_pastoral,Deyr,OND,2020,Feb,2021,production,307.0
 5195,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Cowpea,riverine,Deyr,OND,2020,Feb,2021,production,321.9
 5196,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Maize,agro_pastoral,Gu,MAM,2020,Aug,2020,production,630.0
@@ -5272,8 +5272,8 @@
 5270,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Maize,riverine,Gu,MAM,2021,Aug,2021,production,5100.0
 5271,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sorghum,agro_pastoral,Deyr,OND,2021,Feb,2022,production,20.0
 5272,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sesame,riverine,Deyr,OND,2021,Feb,2022,production,35.0
-5273,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Cowpea,riverine,Deyr,OND,2021,Feb,2022,production,40.0
-5274,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sorghum,agro_pastoral,Gu,MAM,2021,Aug,2021,production,40.0
+5273,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sorghum,agro_pastoral,Gu,MAM,2021,Aug,2021,production,40.0
+5274,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Cowpea,riverine,Deyr,OND,2021,Feb,2022,production,40.0
 5275,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sesame,riverine,Gu,MAM,2021,Aug,2021,production,90.0
 5276,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Cowpea,riverine,Gu,MAM,2021,Aug,2021,production,180.0
 5277,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sesame,agro_pastoral,Gu,MAM,2021,Aug,2021,production,502.0
@@ -5339,8 +5339,8 @@
 5337,SO1990A22401,Somalia,South,Bay,Baydhabo,Sesame,agro_pastoral,Gu,MAM,2021,Aug,2021,production,90.0
 5338,SO1990A22401,Somalia,South,Bay,Baydhabo,GroundNuts,agro_pastoral,Deyr,OND,2021,Feb,2022,production,100.0
 5339,SO1990A22401,Somalia,South,Bay,Baydhabo,Maize,agro_pastoral,Deyr,OND,2021,Feb,2022,production,120.0
-5340,SO1990A22401,Somalia,South,Bay,Baydhabo,Cowpea,agro_pastoral,Gu,MAM,2021,Aug,2021,production,150.0
-5341,SO1990A22401,Somalia,South,Bay,Baydhabo,Cowpea,agro_pastoral,Deyr,OND,2021,Feb,2022,production,150.0
+5340,SO1990A22401,Somalia,South,Bay,Baydhabo,Cowpea,agro_pastoral,Deyr,OND,2021,Feb,2022,production,150.0
+5341,SO1990A22401,Somalia,South,Bay,Baydhabo,Cowpea,agro_pastoral,Gu,MAM,2021,Aug,2021,production,150.0
 5342,SO1990A22401,Somalia,South,Bay,Baydhabo,GroundNuts,agro_pastoral,Gu,MAM,2021,Aug,2021,production,150.0
 5343,SO1990A22401,Somalia,South,Bay,Baydhabo,Maize,agro_pastoral,Gu,MAM,2021,Aug,2021,production,350.0
 5344,SO1990A22401,Somalia,South,Bay,Baydhabo,Sorghum,agro_pastoral,Gu,MAM,2021,Aug,2021,production,3250.0
@@ -5356,8 +5356,8 @@
 5354,SO1990A22403,Somalia,South,Bay,Diinsoor,Maize,agro_pastoral,Deyr,OND,2021,Feb,2022,production,30.0
 5355,SO1990A22403,Somalia,South,Bay,Diinsoor,GroundNuts,agro_pastoral,Gu,MAM,2021,Aug,2021,production,36.0
 5356,SO1990A22403,Somalia,South,Bay,Diinsoor,Sesame,agro_pastoral,Gu,MAM,2021,Aug,2021,production,108.0
-5357,SO1990A22403,Somalia,South,Bay,Diinsoor,Cowpea,agro_pastoral,Gu,MAM,2021,Aug,2021,production,120.0
-5358,SO1990A22403,Somalia,South,Bay,Diinsoor,Cowpea,agro_pastoral,Deyr,OND,2021,Feb,2022,production,120.0
+5357,SO1990A22403,Somalia,South,Bay,Diinsoor,Cowpea,agro_pastoral,Deyr,OND,2021,Feb,2022,production,120.0
+5358,SO1990A22403,Somalia,South,Bay,Diinsoor,Cowpea,agro_pastoral,Gu,MAM,2021,Aug,2021,production,120.0
 5359,SO1990A22403,Somalia,South,Bay,Diinsoor,Maize,agro_pastoral,Gu,MAM,2021,Aug,2021,production,180.0
 5360,SO1990A22403,Somalia,South,Bay,Diinsoor,Sorghum,agro_pastoral,Deyr,OND,2021,Feb,2022,production,800.0
 5361,SO1990A22403,Somalia,South,Bay,Diinsoor,Sorghum,agro_pastoral,Gu,MAM,2021,Aug,2021,production,2565.0
@@ -5404,8 +5404,8 @@
 5402,SO1990A22602,Somalia,South,Gedo,Baardheere,Maize,riverine,Gu,MAM,2021,Aug,2021,production,655.0
 5403,SO1990A22602,Somalia,South,Gedo,Baardheere,Tomatoe,riverine,Gu,MAM,2021,Aug,2021,production,1100.0
 5404,SO1990A22602,Somalia,South,Gedo,Baardheere,Tomatoe,riverine,Deyr,OND,2021,Feb,2022,production,1200.0
-5405,SO1990A22602,Somalia,South,Gedo,Baardheere,Onion,riverine,Gu,MAM,2021,Aug,2021,production,1800.0
-5406,SO1990A22602,Somalia,South,Gedo,Baardheere,Onion,riverine,Deyr,OND,2021,Feb,2022,production,1800.0
+5405,SO1990A22602,Somalia,South,Gedo,Baardheere,Onion,riverine,Deyr,OND,2021,Feb,2022,production,1800.0
+5406,SO1990A22602,Somalia,South,Gedo,Baardheere,Onion,riverine,Gu,MAM,2021,Aug,2021,production,1800.0
 5407,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Cowpea,riverine,Gu,MAM,2021,Aug,2021,production,4.0
 5408,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Cowpea,agro_pastoral,Deyr,OND,2021,Feb,2022,production,10.0
 5409,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Cowpea,riverine,Deyr,OND,2021,Feb,2022,production,10.0
@@ -5413,14 +5413,14 @@
 5411,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Maize,riverine,Deyr,OND,2021,Feb,2022,production,120.0
 5412,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Onion,riverine,Deyr,OND,2021,Feb,2022,production,300.0
 5413,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Tomatoe,riverine,Deyr,OND,2021,Feb,2022,production,480.0
-5414,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Onion,riverine,Gu,MAM,2021,Aug,2021,production,600.0
-5415,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Tomatoe,riverine,Gu,MAM,2021,Aug,2021,production,600.0
+5414,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Tomatoe,riverine,Gu,MAM,2021,Aug,2021,production,600.0
+5415,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Onion,riverine,Gu,MAM,2021,Aug,2021,production,600.0
 5416,SO1990A22605,Somalia,South,Gedo,Doolow,Cowpea,riverine,Deyr,OND,2021,Feb,2022,production,20.0
 5417,SO1990A22605,Somalia,South,Gedo,Doolow,Cowpea,riverine,Gu,MAM,2021,Aug,2021,production,30.0
 5418,SO1990A22605,Somalia,South,Gedo,Doolow,Maize,riverine,Gu,MAM,2021,Aug,2021,production,375.0
 5419,SO1990A22605,Somalia,South,Gedo,Doolow,Maize,riverine,Deyr,OND,2021,Feb,2022,production,380.0
-5420,SO1990A22605,Somalia,South,Gedo,Doolow,Tomatoe,riverine,Deyr,OND,2021,Feb,2022,production,600.0
-5421,SO1990A22605,Somalia,South,Gedo,Doolow,Tomatoe,riverine,Gu,MAM,2021,Aug,2021,production,600.0
+5420,SO1990A22605,Somalia,South,Gedo,Doolow,Tomatoe,riverine,Gu,MAM,2021,Aug,2021,production,600.0
+5421,SO1990A22605,Somalia,South,Gedo,Doolow,Tomatoe,riverine,Deyr,OND,2021,Feb,2022,production,600.0
 5422,SO1990A22605,Somalia,South,Gedo,Doolow,Onion,riverine,Deyr,OND,2021,Feb,2022,production,900.0
 5423,SO1990A22605,Somalia,South,Gedo,Doolow,Onion,riverine,Gu,MAM,2021,Aug,2021,production,1800.0
 5424,SO1990A22606,Somalia,South,Gedo,Luuq,Cowpea,riverine,Deyr,OND,2021,Feb,2022,production,20.0
@@ -5470,8 +5470,8 @@
 5468,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sorghum,agro_pastoral,Deyr,OND,2021,Feb,2022,production,120.0
 5469,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Sesame,agro_pastoral,Gu,MAM,2021,Aug,2021,production,3.0
 5470,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Cowpea,agro_pastoral,Deyr,OND,2021,Feb,2022,production,7.14
-5471,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Cowpea,agro_pastoral,Gu,MAM,2021,Aug,2021,production,30.0
-5472,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Maize,agro_pastoral,Deyr,OND,2021,Feb,2022,production,30.0
+5471,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Maize,agro_pastoral,Deyr,OND,2021,Feb,2022,production,30.0
+5472,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Cowpea,agro_pastoral,Gu,MAM,2021,Aug,2021,production,30.0
 5473,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Maize,agro_pastoral,Gu,MAM,2021,Aug,2021,production,140.0
 5474,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sesame,riverine,Gu,MAM,2021,Aug,2021,production,16.5
 5475,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sesame,agro_pastoral,Gu,MAM,2021,Aug,2021,production,24.0
@@ -5485,144 +5485,309 @@
 5483,SO1990A21101,Somalia,NorthWest,Awdal,Borama,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,2300.0
 5484,SO1990A21201,Somalia,NorthWest,Woqooyi Galbeed,Hargeysa,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,450.0
 5485,SO1990A21203,Somalia,NorthWest,Woqooyi Galbeed,Gabiley,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,5650.0
-5486,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,2.4
-5487,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,14.0
-5488,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Pepper,riverine,Gu,MAM,2022,Aug,2022,production,50.0
-5489,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Maize,riverine,Gu,MAM,2022,Aug,2022,production,180.0
-5490,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Tomatoe,riverine,Gu,MAM,2022,Aug,2022,production,300.0
-5491,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sorghum,riverine,Gu,MAM,2022,Aug,2022,production,400.0
-5492,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,WaterMelon,riverine,Gu,MAM,2022,Aug,2022,production,1425.0
-5493,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Onion,riverine,Gu,MAM,2022,Aug,2022,production,2175.0
-5494,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,7.0
-5495,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,12.5
-5496,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Pepper,riverine,Gu,MAM,2022,Aug,2022,production,18.0
-5497,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Tomatoe,riverine,Gu,MAM,2022,Aug,2022,production,165.0
-5498,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Maize,riverine,Gu,MAM,2022,Aug,2022,production,300.0
-5499,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sorghum,riverine,Gu,MAM,2022,Aug,2022,production,440.0
-5500,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,WaterMelon,riverine,Gu,MAM,2022,Aug,2022,production,840.0
-5501,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Onion,riverine,Gu,MAM,2022,Aug,2022,production,1500.0
-5502,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,8.75
-5503,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Pepper,riverine,Gu,MAM,2022,Aug,2022,production,12.0
-5504,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,15.0
-5505,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Tomatoe,riverine,Gu,MAM,2022,Aug,2022,production,122.5
-5506,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Maize,riverine,Gu,MAM,2022,Aug,2022,production,275.0
-5507,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,WaterMelon,riverine,Gu,MAM,2022,Aug,2022,production,385.0
-5508,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sorghum,riverine,Gu,MAM,2022,Aug,2022,production,405.0
-5509,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Onion,riverine,Gu,MAM,2022,Aug,2022,production,930.0
-5510,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Rice,riverine,Gu,MAM,2022,Aug,2022,production,90.0
-5511,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,140.0
-5512,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Maize,riverine,Gu,MAM,2022,Aug,2022,production,4200.0
-5513,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,155.0
-5514,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Maize,riverine,Gu,MAM,2022,Aug,2022,production,3480.0
-5515,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,400.0
-5516,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,600.0
-5517,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Maize,riverine,Gu,MAM,2022,Aug,2022,production,2100.0
-5518,SO1990A22302,Somalia,South,Lower Shabelle,Afgooye,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,90.0
-5519,SO1990A22302,Somalia,South,Lower Shabelle,Afgooye,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,100.0
-5520,SO1990A22302,Somalia,South,Lower Shabelle,Afgooye,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,210.0
-5521,SO1990A22302,Somalia,South,Lower Shabelle,Afgooye,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,300.0
-5522,SO1990A22302,Somalia,South,Lower Shabelle,Afgooye,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,480.0
-5523,SO1990A22302,Somalia,South,Lower Shabelle,Afgooye,Maize,riverine,Gu,MAM,2022,Aug,2022,production,1600.0
-5524,SO1990A22302,Somalia,South,Lower Shabelle,Afgooye,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,5000.0
-5525,SO1990A22303,Somalia,South,Lower Shabelle,Baraawe,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,24.0
-5526,SO1990A22303,Somalia,South,Lower Shabelle,Baraawe,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,60.0
-5527,SO1990A22303,Somalia,South,Lower Shabelle,Baraawe,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,1300.0
-5528,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,60.0
-5529,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,160.0
-5530,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Maize,riverine,Gu,MAM,2022,Aug,2022,production,1200.0
-5531,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,40.0
-5532,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,120.0
-5533,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,150.0
-5534,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,225.0
-5535,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,500.0
-5536,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Maize,riverine,Gu,MAM,2022,Aug,2022,production,1200.0
-5537,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,1500.0
-5538,SO1990A22306,Somalia,South,Lower Shabelle,Sablaale,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,30.0
-5539,SO1990A22306,Somalia,South,Lower Shabelle,Sablaale,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,50.0
-5540,SO1990A22306,Somalia,South,Lower Shabelle,Sablaale,Maize,riverine,Gu,MAM,2022,Aug,2022,production,270.0
-5541,SO1990A22307,Somalia,South,Lower Shabelle,Wanla Weyn,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,495.0
-5542,SO1990A22307,Somalia,South,Lower Shabelle,Wanla Weyn,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,600.0
-5543,SO1990A22307,Somalia,South,Lower Shabelle,Wanla Weyn,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,4500.0
-5544,SO1990A22401,Somalia,South,Bay,Baydhabo,GroundNuts,agro_pastoral,Gu,MAM,2022,Aug,2022,production,75.0
-5545,SO1990A22401,Somalia,South,Bay,Baydhabo,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,76.5
-5546,SO1990A22401,Somalia,South,Bay,Baydhabo,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,132.0
-5547,SO1990A22401,Somalia,South,Bay,Baydhabo,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,303.75
-5548,SO1990A22401,Somalia,South,Bay,Baydhabo,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,1920.0
-5549,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,6.6
-5550,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,46.0
-5551,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,712.5
-5552,SO1990A22403,Somalia,South,Bay,Diinsoor,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,72.0
-5553,SO1990A22403,Somalia,South,Bay,Diinsoor,GroundNuts,agro_pastoral,Gu,MAM,2022,Aug,2022,production,90.0
-5554,SO1990A22403,Somalia,South,Bay,Diinsoor,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,156.25
-5555,SO1990A22403,Somalia,South,Bay,Diinsoor,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,2112.0
-5556,SO1990A22403,Somalia,South,Bay,Diinsoor,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,7200.0
-5557,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,45.0
-5558,SO1990A22404,Somalia,South,Bay,Qansax Dheere,GroundNuts,agro_pastoral,Gu,MAM,2022,Aug,2022,production,45.0
-5559,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,120.0
-5560,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,204.0
-5561,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,1900.0
-5562,SO1990A22501,Somalia,South,Bakool,Xudur,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,9.6
-5563,SO1990A22501,Somalia,South,Bakool,Xudur,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,10.0
-5564,SO1990A22501,Somalia,South,Bakool,Xudur,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,55.125
-5565,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,7.0
-5566,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,30.0
-5567,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,160.0
-5568,SO1990A22504,Somalia,South,Bakool,Waajid,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,3.0
-5569,SO1990A22504,Somalia,South,Bakool,Waajid,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,32.625
-5570,SO1990A22505,Somalia,South,Bakool,Rabdhuure,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,9.0
-5571,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,10.0
-5572,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Maize,riverine,Gu,MAM,2022,Aug,2022,production,450.0
-5573,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Tomatoe,riverine,Gu,MAM,2022,Aug,2022,production,1100.0
-5574,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Onion,riverine,Gu,MAM,2022,Aug,2022,production,1500.0
-5575,SO1990A22602,Somalia,South,Gedo,Baardheere,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,10.0
-5576,SO1990A22602,Somalia,South,Gedo,Baardheere,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,20.0
-5577,SO1990A22602,Somalia,South,Gedo,Baardheere,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,40.0
-5578,SO1990A22602,Somalia,South,Gedo,Baardheere,Maize,riverine,Gu,MAM,2022,Aug,2022,production,495.0
-5579,SO1990A22602,Somalia,South,Gedo,Baardheere,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,900.0
-5580,SO1990A22602,Somalia,South,Gedo,Baardheere,Tomatoe,riverine,Gu,MAM,2022,Aug,2022,production,1500.0
-5581,SO1990A22602,Somalia,South,Gedo,Baardheere,Onion,riverine,Gu,MAM,2022,Aug,2022,production,2200.0
-5582,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,5.0
-5583,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Maize,riverine,Gu,MAM,2022,Aug,2022,production,35.0
-5584,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Tomatoe,riverine,Gu,MAM,2022,Aug,2022,production,600.0
-5585,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Onion,riverine,Gu,MAM,2022,Aug,2022,production,600.0
-5586,SO1990A22605,Somalia,South,Gedo,Doolow,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,20.0
-5587,SO1990A22605,Somalia,South,Gedo,Doolow,Maize,riverine,Gu,MAM,2022,Aug,2022,production,310.0
-5588,SO1990A22605,Somalia,South,Gedo,Doolow,Tomatoe,riverine,Gu,MAM,2022,Aug,2022,production,1000.0
-5589,SO1990A22605,Somalia,South,Gedo,Doolow,Onion,riverine,Gu,MAM,2022,Aug,2022,production,1500.0
-5590,SO1990A22606,Somalia,South,Gedo,Luuq,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,5.0
-5591,SO1990A22606,Somalia,South,Gedo,Luuq,Maize,riverine,Gu,MAM,2022,Aug,2022,production,410.0
-5592,SO1990A22606,Somalia,South,Gedo,Luuq,Tomatoe,riverine,Gu,MAM,2022,Aug,2022,production,1000.0
-5593,SO1990A22606,Somalia,South,Gedo,Luuq,Onion,riverine,Gu,MAM,2022,Aug,2022,production,2000.0
-5594,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,20.0
-5595,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,30.0
-5596,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,60.0
-5597,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,62.0
-5598,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,200.0
-5599,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,riverine,Gu,MAM,2022,Aug,2022,production,1000.0
-5600,SO1990A22702,Somalia,South,Middle Juba,Jilib,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,82.0
-5601,SO1990A22702,Somalia,South,Middle Juba,Jilib,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,110.0
-5602,SO1990A22702,Somalia,South,Middle Juba,Jilib,Maize,riverine,Gu,MAM,2022,Aug,2022,production,1250.0
-5603,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,40.0
-5604,SO1990A22703,Somalia,South,Middle Juba,Saakow,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,42.0
-5605,SO1990A22703,Somalia,South,Middle Juba,Saakow,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,50.0
-5606,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,65.0
-5607,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,800.0
-5608,SO1990A22703,Somalia,South,Middle Juba,Saakow,Maize,riverine,Gu,MAM,2022,Aug,2022,production,850.0
-5609,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,6.0
-5610,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,21.0
-5611,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,200.0
-5612,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,210.0
-5613,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,riverine,Gu,MAM,2022,Aug,2022,production,820.0
-5614,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,3.0
-5615,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,30.0
-5616,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,100.0
-5617,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,210.0
-5618,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,66.0
-5619,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,300.0
-5620,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,900.0
-5621,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,4.2
-5622,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,50.0
-5623,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,77.5
-5624,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,630.0
-5625,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,2000.0
-5626,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Maize,riverine,Gu,MAM,2022,Aug,2022,production,5400.0
+5486,SO1990A21805,Somalia,NorthEast,Mudug,Xarardheere,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,9.0
+5487,SO1990A21805,Somalia,NorthEast,Mudug,Xarardheere,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,625.0
+5488,SO1990A21904,Somalia,Central,Galgaduud,Ceel Buur,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,6.0
+5489,SO1990A21904,Somalia,Central,Galgaduud,Ceel Buur,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,260.0
+5490,SO1990A21905,Somalia,Central,Galgaduud,Ceel Dheer,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,15.0
+5491,SO1990A21905,Somalia,Central,Galgaduud,Ceel Dheer,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,575.0
+5492,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,2.4
+5493,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,2.4
+5494,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sesame,riverine,Deyr,OND,2022,Feb,2023,production,6.0
+5495,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,14.0
+5496,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,30.0
+5497,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Pepper,riverine,Gu,MAM,2022,Aug,2022,production,50.0
+5498,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Pepper,riverine,Deyr,OND,2022,Feb,2023,production,80.0
+5499,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Maize,riverine,Deyr,OND,2022,Feb,2023,production,81.0
+5500,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Maize,riverine,Gu,MAM,2022,Aug,2022,production,180.0
+5501,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Tomatoe,riverine,Gu,MAM,2022,Aug,2022,production,300.0
+5502,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Tomatoe,riverine,Deyr,OND,2022,Feb,2023,production,360.0
+5503,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sorghum,riverine,Gu,MAM,2022,Aug,2022,production,400.0
+5504,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Sorghum,riverine,Deyr,OND,2022,Feb,2023,production,480.0
+5505,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,WaterMelon,riverine,Gu,MAM,2022,Aug,2022,production,1425.0
+5506,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Onion,riverine,Deyr,OND,2022,Feb,2023,production,2030.0
+5507,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,Onion,riverine,Gu,MAM,2022,Aug,2022,production,2175.0
+5508,SO1990A22001,Somalia,Central,Hiiraan,Beledweyn,WaterMelon,riverine,Deyr,OND,2022,Feb,2023,production,2375.0
+5509,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,7.0
+5510,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,7.0
+5511,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sesame,riverine,Deyr,OND,2022,Feb,2023,production,10.0
+5512,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,12.5
+5513,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Pepper,riverine,Gu,MAM,2022,Aug,2022,production,18.0
+5514,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,28.0
+5515,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Pepper,riverine,Deyr,OND,2022,Feb,2023,production,40.0
+5516,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Tomatoe,riverine,Gu,MAM,2022,Aug,2022,production,165.0
+5517,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Tomatoe,riverine,Deyr,OND,2022,Feb,2023,production,264.0
+5518,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Maize,riverine,Deyr,OND,2022,Feb,2023,production,300.0
+5519,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Maize,riverine,Gu,MAM,2022,Aug,2022,production,300.0
+5520,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sorghum,riverine,Gu,MAM,2022,Aug,2022,production,440.0
+5521,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Sorghum,riverine,Deyr,OND,2022,Feb,2023,production,675.0
+5522,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,WaterMelon,riverine,Gu,MAM,2022,Aug,2022,production,840.0
+5523,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Onion,riverine,Deyr,OND,2022,Feb,2023,production,1050.0
+5524,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,WaterMelon,riverine,Deyr,OND,2022,Feb,2023,production,1050.0
+5525,SO1990A22002,Somalia,Central,Hiiraan,Bulo-Burte,Onion,riverine,Gu,MAM,2022,Aug,2022,production,1500.0
+5526,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,8.75
+5527,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,8.75
+5528,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Pepper,riverine,Gu,MAM,2022,Aug,2022,production,12.0
+5529,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sesame,riverine,Deyr,OND,2022,Feb,2023,production,12.5
+5530,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,15.0
+5531,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Pepper,riverine,Deyr,OND,2022,Feb,2023,production,30.0
+5532,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Tomatoe,riverine,Gu,MAM,2022,Aug,2022,production,122.5
+5533,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Tomatoe,riverine,Deyr,OND,2022,Feb,2023,production,140.0
+5534,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Maize,riverine,Deyr,OND,2022,Feb,2023,production,175.0
+5535,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Maize,riverine,Gu,MAM,2022,Aug,2022,production,275.0
+5536,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,WaterMelon,riverine,Gu,MAM,2022,Aug,2022,production,385.0
+5537,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sorghum,riverine,Gu,MAM,2022,Aug,2022,production,405.0
+5538,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Sorghum,riverine,Deyr,OND,2022,Feb,2023,production,420.0
+5539,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,WaterMelon,riverine,Deyr,OND,2022,Feb,2023,production,550.0
+5540,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Onion,riverine,Deyr,OND,2022,Feb,2023,production,775.0
+5541,SO1990A22003,Somalia,Central,Hiiraan,Jalalaqsi,Onion,riverine,Gu,MAM,2022,Aug,2022,production,930.0
+5542,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,10.0
+5543,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sesame,agro_pastoral,Deyr,OND,2022,Feb,2023,production,20.0
+5544,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,20.0
+5545,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Rice,riverine,Gu,MAM,2022,Aug,2022,production,90.0
+5546,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,140.0
+5547,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Rice,riverine,Deyr,OND,2022,Feb,2023,production,375.0
+5548,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Sesame,riverine,Deyr,OND,2022,Feb,2023,production,390.0
+5549,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,625.0
+5550,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Maize,riverine,Gu,MAM,2022,Aug,2022,production,4200.0
+5551,SO1990A22101,Somalia,Central,Middle Shabelle,Jowhar,Maize,riverine,Deyr,OND,2022,Feb,2023,production,6420.0
+5552,SO1990A22102,Somalia,Central,Middle Shabelle,Aadan Yabaal,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,0.4
+5553,SO1990A22102,Somalia,Central,Middle Shabelle,Aadan Yabaal,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,30.0
+5554,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sesame,agro_pastoral,Deyr,OND,2022,Feb,2023,production,5.0
+5555,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,6.0
+5556,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,6.0
+5557,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,155.0
+5558,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Sesame,riverine,Deyr,OND,2022,Feb,2023,production,210.0
+5559,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,300.0
+5560,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Maize,riverine,Gu,MAM,2022,Aug,2022,production,3480.0
+5561,SO1990A22103,Somalia,Central,Middle Shabelle,Balcad,Maize,riverine,Deyr,OND,2022,Feb,2023,production,3750.0
+5562,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,0.5
+5563,SO1990A22104,Somalia,Central,Middle Shabelle,Cadale,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,20.0
+5564,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,120.0
+5565,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,400.0
+5566,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Sesame,riverine,Deyr,OND,2022,Feb,2023,production,420.0
+5567,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,600.0
+5568,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Maize,riverine,Gu,MAM,2022,Aug,2022,production,2100.0
+5569,SO1990A22301,Somalia,South,Lower Shabelle,Marka,Maize,riverine,Deyr,OND,2022,Feb,2023,production,2100.0
+5570,SO1990A22302,Somalia,South,Lower Shabelle,Afgooye,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,90.0
+5571,SO1990A22302,Somalia,South,Lower Shabelle,Afgooye,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,92.0
+5572,SO1990A22302,Somalia,South,Lower Shabelle,Afgooye,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,100.0
+5573,SO1990A22302,Somalia,South,Lower Shabelle,Afgooye,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,210.0
+5574,SO1990A22302,Somalia,South,Lower Shabelle,Afgooye,Sesame,riverine,Deyr,OND,2022,Feb,2023,production,240.0
+5575,SO1990A22302,Somalia,South,Lower Shabelle,Afgooye,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,300.0
+5576,SO1990A22302,Somalia,South,Lower Shabelle,Afgooye,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,480.0
+5577,SO1990A22302,Somalia,South,Lower Shabelle,Afgooye,Maize,riverine,Gu,MAM,2022,Aug,2022,production,1600.0
+5578,SO1990A22302,Somalia,South,Lower Shabelle,Afgooye,Maize,riverine,Deyr,OND,2022,Feb,2023,production,1610.0
+5579,SO1990A22302,Somalia,South,Lower Shabelle,Afgooye,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,4750.0
+5580,SO1990A22302,Somalia,South,Lower Shabelle,Afgooye,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,5000.0
+5581,SO1990A22303,Somalia,South,Lower Shabelle,Baraawe,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,24.0
+5582,SO1990A22303,Somalia,South,Lower Shabelle,Baraawe,Sesame,agro_pastoral,Deyr,OND,2022,Feb,2023,production,30.0
+5583,SO1990A22303,Somalia,South,Lower Shabelle,Baraawe,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,30.0
+5584,SO1990A22303,Somalia,South,Lower Shabelle,Baraawe,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,60.0
+5585,SO1990A22303,Somalia,South,Lower Shabelle,Baraawe,Maize,agro_pastoral,Deyr,OND,2022,Feb,2023,production,300.0
+5586,SO1990A22303,Somalia,South,Lower Shabelle,Baraawe,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,1300.0
+5587,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,9.0
+5588,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Sesame,agro_pastoral,Deyr,OND,2022,Feb,2023,production,15.0
+5589,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,60.0
+5590,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,116.0
+5591,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,160.0
+5592,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Sesame,riverine,Deyr,OND,2022,Feb,2023,production,480.0
+5593,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Maize,riverine,Gu,MAM,2022,Aug,2022,production,1200.0
+5594,SO1990A22304,Somalia,South,Lower Shabelle,Kurtunwaarey,Maize,riverine,Deyr,OND,2022,Feb,2023,production,2320.0
+5595,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,30.0
+5596,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,40.0
+5597,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Sesame,agro_pastoral,Deyr,OND,2022,Feb,2023,production,52.5
+5598,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Sesame,riverine,Deyr,OND,2022,Feb,2023,production,60.0
+5599,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,68.0
+5600,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,120.0
+5601,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,150.0
+5602,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,225.0
+5603,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,275.0
+5604,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,500.0
+5605,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Maize,riverine,Deyr,OND,2022,Feb,2023,production,1190.0
+5606,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Maize,riverine,Gu,MAM,2022,Aug,2022,production,1200.0
+5607,SO1990A22305,Somalia,South,Lower Shabelle,Qoryooley,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,1500.0
+5608,SO1990A22306,Somalia,South,Lower Shabelle,Sablaale,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,30.0
+5609,SO1990A22306,Somalia,South,Lower Shabelle,Sablaale,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,38.0
+5610,SO1990A22306,Somalia,South,Lower Shabelle,Sablaale,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,50.0
+5611,SO1990A22306,Somalia,South,Lower Shabelle,Sablaale,Sesame,riverine,Deyr,OND,2022,Feb,2023,production,135.0
+5612,SO1990A22306,Somalia,South,Lower Shabelle,Sablaale,Maize,riverine,Gu,MAM,2022,Aug,2022,production,270.0
+5613,SO1990A22306,Somalia,South,Lower Shabelle,Sablaale,Maize,riverine,Deyr,OND,2022,Feb,2023,production,760.0
+5614,SO1990A22307,Somalia,South,Lower Shabelle,Wanla Weyn,Sesame,agro_pastoral,Deyr,OND,2022,Feb,2023,production,270.0
+5615,SO1990A22307,Somalia,South,Lower Shabelle,Wanla Weyn,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,495.0
+5616,SO1990A22307,Somalia,South,Lower Shabelle,Wanla Weyn,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,600.0
+5617,SO1990A22307,Somalia,South,Lower Shabelle,Wanla Weyn,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,4500.0
+5618,SO1990A22307,Somalia,South,Lower Shabelle,Wanla Weyn,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,5000.0
+5619,SO1990A22401,Somalia,South,Bay,Baydhabo,GroundNuts,agro_pastoral,Gu,MAM,2022,Aug,2022,production,75.0
+5620,SO1990A22401,Somalia,South,Bay,Baydhabo,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,76.5
+5621,SO1990A22401,Somalia,South,Bay,Baydhabo,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,132.0
+5622,SO1990A22401,Somalia,South,Bay,Baydhabo,GroundNuts,agro_pastoral,Deyr,OND,2022,Feb,2023,production,175.0
+5623,SO1990A22401,Somalia,South,Bay,Baydhabo,Sesame,agro_pastoral,Deyr,OND,2022,Feb,2023,production,250.0
+5624,SO1990A22401,Somalia,South,Bay,Baydhabo,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,303.75
+5625,SO1990A22401,Somalia,South,Bay,Baydhabo,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,540.0
+5626,SO1990A22401,Somalia,South,Bay,Baydhabo,Maize,agro_pastoral,Deyr,OND,2022,Feb,2023,production,600.0
+5627,SO1990A22401,Somalia,South,Bay,Baydhabo,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,1920.0
+5628,SO1990A22401,Somalia,South,Bay,Baydhabo,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,10500.0
+5629,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,6.6
+5630,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Maize,agro_pastoral,Deyr,OND,2022,Feb,2023,production,20.0
+5631,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,46.0
+5632,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,141.0
+5633,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Sesame,agro_pastoral,Deyr,OND,2022,Feb,2023,production,150.0
+5634,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,712.5
+5635,SO1990A22402,Somalia,South,Bay,Buur Hakaba,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,1500.0
+5636,SO1990A22403,Somalia,South,Bay,Diinsoor,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,72.0
+5637,SO1990A22403,Somalia,South,Bay,Diinsoor,GroundNuts,agro_pastoral,Gu,MAM,2022,Aug,2022,production,90.0
+5638,SO1990A22403,Somalia,South,Bay,Diinsoor,Sesame,riverine,Deyr,OND,2022,Feb,2023,production,100.0
+5639,SO1990A22403,Somalia,South,Bay,Diinsoor,GroundNuts,agro_pastoral,Deyr,OND,2022,Feb,2023,production,100.0
+5640,SO1990A22403,Somalia,South,Bay,Diinsoor,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,156.25
+5641,SO1990A22403,Somalia,South,Bay,Diinsoor,Maize,agro_pastoral,Deyr,OND,2022,Feb,2023,production,225.0
+5642,SO1990A22403,Somalia,South,Bay,Diinsoor,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,275.0
+5643,SO1990A22403,Somalia,South,Bay,Diinsoor,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,2112.0
+5644,SO1990A22403,Somalia,South,Bay,Diinsoor,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,2700.0
+5645,SO1990A22403,Somalia,South,Bay,Diinsoor,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,7200.0
+5646,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,45.0
+5647,SO1990A22404,Somalia,South,Bay,Qansax Dheere,GroundNuts,agro_pastoral,Gu,MAM,2022,Aug,2022,production,45.0
+5648,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,120.0
+5649,SO1990A22404,Somalia,South,Bay,Qansax Dheere,GroundNuts,agro_pastoral,Deyr,OND,2022,Feb,2023,production,150.0
+5650,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,204.0
+5651,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,337.5
+5652,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Maize,agro_pastoral,Deyr,OND,2022,Feb,2023,production,500.0
+5653,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,1900.0
+5654,SO1990A22404,Somalia,South,Bay,Qansax Dheere,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,6384.0
+5655,SO1990A22501,Somalia,South,Bakool,Xudur,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,9.6
+5656,SO1990A22501,Somalia,South,Bakool,Xudur,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,10.0
+5657,SO1990A22501,Somalia,South,Bakool,Xudur,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,55.125
+5658,SO1990A22501,Somalia,South,Bakool,Xudur,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,86.0
+5659,SO1990A22501,Somalia,South,Bakool,Xudur,Maize,agro_pastoral,Deyr,OND,2022,Feb,2023,production,90.0
+5660,SO1990A22501,Somalia,South,Bakool,Xudur,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,1050.0
+5661,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,7.0
+5662,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,30.0
+5663,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Maize,agro_pastoral,Deyr,OND,2022,Feb,2023,production,75.0
+5664,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,125.0
+5665,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,160.0
+5666,SO1990A22503,Somalia,South,Bakool,Tiyeglow,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,1500.0
+5667,SO1990A22504,Somalia,South,Bakool,Waajid,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,3.0
+5668,SO1990A22504,Somalia,South,Bakool,Waajid,Maize,agro_pastoral,Deyr,OND,2022,Feb,2023,production,20.0
+5669,SO1990A22504,Somalia,South,Bakool,Waajid,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,32.625
+5670,SO1990A22504,Somalia,South,Bakool,Waajid,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,37.6
+5671,SO1990A22504,Somalia,South,Bakool,Waajid,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,450.0
+5672,SO1990A22505,Somalia,South,Bakool,Rabdhuure,Maize,agro_pastoral,Deyr,OND,2022,Feb,2023,production,7.5
+5673,SO1990A22505,Somalia,South,Bakool,Rabdhuure,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,9.0
+5674,SO1990A22505,Somalia,South,Bakool,Rabdhuure,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,18.75
+5675,SO1990A22505,Somalia,South,Bakool,Rabdhuure,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,250.0
+5676,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,10.0
+5677,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,10.0
+5678,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,20.0
+5679,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,30.0
+5680,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Maize,riverine,Deyr,OND,2022,Feb,2023,production,275.0
+5681,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Maize,riverine,Gu,MAM,2022,Aug,2022,production,450.0
+5682,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Onion,riverine,Deyr,OND,2022,Feb,2023,production,880.0
+5683,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Tomatoe,riverine,Gu,MAM,2022,Aug,2022,production,1100.0
+5684,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Tomatoe,riverine,Deyr,OND,2022,Feb,2023,production,1200.0
+5685,SO1990A22601,Somalia,South,Gedo,Garbahaarey,Onion,riverine,Gu,MAM,2022,Aug,2022,production,1500.0
+5686,SO1990A22602,Somalia,South,Gedo,Baardheere,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,10.0
+5687,SO1990A22602,Somalia,South,Gedo,Baardheere,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,20.0
+5688,SO1990A22602,Somalia,South,Gedo,Baardheere,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,20.0
+5689,SO1990A22602,Somalia,South,Gedo,Baardheere,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,40.0
+5690,SO1990A22602,Somalia,South,Gedo,Baardheere,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,100.0
+5691,SO1990A22602,Somalia,South,Gedo,Baardheere,Maize,riverine,Deyr,OND,2022,Feb,2023,production,395.0
+5692,SO1990A22602,Somalia,South,Gedo,Baardheere,Maize,riverine,Gu,MAM,2022,Aug,2022,production,495.0
+5693,SO1990A22602,Somalia,South,Gedo,Baardheere,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,900.0
+5694,SO1990A22602,Somalia,South,Gedo,Baardheere,Tomatoe,riverine,Deyr,OND,2022,Feb,2023,production,1200.0
+5695,SO1990A22602,Somalia,South,Gedo,Baardheere,Onion,riverine,Deyr,OND,2022,Feb,2023,production,1200.0
+5696,SO1990A22602,Somalia,South,Gedo,Baardheere,Tomatoe,riverine,Gu,MAM,2022,Aug,2022,production,1500.0
+5697,SO1990A22602,Somalia,South,Gedo,Baardheere,Onion,riverine,Gu,MAM,2022,Aug,2022,production,2200.0
+5698,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,5.0
+5699,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,10.0
+5700,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Maize,riverine,Gu,MAM,2022,Aug,2022,production,35.0
+5701,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Maize,riverine,Deyr,OND,2022,Feb,2023,production,40.0
+5702,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Onion,riverine,Deyr,OND,2022,Feb,2023,production,200.0
+5703,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Onion,riverine,Gu,MAM,2022,Aug,2022,production,600.0
+5704,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Tomatoe,riverine,Gu,MAM,2022,Aug,2022,production,600.0
+5705,SO1990A22603,Somalia,South,Gedo,Beled-Xaawo,Tomatoe,riverine,Deyr,OND,2022,Feb,2023,production,600.0
+5706,SO1990A22605,Somalia,South,Gedo,Doolow,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,20.0
+5707,SO1990A22605,Somalia,South,Gedo,Doolow,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,20.0
+5708,SO1990A22605,Somalia,South,Gedo,Doolow,Maize,riverine,Deyr,OND,2022,Feb,2023,production,300.0
+5709,SO1990A22605,Somalia,South,Gedo,Doolow,Maize,riverine,Gu,MAM,2022,Aug,2022,production,310.0
+5710,SO1990A22605,Somalia,South,Gedo,Doolow,Onion,riverine,Deyr,OND,2022,Feb,2023,production,500.0
+5711,SO1990A22605,Somalia,South,Gedo,Doolow,Tomatoe,riverine,Deyr,OND,2022,Feb,2023,production,600.0
+5712,SO1990A22605,Somalia,South,Gedo,Doolow,Tomatoe,riverine,Gu,MAM,2022,Aug,2022,production,1000.0
+5713,SO1990A22605,Somalia,South,Gedo,Doolow,Onion,riverine,Gu,MAM,2022,Aug,2022,production,1500.0
+5714,SO1990A22606,Somalia,South,Gedo,Luuq,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,5.0
+5715,SO1990A22606,Somalia,South,Gedo,Luuq,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,30.0
+5716,SO1990A22606,Somalia,South,Gedo,Luuq,Maize,riverine,Deyr,OND,2022,Feb,2023,production,390.0
+5717,SO1990A22606,Somalia,South,Gedo,Luuq,Maize,riverine,Gu,MAM,2022,Aug,2022,production,410.0
+5718,SO1990A22606,Somalia,South,Gedo,Luuq,Onion,riverine,Deyr,OND,2022,Feb,2023,production,500.0
+5719,SO1990A22606,Somalia,South,Gedo,Luuq,Tomatoe,riverine,Gu,MAM,2022,Aug,2022,production,1000.0
+5720,SO1990A22606,Somalia,South,Gedo,Luuq,Tomatoe,riverine,Deyr,OND,2022,Feb,2023,production,1200.0
+5721,SO1990A22606,Somalia,South,Gedo,Luuq,Onion,riverine,Gu,MAM,2022,Aug,2022,production,2000.0
+5722,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,20.0
+5723,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,30.0
+5724,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,60.0
+5725,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sesame,agro_pastoral,Deyr,OND,2022,Feb,2023,production,60.0
+5726,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,60.0
+5727,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,62.0
+5728,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,120.0
+5729,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,200.0
+5730,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sesame,riverine,Deyr,OND,2022,Feb,2023,production,280.0
+5731,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,375.0
+5732,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,riverine,Deyr,OND,2022,Feb,2023,production,450.0
+5733,SO1990A22701,Somalia,South,Middle Juba,Bu'aale,Maize,riverine,Gu,MAM,2022,Aug,2022,production,1000.0
+5734,SO1990A22702,Somalia,South,Middle Juba,Jilib,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,82.0
+5735,SO1990A22702,Somalia,South,Middle Juba,Jilib,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,110.0
+5736,SO1990A22702,Somalia,South,Middle Juba,Jilib,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,200.0
+5737,SO1990A22702,Somalia,South,Middle Juba,Jilib,Sesame,riverine,Deyr,OND,2022,Feb,2023,production,440.0
+5738,SO1990A22702,Somalia,South,Middle Juba,Jilib,Maize,riverine,Deyr,OND,2022,Feb,2023,production,500.0
+5739,SO1990A22702,Somalia,South,Middle Juba,Jilib,Maize,riverine,Gu,MAM,2022,Aug,2022,production,1250.0
+5740,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,40.0
+5741,SO1990A22703,Somalia,South,Middle Juba,Saakow,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,42.0
+5742,SO1990A22703,Somalia,South,Middle Juba,Saakow,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,50.0
+5743,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,65.0
+5744,SO1990A22703,Somalia,South,Middle Juba,Saakow,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,85.0
+5745,SO1990A22703,Somalia,South,Middle Juba,Saakow,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,120.0
+5746,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,agro_pastoral,Deyr,OND,2022,Feb,2023,production,160.0
+5747,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sesame,riverine,Deyr,OND,2022,Feb,2023,production,290.0
+5748,SO1990A22703,Somalia,South,Middle Juba,Saakow,Maize,riverine,Deyr,OND,2022,Feb,2023,production,400.0
+5749,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,800.0
+5750,SO1990A22703,Somalia,South,Middle Juba,Saakow,Maize,riverine,Gu,MAM,2022,Aug,2022,production,850.0
+5751,SO1990A22703,Somalia,South,Middle Juba,Saakow,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,1000.0
+5752,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,6.0
+5753,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,21.0
+5754,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,75.0
+5755,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,106.0
+5756,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,agro_pastoral,Deyr,OND,2022,Feb,2023,production,108.0
+5757,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,200.0
+5758,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,210.0
+5759,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Sesame,agro_pastoral,Deyr,OND,2022,Feb,2023,production,300.0
+5760,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Sesame,riverine,Deyr,OND,2022,Feb,2023,production,303.0
+5761,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,riverine,Deyr,OND,2022,Feb,2023,production,764.0
+5762,SO1990A22801,Somalia,South,Lower Juba,Kismaayo,Maize,riverine,Gu,MAM,2022,Aug,2022,production,820.0
+5763,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,3.0
+5764,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,30.0
+5765,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,33.0
+5766,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,69.0
+5767,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sesame,riverine,Deyr,OND,2022,Feb,2023,production,87.0
+5768,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,100.0
+5769,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,agro_pastoral,Deyr,OND,2022,Feb,2023,production,120.0
+5770,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sesame,agro_pastoral,Deyr,OND,2022,Feb,2023,production,150.0
+5771,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sorghum,agro_pastoral,Deyr,OND,2022,Feb,2023,production,196.0
+5772,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Sorghum,agro_pastoral,Gu,MAM,2022,Aug,2022,production,210.0
+5773,SO1990A22802,Somalia,South,Lower Juba,Afmadow,Maize,riverine,Deyr,OND,2022,Feb,2023,production,345.0
+5774,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,66.0
+5775,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,90.0
+5776,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Maize,agro_pastoral,Deyr,OND,2022,Feb,2023,production,288.0
+5777,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,300.0
+5778,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Sesame,agro_pastoral,Deyr,OND,2022,Feb,2023,production,450.0
+5779,SO1990A22803,Somalia,South,Lower Juba,Badhaadhe,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,900.0
+5780,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sesame,riverine,Gu,MAM,2022,Aug,2022,production,4.2
+5781,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Cowpea,agro_pastoral,Gu,MAM,2022,Aug,2022,production,50.0
+5782,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Cowpea,riverine,Deyr,OND,2022,Feb,2023,production,63.0
+5783,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Cowpea,agro_pastoral,Deyr,OND,2022,Feb,2023,production,65.0
+5784,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Cowpea,riverine,Gu,MAM,2022,Aug,2022,production,77.5
+5785,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sesame,agro_pastoral,Deyr,OND,2022,Feb,2023,production,570.0
+5786,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sesame,agro_pastoral,Gu,MAM,2022,Aug,2022,production,630.0
+5787,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Maize,agro_pastoral,Deyr,OND,2022,Feb,2023,production,880.0
+5788,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Sesame,riverine,Deyr,OND,2022,Feb,2023,production,1275.0
+5789,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Maize,agro_pastoral,Gu,MAM,2022,Aug,2022,production,2000.0
+5790,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Maize,riverine,Deyr,OND,2022,Feb,2023,production,3622.0
+5791,SO1990A22804,Somalia,South,Lower Juba,Jamaame,Maize,riverine,Gu,MAM,2022,Aug,2022,production,5400.0

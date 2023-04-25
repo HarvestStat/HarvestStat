@@ -1,3 +1,8 @@
+data/adm.chirps-v2.*.*.csv
+data/auxiliary
+data/crop/raw
+.vscode
+fsnau_source_data
 Compile_FAO_cropdata.ipynb
 data/fao_*
 data/cropmask
