@@ -25,7 +25,7 @@ This repository is organized as follows:
 - `docs/`: contains any additional documentation related to the data.
 
 ## Current Data Status
-GSCD currently contains subnational crop data for **`12`** countries (see [current data status per country](/docs/data_status_per_country.md)):</br>
+GSCD currently contains subnational crop data for **`13`** countries (see [current data status per country](/docs/data_status_per_country.md)):</br>
 - Admin-1 level: Afghanistan, Chad, Kenya, Lesotho, Liberia, Mali, South Africa, Yemen
 - Admin-2 level: Burkina Faso, Malawi, Senegal, Somalia, Madagascar
 
