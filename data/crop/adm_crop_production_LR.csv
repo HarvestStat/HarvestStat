@@ -1,0 +1,619 @@
+,fnid,country,country_code,admin_1,admin_2,name,product,season_name,planting_year,planting_month,harvest_year,harvest_month,crop_production_system,indicator,value,gscd_code
+0,LR1985A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,1997,04-01,1997,12-01,none,area,1348.0,reported
+1,LR1985A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,1997,04-01,1997,12-01,none,production,1840.0,reported
+2,LR1985A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,1997,04-01,1997,12-01,none,yield,1.36,reported
+3,LR1985A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,1996,04-01,1996,12-01,none,production,200.0,reported
+4,LR1985A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,1995,04-01,1995,12-01,none,production,1800.0,reported
+5,LR1985A106,Liberia,LR,Bong,none,Bong,Rice,Main,1997,04-01,1997,12-01,none,area,32730.0,reported
+6,LR1985A106,Liberia,LR,Bong,none,Bong,Rice,Main,1997,04-01,1997,12-01,none,production,45500.0,reported
+7,LR1985A106,Liberia,LR,Bong,none,Bong,Rice,Main,1997,04-01,1997,12-01,none,yield,1.39,reported
+8,LR1985A106,Liberia,LR,Bong,none,Bong,Rice,Main,1996,04-01,1996,12-01,none,production,28200.0,reported
+9,LR1985A106,Liberia,LR,Bong,none,Bong,Rice,Main,1995,04-01,1995,12-01,none,production,12100.0,reported
+10,LR1985A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,1997,04-01,1997,12-01,none,area,18614.0,reported
+11,LR1985A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,1997,04-01,1997,12-01,none,production,19610.0,reported
+12,LR1985A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,1997,04-01,1997,12-01,none,yield,1.05,reported
+13,LR1985A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,1996,04-01,1996,12-01,none,production,4600.0,reported
+14,LR1985A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,1995,04-01,1995,12-01,none,production,7800.0,reported
+15,LR1985A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,1997,04-01,1997,12-01,none,area,3642.0,reported
+16,LR1985A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,1997,04-01,1997,12-01,none,production,5390.0,reported
+17,LR1985A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,1997,04-01,1997,12-01,none,yield,1.48,reported
+18,LR1985A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,1996,04-01,1996,12-01,none,production,700.0,reported
+19,LR1985A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,1995,04-01,1995,12-01,none,production,4800.0,reported
+20,LR1985A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,1997,04-01,1997,12-01,none,area,2630.0,reported
+21,LR1985A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,1997,04-01,1997,12-01,none,production,3630.0,reported
+22,LR1985A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,1997,04-01,1997,12-01,none,yield,1.38,reported
+23,LR1985A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,1996,04-01,1996,12-01,none,production,500.0,reported
+24,LR1985A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,1997,04-01,1997,12-01,none,area,7669.0,reported
+25,LR1985A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,1997,04-01,1997,12-01,none,production,9710.0,reported
+26,LR1985A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,1997,04-01,1997,12-01,none,yield,1.27,reported
+27,LR1985A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,1996,04-01,1996,12-01,none,production,2600.0,reported
+28,LR1985A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,1995,04-01,1995,12-01,none,production,600.0,reported
+29,LR1985A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,1997,04-01,1997,12-01,none,area,1983.0,reported
+30,LR1985A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,1997,04-01,1997,12-01,none,production,2760.0,reported
+31,LR1985A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,1997,04-01,1997,12-01,none,yield,1.39,reported
+32,LR1985A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,1996,04-01,1996,12-01,none,production,300.0,reported
+33,LR1985A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,1995,04-01,1995,12-01,none,production,3400.0,reported
+34,LR1985A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,1997,04-01,1997,12-01,none,area,4047.0,reported
+35,LR1985A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,1997,04-01,1997,12-01,none,production,5080.0,reported
+36,LR1985A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,1997,04-01,1997,12-01,none,yield,1.26,reported
+37,LR1985A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,1996,04-01,1996,12-01,none,production,7600.0,reported
+38,LR1985A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,1995,04-01,1995,12-01,none,production,6900.0,reported
+39,LR1985A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,1997,04-01,1997,12-01,none,area,32627.0,reported
+40,LR1985A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,1997,04-01,1997,12-01,none,production,38040.0,reported
+41,LR1985A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,1997,04-01,1997,12-01,none,yield,1.17,reported
+42,LR1985A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,1996,04-01,1996,12-01,none,production,33800.0,reported
+43,LR1985A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,1995,04-01,1995,12-01,none,production,6700.0,reported
+44,LR1985A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,1997,04-01,1997,12-01,none,area,4272.0,reported
+45,LR1985A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,1997,04-01,1997,12-01,none,production,4790.0,reported
+46,LR1985A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,1997,04-01,1997,12-01,none,yield,1.12,reported
+47,LR1985A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,1996,04-01,1996,12-01,none,production,100.0,reported
+48,LR1985A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,1995,04-01,1995,12-01,none,production,500.0,reported
+49,LR1985A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,1997,04-01,1997,12-01,none,area,3286.0,reported
+50,LR1985A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,1997,04-01,1997,12-01,none,production,4680.0,reported
+51,LR1985A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,1997,04-01,1997,12-01,none,yield,1.42,reported
+52,LR1985A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,1996,04-01,1996,12-01,none,production,2800.0,reported
+53,LR1985A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,1995,04-01,1995,12-01,none,production,500.0,reported
+54,LR1985A146,Liberia,LR,Lofa,none,Lofa,Rice,Main,1997,04-01,1997,12-01,none,area,20234.0,reported
+55,LR1985A146,Liberia,LR,Lofa,none,Lofa,Rice,Main,1997,04-01,1997,12-01,none,production,24040.0,reported
+56,LR1985A146,Liberia,LR,Lofa,none,Lofa,Rice,Main,1997,04-01,1997,12-01,none,yield,1.19,reported
+57,LR1985A146,Liberia,LR,Lofa,none,Lofa,Rice,Main,1996,04-01,1996,12-01,none,production,11500.0,reported
+58,LR1985A146,Liberia,LR,Lofa,none,Lofa,Rice,Main,1995,04-01,1995,12-01,none,production,9900.0,reported
+59,LR1985A147,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,1997,04-01,1997,12-01,none,area,2428.0,reported
+60,LR1985A147,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,1997,04-01,1997,12-01,none,production,3320.0,reported
+61,LR1985A147,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,1997,04-01,1997,12-01,none,yield,1.37,reported
+62,LR1985A147,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,1996,04-01,1996,12-01,none,production,1600.0,reported
+63,LR1985A147,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,1995,04-01,1995,12-01,none,production,1100.0,reported
+64,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2011,04-01,2011,12-01,none,area,7040.0,reported
+65,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2011,04-01,2011,12-01,none,production,7390.0,reported
+66,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2011,04-01,2011,12-01,none,yield,1.04971591,reported
+67,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2010,04-01,2010,12-01,none,area,8700.0,reported
+68,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2010,04-01,2010,12-01,none,production,8700.0,reported
+69,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2010,04-01,2010,12-01,none,yield,1.0,reported
+70,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2009,04-01,2009,12-01,none,area,8870.0,reported
+71,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2009,04-01,2009,12-01,none,production,10640.0,reported
+72,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2009,04-01,2009,12-01,none,yield,1.19954904,reported
+73,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2008,04-01,2008,12-01,none,area,9730.0,reported
+74,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2008,04-01,2008,12-01,none,production,12740.0,reported
+75,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2008,04-01,2008,12-01,none,yield,1.30935252,reported
+76,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2015,04-01,2015,12-01,none,production,8430.0,reported
+77,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2014,04-01,2014,12-01,none,production,7990.0,reported
+78,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2013,04-01,2013,12-01,none,production,7470.0,reported
+79,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2012,04-01,2012,12-01,none,production,7570.0,reported
+80,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2011,04-01,2011,12-01,none,area,47580.0,reported
+81,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2011,04-01,2011,12-01,none,production,60900.0,reported
+82,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2011,04-01,2011,12-01,none,yield,1.27994956,reported
+83,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2010,04-01,2010,12-01,none,area,46020.0,reported
+84,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2010,04-01,2010,12-01,none,production,58440.0,reported
+85,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2010,04-01,2010,12-01,none,yield,1.26988266,reported
+86,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2009,04-01,2009,12-01,none,area,43890.0,reported
+87,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2009,04-01,2009,12-01,none,production,55740.0,reported
+88,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2009,04-01,2009,12-01,none,yield,1.26999316,reported
+89,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2008,04-01,2008,12-01,none,area,34130.0,reported
+90,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2008,04-01,2008,12-01,none,production,46760.0,reported
+91,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2008,04-01,2008,12-01,none,yield,1.37005567,reported
+92,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2015,04-01,2015,12-01,none,production,58900.0,reported
+93,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2014,04-01,2014,12-01,none,production,58230.0,reported
+94,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2013,04-01,2013,12-01,none,production,56430.0,reported
+95,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2012,04-01,2012,12-01,none,production,62370.0,reported
+96,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2011,04-01,2011,12-01,none,area,13640.0,reported
+97,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2011,04-01,2011,12-01,none,production,15140.0,reported
+98,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2011,04-01,2011,12-01,none,yield,1.10997067,reported
+99,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2010,04-01,2010,12-01,none,area,12160.0,reported
+100,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2010,04-01,2010,12-01,none,production,12400.0,reported
+101,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2010,04-01,2010,12-01,none,yield,1.01973684,reported
+102,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2009,04-01,2009,12-01,none,area,12530.0,reported
+103,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2009,04-01,2009,12-01,none,production,12530.0,reported
+104,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2009,04-01,2009,12-01,none,yield,1.0,reported
+105,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2008,04-01,2008,12-01,none,area,12440.0,reported
+106,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2008,04-01,2008,12-01,none,production,13060.0,reported
+107,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2008,04-01,2008,12-01,none,yield,1.04983923,reported
+108,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2015,04-01,2015,12-01,none,production,15760.0,reported
+109,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2014,04-01,2014,12-01,none,production,15440.0,reported
+110,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2013,04-01,2013,12-01,none,production,14630.0,reported
+111,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2012,04-01,2012,12-01,none,production,15500.0,reported
+112,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2011,04-01,2011,12-01,none,area,7320.0,reported
+113,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2011,04-01,2011,12-01,none,production,8930.0,reported
+114,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2011,04-01,2011,12-01,none,yield,1.21994536,reported
+115,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2010,04-01,2010,12-01,none,area,8380.0,reported
+116,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2010,04-01,2010,12-01,none,production,8550.0,reported
+117,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2010,04-01,2010,12-01,none,yield,1.0202864,reported
+118,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2009,04-01,2009,12-01,none,area,7960.0,reported
+119,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2009,04-01,2009,12-01,none,production,8600.0,reported
+120,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2009,04-01,2009,12-01,none,yield,1.08040201,reported
+121,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2008,04-01,2008,12-01,none,area,8370.0,reported
+122,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2008,04-01,2008,12-01,none,production,10710.0,reported
+123,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2008,04-01,2008,12-01,none,yield,1.27956989,reported
+124,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2015,04-01,2015,12-01,none,production,8460.0,reported
+125,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2014,04-01,2014,12-01,none,production,8460.0,reported
+126,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2013,04-01,2013,12-01,none,production,8680.0,reported
+127,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2012,04-01,2012,12-01,none,production,9140.0,reported
+128,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2011,04-01,2011,12-01,none,area,9250.0,reported
+129,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2011,04-01,2011,12-01,none,production,11380.0,reported
+130,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2011,04-01,2011,12-01,none,yield,1.23027027,reported
+131,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2010,04-01,2010,12-01,none,area,10220.0,reported
+132,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2010,04-01,2010,12-01,none,production,12980.0,reported
+133,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2010,04-01,2010,12-01,none,yield,1.27005871,reported
+134,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2009,04-01,2009,12-01,none,area,9970.0,reported
+135,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2009,04-01,2009,12-01,none,production,12560.0,reported
+136,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2009,04-01,2009,12-01,none,yield,1.25977934,reported
+137,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2008,04-01,2008,12-01,none,area,11230.0,reported
+138,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2008,04-01,2008,12-01,none,production,13810.0,reported
+139,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2008,04-01,2008,12-01,none,yield,1.22974176,reported
+140,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2015,04-01,2015,12-01,none,production,12020.0,reported
+141,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2014,04-01,2014,12-01,none,production,12400.0,reported
+142,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2013,04-01,2013,12-01,none,production,12400.0,reported
+143,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2012,04-01,2012,12-01,none,production,13000.0,reported
+144,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2011,04-01,2011,12-01,none,area,9800.0,reported
+145,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2011,04-01,2011,12-01,none,production,11270.0,reported
+146,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2011,04-01,2011,12-01,none,yield,1.15,reported
+147,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2010,04-01,2010,12-01,none,area,8300.0,reported
+148,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2010,04-01,2010,12-01,none,production,9500.0,reported
+149,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2010,04-01,2010,12-01,none,yield,1.14457831,reported
+150,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2009,04-01,2009,12-01,none,area,8590.0,reported
+151,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2009,04-01,2009,12-01,none,production,9620.0,reported
+152,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2009,04-01,2009,12-01,none,yield,1.11990687,reported
+153,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2008,04-01,2008,12-01,none,area,7350.0,reported
+154,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2008,04-01,2008,12-01,none,production,9990.0,reported
+155,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2008,04-01,2008,12-01,none,yield,1.35918367,reported
+156,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2015,04-01,2015,12-01,none,production,9880.0,reported
+157,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2014,04-01,2014,12-01,none,production,10240.0,reported
+158,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2013,04-01,2013,12-01,none,production,10190.0,reported
+159,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2012,04-01,2012,12-01,none,production,10420.0,reported
+160,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2011,04-01,2011,12-01,none,area,40500.0,reported
+161,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2011,04-01,2011,12-01,none,production,51440.0,reported
+162,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2011,04-01,2011,12-01,none,yield,1.27012346,reported
+163,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2010,04-01,2010,12-01,none,area,46140.0,reported
+164,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2010,04-01,2010,12-01,none,production,59980.0,reported
+165,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2010,04-01,2010,12-01,none,yield,1.29995665,reported
+166,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2009,04-01,2009,12-01,none,area,44000.0,reported
+167,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2009,04-01,2009,12-01,none,production,55440.0,reported
+168,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2009,04-01,2009,12-01,none,yield,1.26,reported
+169,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2008,04-01,2008,12-01,none,area,34190.0,reported
+170,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2008,04-01,2008,12-01,none,production,41710.0,reported
+171,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2008,04-01,2008,12-01,none,yield,1.21994735,reported
+172,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2015,04-01,2015,12-01,none,production,50110.0,reported
+173,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2014,04-01,2014,12-01,none,production,49280.0,reported
+174,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2013,04-01,2013,12-01,none,production,47770.0,reported
+175,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2012,04-01,2012,12-01,none,production,52660.0,reported
+176,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2011,04-01,2011,12-01,none,area,6170.0,reported
+177,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2011,04-01,2011,12-01,none,production,7530.0,reported
+178,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2011,04-01,2011,12-01,none,yield,1.22042139,reported
+179,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2010,04-01,2010,12-01,none,area,6670.0,reported
+180,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2010,04-01,2010,12-01,none,production,8000.0,reported
+181,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2010,04-01,2010,12-01,none,yield,1.1994003,reported
+182,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2009,04-01,2009,12-01,none,area,7120.0,reported
+183,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2009,04-01,2009,12-01,none,production,8400.0,reported
+184,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2009,04-01,2009,12-01,none,yield,1.17977528,reported
+185,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2008,04-01,2008,12-01,none,area,7520.0,reported
+186,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2008,04-01,2008,12-01,none,production,9320.0,reported
+187,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2008,04-01,2008,12-01,none,yield,1.2393617,reported
+188,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2015,04-01,2015,12-01,none,production,7380.0,reported
+189,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2014,04-01,2014,12-01,none,production,7000.0,reported
+190,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2013,04-01,2013,12-01,none,production,6550.0,reported
+191,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2012,04-01,2012,12-01,none,production,7710.0,reported
+192,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2011,04-01,2011,12-01,none,area,7470.0,reported
+193,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2011,04-01,2011,12-01,none,production,8740.0,reported
+194,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2011,04-01,2011,12-01,none,yield,1.17001339,reported
+195,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2010,04-01,2010,12-01,none,area,7360.0,reported
+196,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2010,04-01,2010,12-01,none,production,8540.0,reported
+197,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2010,04-01,2010,12-01,none,yield,1.16032609,reported
+198,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2009,04-01,2009,12-01,none,area,7410.0,reported
+199,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2009,04-01,2009,12-01,none,production,8820.0,reported
+200,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2009,04-01,2009,12-01,none,yield,1.1902834,reported
+201,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2008,04-01,2008,12-01,none,area,8270.0,reported
+202,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2008,04-01,2008,12-01,none,production,11410.0,reported
+203,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2008,04-01,2008,12-01,none,yield,1.37968561,reported
+204,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2015,04-01,2015,12-01,none,production,8470.0,reported
+205,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2014,04-01,2014,12-01,none,production,8950.0,reported
+206,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2013,04-01,2013,12-01,none,production,8950.0,reported
+207,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2012,04-01,2012,12-01,none,production,9200.0,reported
+208,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2011,04-01,2011,12-01,none,area,6320.0,reported
+209,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2011,04-01,2011,12-01,none,production,7390.0,reported
+210,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2011,04-01,2011,12-01,none,yield,1.1693038,reported
+211,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2010,04-01,2010,12-01,none,area,7380.0,reported
+212,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2010,04-01,2010,12-01,none,production,8340.0,reported
+213,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2010,04-01,2010,12-01,none,yield,1.1300813,reported
+214,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2009,04-01,2009,12-01,none,area,8160.0,reported
+215,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2009,04-01,2009,12-01,none,production,9140.0,reported
+216,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2009,04-01,2009,12-01,none,yield,1.12009804,reported
+217,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2008,04-01,2008,12-01,none,area,7920.0,reported
+218,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2008,04-01,2008,12-01,none,production,9350.0,reported
+219,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2008,04-01,2008,12-01,none,yield,1.18055556,reported
+220,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2015,04-01,2015,12-01,none,production,7370.0,reported
+221,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2014,04-01,2014,12-01,none,production,7300.0,reported
+222,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2013,04-01,2013,12-01,none,production,6780.0,reported
+223,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2012,04-01,2012,12-01,none,production,7570.0,reported
+224,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2011,04-01,2011,12-01,none,area,50930.0,reported
+225,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2011,04-01,2011,12-01,none,production,61630.0,reported
+226,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2011,04-01,2011,12-01,none,yield,1.21009228,reported
+227,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2010,04-01,2010,12-01,none,area,55060.0,reported
+228,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2010,04-01,2010,12-01,none,production,60570.0,reported
+229,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2010,04-01,2010,12-01,none,yield,1.10007265,reported
+230,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2009,04-01,2009,12-01,none,area,53020.0,reported
+231,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2009,04-01,2009,12-01,none,production,59910.0,reported
+232,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2009,04-01,2009,12-01,none,yield,1.12995096,reported
+233,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2008,04-01,2008,12-01,none,area,46180.0,reported
+234,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2008,04-01,2008,12-01,none,production,55880.0,reported
+235,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2008,04-01,2008,12-01,none,yield,1.21004764,reported
+236,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2015,04-01,2015,12-01,none,production,61970.0,reported
+237,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2014,04-01,2014,12-01,none,production,57870.0,reported
+238,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2013,04-01,2013,12-01,none,production,53570.0,reported
+239,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2012,04-01,2012,12-01,none,production,63080.0,reported
+240,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2011,04-01,2011,12-01,none,area,4960.0,reported
+241,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2011,04-01,2011,12-01,none,production,5110.0,reported
+242,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2011,04-01,2011,12-01,none,yield,1.03024194,reported
+243,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2010,04-01,2010,12-01,none,area,5860.0,reported
+244,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2010,04-01,2010,12-01,none,production,6500.0,reported
+245,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2010,04-01,2010,12-01,none,yield,1.10921502,reported
+246,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2009,04-01,2009,12-01,none,area,7000.0,reported
+247,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2009,04-01,2009,12-01,none,production,7410.0,reported
+248,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2009,04-01,2009,12-01,none,yield,1.05857143,reported
+249,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2008,04-01,2008,12-01,none,area,5960.0,reported
+250,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2008,04-01,2008,12-01,none,production,6670.0,reported
+251,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2008,04-01,2008,12-01,none,yield,1.11912752,reported
+252,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2015,04-01,2015,12-01,none,production,5730.0,reported
+253,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2014,04-01,2014,12-01,none,production,5790.0,reported
+254,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2013,04-01,2013,12-01,none,production,5170.0,reported
+255,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2012,04-01,2012,12-01,none,production,5230.0,reported
+256,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2011,04-01,2011,12-01,none,area,8300.0,reported
+257,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2011,04-01,2011,12-01,none,production,9630.0,reported
+258,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2011,04-01,2011,12-01,none,yield,1.16024096,reported
+259,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2010,04-01,2010,12-01,none,area,9290.0,reported
+260,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2010,04-01,2010,12-01,none,production,10500.0,reported
+261,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2010,04-01,2010,12-01,none,yield,1.13024758,reported
+262,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2009,04-01,2009,12-01,none,area,9200.0,reported
+263,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2009,04-01,2009,12-01,none,production,11500.0,reported
+264,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2009,04-01,2009,12-01,none,yield,1.25,reported
+265,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2008,04-01,2008,12-01,none,area,8950.0,reported
+266,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2008,04-01,2008,12-01,none,production,12260.0,reported
+267,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2008,04-01,2008,12-01,none,yield,1.3698324,reported
+268,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2015,04-01,2015,12-01,none,production,8890.0,reported
+269,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2014,04-01,2014,12-01,none,production,8890.0,reported
+270,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2013,04-01,2013,12-01,none,production,7840.0,reported
+271,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2012,04-01,2012,12-01,none,production,8500.0,reported
+272,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2011,04-01,2011,12-01,none,area,7190.0,reported
+273,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2011,04-01,2011,12-01,none,production,8410.0,reported
+274,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2011,04-01,2011,12-01,none,yield,1.16968011,reported
+275,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2010,04-01,2010,12-01,none,area,6800.0,reported
+276,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2010,04-01,2010,12-01,none,production,7620.0,reported
+277,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2010,04-01,2010,12-01,none,yield,1.12058824,reported
+278,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2009,04-01,2009,12-01,none,area,6900.0,reported
+279,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2009,04-01,2009,12-01,none,production,7790.0,reported
+280,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2009,04-01,2009,12-01,none,yield,1.12898551,reported
+281,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2008,04-01,2008,12-01,none,area,7990.0,reported
+282,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2008,04-01,2008,12-01,none,production,9900.0,reported
+283,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2008,04-01,2008,12-01,none,yield,1.23904881,reported
+284,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2015,04-01,2015,12-01,none,production,8620.0,reported
+285,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2014,04-01,2014,12-01,none,production,8550.0,reported
+286,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2013,04-01,2013,12-01,none,production,8780.0,reported
+287,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2012,04-01,2012,12-01,none,production,9100.0,reported
+288,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2011,04-01,2011,12-01,none,area,12310.0,reported
+289,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2011,04-01,2011,12-01,none,production,15760.0,reported
+290,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2011,04-01,2011,12-01,none,yield,1.28025995,reported
+291,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2010,04-01,2010,12-01,none,area,12890.0,reported
+292,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2010,04-01,2010,12-01,none,production,15470.0,reported
+293,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2010,04-01,2010,12-01,none,yield,1.20015516,reported
+294,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2009,04-01,2009,12-01,none,area,12960.0,reported
+295,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2009,04-01,2009,12-01,none,production,14900.0,reported
+296,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2009,04-01,2009,12-01,none,yield,1.14969136,reported
+297,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2008,04-01,2008,12-01,none,area,12440.0,reported
+298,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2008,04-01,2008,12-01,none,production,15430.0,reported
+299,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2008,04-01,2008,12-01,none,yield,1.2403537,reported
+300,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2015,04-01,2015,12-01,none,production,14210.0,reported
+301,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2014,04-01,2014,12-01,none,production,14210.0,reported
+302,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2013,04-01,2013,12-01,none,production,14340.0,reported
+303,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2012,04-01,2012,12-01,none,production,16140.0,reported
+304,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,1997,04-01,1997,12-01,none,area,1348.0,calibrated
+305,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,1997,04-01,1997,12-01,none,production,1840.0,calibrated
+306,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,1997,04-01,1997,12-01,none,yield,1.3649851632047478,calibrated
+307,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2008,04-01,2008,12-01,none,area,9730.0,calibrated
+308,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2008,04-01,2008,12-01,none,production,12740.0,calibrated
+309,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2008,04-01,2008,12-01,none,yield,1.3093525179856116,calibrated
+310,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2009,04-01,2009,12-01,none,area,8870.0,calibrated
+311,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2009,04-01,2009,12-01,none,production,10640.0,calibrated
+312,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2009,04-01,2009,12-01,none,yield,1.1995490417136414,calibrated
+313,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2010,04-01,2010,12-01,none,area,8700.0,calibrated
+314,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2010,04-01,2010,12-01,none,production,8700.0,calibrated
+315,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2010,04-01,2010,12-01,none,yield,1.0,calibrated
+316,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2011,04-01,2011,12-01,none,area,7040.0,calibrated
+317,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2011,04-01,2011,12-01,none,production,7390.0,calibrated
+318,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2011,04-01,2011,12-01,none,yield,1.0497159090909092,calibrated
+319,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,1995,04-01,1995,12-01,none,production,1800.0,calibrated
+320,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,1996,04-01,1996,12-01,none,production,200.0,calibrated
+321,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2012,04-01,2012,12-01,none,production,7570.0,calibrated
+322,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2013,04-01,2013,12-01,none,production,7470.0,calibrated
+323,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2014,04-01,2014,12-01,none,production,7990.0,calibrated
+324,LR2008A103,Liberia,LR,Bomi,none,Bomi,Rice,Main,2015,04-01,2015,12-01,none,production,8430.0,calibrated
+325,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,1997,04-01,1997,12-01,none,area,32730.0,calibrated
+326,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,1997,04-01,1997,12-01,none,production,45500.0,calibrated
+327,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,1997,04-01,1997,12-01,none,yield,1.3901619309501987,calibrated
+328,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2008,04-01,2008,12-01,none,area,34130.0,calibrated
+329,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2008,04-01,2008,12-01,none,production,46760.0,calibrated
+330,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2008,04-01,2008,12-01,none,yield,1.3700556694989745,calibrated
+331,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2009,04-01,2009,12-01,none,area,43890.0,calibrated
+332,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2009,04-01,2009,12-01,none,production,55740.0,calibrated
+333,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2009,04-01,2009,12-01,none,yield,1.269993164730007,calibrated
+334,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2010,04-01,2010,12-01,none,area,46020.0,calibrated
+335,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2010,04-01,2010,12-01,none,production,58440.0,calibrated
+336,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2010,04-01,2010,12-01,none,yield,1.2698826597131683,calibrated
+337,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2011,04-01,2011,12-01,none,area,47580.0,calibrated
+338,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2011,04-01,2011,12-01,none,production,60900.0,calibrated
+339,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2011,04-01,2011,12-01,none,yield,1.2799495586380831,calibrated
+340,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,1995,04-01,1995,12-01,none,production,12100.0,calibrated
+341,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,1996,04-01,1996,12-01,none,production,28200.0,calibrated
+342,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2012,04-01,2012,12-01,none,production,62370.0,calibrated
+343,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2013,04-01,2013,12-01,none,production,56430.0,calibrated
+344,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2014,04-01,2014,12-01,none,production,58230.0,calibrated
+345,LR2008A106,Liberia,LR,Bong,none,Bong,Rice,Main,2015,04-01,2015,12-01,none,production,58900.0,calibrated
+346,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,1997,04-01,1997,12-01,none,area,18614.0,calibrated
+347,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,1997,04-01,1997,12-01,none,production,19610.0,calibrated
+348,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,1997,04-01,1997,12-01,none,yield,1.0535081121736327,calibrated
+349,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2008,04-01,2008,12-01,none,area,12440.0,calibrated
+350,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2008,04-01,2008,12-01,none,production,13060.0,calibrated
+351,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2008,04-01,2008,12-01,none,yield,1.04983922829582,calibrated
+352,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2009,04-01,2009,12-01,none,area,12530.0,calibrated
+353,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2009,04-01,2009,12-01,none,production,12530.0,calibrated
+354,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2009,04-01,2009,12-01,none,yield,1.0,calibrated
+355,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2010,04-01,2010,12-01,none,area,12160.0,calibrated
+356,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2010,04-01,2010,12-01,none,production,12400.0,calibrated
+357,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2010,04-01,2010,12-01,none,yield,1.019736842105263,calibrated
+358,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2011,04-01,2011,12-01,none,area,13640.0,calibrated
+359,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2011,04-01,2011,12-01,none,production,15140.0,calibrated
+360,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2011,04-01,2011,12-01,none,yield,1.1099706744868034,calibrated
+361,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,1995,04-01,1995,12-01,none,production,7800.0,calibrated
+362,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,1996,04-01,1996,12-01,none,production,4600.0,calibrated
+363,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2012,04-01,2012,12-01,none,production,15500.0,calibrated
+364,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2013,04-01,2013,12-01,none,production,14630.0,calibrated
+365,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2014,04-01,2014,12-01,none,production,15440.0,calibrated
+366,LR2008A109,Liberia,LR,Grand Bassa,none,Grand Bassa,Rice,Main,2015,04-01,2015,12-01,none,production,15760.0,calibrated
+367,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,1997,04-01,1997,12-01,none,area,3642.0,calibrated
+368,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,1997,04-01,1997,12-01,none,production,5390.0,calibrated
+369,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,1997,04-01,1997,12-01,none,yield,1.4799560680944537,calibrated
+370,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2008,04-01,2008,12-01,none,area,8370.0,calibrated
+371,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2008,04-01,2008,12-01,none,production,10710.0,calibrated
+372,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2008,04-01,2008,12-01,none,yield,1.2795698924731183,calibrated
+373,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2009,04-01,2009,12-01,none,area,7960.0,calibrated
+374,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2009,04-01,2009,12-01,none,production,8600.0,calibrated
+375,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2009,04-01,2009,12-01,none,yield,1.0804020100502512,calibrated
+376,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2010,04-01,2010,12-01,none,area,8380.0,calibrated
+377,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2010,04-01,2010,12-01,none,production,8550.0,calibrated
+378,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2010,04-01,2010,12-01,none,yield,1.0202863961813842,calibrated
+379,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2011,04-01,2011,12-01,none,area,7320.0,calibrated
+380,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2011,04-01,2011,12-01,none,production,8930.0,calibrated
+381,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2011,04-01,2011,12-01,none,yield,1.219945355191257,calibrated
+382,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,1995,04-01,1995,12-01,none,production,4800.0,calibrated
+383,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,1996,04-01,1996,12-01,none,production,700.0,calibrated
+384,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2012,04-01,2012,12-01,none,production,9140.0,calibrated
+385,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2013,04-01,2013,12-01,none,production,8680.0,calibrated
+386,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2014,04-01,2014,12-01,none,production,8460.0,calibrated
+387,LR2008A112,Liberia,LR,Grand Cape Mount,none,Grand Cape Mount,Rice,Main,2015,04-01,2015,12-01,none,production,8460.0,calibrated
+388,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,1997,04-01,1997,12-01,none,area,1441.8580203165604,calibrated
+389,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,1997,04-01,1997,12-01,none,production,1971.5686274509806,calibrated
+390,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,1997,04-01,1997,12-01,none,yield,1.3673805601317957,calibrated
+391,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2008,04-01,2008,12-01,none,area,11230.0,calibrated
+392,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2008,04-01,2008,12-01,none,production,13810.0,calibrated
+393,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2008,04-01,2008,12-01,none,yield,1.2297417631344614,calibrated
+394,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2009,04-01,2009,12-01,none,area,9970.0,calibrated
+395,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2009,04-01,2009,12-01,none,production,12560.0,calibrated
+396,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2009,04-01,2009,12-01,none,yield,1.259779338014042,calibrated
+397,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2010,04-01,2010,12-01,none,area,10220.0,calibrated
+398,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2010,04-01,2010,12-01,none,production,12980.0,calibrated
+399,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2010,04-01,2010,12-01,none,yield,1.270058708414873,calibrated
+400,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2011,04-01,2011,12-01,none,area,9250.0,calibrated
+401,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2011,04-01,2011,12-01,none,production,11380.0,calibrated
+402,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2011,04-01,2011,12-01,none,yield,1.2302702702702704,calibrated
+403,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,1995,04-01,1995,12-01,none,production,653.2305693361683,calibrated
+404,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,1996,04-01,1996,12-01,none,production,950.1535553980628,calibrated
+405,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2012,04-01,2012,12-01,none,production,13000.0,calibrated
+406,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2013,04-01,2013,12-01,none,production,12400.0,calibrated
+407,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2014,04-01,2014,12-01,none,production,12400.0,calibrated
+408,LR2008A115,Liberia,LR,Grand Gedeh,none,Grand Gedeh,Rice,Main,2015,04-01,2015,12-01,none,production,12020.0,calibrated
+409,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,1997,04-01,1997,12-01,none,area,2630.0,calibrated
+410,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,1997,04-01,1997,12-01,none,production,3630.0,calibrated
+411,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,1997,04-01,1997,12-01,none,yield,1.3802281368821292,calibrated
+412,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2008,04-01,2008,12-01,none,area,7350.0,calibrated
+413,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2008,04-01,2008,12-01,none,production,9990.0,calibrated
+414,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2008,04-01,2008,12-01,none,yield,1.3591836734693878,calibrated
+415,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2009,04-01,2009,12-01,none,area,8590.0,calibrated
+416,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2009,04-01,2009,12-01,none,production,9620.0,calibrated
+417,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2009,04-01,2009,12-01,none,yield,1.119906868451688,calibrated
+418,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2010,04-01,2010,12-01,none,area,8300.0,calibrated
+419,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2010,04-01,2010,12-01,none,production,9500.0,calibrated
+420,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2010,04-01,2010,12-01,none,yield,1.144578313253012,calibrated
+421,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2011,04-01,2011,12-01,none,area,9800.0,calibrated
+422,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2011,04-01,2011,12-01,none,production,11270.0,calibrated
+423,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2011,04-01,2011,12-01,none,yield,1.15,calibrated
+424,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,1996,04-01,1996,12-01,none,production,500.0,calibrated
+425,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2012,04-01,2012,12-01,none,production,10420.0,calibrated
+426,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2013,04-01,2013,12-01,none,production,10190.0,calibrated
+427,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2014,04-01,2014,12-01,none,production,10240.0,calibrated
+428,LR2008A118,Liberia,LR,Grand Kru,none,Grand Kru,Rice,Main,2015,04-01,2015,12-01,none,production,9880.0,calibrated
+429,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,1997,04-01,1997,12-01,none,area,15625.155072326746,calibrated
+430,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,1997,04-01,1997,12-01,none,production,18564.234849201097,calibrated
+431,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,1997,04-01,1997,12-01,none,yield,1.1880992389048137,calibrated
+432,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2008,04-01,2008,12-01,none,area,34190.0,calibrated
+433,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2008,04-01,2008,12-01,none,production,41710.0,calibrated
+434,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2008,04-01,2008,12-01,none,yield,1.219947353027201,calibrated
+435,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2009,04-01,2009,12-01,none,area,44000.0,calibrated
+436,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2009,04-01,2009,12-01,none,production,55440.0,calibrated
+437,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2009,04-01,2009,12-01,none,yield,1.26,calibrated
+438,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2010,04-01,2010,12-01,none,area,46140.0,calibrated
+439,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2010,04-01,2010,12-01,none,production,59980.0,calibrated
+440,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2010,04-01,2010,12-01,none,yield,1.2999566536627656,calibrated
+441,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2011,04-01,2011,12-01,none,area,40500.0,calibrated
+442,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2011,04-01,2011,12-01,none,production,51440.0,calibrated
+443,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2011,04-01,2011,12-01,none,yield,1.2701234567901234,calibrated
+444,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,1995,04-01,1995,12-01,none,production,7645.005199962182,calibrated
+445,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,1996,04-01,1996,12-01,none,production,8880.561595915666,calibrated
+446,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2012,04-01,2012,12-01,none,production,52660.0,calibrated
+447,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2013,04-01,2013,12-01,none,production,47770.0,calibrated
+448,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2014,04-01,2014,12-01,none,production,49280.0,calibrated
+449,LR2008A121,Liberia,LR,Lofa,none,Lofa,Rice,Main,2015,04-01,2015,12-01,none,production,50110.0,calibrated
+450,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,1997,04-01,1997,12-01,none,area,7669.0,calibrated
+451,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,1997,04-01,1997,12-01,none,production,9710.0,calibrated
+452,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,1997,04-01,1997,12-01,none,yield,1.266136393271613,calibrated
+453,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2008,04-01,2008,12-01,none,area,7520.0,calibrated
+454,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2008,04-01,2008,12-01,none,production,9320.0,calibrated
+455,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2008,04-01,2008,12-01,none,yield,1.2393617021276595,calibrated
+456,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2009,04-01,2009,12-01,none,area,7120.0,calibrated
+457,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2009,04-01,2009,12-01,none,production,8400.0,calibrated
+458,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2009,04-01,2009,12-01,none,yield,1.1797752808988764,calibrated
+459,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2010,04-01,2010,12-01,none,area,6670.0,calibrated
+460,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2010,04-01,2010,12-01,none,production,8000.0,calibrated
+461,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2010,04-01,2010,12-01,none,yield,1.199400299850075,calibrated
+462,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2011,04-01,2011,12-01,none,area,6170.0,calibrated
+463,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2011,04-01,2011,12-01,none,production,7530.0,calibrated
+464,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2011,04-01,2011,12-01,none,yield,1.220421393841167,calibrated
+465,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,1995,04-01,1995,12-01,none,production,600.0,calibrated
+466,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,1996,04-01,1996,12-01,none,production,2600.0,calibrated
+467,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2012,04-01,2012,12-01,none,production,7710.0,calibrated
+468,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2013,04-01,2013,12-01,none,production,6550.0,calibrated
+469,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2014,04-01,2014,12-01,none,production,7000.0,calibrated
+470,LR2008A124,Liberia,LR,Margibi,none,Margibi,Rice,Main,2015,04-01,2015,12-01,none,production,7380.0,calibrated
+471,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,1997,04-01,1997,12-01,none,area,1983.0,calibrated
+472,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,1997,04-01,1997,12-01,none,production,2760.0,calibrated
+473,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,1997,04-01,1997,12-01,none,yield,1.3918305597579426,calibrated
+474,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2008,04-01,2008,12-01,none,area,8270.0,calibrated
+475,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2008,04-01,2008,12-01,none,production,11410.0,calibrated
+476,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2008,04-01,2008,12-01,none,yield,1.3796856106408706,calibrated
+477,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2009,04-01,2009,12-01,none,area,7410.0,calibrated
+478,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2009,04-01,2009,12-01,none,production,8820.0,calibrated
+479,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2009,04-01,2009,12-01,none,yield,1.1902834008097165,calibrated
+480,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2010,04-01,2010,12-01,none,area,7360.0,calibrated
+481,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2010,04-01,2010,12-01,none,production,8540.0,calibrated
+482,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2010,04-01,2010,12-01,none,yield,1.1603260869565217,calibrated
+483,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2011,04-01,2011,12-01,none,area,7470.0,calibrated
+484,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2011,04-01,2011,12-01,none,production,8740.0,calibrated
+485,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2011,04-01,2011,12-01,none,yield,1.1700133868808567,calibrated
+486,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,1995,04-01,1995,12-01,none,production,3400.0,calibrated
+487,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,1996,04-01,1996,12-01,none,production,300.0,calibrated
+488,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2012,04-01,2012,12-01,none,production,9200.0,calibrated
+489,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2013,04-01,2013,12-01,none,production,8950.0,calibrated
+490,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2014,04-01,2014,12-01,none,production,8950.0,calibrated
+491,LR2008A127,Liberia,LR,Maryland,none,Maryland,Rice,Main,2015,04-01,2015,12-01,none,production,8470.0,calibrated
+492,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,1997,04-01,1997,12-01,none,area,4047.0,calibrated
+493,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,1997,04-01,1997,12-01,none,production,5080.0,calibrated
+494,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,1997,04-01,1997,12-01,none,yield,1.255250803063998,calibrated
+495,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2008,04-01,2008,12-01,none,area,7920.0,calibrated
+496,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2008,04-01,2008,12-01,none,production,9350.0,calibrated
+497,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2008,04-01,2008,12-01,none,yield,1.1805555555555556,calibrated
+498,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2009,04-01,2009,12-01,none,area,8160.0,calibrated
+499,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2009,04-01,2009,12-01,none,production,9140.0,calibrated
+500,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2009,04-01,2009,12-01,none,yield,1.1200980392156863,calibrated
+501,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2010,04-01,2010,12-01,none,area,7380.0,calibrated
+502,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2010,04-01,2010,12-01,none,production,8340.0,calibrated
+503,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2010,04-01,2010,12-01,none,yield,1.1300813008130082,calibrated
+504,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2011,04-01,2011,12-01,none,area,6320.0,calibrated
+505,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2011,04-01,2011,12-01,none,production,7390.0,calibrated
+506,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2011,04-01,2011,12-01,none,yield,1.1693037974683544,calibrated
+507,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,1995,04-01,1995,12-01,none,production,6900.0,calibrated
+508,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,1996,04-01,1996,12-01,none,production,7600.0,calibrated
+509,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2012,04-01,2012,12-01,none,production,7570.0,calibrated
+510,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2013,04-01,2013,12-01,none,production,6780.0,calibrated
+511,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2014,04-01,2014,12-01,none,production,7300.0,calibrated
+512,LR2008A130,Liberia,LR,Montserrado,none,Montserrado,Rice,Main,2015,04-01,2015,12-01,none,production,7370.0,calibrated
+513,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,1997,04-01,1997,12-01,none,area,32627.0,calibrated
+514,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,1997,04-01,1997,12-01,none,production,38040.0,calibrated
+515,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,1997,04-01,1997,12-01,none,yield,1.1659055383578019,calibrated
+516,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2008,04-01,2008,12-01,none,area,46180.0,calibrated
+517,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2008,04-01,2008,12-01,none,production,55880.0,calibrated
+518,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2008,04-01,2008,12-01,none,yield,1.2100476396708533,calibrated
+519,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2009,04-01,2009,12-01,none,area,53020.0,calibrated
+520,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2009,04-01,2009,12-01,none,production,59910.0,calibrated
+521,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2009,04-01,2009,12-01,none,yield,1.1299509619011694,calibrated
+522,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2010,04-01,2010,12-01,none,area,55060.0,calibrated
+523,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2010,04-01,2010,12-01,none,production,60570.0,calibrated
+524,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2010,04-01,2010,12-01,none,yield,1.1000726480203415,calibrated
+525,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2011,04-01,2011,12-01,none,area,50930.0,calibrated
+526,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2011,04-01,2011,12-01,none,production,61630.0,calibrated
+527,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2011,04-01,2011,12-01,none,yield,1.2100922835264087,calibrated
+528,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,1995,04-01,1995,12-01,none,production,6700.0,calibrated
+529,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,1996,04-01,1996,12-01,none,production,33800.0,calibrated
+530,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2012,04-01,2012,12-01,none,production,63080.0,calibrated
+531,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2013,04-01,2013,12-01,none,production,53570.0,calibrated
+532,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2014,04-01,2014,12-01,none,production,57870.0,calibrated
+533,LR2008A133,Liberia,LR,Nimba,none,Nimba,Rice,Main,2015,04-01,2015,12-01,none,production,61970.0,calibrated
+534,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,1997,04-01,1997,12-01,none,area,4272.0,calibrated
+535,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,1997,04-01,1997,12-01,none,production,4790.0,calibrated
+536,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,1997,04-01,1997,12-01,none,yield,1.12125468164794,calibrated
+537,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2008,04-01,2008,12-01,none,area,5960.0,calibrated
+538,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2008,04-01,2008,12-01,none,production,6670.0,calibrated
+539,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2008,04-01,2008,12-01,none,yield,1.1191275167785235,calibrated
+540,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2009,04-01,2009,12-01,none,area,7000.0,calibrated
+541,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2009,04-01,2009,12-01,none,production,7410.0,calibrated
+542,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2009,04-01,2009,12-01,none,yield,1.0585714285714285,calibrated
+543,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2010,04-01,2010,12-01,none,area,5860.0,calibrated
+544,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2010,04-01,2010,12-01,none,production,6500.0,calibrated
+545,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2010,04-01,2010,12-01,none,yield,1.1092150170648465,calibrated
+546,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2011,04-01,2011,12-01,none,area,4960.0,calibrated
+547,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2011,04-01,2011,12-01,none,production,5110.0,calibrated
+548,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2011,04-01,2011,12-01,none,yield,1.030241935483871,calibrated
+549,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,1995,04-01,1995,12-01,none,production,500.0,calibrated
+550,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,1996,04-01,1996,12-01,none,production,100.0,calibrated
+551,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2012,04-01,2012,12-01,none,production,5230.0,calibrated
+552,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2013,04-01,2013,12-01,none,production,5170.0,calibrated
+553,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2014,04-01,2014,12-01,none,production,5790.0,calibrated
+554,LR2008A136,Liberia,LR,Rivercess,none,Rivercess,Rice,Main,2015,04-01,2015,12-01,none,production,5730.0,calibrated
+555,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,1997,04-01,1997,12-01,none,area,3286.0,calibrated
+556,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,1997,04-01,1997,12-01,none,production,4680.0,calibrated
+557,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,1997,04-01,1997,12-01,none,yield,1.4242239805234327,calibrated
+558,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2008,04-01,2008,12-01,none,area,8950.0,calibrated
+559,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2008,04-01,2008,12-01,none,production,12260.0,calibrated
+560,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2008,04-01,2008,12-01,none,yield,1.3698324022346369,calibrated
+561,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2009,04-01,2009,12-01,none,area,9200.0,calibrated
+562,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2009,04-01,2009,12-01,none,production,11500.0,calibrated
+563,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2009,04-01,2009,12-01,none,yield,1.25,calibrated
+564,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2010,04-01,2010,12-01,none,area,9290.0,calibrated
+565,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2010,04-01,2010,12-01,none,production,10500.0,calibrated
+566,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2010,04-01,2010,12-01,none,yield,1.1302475780409043,calibrated
+567,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2011,04-01,2011,12-01,none,area,8300.0,calibrated
+568,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2011,04-01,2011,12-01,none,production,9630.0,calibrated
+569,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2011,04-01,2011,12-01,none,yield,1.1602409638554216,calibrated
+570,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,1995,04-01,1995,12-01,none,production,500.0,calibrated
+571,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,1996,04-01,1996,12-01,none,production,2800.0,calibrated
+572,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2012,04-01,2012,12-01,none,production,8500.0,calibrated
+573,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2013,04-01,2013,12-01,none,production,7840.0,calibrated
+574,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2014,04-01,2014,12-01,none,production,8890.0,calibrated
+575,LR2008A139,Liberia,LR,Sinoe,none,Sinoe,Rice,Main,2015,04-01,2015,12-01,none,production,8890.0,calibrated
+576,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,1997,04-01,1997,12-01,none,area,986.1419796834397,calibrated
+577,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,1997,04-01,1997,12-01,none,production,1348.4313725490197,calibrated
+578,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,1997,04-01,1997,12-01,none,yield,1.3673805601317957,calibrated
+579,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2008,04-01,2008,12-01,none,area,7990.0,calibrated
+580,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2008,04-01,2008,12-01,none,production,9900.0,calibrated
+581,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2008,04-01,2008,12-01,none,yield,1.2390488110137672,calibrated
+582,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2009,04-01,2009,12-01,none,area,6900.0,calibrated
+583,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2009,04-01,2009,12-01,none,production,7790.0,calibrated
+584,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2009,04-01,2009,12-01,none,yield,1.1289855072463768,calibrated
+585,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2010,04-01,2010,12-01,none,area,6800.0,calibrated
+586,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2010,04-01,2010,12-01,none,production,7620.0,calibrated
+587,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2010,04-01,2010,12-01,none,yield,1.1205882352941177,calibrated
+588,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2011,04-01,2011,12-01,none,area,7190.0,calibrated
+589,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2011,04-01,2011,12-01,none,production,8410.0,calibrated
+590,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2011,04-01,2011,12-01,none,yield,1.1696801112656467,calibrated
+591,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,1995,04-01,1995,12-01,none,production,446.7694306638318,calibrated
+592,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,1996,04-01,1996,12-01,none,production,649.8464446019372,calibrated
+593,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2012,04-01,2012,12-01,none,production,9100.0,calibrated
+594,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2013,04-01,2013,12-01,none,production,8780.0,calibrated
+595,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2014,04-01,2014,12-01,none,production,8550.0,calibrated
+596,LR2008A142,Liberia,LR,River Gee,none,River Gee,Rice,Main,2015,04-01,2015,12-01,none,production,8620.0,calibrated
+597,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,1997,04-01,1997,12-01,none,area,4608.844927673254,calibrated
+598,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,1997,04-01,1997,12-01,none,production,5475.765150798903,calibrated
+599,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,1997,04-01,1997,12-01,none,yield,1.1880992389048135,calibrated
+600,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2008,04-01,2008,12-01,none,area,12440.0,calibrated
+601,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2008,04-01,2008,12-01,none,production,15430.0,calibrated
+602,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2008,04-01,2008,12-01,none,yield,1.2403536977491962,calibrated
+603,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2009,04-01,2009,12-01,none,area,12960.0,calibrated
+604,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2009,04-01,2009,12-01,none,production,14900.0,calibrated
+605,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2009,04-01,2009,12-01,none,yield,1.1496913580246915,calibrated
+606,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2010,04-01,2010,12-01,none,area,12890.0,calibrated
+607,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2010,04-01,2010,12-01,none,production,15470.0,calibrated
+608,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2010,04-01,2010,12-01,none,yield,1.200155159038014,calibrated
+609,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2011,04-01,2011,12-01,none,area,12310.0,calibrated
+610,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2011,04-01,2011,12-01,none,production,15760.0,calibrated
+611,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2011,04-01,2011,12-01,none,yield,1.2802599512591388,calibrated
+612,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,1995,04-01,1995,12-01,none,production,2254.994800037818,calibrated
+613,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,1996,04-01,1996,12-01,none,production,2619.438404084334,calibrated
+614,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2012,04-01,2012,12-01,none,production,16140.0,calibrated
+615,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2013,04-01,2013,12-01,none,production,14340.0,calibrated
+616,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2014,04-01,2014,12-01,none,production,14210.0,calibrated
+617,LR2008A145,Liberia,LR,Gbarpolu,none,Gbarpolu,Rice,Main,2015,04-01,2015,12-01,none,production,14210.0,calibrated
