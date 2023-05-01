@@ -369,6 +369,8 @@ def PlotLinePAY(df, year, footnote, fn_save=False):
 
 def PlotBarProduction(df, year, product_order, footnote, fn_save=False):
     # product_order = df[df['indicator'] == 'production'].groupby('product')['value'].sum().sort_values().index[::-1]
+    indicator_exist = df['indicator'].unique()
+    indicator_exist = indicator_exist[~np.isin(indicator_exist, 'yield')]
     table = df.pivot_table(
         index='year',          
         columns=['fnid','country','name','product','season_name','harvest_month','indicator'],         
@@ -380,7 +382,7 @@ def PlotBarProduction(df, year, product_order, footnote, fn_save=False):
 
     # National production in percentage
     container = []
-    for (indicator,season_name) in product(['area','production'],df.season_name.unique()):
+    for (indicator,season_name) in product(indicator_exist,df.season_name.unique()):
         temp = table.loc[:, pd.IndexSlice[:,:,:,:,season_name,:,indicator]].groupby('product', axis=1).sum(min_count=1)
         temp = temp.div(temp.sum(1), axis=0)*100
         temp = temp.stack().reset_index().rename({0:'value'},axis=1)
