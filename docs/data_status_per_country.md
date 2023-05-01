@@ -19,7 +19,7 @@
 		- Cameroon
 		- Central African Republic
 		- `Chad (processed)`
-		- Guinea
+		- `Guinea (processed)`
 		- `Liberia (processed)`
 		- `Mali (processed)`
 		- Mauritania
