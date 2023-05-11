@@ -146,3 +146,22 @@ dmypy.json
 # Pyre type checker
 .pyre/
 removable_all_data.hdf
+figures/ET_admin_shapes.png
+figures/ET_bar_natgrainprod_Belg.png
+figures/ET_bar_natgrainprod_Meher.png
+figures/ET_line_pay_Barley_Belg.png
+figures/ET_line_pay_Barley_Meher.png
+figures/ET_line_pay_Maize_Belg.png
+figures/ET_line_pay_Maize_Meher.png
+figures/ET_line_pay_Millet_Belg.png
+figures/ET_line_pay_Millet_Meher.png
+figures/ET_line_pay_Oats_Belg.png
+figures/ET_line_pay_Oats_Meher.png
+figures/ET_line_pay_Rice_Belg.png
+figures/ET_line_pay_Rice_Meher.png
+figures/ET_line_pay_Sorghum_Belg.png
+figures/ET_line_pay_Sorghum_Meher.png
+figures/ET_line_pay_Teff_Belg.png
+figures/ET_line_pay_Teff_Meher.png
+figures/ET_line_pay_Wheat_Belg.png
+figures/ET_line_pay_Wheat_Meher.png
