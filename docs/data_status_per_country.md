@@ -36,7 +36,7 @@
 			- Year-off issue is reported
 			- Aggregation of admin level-3 to admin level-2
 		- `Malawi (processed)`
-		- Mozambique
+		- `Mozambique (processed)`
 		- `South Africa (processed)`
 			- Year-off issue is reported
 		- `Zambia (processed)`
