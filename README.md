@@ -30,15 +30,16 @@ GSCD currently contains subnational crop data for **`19`** countries (see [curre
 
 <img src="./docs/current_status_map.svg" alt="drawing" width="800"/>
 
+## Usage
+- Our data is currently experimental and only available to our internal research team.</br>
 ## Contributors
 - Dr. Donghoon Lee (UCSB)
 - Dr. Weston Anderson (NASA)
 - Chen Xuan
 
 ## Contact 
-Our data is currently experimental and only available to our internal research team.</br>
-Please contact Donghoon Lee ([donghoonlee@ucsb.edu](donghoonlee@ucsb.edu)) for any questions or collaborations.</br>
-Users are welcome to open an [issue](https://github.com/chc-ucsb/gscd/issues).
+- Please contact Donghoon Lee ([donghoonlee@ucsb.edu](donghoonlee@ucsb.edu)) for any questions or collaborations.</br>
+- Users are welcome to open an [issue](https://github.com/chc-ucsb/gscd/issues).
 
 <!-- ## Usage
 The data in this repository is available for free and unrestricted use. Users are encouraged to cite the sources of the data appropriately. The repository can be cloned or downloaded using the git command or the Github interface.
