@@ -2,7 +2,7 @@
 
 The Global Subnational Crop Data (GSCD) is a repository that contains cleaned and harmonized subnational global crop production data from various sources, including the Famine [Early Warning Systems Network (FEWS NET)](https://fews.net/) of the United States Agency for International Development (USAID) and the Food and Agriculture Organization (FAO).</br>
 
-This repository provides access to a comprehensive dataset that allows researchers, policymakers, and stakeholders to explore trends and patterns in crop production at the subnational level, enabling better-informed decisions related to food security, trade, and development.</br>
+This repository provides access to a comprehensive crop dataset that allows researchers, policymakers, and stakeholders to explore trends and patterns from  the subnational to the global level, enabling better-informed decisions related to food security, trade, and development.</br>
 
 ## Data Sources
 The data in this repository is compiled from various sources, including:
@@ -14,7 +14,7 @@ The data in this repository is compiled from various sources, including:
 - National agricultural agencies
 
 ## Data Processing
-The crop data in this repository is organized and calibrated using Python. The code used for processing the data is included in the repository.
+The crop data in this repository is calibrated and harmonized using Python. The code used for processing the data is included in the repository.
 
 ## Repository Structure
 This repository is organized as follows:
@@ -24,8 +24,8 @@ This repository is organized as follows:
 - `docs/`: contains any additional documentation related to the data.
 
 ## Current Data Status
-GSCD currently contains subnational crop data for **`18`** countries (see [current data status per country](/docs/data_status_per_country.md)):</br>
-- Admin-1 level: Afghanistan, Angola, Chad, Kenya, Lesotho, Liberia, Mali, Mozambique, South Africa, Yemen
+GSCD currently contains subnational crop data for **`19`** countries (see [current data status per country](/docs/data_status_per_country.md)):</br>
+- Admin-1 level: Afghanistan, Angola, Chad, Democratic Republic of the Congo, Kenya, Lesotho, Liberia, Mali, Mozambique, South Africa, Yemen
 - Admin-2 level: Burkina Faso, Guinea, Malawi, Niger, Senegal, Somalia, Madagascar, Zambia
 
 <img src="./docs/current_status_map.svg" alt="drawing" width="800"/>
@@ -36,7 +36,9 @@ GSCD currently contains subnational crop data for **`18`** countries (see [curre
 - Chen Xuan
 
 ## Contact 
-Please contact to Donghoon Lee ([donghoonlee@ucsb.edu](donghoonlee@ucsb.edu)).
+Our data is currently experimental and only available to our internal research team.</br>
+Please contact Donghoon Lee ([donghoonlee@ucsb.edu](donghoonlee@ucsb.edu)) for any questions or collaborations.</br>
+Users are welcome to open an [issue](https://github.com/chc-ucsb/gscd/issues).
 
 <!-- ## Usage
 The data in this repository is available for free and unrestricted use. Users are encouraged to cite the sources of the data appropriately. The repository can be cloned or downloaded using the git command or the Github interface.
