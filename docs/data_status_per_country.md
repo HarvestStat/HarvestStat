@@ -29,7 +29,9 @@
 		- Sierra Leone
 	- ### Southern Africa
 		- `Angola (processed)`
-		- Democratic Republic of Congo
+		- `Democratic Republic of Congo (processed)`
+			- Planting and harvesting months are not clear
+			- Needs to validate unrealistic values and patterns
 		- `Lesotho (processed)`
 			- Year-off issue is reported
 		- `Madagascar (processed)`
