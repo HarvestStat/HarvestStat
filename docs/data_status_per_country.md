@@ -23,23 +23,25 @@
 		- `Liberia (processed)`
 		- `Mali (processed)`
 		- Mauritania
-		- Niger
+		- `Niger (processed)`
 		- Nigeria
 		- `Senegal (processed)`
 		- Sierra Leone
 	- ### Southern Africa
-		- Angola
-		- Democratic Republic of Congo
+		- `Angola (processed)`
+		- `Democratic Republic of Congo (processed)`
+			- Planting and harvesting months are not clear
+			- Needs to validate unrealistic values and patterns
 		- `Lesotho (processed)`
 			- Year-off issue is reported
 		- `Madagascar (processed)`
 			- Year-off issue is reported
 			- Aggregation of admin level-3 to admin level-2
 		- `Malawi (processed)`
-		- Mozambique
+		- `Mozambique (processed)`
 		- `South Africa (processed)`
 			- Year-off issue is reported
-		- Zambia
+		- `Zambia (processed)`
 		- Zimbabwe
 	- ### Central Asia
 		- `Afghanistan (temporarily processed)`
