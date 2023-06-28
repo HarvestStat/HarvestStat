@@ -47,3 +47,4 @@
 		- `Afghanistan (temporarily processed)`
 			- Current FDW has several issues
 			- Admin level-1 wheat production is processed with auxiliary data source; this is validated with precipitation and FAO data
+			- Admin level-1 data has some "zero" proudction values that need to be corrected
