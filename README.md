@@ -19,7 +19,8 @@ We are currently sharing the Jupyter notebooks that we used to calibrate and har
 ## Repository Structure
 This repository is organized as follows:
 
-- `public/`: contains the processed data in CSV and JSON formats. (Note: the data is currently experimental and only available to our internal research team.)
+- `public/`: contains the processed data in CSV and JSON formats. 
+    - Note: the data is currently experimental and only available to internal research team.
 - `notebook/`: contains the Jupyter notebook used for processing the data per each country.
 - `docs/`: contains any additional documentation related to the data.
 
