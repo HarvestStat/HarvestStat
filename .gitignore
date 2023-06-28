@@ -1,3 +1,4 @@
+figures/crop_calibrated/*
 public/gscd_shape.json
 public/gscd_data.csv
 data/crop/adm_crop_production_*.*
@@ -168,4 +169,3 @@ data/gridded/admFull_sorghum1.nc
 data/gridded/admFull_sorghum1_ZM.nc
 data/gridded/admFull_sorghum2.nc
 data/gridded/admFull_wheat.nc
-*.png
