@@ -13,13 +13,13 @@ The data in this repository is compiled from various sources, including:
     - [Agro-MAPS](https://gaez.fao.org/pages/agromaps)
 - National agricultural agencies
 
-## Data Processing
-The crop data in this repository is calibrated and harmonized using Python. The code used for processing the data is included in the repository.
+## Data Processing and Sharing
+We are currently sharing the Jupyter notebooks that we used to calibrate and harmonize the crop data for each country, which can be found in the `notebook/` directory. However, in order to keep the process streamlined, we do not share underlying data sources externally at this time. 
 
 ## Repository Structure
 This repository is organized as follows:
 
-- `public/`: contains the processed data in CSV and JSON formats.
+- `public/`: contains the processed data in CSV and JSON formats. (Note: the data is currently experimental and only available to our internal research team.)
 - `notebook/`: contains the Jupyter notebook used for processing the data per each country.
 - `docs/`: contains any additional documentation related to the data.
 
@@ -30,8 +30,6 @@ GSCD currently contains subnational crop data for **`19`** countries (see [curre
 
 <img src="./docs/current_status_map.svg" alt="drawing" width="800"/>
 
-## Usage
-- Our data is currently experimental and only available to our internal research team.</br>
 ## Contributors
 - Dr. Donghoon Lee (UCSB)
 - Dr. Weston Anderson (NASA)
