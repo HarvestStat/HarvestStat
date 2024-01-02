@@ -18,6 +18,12 @@ data/adm.prcp.chirps-v2.crop.*hdf
 CP_*_CropData.ipynb
 data/crop/adm_fao_agromaps.csv
 data/crop/adm_fao_stat.csv
+notebook/token.json
+data/crop/admFull_crop_production_anomalies.hdf
+data/crop/admFull_crop_production_ALL.hdf
+data/gridded/*
+data/crop/adm0_*
+data/crop/adm1_*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
