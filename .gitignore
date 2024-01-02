@@ -24,6 +24,14 @@ data/crop/admFull_crop_production_ALL.hdf
 data/gridded/*
 data/crop/adm0_*
 data/crop/adm1_*
+data/crop/*SD*
+figures/SD*
+figures/yld_detrend/Sudan*
+figures/crop_calibrated/SD*
+
+
+
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
