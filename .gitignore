@@ -1,3 +1,6 @@
+data_FEWS_Only
+figures_FEWS_Only
+notebook_FEWS_Only
 data/crop/adm_crop_production_ALL.hdf
 data/adm.chirps-v2.*.*.csv
 data/auxiliary
