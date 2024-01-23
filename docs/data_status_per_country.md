@@ -12,8 +12,6 @@
 		- South Sudan
 		- Tanzania
 		- Uganda
-		- `Yemen (temporarily processed)`
-			- The YE_admin1_1990.shp is not provided. We confirmed that three districts are divided and added to YE_admin1_1998.shp.
 	- ### West Africa
 		- `Burkina Faso (processed)`
 		- Cameroon
@@ -48,3 +46,5 @@
 			- Current FDW has several issues
 			- Admin level-1 wheat production is processed with auxiliary data source; this is validated with precipitation and FAO data
 			- Admin level-1 data has some "zero" proudction values that need to be corrected
+		- `Yemen (temporarily processed)`
+			- The YE_admin1_1990.shp is not provided. We confirmed that three districts are divided and added to YE_admin1_1998.shp.
