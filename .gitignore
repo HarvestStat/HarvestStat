@@ -1,3 +1,6 @@
+data_FEWS_Only
+figures_FEWS_Only
+notebook_FEWS_Only
 data/crop/adm_crop_production_ALL.hdf
 data/adm.chirps-v2.*.*.csv
 data/auxiliary
@@ -18,6 +21,20 @@ data/adm.prcp.chirps-v2.crop.*hdf
 CP_*_CropData.ipynb
 data/crop/adm_fao_agromaps.csv
 data/crop/adm_fao_stat.csv
+notebook/token.json
+data/crop/admFull_crop_production_anomalies.hdf
+data/crop/admFull_crop_production_ALL.hdf
+data/gridded/*
+data/crop/adm0_*
+data/crop/adm1_*
+data/crop/*SD*
+figures/SD*
+figures/yld_detrend/Sudan*
+figures/crop_calibrated/SD*
+
+
+
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
