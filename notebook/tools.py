@@ -541,6 +541,10 @@ def FDW_PD_ConnectAdminLink(link_ratio, area, prod, validation=True):
     for fnid_new in link_ratio.keys():
         name_new = area[fnid_new].columns[0][0]
         ratio = link_ratio[fnid_new]
+        #drop duplicates in case of merging countries that split with differing subsequent unit sets
+        # For example, after SD and SS spilt, SS only has 2011, while SD has 2011, 2012, 2013 etc. This results in duplicates if 2011 SS
+        # is appended to 2011, 2012, and 2013 SD to create continuous boundaries across new country boundaries
+        ratio = ratio.iloc[:,~(ratio.columns.duplicated())]
         area_scaled = []
         prod_scaled = []
         for fnid in ratio.columns:
