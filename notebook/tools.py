@@ -277,7 +277,11 @@ def FDW_PD_ValidateFnidName(df, shape_used, shape_latest):
     '''Chekcing all FNID and Names between FDW data and FEWS NET Shapefiles for consistency.
     '''
     name_fdw = df[['fnid','admin_1','admin_2']].drop_duplicates()
-    name_shape = shape_used[['FNID','ADMIN1','ADMIN2']].drop_duplicates()
+    if 'ADMIN2' not in shape_used.columns: #admin 1 files may not have an admin 2 field, which would be entirely null
+        name_shape = shape_used[['FNID','ADMIN1']].drop_duplicates()
+    else:
+        name_shape = shape_used[['FNID','ADMIN1','ADMIN2']].drop_duplicates()
+        
     # Check all FNIDs exist in the shapefiles.
     fnid_not_in_shape = name_fdw[
         (name_fdw['fnid'].apply(lambda x: x[6] == 'A')) &
@@ -294,12 +298,13 @@ def FDW_PD_ValidateFnidName(df, shape_used, shape_latest):
         print('%s:\t"%s" (FDW) is changed to "%s" (shapefile).' % (FNID, admin_1, ADMIN1))
         df.loc[df['fnid'] == FNID, 'admin_1'] = ADMIN1
     # - Admin level 2
-    adm2 = name_merged['FNID'].apply(lambda x: x[6:8] == 'A2')
-    name_merged_adm2 = name_merged.loc[adm2, ['FNID','ADMIN2', 'admin_2']]
-    name_replace2 = name_merged_adm2[name_merged_adm2['ADMIN2'] != name_merged_adm2['admin_2']]
-    for i, (FNID, ADMIN2, admin_2) in name_replace2.iterrows():
-        print('%s:\t"%s" (FDW) is changed to "%s" (shapefile).' % (FNID, admin_2, ADMIN2))
-        df.loc[df['fnid'] == FNID, 'admin_2'] = ADMIN2
+    if 'ADMIN2' in shape_used.columns:
+        adm2 = name_merged['FNID'].apply(lambda x: x[6:8] == 'A2')
+        name_merged_adm2 = name_merged.loc[adm2, ['FNID','ADMIN2', 'admin_2']]
+        name_replace2 = name_merged_adm2[name_merged_adm2['ADMIN2'] != name_merged_adm2['admin_2']]
+        for i, (FNID, ADMIN2, admin_2) in name_replace2.iterrows():
+            print('%s:\t"%s" (FDW) is changed to "%s" (shapefile).' % (FNID, admin_2, ADMIN2))
+            df.loc[df['fnid'] == FNID, 'admin_2'] = ADMIN2
     # Define representative administrative names
     df.loc[df['fnid'].apply(lambda x: x[6:8] == 'A1'), 'name'] = df.loc[df['fnid'].apply(lambda x: x[6:8] == 'A1'), 'admin_1']
     df.loc[df['fnid'].apply(lambda x: x[6:8] == 'A2'), 'name'] = df.loc[df['fnid'].apply(lambda x: x[6:8] == 'A2'), 'admin_2']
@@ -311,7 +316,8 @@ def FDW_PD_ValidateFnidName(df, shape_used, shape_latest):
     df.loc[df['fnid'].apply(lambda x: x[6:8] == 'R4'), 'name'] = df.loc[df['fnid'].apply(lambda x: x[6:8] == 'R4'), 'admin_4']
     for gdf in [shape_used, shape_latest]:
         fdx = gdf.FNID.apply(lambda x: x[7] == '1'); gdf.loc[fdx,'name'] = gdf.loc[fdx, 'ADMIN1']
-        fdx = gdf.FNID.apply(lambda x: x[7] == '2'); gdf.loc[fdx,'name'] = gdf.loc[fdx, 'ADMIN2']
+        if 'ADMIN2' in shape_used.columns:
+            fdx = gdf.FNID.apply(lambda x: x[7] == '2'); gdf.loc[fdx,'name'] = gdf.loc[fdx, 'ADMIN2']
     return df
 
 
@@ -535,6 +541,10 @@ def FDW_PD_ConnectAdminLink(link_ratio, area, prod, validation=True):
     for fnid_new in link_ratio.keys():
         name_new = area[fnid_new].columns[0][0]
         ratio = link_ratio[fnid_new]
+        #drop duplicates in case of merging countries that split with differing subsequent unit sets
+        # For example, after SD and SS spilt, SS only has 2011, while SD has 2011, 2012, 2013 etc. This results in duplicates if 2011 SS
+        # is appended to 2011, 2012, and 2013 SD to create continuous boundaries across new country boundaries
+        ratio = ratio.iloc[:,~(ratio.columns.duplicated())]
         area_scaled = []
         prod_scaled = []
         for fnid in ratio.columns:

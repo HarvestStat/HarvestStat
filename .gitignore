@@ -14,6 +14,9 @@ data/auxiliary
 data/crop/adm_fao_agromaps.csv
 data/crop/adm_fao_stat.csv
 data/crop/adm_crop_production_*.*
+data_FEWS_Only
+figures_FEWS_Only
+notebook_FEWS_Only
 data/crop/adm_crop_production_ALL.hdf
 data/crop/raw
 data/crop/data_points_table.xlsx
@@ -44,7 +47,21 @@ data/gridded/admFull_sorghum2.nc
 data/gridded/admFull_wheat.nc
 # ---------------------------------------------------- #
 
-# GitHub Default ------------------------------------- #
+# GitHub Default ------------------------------------- #notebook/token.json
+data/crop/admFull_crop_production_anomalies.hdf
+data/crop/admFull_crop_production_ALL.hdf
+data/gridded/*
+data/crop/adm0_*
+data/crop/adm1_*
+data/crop/*SD*
+figures/SD*
+figures/yld_detrend/Sudan*
+figures/crop_calibrated/SD*
+
+
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
