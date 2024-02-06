@@ -1,6 +1,6 @@
-# Global Subnational Crop Data (GSCD)
+# HarvestStat - Harmonized Subnational Crop Statistics
 
-The Global Subnational Crop Data (GSCD) is a repository that contains cleaned and harmonized subnational global crop production data from various sources, including the Famine [Early Warning Systems Network (FEWS NET)](https://fews.net/) of the United States Agency for International Development (USAID) and the Food and Agriculture Organization (FAO).</br>
+The HarvestStat is a repository that contains cleaned and harmonized subnational global crop production data from various sources, including the Famine [Early Warning Systems Network (FEWS NET)](https://fews.net/) of the United States Agency for International Development (USAID) and the Food and Agriculture Organization (FAO).</br>
 
 This repository provides access to a comprehensive crop dataset that allows researchers, policymakers, and stakeholders to explore trends and patterns from  the subnational to the global level, enabling better-informed decisions related to food security, trade, and development.</br>
 
@@ -25,19 +25,19 @@ This repository is organized as follows:
 - `docs/`: contains any additional documentation related to the data.
 
 ## Current Data Status
-GSCD currently contains subnational crop data for **`19`** countries (see [current data status per country](/docs/data_status_per_country.md)):</br>
+HarvetStat currently contains subnational crop data for **`19`** countries (see [current data status per country](/docs/data_status_per_country.md)):</br>
 - Admin-1 level: Afghanistan, Angola, Chad, Democratic Republic of the Congo, Kenya, Lesotho, Liberia, Mali, Mozambique, South Africa, Yemen
 - Admin-2 level: Burkina Faso, Guinea, Malawi, Niger, Senegal, Somalia, Madagascar, Zambia
 
 <img src="./docs/current_status_map.svg" alt="drawing" width="800"/>
 
 ## Contributors
-- Dr. Donghoon Lee (UCSB)
+- Dr. Donghoon Lee (University of Manitoba | UCSB)
 - Dr. Weston Anderson (NASA)
 - Chen Xuan (IFPRI)
 
 ## Contact 
-- Please contact Donghoon Lee ([donghoonlee@ucsb.edu](donghoonlee@ucsb.edu)) for any questions or collaborations.</br>
+- Please contact Donghoon Lee ([Donghoon.Lee@umanitoba.ca](Donghoon.Lee@umanitoba.ca)) for any questions or collaborations.</br>
 - Users are welcome to open an [issue](https://github.com/chc-ucsb/gscd/issues).
 
 <!-- ## Usage
