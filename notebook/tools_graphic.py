@@ -362,7 +362,7 @@ def PlotLinePAY(df, year, footnote, fn_save=False):
     )
     fig.update_traces(connectgaps=False)
     if fn_save:
-        fig.write_image(fn_save)
+        fig.write_image(fn_save, scale=2)
         print('%s is saved.' % fn_save)
     return fig
 
@@ -440,7 +440,7 @@ def PlotBarProduction(df, year, product_order, footnote, fn_save=False):
         font = {'family':'arial','size':15, 'color':'dimgrey'},
     )
     if fn_save:
-        fig.write_image(fn_save)
+        fig.write_image(fn_save, scale=2)
         print('%s is saved.' % fn_save)
     
     return fig

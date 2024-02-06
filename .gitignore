@@ -2,66 +2,43 @@
 # Basic stuff
 .vscode
 .DS_Store
-token.json
-# Jupyter Notebook
-archived/
-notebook/w*.ipynb
-notebook/Retrieve_AllGrainData.ipynb
-noteboo/CP_*.ipynb
-# Crop data
-data/fao
-data/auxiliary
-data/crop/adm_fao_agromaps.csv
-data/crop/adm_fao_stat.csv
-data/crop/adm_crop_production_*.*
 data_FEWS_Only
 figures_FEWS_Only
 notebook_FEWS_Only
+# Jupyter Notebook
+archived/
+notebook/token.json
+notebook/w*.ipynb
+notebook/Retrieve_AllGrainData.ipynb
+notebook/CP*.ipynb
+# Crop data
+data/fao
+data/auxiliary
+data/crop/adm0_*
+data/crop/adm1_*
+data/crop/*SD*
+data/crop/adm_fao_agromaps.csv
+data/crop/adm_fao_stat.csv
+data/crop/adm_crop_production_*.*
 data/crop/adm_crop_production_ALL.hdf
-data/crop/raw
+data/crop/admFull_crop_production_anomalies.hdf
+data/crop/admFull_crop_production_ALL.hdf
 data/crop/data_points_table.xlsx
+data/crop/fsnau_data_stable.csv
 # Supplementary data
-data/fao_*
 data/cropmask
 data/shapefile
 data/prcp_chirps-v2.hdf
 data/data_product_mon_ifpri.csv
-# Figures
-figures/crop_calibrated/*
 # Gridded data
-data/gridded/adm1_maize1.nc
-data/gridded/adm1_maize1_ZM.nc
-data/gridded/adm1_maize2.nc
-data/gridded/adm1_maize2_ZM.nc
-data/gridded/adm1_sorghum1.nc
-data/gridded/adm1_sorghum1_ZM.nc
-data/gridded/adm1_sorghum2.nc
-data/gridded/adm1_wheat.nc
-data/gridded/admFull_maize1.nc
-data/gridded/admFull_maize1_ZM.nc
-data/gridded/admFull_maize2.nc
-data/gridded/admFull_maize2_ZM.nc
-data/gridded/admFull_sorghum1.nc
-data/gridded/admFull_sorghum1_ZM.nc
-data/gridded/admFull_sorghum2.nc
-data/gridded/admFull_wheat.nc
-# ---------------------------------------------------- #
-
-# GitHub Default ------------------------------------- #notebook/token.json
-data/crop/admFull_crop_production_anomalies.hdf
-data/crop/admFull_crop_production_ALL.hdf
-data/gridded/*
-data/crop/adm0_*
-data/crop/adm1_*
-data/crop/*SD*
+data/gridded
+# Figures (we only share main figures and crop calendars)
 figures/SD*
 figures/yld_detrend/Sudan*
-figures/crop_calibrated/SD*
+figures/crop_calibrated/
+# ---------------------------------------------------- #
 
-
-
-
-
+# GitHub Default ------------------------------------- #
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

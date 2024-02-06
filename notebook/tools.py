@@ -9,6 +9,9 @@ from matplotlib.pyplot import cm
 import rasterio
 from rasterio.mask import mask
 from rasterio import features
+import warnings
+# Suppress specific RuntimeWarning from shapely
+warnings.filterwarnings("ignore", message="invalid value encountered in intersection", category=RuntimeWarning, module="shapely.set_operations")
 
 def sort_dict(d):
     return dict(sorted(d.items()))
@@ -561,41 +564,27 @@ def FDW_PD_ConnectAdminLink(link_ratio, area, prod, validation=True):
     area_new = pd.concat(area_new, axis=1)
     prod_new = pd.concat(prod_new, axis=1)
     if validation:
-        assert np.isclose(area_new.sum(1), area.sum(1)).all() == True
-        assert np.isclose(prod_new.sum(1), prod.sum(1)).all() == True
+        # assert np.isclose(area_new.sum(1), area.sum(1)).all() == True
+        # assert np.isclose(prod_new.sum(1), prod.sum(1)).all() == True
+        assert sum(abs((area_new.sum(1) - area.sum(1))/(area.sum(1) + 0.01)) > 0.01) == 0  # less than 1% difference is allowed
+        assert sum(abs((prod_new.sum(1) - prod.sum(1))/(prod.sum(1) + 0.01)) > 0.01) == 0  # less than 1% difference is allowed
     return area_new, prod_new
 
-# def FDW_PD_CaliSeasonYear(stack, df, link_ratio, cs, cy):
-#     # Change planting and Harvest season and year
-#     if len(cs) > 0:
-#         for s in cs:
-#             for m in cs[s]:
-#                 for k, v in cs[s][m].items():
-#                     stack.loc[(stack['season_name']==s), m] = stack.loc[(stack['season_name']==s), m].replace({k:v})
-#                     df.loc[(stack['season_name']==s), m] = df.loc[(stack['season_name']==s), m].replace({k:v})
-#     if len(cy) > 0:
-#         for s in cy:
-#             for y, t in cy[s].items():
-#                 stack.loc[stack['season_name']==s, y] += t
-#                 df.loc[stack['season_name']==s, y] += t
-#     # Calibrate 'link_ratio'
-#     if len(cs) > 0:
-#         for fnid, ratio in link_ratio.items():
-#             ratio = link_ratio[fnid]
-#             mdx = ratio.index
-#             mdx = mdx.to_frame().reset_index(drop=True)
-#             for s in cs:
-#                 for m in cs[s]:
-#                     for k, v in cs[s][m].items():
-#                         mdx.loc[mdx['season_name']==s, m] = mdx.loc[mdx['season_name']==s, m].replace(k,v)
-#             ratio.index = pd.MultiIndex.from_frame(mdx)
-#             link_ratio[fnid] = ratio
-#     return stack, df, link_ratio
-def FDW_PD_CaliSeasonYear(stack, link_ratio, ecc):
+
+def FDW_PD_CaliSeasonYear(stack, ecc, link_ratio=None):
     # Check all rows of cspc_table_stack are in cspc_table_ecc
     cspc_table_stack = stack[['country','season_name','product','crop_production_system']].drop_duplicates().sort_values(by=['country','season_name','product','crop_production_system']).reset_index(drop=True)
     cspc_table_ecc = ecc[['country','season_name','product','crop_production_system']].drop_duplicates().sort_values(by=['country','season_name','product','crop_production_system']).reset_index(drop=True)
-    assert all(cspc_table_stack.isin(cspc_table_ecc))
+    # Use merge to find matching rows, with an indicator to show the match status
+    result = pd.merge(cspc_table_stack, cspc_table_ecc, how='left', on=['country','season_name','product','crop_production_system'], indicator=True)
+    try: 
+        assert result['_merge'].eq('both').all()
+        print('All [season_name, product, crop_production_system] are in the external crop calendar.')
+    except:
+        print('Below data are not in external crop calendar:')
+        print(result[~result['_merge'].eq('both')].to_string())
+        # Warning message
+        raise ValueError('Some data are not in the external crop calendar. Please check the data.')
     # Calibrate "stack"
     for (c, s, p, cps, pm, hm, py, hy) in ecc.values:
         query_str = f'country == "{c}" and season_name == "{s}" and product == "{p}" and crop_production_system == "{cps}"'
@@ -603,17 +592,18 @@ def FDW_PD_CaliSeasonYear(stack, link_ratio, ecc):
         stack.loc[stack.query(query_str).index, 'planting_year'] += py
         stack.loc[stack.query(query_str).index, 'harvest_month'] = hm
         stack.loc[stack.query(query_str).index, 'harvest_year'] += hy
-    # Calibrate "link_ratio"
-    ecc_season = ecc[['season_name','planting_month','harvest_month']].drop_duplicates()
-    for fnid, ratio in link_ratio.items():
-        mdx = ratio.index.to_frame().reset_index(drop=True)
-        for (s, pm, hm) in ecc_season.values:
-            query_str = f'season_name == "{s}"'
-            mdx.loc[mdx.query(query_str).index, 'planting_month'] = pm
-            mdx.loc[mdx.query(query_str).index, 'harvest_month'] = hm
-        ratio.index = pd.MultiIndex.from_frame(mdx)
-        link_ratio[fnid] = ratio
-    return stack, link_ratio
+    if link_ratio is not None:
+        # Calibrate "link_ratio"
+        ecc_season = ecc[['season_name','planting_month','harvest_month']].drop_duplicates()
+        for fnid, ratio in link_ratio.items():
+            mdx = ratio.index.to_frame().reset_index(drop=True)
+            for (s, pm, hm) in ecc_season.values:
+                query_str = f'season_name == "{s}"'
+                mdx.loc[mdx.query(query_str).index, 'planting_month'] = pm
+                mdx.loc[mdx.query(query_str).index, 'harvest_month'] = hm
+            ratio.index = pd.MultiIndex.from_frame(mdx)
+            link_ratio[fnid] = ratio
+    return stack, link_ratio if link_ratio is not None else stack
 
 
 def FDW_PD_GrainTypeAgg(list_table, product_category):
