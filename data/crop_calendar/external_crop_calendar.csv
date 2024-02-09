@@ -338,3 +338,59 @@ Madagascar,Annual,Potato,none,11,6,-1,-1
 Madagascar,Annual,Rice,none,11,6,-1,-1
 Madagascar,Annual,Sugarcane,none,11,6,-1,-1
 Madagascar,Annual,Sweet Potatoes,none,11,6,-1,-1
+Central African Republic,Main,Cassava,none,4,9,0,-1
+Central African Republic,Main,Groundnuts,none,4,9,0,-1
+Central African Republic,Main,Maize,none,4,9,0,-1
+Central African Republic,Main,Rice,none,4,9,0,-1
+Central African Republic,Main,Sesame Seed,none,4,9,0,-1
+Guinea,Main,Cassava,none,5,12,0,0
+Guinea,Main,Groundnuts,none,5,12,0,0
+Guinea,Main,Maize,none,5,12,0,0
+Guinea,Main,Rice,none,5,12,0,0
+Kenya,Annual,Banana,none,1,12,0,-1
+Kenya,Annual,Barley,none,1,12,0,-1
+Kenya,Annual,Beans,none,1,12,0,-1
+Kenya,Annual,Cassava,none,1,12,0,-1
+Kenya,Annual,Cocoyam,none,1,12,0,-1
+Kenya,Annual,Cowpeas,none,1,12,0,-1
+Kenya,Annual,Gram,none,1,12,0,-1
+Kenya,Annual,Maize,none,1,12,0,-1
+Kenya,Annual,Millet,none,1,12,0,-1
+Kenya,Annual,Pigeon Peas,none,1,12,0,-1
+Kenya,Annual,Potato,none,1,12,0,-1
+Kenya,Annual,Rice,none,1,12,0,-1
+Kenya,Annual,Sorghum,none,1,12,0,-1
+Kenya,Annual,Sweet Potatoes,none,1,12,0,-1
+Kenya,Annual,Wheat,none,1,12,0,-1
+Kenya,Annual,Yams,none,1,12,0,-1
+Kenya,Long,Maize,none,3,8,0,0
+Kenya,Long,Sorghum,none,3,8,0,0
+Kenya,Short,Maize,none,10,3,-1,0
+Kenya,Short,Sorghum,none,10,3,-1,0
+Liberia,Main,Cassava,none,4,12,0,0
+Liberia,Main,Rice,none,4,12,0,0
+Mozambique,Main,Bambara groundnut,none,10,6,-1,0
+Mozambique,Main,Beans (Lima),none,10,6,-1,0
+Mozambique,Main,Beans (mixed),none,10,6,-1,0
+Mozambique,Main,Cassava,none,10,6,-1,0
+Mozambique,Main,Cowpeas,none,10,6,-1,0
+Mozambique,Main,Green bean,none,10,6,-1,0
+Mozambique,Main,Groundnuts (In Shell),none,10,6,-1,0
+Mozambique,Main,"Groundnuts (In Shell, Large)",none,10,6,-1,0
+Mozambique,Main,"Groundnuts (In Shell, Small)",none,10,6,-1,0
+Mozambique,Main,Maize,none,10,6,-1,0
+Mozambique,Main,Millet,none,10,6,-1,0
+Mozambique,Main,Pigeon Peas,none,10,6,-1,0
+Mozambique,Main,Potato,none,10,6,-1,0
+Mozambique,Main,Rice,none,10,6,-1,0
+Mozambique,Main,Sesame Seed,none,10,6,-1,0
+Mozambique,Main,Sorghum,none,10,6,-1,0
+Mozambique,Main,Spanish peanut,none,10,6,-1,0
+Mozambique,Main,Sugarcane,none,10,6,-1,0
+Mozambique,Main,Sunflower Seed,none,10,6,-1,0
+Mozambique,Main,Sweet Potatoes,none,10,6,-1,0
+Mozambique,Main,Sweet Potatoes (Non-Orange),none,10,6,-1,0
+Mozambique,Main,Sweet Potatoes (Orange),none,10,6,-1,0
+Mozambique,Main,Virginia peanut,none,10,6,-1,0
+Mozambique,Main,Wheat,none,10,6,-1,0
+South Sudan,Main,Cereal Crops,none,6,1,-1,-1
