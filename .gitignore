@@ -1,41 +1,45 @@
+# HarvestStat ---------------------------------------- #
+# FEWS Only
 data_FEWS_Only
 figures_FEWS_Only
 notebook_FEWS_Only
-data/crop/adm_crop_production_ALL.hdf
-data/adm.chirps-v2.*.*.csv
-data/auxiliary
-data/crop/raw
+FEWS_Only*.ipynb
+# Basic stuff
 .vscode
-fsnau_source_data
-Compile_FAO_cropdata.ipynb
-data/fao_*
-data/cropmask
-data/shapefile
-archived
-token.json
 .DS_Store
-w*.ipynb
-remova*.ipynb
-removable/
-data/adm.prcp.chirps-v2.crop.*hdf
-CP_*_CropData.ipynb
-data/crop/adm_fao_agromaps.csv
-data/crop/adm_fao_stat.csv
+# Jupyter Notebook
+archived/
 notebook/token.json
-data/crop/admFull_crop_production_anomalies.hdf
-data/crop/admFull_crop_production_ALL.hdf
-data/gridded/*
+notebook/w*.ipynb
+notebook/Retrieve_AllGrainData.ipynb
+notebook/CP*.ipynb
+# Crop data
+data/fao
+data/auxiliary
 data/crop/adm0_*
 data/crop/adm1_*
 data/crop/*SD*
+data/crop/adm_fao_agromaps.csv
+data/crop/adm_fao_stat.csv
+data/crop/adm_crop_production_*.*
+data/crop/admFull_crop_production_anomalies.hdf
+data/crop/admFull_crop_production_ALL.hdf
+data/crop/data_points_table.xlsx
+data/crop/fsnau_data_stable.csv
+# Supplementary data
+data/cropmask
+data/shapefile
+data/prcp_chirps-v2.hdf
+data/data_product_mon_ifpri.csv
+# Gridded data
+data/gridded
+# Figures (we only share main figures and crop calendars)
 figures/SD*
 figures/yld_detrend/Sudan*
-figures/crop_calibrated/SD*
+figures/crop_calibrated/
+# ---------------------------------------------------- #
 
-
-
-
-
+# GitHub Default ------------------------------------- #
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -165,21 +169,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-data/gridded/adm1_maize1.nc
-data/gridded/adm1_maize1_ZM.nc
-data/gridded/adm1_maize2.nc
-data/gridded/adm1_maize2_ZM.nc
-data/gridded/adm1_sorghum1.nc
-data/gridded/adm1_sorghum1_ZM.nc
-data/gridded/adm1_sorghum2.nc
-data/gridded/adm1_wheat.nc
-data/gridded/admFull_maize1.nc
-data/gridded/admFull_maize1_ZM.nc
-data/gridded/admFull_maize2.nc
-data/gridded/admFull_maize2_ZM.nc
-data/gridded/admFull_sorghum1.nc
-data/gridded/admFull_sorghum1_ZM.nc
-data/gridded/admFull_sorghum2.nc
-data/gridded/admFull_wheat.nc
-*.png
