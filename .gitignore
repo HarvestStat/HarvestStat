@@ -1,10 +1,12 @@
 # HarvestStat ---------------------------------------- #
-# Basic stuff
-.vscode
-.DS_Store
+# FEWS Only
 data_FEWS_Only
 figures_FEWS_Only
 notebook_FEWS_Only
+FEWS_Only*.ipynb
+# Basic stuff
+.vscode
+.DS_Store
 # Jupyter Notebook
 archived/
 notebook/token.json
