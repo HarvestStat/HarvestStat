@@ -41,9 +41,10 @@ dependencies:
   - brotlipy=0.7.0=py310h90acd4f_1005
   - bzip2=1.0.8=h0d85af4_4
   - c-ares=1.18.1=h0d85af4_0
-  - ca-certificates=2022.12.7=h033912b_0
+  - ca-certificates=2023.7.22=h8857fd0_0
   - cairo=1.16.0=h904041c_1014
-  - certifi=2022.12.7=pyhd8ed1ab_0
+  - cartopy=0.22.0=py310h5e4fcda_0
+  - certifi=2023.7.22=pyhd8ed1ab_0
   - cffi=1.15.1=py310ha78151a_3
   - cfitsio=4.2.0=hd56cc12_0
   - cftime=1.6.2=py310h936d966_1
@@ -84,6 +85,7 @@ dependencies:
   - freexl=1.0.6=hb7f2c08_1
   - fsspec=2023.3.0=pyhd8ed1ab_1
   - gdal=3.6.3=py310h5abc6fc_1
+  - geojson=3.0.1=pyhd8ed1ab_0
   - geopandas=0.12.2=pyhd8ed1ab_0
   - geopandas-base=0.12.2=pyha770c72_0
   - geos=3.11.2=hf0c8a7f_0
@@ -177,8 +179,6 @@ dependencies:
   - mapclassify=2.5.0=pyhd8ed1ab_1
   - markupsafe=2.1.2=py310h90acd4f_0
   - mathjax=2.7.7=h694c41f_3
-  - matplotlib=3.7.1=py310h2ec42d9_0
-  - matplotlib-base=3.7.1=py310he725631_0
   - matplotlib-inline=0.1.6=pyhd8ed1ab_0
   - mistune=2.0.5=pyhd8ed1ab_0
   - msgpack-python=1.0.5=py310ha23aa8a_0
@@ -202,7 +202,7 @@ dependencies:
   - numpy=1.23.5=py310h1b7c290_0
   - openjpeg=2.5.0=h13ac156_2
   - openpyxl=3.1.0=py310h90acd4f_0
-  - openssl=3.1.0=h8a1eda9_2
+  - openssl=3.1.2=h8a1eda9_0
   - orc=1.8.3=ha9d861c_0
   - packaging=23.0=pyhd8ed1ab_0
   - pandas=1.4.4=py310hecf8f37_0
@@ -319,3 +319,17 @@ dependencies:
   - zipp=3.15.0=pyhd8ed1ab_0
   - zlib=1.2.13=hfd90126_4
   - zstd=1.5.2=hbc0c0cd_6
+  - pip:
+    - coverage==7.2.7
+    - exceptiongroup==1.1.2
+    - iniconfig==2.0.0
+    - matplotlib==3.4.3
+    - pluggy==1.2.0
+    - pprintpp==0.4.0
+    - proplot==0.9.7
+    - pycountry-convert==0.7.2
+    - pytest==7.4.0
+    - pytest-cov==4.1.0
+    - pytest-mock==3.11.1
+    - repoze-lru==0.7
+    - xlsxwriter==3.1.2
