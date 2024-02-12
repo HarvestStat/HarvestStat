@@ -19,16 +19,16 @@ We are currently sharing the Jupyter notebooks that we used to calibrate and har
 ## Repository Structure
 This repository is organized as follows:
 
+- `docs/`: contains documentation related to the data.
+- `notebook/`: contains the Jupyter notebook used for processing the data per each country.
 - `public/`: contains the processed data in CSV and JSON formats. 
     - Note: the data is currently experimental and only available to internal research team.
-- `notebook/`: contains the Jupyter notebook used for processing the data per each country.
-- `docs/`: contains any additional documentation related to the data.
 
 ## Current Data Status
-HarvetStat currently contains subnational crop statistics for **`18`** countries.
+HarvetStat currently contains subnational crop statistics for **`22`** countries.
 <!-- (see [current data status per country](/docs/data_status_per_country.md)):</br> -->
-- Admin-1 level: ~~Afghanistan~~, Angola, Chad, Central African Republic, DRC, Kenya, Lesotho, Liberia, Mali, Mozambique, South Africa, ~~Yemen~~
-- Admin-2 level: Burkina Faso, Guinea, ~~Malawi~~, Niger, Senegal, Somalia, South Sudan, Madagascar, ~~Zambia~~
+- Admin-1 level: Afghanistan, Angola, Burundi, Chad, Central African Republic, DRC, Kenya, Lesotho, Liberia, Mali, Mozambique, South Africa, ~~Yemen~~
+- Admin-2 level: Burkina Faso, Ethiopia, Guinea, ~~Malawi~~, Niger, Senegal, Somalia, South Sudan, Madagascar, Zambia, Zimbabwe
 
 <img src="./docs/current_status_map.svg" alt="drawing" width="800"/>
 
