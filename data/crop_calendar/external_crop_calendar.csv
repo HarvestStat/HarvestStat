@@ -29,6 +29,8 @@ Burkina Faso,Main,Sweet Potatoes,All (PS),6,12,0,0
 Burkina Faso,Main,Sweet Potatoes,Rainfed (PS),6,12,0,0
 Burkina Faso,Main,Yams,All (PS),6,12,0,0
 Burkina Faso,Main,Yams,Rainfed (PS),6,12,0,0
+Burkina Faso,Main,Cotton (Unspecified),All (PS),6,12,0,0
+Burkina Faso,Main,Cotton (Unspecified),Rainfed (PS),6,12,0,0
 South Africa,Summer,Beans,Commercial (PS),10,4,-1,-1
 South Africa,Summer,Groundnuts,Commercial (PS),10,4,-1,-1
 South Africa,Summer,Maize (White),Commercial (PS),10,4,-1,-1
@@ -56,6 +58,7 @@ Mali,Main,Sugarcane,none,6,12,0,0
 Mali,Main,Sweet Potatoes,none,6,12,0,0
 Mali,Main,Wheat,none,6,12,0,0
 Mali,Main,Yams,none,6,12,0,0
+Mali,Main,Cotton (Unspecified),none,6,12,0,0
 Somalia,Deyr,Cowpeas,agro_pastoral,10,3,-1,-1
 Somalia,Deyr,Cowpeas,none,10,3,-1,-1
 Somalia,Deyr,Cowpeas,riverine,10,3,-1,-1
@@ -127,6 +130,11 @@ Somalia,Gu-off,Sesame Seed,agro_pastoral,3,9,0,0
 Somalia,Gu-off,Sesame Seed,none,3,9,0,0
 Somalia,Gu-off,Sesame Seed,riverine,3,9,0,0
 Somalia,Gu-off,Sorghum,riverine,3,9,0,0
+Somalia,Gu,Pepper (Piper spp.),none,3,8,0,0
+Somalia,Gu,Pepper (Piper spp.),riverine,3,8,0,0
+Somalia,Deyr,Pepper (Piper spp.),none,10,3,-1,-1
+Somalia,Deyr,Pepper (Piper spp.),riverine,10,3,-1,-1
+Somalia,Deyr,Pepper (Piper spp.),agro_pastoral,10,3,-1,-1
 Angola,Main,Avocado,All (PS),10,4,-1,0
 Angola,Main,Banana,All (PS),10,4,-1,0
 Angola,Main,Beans,All (PS),10,4,-1,0
@@ -152,6 +160,8 @@ Angola,Main,Soybean,All (PS),10,4,-1,0
 Angola,Main,Sweet Potatoes,All (PS),10,4,-1,0
 Angola,Main,Tomato,All (PS),10,4,-1,0
 Angola,Main,Wheat,All (PS),10,4,-1,0
+Angola,Main,Chili pepper (Unspecified),All (PS),10,4,-1,0
+Angola,Main,Coffee (unspecified),All (PS),10,4,-1,0
 "Congo, The Democratic Republic of the",Main,Beans,none,1,12,0,0
 "Congo, The Democratic Republic of the",Main,Cassava,none,1,12,0,0
 "Congo, The Democratic Republic of the",Main,Banana,none,1,12,0,0
@@ -330,6 +340,7 @@ Niger,Main,Sorghum,none,6,12,0,0
 Niger,Main,Sorrel,none,6,12,0,0
 Niger,Main,Tigernut,none,6,12,0,0
 Niger,Main,Tomato,none,6,12,0,0
+Niger,Main,Cotton (Unspecified),none,6,12,0,0
 Madagascar,Annual,Beans,none,11,6,-1,-1
 Madagascar,Annual,Cassava,none,11,6,-1,-1
 Madagascar,Annual,Groundnuts,none,11,6,-1,-1
@@ -339,6 +350,7 @@ Madagascar,Annual,Potato,none,11,6,-1,-1
 Madagascar,Annual,Rice,none,11,6,-1,-1
 Madagascar,Annual,Sugarcane,none,11,6,-1,-1
 Madagascar,Annual,Sweet Potatoes,none,11,6,-1,-1
+Madagascar,Annual,Coffee (unspecified),none,11,6,-1,-1
 Central African Republic,Main,Cassava,none,4,9,0,-1
 Central African Republic,Main,Groundnuts,none,4,9,0,-1
 Central African Republic,Main,Maize,none,4,9,0,-1
@@ -368,6 +380,8 @@ Kenya,Long,Maize,none,3,8,0,0
 Kenya,Long,Sorghum,none,3,8,0,0
 Kenya,Short,Maize,none,10,3,-1,0
 Kenya,Short,Sorghum,none,10,3,-1,0
+Kenya,Annual,Coffee (unspecified),none,1,12,0,-1
+Kenya,Annual,Tea Plant,none,1,12,0,-1
 Liberia,Main,Cassava,none,4,12,0,0
 Liberia,Main,Rice,none,4,12,0,0
 Mozambique,Main,Bambara groundnut,none,10,6,-1,0
@@ -394,6 +408,11 @@ Mozambique,Main,Sweet Potatoes (Non-Orange),none,10,6,-1,0
 Mozambique,Main,Sweet Potatoes (Orange),none,10,6,-1,0
 Mozambique,Main,Virginia peanut,none,10,6,-1,0
 Mozambique,Main,Wheat,none,10,6,-1,0
+Mozambique,Main,Cotton (Unspecified),none,10,6,-1,0
+Mozambique,Main,Ginger,none,10,6,-1,0
+Mozambique,Main,Paprika (unspecified),none,10,6,-1,0
+Mozambique,Main,Pepper (Piper spp.),none,10,6,-1,0
+Mozambique,Main,Tobacco (unspecified),none,10,6,-1,0
 South Sudan,Main,Cereal Crops,none,6,1,-1,-1
 Afghanistan,Spring,Wheat,rainfed,1,6,0,0
 Afghanistan,Winter,Wheat,irrigated,10,7,-1,0
@@ -470,10 +489,20 @@ Ethiopia,Meher,Tomato,none,5,1,0,0
 Ethiopia,Meher,Vetch,none,5,1,0,0
 Ethiopia,Meher,Wheat,none,5,1,0,0
 Ethiopia,Meher,Yams,none,5,1,0,0
+Ethiopia,Meher,Coffee (unspecified),none,5,1,0,0
+Ethiopia,Meher,Chili pepper (Unspecified),none,5,1,0,0
+Ethiopia,Meher,Hops,none,5,1,0,0
+Ethiopia,Meher,Hot red pepper,none,5,1,0,0
 Togo,Main,Maize,All (PS),5,11,0,0
 Togo,Main,Millet,All (PS),5,11,0,0
 Togo,Main,Rice,All (PS),5,11,0,0
 Togo,Main,Sorghum,All (PS),5,11,0,0
+Togo,Main,Beans (mixed),All (PS),5,11,0,0
+Togo,Main,Cassava,All (PS),5,11,0,0
+Togo,Main,Cotton (Unspecified),All (PS),5,11,0,0
+Togo,Main,Groundnuts (In Shell),All (PS),5,11,0,0
+Togo,Main,Soybean (unspecified),All (PS),5,11,0,0
+Togo,Main,Yams,All (PS),5,11,0,0
 Malawi,Main,Bambara groundnut,none,11,5,0,0
 Malawi,Main,Banana,none,11,5,0,0
 Malawi,Main,Banana (unspecified),none,11,5,0,0
@@ -510,13 +539,20 @@ Malawi,Winter,Wheat,none,3,8,0,0
 Malawi,Main,Pigeon pea (Unspecified),none,11,5,0,0
 Malawi,Winter,Beans (Pinto),none,3,8,0,0
 Malawi,Main,Tangerine,none,11,5,0,0
-Mauritania,Annual,Cowpeas,none,6,5,0,0
-Mauritania,Annual,Groundnut,none,6,5,0,0
-Mauritania,Annual,Maize,none,6,5,0,0
-Mauritania,Annual,Millet,none,6,5,0,0
-Mauritania,Annual,Sorghum,none,6,5,0,0
-Mauritania,Bas-fond,Maize,surface water,10,3,0,0
-Mauritania,Bas-fond,Rice,surface water,10,3,0,0
+Malawi,Main,Chili pepper (Unspecified),none,11,5,0,0
+Malawi,Main,Coffee (Unspecified),none,11,5,0,0
+Malawi,Main,Cotton (Unspecified),none,11,5,0,0
+Malawi,Main,Tobacco (Burley),none,11,5,0,0
+Malawi,Main,Coffee,none,11,5,0,0
+Malawi,Main,Cotton,none,11,5,0,0
+Malawi,Main,Tobacco,none,11,5,0,0
+Mauritania,Walo,Maize,flood recessional,11,4,0,0
+Mauritania,Walo,Maize,none,11,4,0,0
+Mauritania,Walo,Maize,parastatal recessional,11,4,0,0
+Mauritania,Walo,Rice,flood recessional,11,4,0,0
+Mauritania,Walo,Sorghum,flood recessional,11,4,0,0
+Mauritania,Walo,Sorghum,none,11,4,0,0
+Mauritania,Walo,Sorghum,parastatal recessional,11,4,0,0
 Mauritania,Bas-fond,Sorghum,surface water,10,3,0,0
 Mauritania,Bas-fond,Wheat,surface water,10,3,0,0
 Mauritania,Cold off-season,Wheat,irrigated,11,2,0,0
@@ -531,16 +567,81 @@ Mauritania,Main,Millet,dieri,6,11,0,0
 Mauritania,Main,Rice,irrigated,6,11,0,0
 Mauritania,Main,Sorghum,dieri,6,11,0,0
 Mauritania,Main,Sorghum,irrigated,6,11,0,0
-Mauritania,Walo,Maize,flood recessional,11,4,0,0
-Mauritania,Walo,Maize,none,11,4,0,0
-Mauritania,Walo,Maize,parastatal recessional,11,4,0,0
-Mauritania,Walo,Rice,flood recessional,11,4,0,0
-Mauritania,Walo,Sorghum,flood recessional,11,4,0,0
-Mauritania,Walo,Sorghum,none,11,4,0,0
-Mauritania,Walo,Sorghum,parastatal recessional,11,4,0,0
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
+Mauritania,Annual,Cowpeas,none,6,5,0,0
+Mauritania,Annual,Groundnut,none,6,5,0,0
+Mauritania,Annual,Maize,none,6,5,0,0
+Mauritania,Annual,Millet,none,6,5,0,0
+Mauritania,Annual,Sorghum,none,6,5,0,0
+Mauritania,Bas-fond,Maize,surface water,10,3,0,0
+Mauritania,Bas-fond,Rice,surface water,10,3,0,0
+Mozambique,Annual,Cashew (unshelled),All (PS),10,6,-1,0
+Mozambique,Annual,Cassava,All (PS),10,6,-1,0
+Mozambique,Annual,Other root/tuber vegetable (unspecified),All (PS),10,6,-1,0
+Mozambique,Annual,Tea leaves (Mixed),All (PS),10,6,-1,0
+Mozambique,Cotton season,Cotton (Unspecified),All (PS),10,6,-1,0
+Mozambique,Main,Bambara groundnut,All (PS),10,6,-1,0
+Mozambique,Main,Beans (Lima),All (PS),10,6,-1,0
+Mozambique,Main,Beans (Rosecoco),All (PS),10,6,-1,0
+Mozambique,Main,Beans (mixed),All (PS),10,6,-1,0
+Mozambique,Main,Cassava,All (PS),10,6,-1,0
+Mozambique,Main,Cowpea (unspecified),All (PS),10,6,-1,0
+Mozambique,Main,Ginger,All (PS),10,6,-1,0
+Mozambique,Main,Green bean,All (PS),10,6,-1,0
+Mozambique,Main,Groundnuts (In Shell),All (PS),10,6,-1,0
+Mozambique,Main,"Groundnuts (In Shell, Large)",All (PS),10,6,-1,0
+Mozambique,Main,"Groundnuts (In Shell, Small)",All (PS),10,6,-1,0
+Mozambique,Main,Maize Grain (White),All (PS),10,6,-1,0
+Mozambique,Main,Millet,All (PS),10,6,-1,0
+Mozambique,Main,Paprika (unspecified),All (PS),10,6,-1,0
+Mozambique,Main,Pepper (Piper spp.),All (PS),10,6,-1,0
+Mozambique,Main,Pigeon pea (Unspecified),All (PS),10,6,-1,0
+Mozambique,Main,Sesame Seed,All (PS),10,6,-1,0
+Mozambique,Main,Sorghum,All (PS),10,6,-1,0
+Mozambique,Main,Soybean (unspecified),All (PS),10,6,-1,0
+Mozambique,Main,Spanish peanut,All (PS),10,6,-1,0
+Mozambique,Main,Sugarcane,All (PS),10,6,-1,0
+Mozambique,Main,Sunflower Seed,All (PS),10,6,-1,0
+Mozambique,Main,Sweet Potatoes,All (PS),10,6,-1,0
+Mozambique,Main,Sweet Potatoes (Non-Orange),All (PS),10,6,-1,0
+Mozambique,Main,Sweet Potatoes (Orange),All (PS),10,6,-1,0
+Mozambique,Main,Tobacco (unspecified),All (PS),10,6,-1,0
+Mozambique,Main,Virginia peanut,All (PS),10,6,-1,0
+Mozambique,Main,Wheat,All (PS),10,6,-1,0
+Mozambique,Rice season,Rice,All (PS),10,6,-1,0
+South Sudan,Main,Cotton (Acala),irrigated,6,11,-1,0
+South Sudan,Main,Cotton (American),traditional_rainfed,6,11,-1,0
+South Sudan,Main,Groundnuts (In Shell),traditional_rainfed,6,11,-1,0
+South Sudan,Main,Millet,mechanized_rainfed,6,11,-1,0
+South Sudan,Main,Millet,traditional_rainfed,6,11,-1,0
+South Sudan,Main,Sesame Seed,irrigated,6,11,-1,0
+South Sudan,Main,Sesame Seed,mechanized_rainfed,6,11,-1,0
+South Sudan,Main,Sesame Seed,traditional_rainfed,6,11,-1,0
+South Sudan,Main,Sorghum,irrigated,6,11,-1,0
+South Sudan,Main,Sorghum,mechanized_rainfed,6,11,-1,0
+South Sudan,Main,Sorghum,traditional_rainfed,6,11,-1,0
+South Sudan,Main,Sunflower Seed,traditional_rainfed,6,11,-1,0
+South Sudan,Main harvest,Cereal Crops (Mixed),none,10,1,0,0
+Sudan,Main,Cotton (Acala),irrigated,6,11,-1,0
+Sudan,Main,Cotton (American),traditional_rainfed,6,11,-1,0
+Sudan,Main,Cotton (Egyptian),irrigated,6,11,-1,0
+Sudan,Main,Groundnuts (In Shell),irrigated,6,11,-1,0
+Sudan,Main,Groundnuts (In Shell),mechanized_rainfed,6,11,-1,0
+Sudan,Main,Groundnuts (In Shell),traditional_rainfed,6,11,-1,0
+Sudan,Main,Millet,irrigated,6,11,-1,0
+Sudan,Main,Millet,mechanized_rainfed,6,11,-1,0
+Sudan,Main,Millet,none,6,11,-1,0
+Sudan,Main,Millet,traditional_rainfed,6,11,-1,0
+Sudan,Main,Pigeon Peas,irrigated,6,11,-1,0
+Sudan,Main,Sesame Seed,irrigated,6,11,-1,0
+Sudan,Main,Sesame Seed,mechanized_rainfed,6,11,-1,0
+Sudan,Main,Sesame Seed,traditional_rainfed,6,11,-1,0
+Sudan,Main,Sorghum,irrigated,6,11,-1,0
+Sudan,Main,Sorghum,mechanized_rainfed,6,11,-1,0
+Sudan,Main,Sorghum,none,6,11,-1,0
+Sudan,Main,Sorghum,traditional_rainfed,6,11,-1,0
+Sudan,Main,Sunflower Seed,irrigated,6,11,-1,0
+Sudan,Main,Sunflower Seed,mechanized_rainfed,6,11,-1,0
+Sudan,Main,Sunflower Seed,traditional_rainfed,6,11,-1,0
+Sudan,Main,Wheat,irrigated,6,11,-1,0
+Sudan,Main,Wheat,traditional_rainfed,6,11,-1,0
+Sudan,Winter,Wheat,irrigated,11,4,-1,0
