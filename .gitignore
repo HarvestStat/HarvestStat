@@ -1,5 +1,6 @@
 # HarvestStat ---------------------------------------- #
 # FEWS Only
+figures/yld_detrend
 data_FEWS_Only
 figures_FEWS_Only
 notebook_FEWS_Only
