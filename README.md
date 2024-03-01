@@ -25,10 +25,10 @@ This repository is organized as follows:
     - Note: the data is currently experimental and only available to internal research team.
 
 ## Current Data Status
-HarvetStat currently contains subnational crop statistics for **`22`** countries.
+HarvetStat currently contains subnational crop statistics for **`28`** countries.
 <!-- (see [current data status per country](/docs/data_status_per_country.md)):</br> -->
-- Admin-1 level: Afghanistan, Angola, Burundi, Chad, Central African Republic, DRC, Kenya, Lesotho, Liberia, Mali, Mozambique, South Africa, ~~Yemen~~
-- Admin-2 level: Burkina Faso, Ethiopia, Guinea, ~~Malawi~~, Niger, Senegal, Somalia, South Sudan, Madagascar, Zambia, Zimbabwe
+- Admin-1 level: Afghanistan, Angola, Burundi, Central African Republic, Chad, DRC, Kenya, Lesotho, Liberia, Mali, Mauritania, Mozambique, South Africa, South Sudan, Sudan, Yemen, Zimbabwe
+- Admin-2 level: Burkina Faso, Ethiopia, Guinea, Madagascar, Malawi, Niger, Senegal, Somalia, Togo, Uganda, Zambia
 
 <img src="./docs/current_status_map.svg" alt="drawing" width="800"/>
 
