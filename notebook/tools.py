@@ -572,6 +572,9 @@ def FDW_PD_ConnectAdminLink(link_ratio, area, prod, validation=True):
 
 
 def FDW_PD_CaliSeasonYear(stack, ecc, link_ratio=None):
+    # Trim all the text in the tables
+    stack[['country','season_name','product','crop_production_system']] = stack[['country','season_name','product','crop_production_system']].applymap(lambda x: x.strip())
+    ecc[['country','season_name','product','crop_production_system']] = ecc[['country','season_name','product','crop_production_system']].applymap(lambda x: x.strip())
     # Check all rows of cspc_table_stack are in cspc_table_ecc
     cspc_table_stack = stack[['country','season_name','product','crop_production_system']].drop_duplicates().sort_values(by=['country','season_name','product','crop_production_system']).reset_index(drop=True)
     cspc_table_ecc = ecc[['country','season_name','product','crop_production_system']].drop_duplicates().sort_values(by=['country','season_name','product','crop_production_system']).reset_index(drop=True)
