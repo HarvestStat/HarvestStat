@@ -38,6 +38,7 @@ data/gridded
 figures/SD*
 figures/yld_detrend/Sudan*
 figures/crop_calibrated/
+paper
 # ---------------------------------------------------- #
 
 # GitHub Default ------------------------------------- #
