@@ -31,7 +31,7 @@ Burkina Faso,Main,Sweet Potatoes,All (PS),6,12,0,0
 Burkina Faso,Main,Sweet Potatoes,Rainfed (PS),6,12,0,0
 Burkina Faso,Main,Yams,All (PS),6,12,0,0
 Burkina Faso,Main,Yams,Rainfed (PS),6,12,0,0
-South Africa,Summer,Beans,Commercial (PS),10,4,-1,-1
+South Africa,Summer,Beans (mixed),Commercial (PS),10,4,-1,-1
 South Africa,Summer,Groundnuts (In Shell),Commercial (PS),10,4,-1,-1
 South Africa,Summer,Maize (White),Commercial (PS),10,4,-1,-1
 South Africa,Summer,Maize (Yellow),Commercial (PS),10,4,-1,-1
@@ -137,7 +137,7 @@ Somalia,Deyr,Pepper (Piper spp.),riverine,10,3,-1,-1
 Somalia,Deyr,Pepper (Piper spp.),agro_pastoral,10,3,-1,-1
 Angola,Main,Avocado,All (PS),10,4,-1,0
 Angola,Main,Banana,All (PS),10,4,-1,0
-Angola,Main,Beans,All (PS),10,4,-1,0
+Angola,Main,Beans (mixed),All (PS),10,4,-1,0
 Angola,Main,Cabbage,All (PS),10,4,-1,0
 Angola,Main,Carrots,All (PS),10,4,-1,0
 Angola,Main,Cassava,All (PS),10,4,-1,0
@@ -162,7 +162,7 @@ Angola,Main,Soybean,All (PS),10,4,-1,0
 Angola,Main,Sweet Potatoes,All (PS),10,4,-1,0
 Angola,Main,Tomato,All (PS),10,4,-1,0
 Angola,Main,Wheat,All (PS),10,4,-1,0
-"Congo, The Democratic Republic of the",Main,Beans,none,1,12,0,0
+"Congo, The Democratic Republic of the",Main,Beans (mixed),none,1,12,0,0
 "Congo, The Democratic Republic of the",Main,Cassava,none,1,12,0,0
 "Congo, The Democratic Republic of the",Main,Banana,none,1,12,0,0
 "Congo, The Democratic Republic of the",Main,Maize,none,1,12,0,0
@@ -171,11 +171,11 @@ Lesotho,Summer,Barley,Foothills (PS),10,7,-1,-1
 Lesotho,Summer,Barley,Mountains (PS),10,7,-1,-1
 Lesotho,Summer,Barley,Senqu River Valley (PS),10,7,-1,-1
 Lesotho,Summer,Barley,none,10,7,-1,-1
-Lesotho,Summer,Beans,All (PS),10,7,-1,-1
-Lesotho,Summer,Beans,Foothills (PS),10,7,-1,-1
-Lesotho,Summer,Beans,Mountains (PS),10,7,-1,-1
-Lesotho,Summer,Beans,Senqu River Valley (PS),10,7,-1,-1
-Lesotho,Summer,Beans,none,10,7,-1,-1
+Lesotho,Summer,Beans (mixed),All (PS),10,7,-1,-1
+Lesotho,Summer,Beans (mixed),Foothills (PS),10,7,-1,-1
+Lesotho,Summer,Beans (mixed),Mountains (PS),10,7,-1,-1
+Lesotho,Summer,Beans (mixed),Senqu River Valley (PS),10,7,-1,-1
+Lesotho,Summer,Beans (mixed),none,10,7,-1,-1
 Lesotho,Summer,Maize,Foothills (PS),10,7,-1,-1
 Lesotho,Summer,Maize,Mountains (PS),10,7,-1,-1
 Lesotho,Summer,Maize,Senqu River Valley (PS),10,7,-1,-1
@@ -208,7 +208,7 @@ Lesotho,Winter,Barley,Foothills (PS),5,11,0,0
 Lesotho,Winter,Barley,Mountains (PS),5,11,0,0
 Lesotho,Winter,Barley,Senqu River Valley (PS),5,11,0,0
 Lesotho,Winter,Barley,none,5,11,0,0
-Lesotho,Winter,Beans,none,5,11,0,0
+Lesotho,Winter,Beans (mixed),none,5,11,0,0
 Lesotho,Winter,Maize,Mountains (PS),5,11,0,0
 Lesotho,Winter,Maize,none,5,11,0,0
 Lesotho,Winter,Oats,All (PS),5,11,0,0
@@ -225,7 +225,7 @@ Lesotho,Winter,Wheat,Foothills (PS),5,11,0,0
 Lesotho,Winter,Wheat,Senqu River Valley (PS),5,11,0,0
 Lesotho,Winter,Wheat,none,5,11,0,0
 Burundi,Season A,Banana,none,9,1,0,0
-Burundi,Season A,Beans,none,9,1,0,0
+Burundi,Season A,Beans (mixed),none,9,1,0,0
 Burundi,Season A,Bush bean,none,9,1,0,0
 Burundi,Season A,Cassava,none,9,1,0,0
 Burundi,Season A,Cassava (non-bitter),none,9,1,0,0
@@ -248,7 +248,7 @@ Burundi,Season A,Taro,none,9,1,0,0
 Burundi,Season A,Wheat,none,9,1,0,0
 Burundi,Season A,Yams,none,9,1,0,0
 Burundi,Season B,Banana,none,2,8,0,0
-Burundi,Season B,Beans,none,2,8,0,0
+Burundi,Season B,Beans (mixed),none,2,8,0,0
 Burundi,Season B,Bush bean,none,2,8,0,0
 Burundi,Season B,Cassava,none,2,8,0,0
 Burundi,Season B,Cassava (non-bitter),none,2,8,0,0
@@ -271,7 +271,7 @@ Burundi,Season B,Taro,none,2,8,0,0
 Burundi,Season B,Wheat,none,2,8,0,0
 Burundi,Season B,Yams,none,2,8,0,0
 Burundi,Season C,Banana,none,6,11,0,0
-Burundi,Season C,Beans,none,6,11,0,0
+Burundi,Season C,Beans (mixed),none,6,11,0,0
 Burundi,Season C,Bush bean,none,6,11,0,0
 Burundi,Season C,Cassava,none,6,11,0,0
 Burundi,Season C,Cassava (non-bitter),none,6,11,0,0
@@ -341,7 +341,7 @@ Niger,Main,Sorghum,none,6,12,0,0
 Niger,Main,Sorrel,none,6,12,0,0
 Niger,Main,Tigernut,none,6,12,0,0
 Niger,Main,Tomato,none,6,12,0,0
-Madagascar,Annual,Beans,none,11,6,-1,-1
+Madagascar,Annual,Beans (mixed),none,11,6,-1,-1
 Madagascar,Annual,Cassava,none,11,6,-1,-1
 Madagascar,Annual,Coffee,none,11,6,-1,-1
 Madagascar,Annual,Groundnuts (In Shell),none,11,6,-1,-1
@@ -362,7 +362,7 @@ Guinea,Main,Maize,none,5,12,0,0
 Guinea,Main,Rice,none,5,12,0,0
 Kenya,Annual,Banana,none,1,12,0,-1
 Kenya,Annual,Barley,none,1,12,0,-1
-Kenya,Annual,Beans,none,1,12,0,-1
+Kenya,Annual,Beans (mixed),none,1,12,0,-1
 Kenya,Annual,Cassava,none,1,12,0,-1
 Kenya,Annual,Cocoyam,none,1,12,0,-1
 Kenya,Annual,Cowpeas,none,1,12,0,-1
