@@ -10,6 +10,12 @@ import rasterio
 from rasterio.mask import mask
 from rasterio import features
 import warnings
+import os
+import random
+import requests
+from scipy import ndimage
+
+
 # Suppress specific RuntimeWarning from shapely
 warnings.filterwarnings("ignore", message="invalid value encountered in intersection", category=RuntimeWarning, module="shapely.set_operations")
 
@@ -646,3 +652,553 @@ def FDW_PD_MergeCropProductionSystem(area_new, prod_new, cps_remove, cps_final):
     col_new['crop_production_system'] = cps_final
     prod_new.columns = pd.MultiIndex.from_frame(col_new)
     return area_new, prod_new
+
+
+
+def miss_pct(df,admin_level,country,country_iso,fnidMap):
+    if (admin_level != 2) & (admin_level != 3):
+        return
+    if 'none' in df[df['country'] == country]['admin_2'].unique():
+        return
+    if country == 'Tanzania':
+        df['country'].replace('Tanzania, United Republic of', 'Tanzania', inplace=True)
+    admMissPct = pd.DataFrame(columns=['country', 'country_code', 'admin_1', 'admin_2', 'name', 'product', 'planting_year',
+                 'planting_month', 'harvest_year', 'harvest_month', 'season_name', 'crop_production_system',
+                 'missing_pct'])
+    FillDF=pd.DataFrame(columns=df.columns[:])
+    for crop in df['product'].unique():
+        regionMissInd=pd.DataFrame()
+        couDF = df[(df['country']==country)&(df['product']==crop)]
+        if len(couDF) == 0:
+            continue
+        cropSys = couDF.crop_production_system.unique()
+        for crop_sys in cropSys:
+            for season_name in couDF[couDF['crop_production_system']==crop_sys].season_name.unique():
+                csDF = couDF[(couDF.season_name == season_name) & (couDF.crop_production_system == crop_sys)]
+                csDF =  csDF.drop_duplicates()
+                names = csDF.name.unique()
+                calDF = pd.DataFrame(columns=df.columns[:])
+                fillDF = pd.DataFrame(columns=df.columns[:])
+                #  Calculate the value using other two version
+                missingYrName = pd.DataFrame(columns=['name', 'year', 'indicator'])
+                for name in names:
+                    rDF = csDF[csDF.name == name]
+                    for iYr in rDF.harvest_year.unique():
+                        payDF = rDF[rDF.harvest_year == iYr]
+                        if len(payDF) == 2:
+                            fill = pd.DataFrame(payDF.copy().iloc[0:1, :])
+                            if 'Quantity Produced' not in payDF.indicator.values:
+                                fill.loc[:, 'indicator'] = 'Quantity Produced'
+                                fill.loc[:, 'value'] = payDF[payDF.indicator == 'Area Harvested'].value.values[0] * \
+                                                       payDF[payDF.indicator == 'Yield'].value.values[0]
+                            if 'Area Harvested' not in payDF.indicator.values:
+                                fill.loc[:, 'indicator'] = 'Area Harvested'
+                                fill.loc[:, 'value'] = payDF[payDF.indicator == 'Quantity Produced'].value.values[0] / \
+                                                       payDF[payDF.indicator == 'Yield'].value.values[0]
+                            if 'Yield' not in payDF.indicator.values:
+                                fill.loc[:, 'indicator'] = 'yield'
+                                fill.loc[:, 'value'] = payDF[payDF.indicator == 'Quantity Produced'].value.values[0] / \
+                                                       payDF[payDF.indicator == 'Area Harvested'].value.values[0]
+                            fill.loc[:, 'fill_status'] = 'calculated'
+                            calDF = pd.concat([fill, calDF])
+                        if (len(payDF) == 1):
+                            missingYrName.loc[len(missingYrName)] = [name, iYr, payDF.indicator.values[0]]
+                            # print('*********************************')
+                csDF = pd.concat([csDF, calDF])
+                # filled values ,expected valuesa
+                for name in names:
+                    for iInd in ['Quantity Produced', 'Area Harvested', 'Yield']:
+                        # limit to admin unit
+                        iDF = csDF[(csDF.name == name) & (csDF.indicator == iInd)]
+                        if len(iDF) == 0:
+                            continue
+                        dfYrs = iDF.planting_year.unique()
+                        yrs = np.arange(dfYrs.min(), dfYrs.max(), 1)
+                        # find missing years
+                        missYrs = yrs[~np.isin(yrs, dfYrs)]
+                        # identify potential offsets for harvest year and planting year
+                        hYrOffset = iDF.loc[:, 'harvest_year'].values[0] - iDF.loc[:, 'planting_year'].values[0]
+
+                        # add in 0s for production, harvested area, and yield
+                        if len(missYrs) > len(iDF):
+                            fill = pd.DataFrame(csDF.copy().iloc[0:missYrs.size, :])
+                            fill.loc[:, ['admin_1']] = iDF.admin_1.values[0]
+                            fill.loc[:, ['admin_2']] = iDF.admin_2.values[0]
+                            fill.loc[:, ['name']] = iDF.name.values[0]
+                            fill.loc[:, ['planting_year']] = missYrs
+                            fill.loc[:, ['harvest_year']] = missYrs + hYrOffset
+                            fill.loc[:, 'value'] = np.average(iDF.value.values)
+                            fill.loc[:, 'fill_status'] = 'filled'
+                            fill.loc[:, 'indicator'] = iInd
+                            # add the missing value where it goes
+                            iDF = pd.concat([iDF, fill])
+                            iDF = iDF.sort_values('harvest_year')
+                            # create a dataframe with the smoothed values
+                            iDFsmooth = pd.DataFrame(iDF.copy().iloc[:])
+                            iDFsmooth.loc[:, 'indicator'] = str(iInd + '_smooth')
+
+                            # concat both the data with added 0s and the smoothed data onto the master filled DF
+                            fillDF = pd.concat([fillDF, iDF, iDFsmooth])
+                        else:
+                            fill = pd.DataFrame(iDF.copy().iloc[0:missYrs.size, :])
+                            fill.loc[:, ['planting_year']] = missYrs
+                            fill.loc[:, ['harvest_year']] = missYrs + hYrOffset
+                            fill.loc[:, 'value'] = 0
+                            fill.loc[:, 'fill_status'] = 'filled'
+                            fill.loc[:, 'indicator'] = iInd
+
+                            # add the missing value where it goes
+                            iDF = pd.concat([iDF, fill])
+                            iDF = iDF.sort_values('harvest_year')
+
+                            # calculate 5-year running mean of production
+                            # To account for a missing values in locations we can drop and re-weight the remaining values by counting non-zero values
+                            count = np.copy(iDF.value)
+                            count[iDF.fill_status == 'data'] = 1
+                            count[iDF.fill_status == 'calculated'] = 1
+                            count[iDF.fill_status == 'filled'] = 0
+
+                            gauExp = ndimage.gaussian_filter1d(iDF.value.values, 3) / ndimage.gaussian_filter1d(count,
+                                                                                                                3)
+
+                            # create a dataframe with the smoothed values
+                            iDFsmooth = pd.DataFrame(iDF.copy().iloc[:])
+                            iDFsmooth.loc[:, 'indicator'] = str(iInd + '_smooth')
+                            iDFsmooth.loc[:, 'value'] = gauExp
+
+                            # concat both the data with added 0s and the smoothed data onto the master filled DF
+                            fillDF = pd.concat([fillDF, iDF, iDFsmooth])
+
+                for i in range(len(missingYrName)):
+                    missYr = missingYrName.year[i]
+                    missName = missingYrName.name[i]
+                    missIndicator = missingYrName.indicator[i]
+                    missDF = fillDF[(fillDF.name == missName) & (fillDF.harvest_year == missYr)]
+                    missDF['missing_status'] = 'missing'
+                    if 'yield' == missIndicator:
+                        if ('Quantity Produced_smooth' in missDF.indicator.values) & (
+                                'Area Harvested_smooth' in missDF.indicator.values):
+                            missDF.loc[missDF.indicator == 'Quantity Produced', 'value'] = missDF.loc[
+                                                                                        missDF.indicator == 'Area Harvested_smooth', 'value'] * \
+                                                                                    missDF.loc[
+                                                                                        missDF.indicator == 'Yield', 'value']
+                        if ('Quantity Produced_smooth' in missDF.indicator.values) & (
+                                'Area Harvested_smooth' not in missDF.indicator.values):
+                            tempAreaDF = pd.DataFrame(missDF.copy().loc[(missDF.harvest_year == missYr) & (
+                                        missDF.indicator == str('Quantity Produced'))])
+                            tempAreaDF.loc[:, 'indicator'] = 'Area Harvested'
+                            tempAreaDF.loc[tempAreaDF.indicator == 'Area Harvested', 'value'] = missDF.loc[
+                                                                                          missDF.indicator == 'production_smooth', 'value'] / \
+                                                                                      missDF.loc[
+                                                                                          missDF.indicator == 'Yield', 'value']
+                            missDF = pd.concat(missDF, tempAreaDF)
+                        if ('Quantity Produced_smooth' not in missDF.indicator.values) & (
+                                'Area Harvested_smooth' in missDF.indicator.values):
+                            tempProdDF = pd.DataFrame(missDF.copy().loc[(missDF.harvest_year == missYr) & (
+                                        missDF.fillstatus == str('filled'))])
+                            tempProdDF = tempProdDF.replace({'Area Harvested': 'Quantity Produced', 'Area Harvested_smooth': 'Quantity Produced_smooth'})
+                            tempProdDF.loc[tempProdDF.indicator == 'Quantity Produced_smooth', 'value'] = missDF.loc[
+                                                                                                       missDF.indicator == 'Yield_smooth', 'value'] * \
+                                                                                                   missDF.loc[
+                                                                                                       missDF.indicator == 'Area Harvested_smooth', 'value']
+                            tempProdDF.loc[tempProdDF.indicator == 'Quantity Produced', 'value'] = missDF.loc[
+                                                                                                missDF.indicator == 'Yield', 'value'] * \
+                                                                                            missDF.loc[
+                                                                                                missDF.indicator == 'Area Harvested_smooth', 'value']
+                            missDF = pd.concat(missDF, tempProdDF)
+                    if len(csDF)>1:
+                        fillDF[(fillDF.name == missName) & (fillDF.harvest_year == missYr)] = missDF[
+                            (missDF.name == missName) & (missDF.harvest_year == missYr)]
+
+                missPartCS = fillDF[fillDF.missing_status == 'missing']
+                regionMissInd = pd.concat([missPartCS, regionMissInd])
+
+                # calculate the percent of subnational production at each time step based on the smoothed data and use it to fill the data
+                if admin_level==2:               
+                    cntPrd = fillDF.loc[
+                        fillDF.indicator == 'Quantity Produced_smooth', ['country','country_code','admin_1','product', 'season_name','planting_year','planting_month', 'harvest_year','harvest_month','crop_production_system','value',]].groupby(
+                        ['country','country_code','admin_1','product', 'season_name','planting_year','planting_month', 'harvest_year','harvest_month','crop_production_system']).sum()
+                    cntPrd.reset_index(inplace=True)
+                    cntPrd['admin_2']='None'
+                    cntPrd['name']=cntPrd['admin_1']
+                    for iYr in fillDF.harvest_year.unique():
+                        pctPrd = pd.DataFrame(fillDF.copy().loc[(fillDF.harvest_year == iYr) & (
+                                    fillDF.indicator == str('Quantity Produced_smooth'))])
+                        if len(pctPrd) == 0:
+                            continue
+                        for admin1 in pctPrd.admin_1.unique():
+                            pctNamePrd = pctPrd[pctPrd.admin_1 == admin1]
+                            pctNamePrd.loc[:, 'value'] = pctNamePrd.value / cntPrd.loc[(cntPrd.admin_1==admin1)&(cntPrd.harvest_year==iYr),'value'].values
+                            pctNamePrd['indicator'] = 'production_fraction'
+                            fillDF = pd.concat([fillDF, pctNamePrd])
+    
+                    # indentify when fill_status is 'filled' and indicator is 'production_fraction' or fill_status is 'data' and indicator is 'production_fraction' and missing_status is 'missing'
+                    rPctPrd0 = pd.DataFrame(fillDF.copy().loc[(fillDF.fill_status == str('filled')) & (
+                                fillDF.indicator == str('production_fraction'))])
+                    rPctPrd1 = pd.DataFrame(fillDF.copy().loc[(fillDF.missing_status == str('missing')) & (
+                                fillDF.indicator == str('production_fraction')) & (fillDF.fill_status == str('data'))])
+                    rPctPrd = pd.concat([rPctPrd0, rPctPrd1])
+                    missPct = pd.DataFrame(columns=['country', 'country_code', 'admin_1', 'admin_2', 'name', 'product', 'planting_year',
+                     'planting_month', 'harvest_year', 'harvest_month', 'season_name', 'crop_production_system',
+                     'missing_pct'])
+                    for iYr in rPctPrd.harvest_year.unique():
+                        pctPrd = rPctPrd.copy().loc[rPctPrd.harvest_year == iYr]
+                        for admin1 in pctPrd.admin_1.unique():
+                            admin1Pct=pctPrd[(pctPrd['admin_1'] == admin1)]
+                            # adm1Fnid=gdf[gdf.ADMIN1==admin1].FNID.values[0]
+                            for name in admin1Pct.name.unique():
+                                namePct=pctPrd[(pctPrd['admin_1'] == admin1) & (pctPrd.name == name)]
+                                sumPct = pctPrd[(pctPrd['admin_1'] == admin1) & (pctPrd.name == name)]['value'].sum()
+    
+                                missPct.loc[len(missPct)] = [country,namePct['country_code'].values[0], admin1,namePct.admin_2.values[0], name,crop,namePct.planting_year.values[0],namePct.planting_month.values[0], iYr, namePct.harvest_month.values[0],season_name, crop_sys,
+                                                             sumPct]
+                    admMissPct = pd.concat([missPct, admMissPct])
+                    FillDF=pd.concat([FillDF,fillDF])
+                if admin_level == 3:
+                    cntPrd = fillDF.loc[
+                        fillDF.indicator == 'Quantity Produced_smooth', ['country', 'country_code', 'admin_1','admin_2', 'product',
+                                                                  'season_name', 'planting_year', 'planting_month',
+                                                                  'harvest_year', 'harvest_month',
+                                                                  'crop_production_system',
+                                                                  'value', ]].groupby(
+                        ['country', 'country_code', 'admin_1','admin_2', 'product', 'season_name', 'planting_year',
+                         'planting_month', 'harvest_year', 'harvest_month', 'crop_production_system',
+                         ]).sum()
+                    cntPrd.reset_index(inplace=True)
+                    cntPrd['admin_3'] = 'None'
+                    cntPrd['name'] = cntPrd['admin_2']
+                    for iYr in fillDF.harvest_year.unique():
+                        pctPrd = pd.DataFrame(fillDF.copy().loc[(fillDF.harvest_year == iYr) & (
+                                fillDF.indicator == str('Quantity Produced_smooth'))])
+                        if len(pctPrd) == 0:
+                            continue
+                        for admin2 in pctPrd.admin_2.unique():
+                            pctNamePrd = pctPrd[pctPrd.admin_2 == admin2]
+                            pctNamePrd.loc[:, 'value'] = pctNamePrd.value / cntPrd.loc[
+                                (cntPrd.admin_2 == admin2) & (cntPrd.harvest_year == iYr), 'value'].values
+                            pctNamePrd['indicator'] = 'production_fraction'
+                            fillDF = pd.concat([fillDF, pctNamePrd])
+
+                    # indentify when fill_status is 'filled' and indicator is 'production_fraction' or fill_status is 'data' and indicator is 'production_fraction' and missing_status is 'missing'
+                    rPctPrd0 = pd.DataFrame(fillDF.copy().loc[(fillDF.fill_status == str('filled')) & (
+                            fillDF.indicator == str('production_fraction'))])
+                    rPctPrd1 = pd.DataFrame(fillDF.copy().loc[(fillDF.missing_status == str('missing')) & (
+                            fillDF.indicator == str('production_fraction')) & (fillDF.fill_status == str('data'))])
+                    rPctPrd = pd.concat([rPctPrd0, rPctPrd1])
+                    missPct = pd.DataFrame(
+                        columns=['country', 'country_code', 'admin_1', 'admin_2','admin_3', 'name', 'product', 'planting_year',
+                                 'planting_month', 'harvest_year', 'harvest_month', 'season_name',
+                                 'crop_production_system',
+                                 'missing_pct', ])
+                    for iYr in rPctPrd.harvest_year.unique():
+                        pctPrd = rPctPrd.copy().loc[rPctPrd.harvest_year == iYr]
+                        for admin2 in pctPrd.admin_2.unique():
+                            admin2Pct = pctPrd[(pctPrd['admin_2'] == admin2)]
+                            # adm1Fnid=gdf[gdf.ADMIN1==admin1].FNID.values[0]
+                            for name in admin2Pct.name.unique():
+                                namePct = pctPrd[(pctPrd['admin_2'] == admin2) & (pctPrd.name == name)]
+                                sumPct = pctPrd[(pctPrd['admin_2'] == admin2) & (pctPrd.name == name)]['value'].sum()
+
+                                missPct.loc[len(missPct)] = [country, namePct['country_code'].values[0], namePct.admin_1.values[0],
+                                                             admin2,namePct.admin_3.values[0] ,name, crop,
+                                                             namePct.planting_year.values[0],
+                                                             namePct.planting_month.values[0], iYr,
+                                                             namePct.harvest_month.values[0], season_name, crop_sys,
+                                                             sumPct]
+                    admMissPct = pd.concat([missPct, admMissPct])
+                    FillDF = pd.concat([FillDF, fillDF])
+    if admin_level == 2:
+        admMissPct['fnid'] = admMissPct['admin_1']
+        admMissPct['fnid'] = admMissPct['fnid'].map(fnidMap)
+    if admin_level == 3:
+        admMissPct['fnid'] = admMissPct['admin_2']
+        admMissPct['fnid'] = admMissPct['fnid'].map(fnidMap)
+    return admMissPct,FillDF
+
+def agg_admin1(df,admin_level,country,country_iso,fnidMap):
+    if (admin_level != 2) & (admin_level != 3):
+        return
+    if 'none' in df[df['country'] == country]['admin_2'].unique():
+        return
+
+    aggYield1 = pd.DataFrame(
+        columns=['fnid', 'country', 'country_code', 'admin_1', 'admin_2','admin_3','name', 'product', 'season_name','planting_year',
+                 'planting_month', 'harvest_year', 'harvest_month',  'crop_production_system',
+                 'indicator','value'])
+    aggActualAdmin1 = pd.DataFrame(
+        columns=['fnid','country','country_code', 'admin_1','admin_2', 'name', 'product','season_name','planting_year','planting_month', 'harvest_year', 'harvest_month','crop_production_system', 'indicator',
+                 'value'])
+    admMissPct,fillDF=miss_pct(df, admin_level, country,country_iso,fnidMap)
+
+    for crop in fillDF['product'].unique():
+
+        couDF = fillDF[(fillDF['country'] == country) & (fillDF['product'] == crop)]
+        couMiss= admMissPct[(admMissPct['country'] == country) & (admMissPct['product'] == crop)]
+        if len(couDF) == 0:
+            continue
+        cropSys = couDF.crop_production_system.unique()
+        for crop_sys in cropSys:
+            couMissSys=couMiss[couMiss['crop_production_system']==crop_sys]
+            for season_name in couDF[couDF['crop_production_system'] == crop_sys].season_name.unique():
+                csDF = couDF[(couDF.season_name == season_name) & (couDF.crop_production_system == crop_sys)]
+                missPct=couMissSys[couMissSys['season_name']==season_name]
+                names = csDF.name.unique()
+                csDF.reset_index(inplace=True)
+                csDF.drop(columns='index', axis=1, inplace=True)
+                markDFMissing = pd.DataFrame(columns=df.columns[:])
+                for name in names:
+                        for year in missPct[missPct.name == name].harvest_year:
+                            iMissingPct = missPct[(missPct.name == name) & (missPct.harvest_year == year)]
+                            if iMissingPct['missing_pct'].values[0] > 0.5:
+                                markDF = csDF[(csDF.name == name) & (csDF.harvest_year == year)]
+                                markDF['missing_status'] = 'missing'
+                                csDF[(csDF.name == name) & (csDF.harvest_year == year)] = markDF[
+                                    (markDF.name == name) & (markDF.harvest_year == year)]
+                                markDFMissing = pd.concat([markDFMissing, markDF])
+                csDF = pd.concat([csDF, markDFMissing])
+                aggDF = csDF.drop_duplicates(keep=False)
+                aggDF = aggDF[aggDF['fill_status'] == 'data']
+                aggDF.reset_index(inplace=True)
+                aggDF.drop(columns='index', axis=1, inplace=True)
+
+                for name in aggDF.name.unique():
+                        iDF = aggDF[(aggDF.name == name)]
+                        iDFProd = iDF[(iDF.name == name) & (iDF.indicator == 'Quantity Produced')]
+                        iDFArea = iDF[(iDF.name == name) & (iDF.indicator == 'Area Harvested')]
+
+                        admin1 = iDF.admin_1.unique()[0]
+                        admin2 = iDF.admin_2.unique()[0]
+                        if admin_level==2:
+                            if len(iDFArea) > len(iDFProd):
+                                for year in iDFArea.harvest_year:
+                                    if len(iDFProd[iDFProd.harvest_year == year]) == 0:
+                                        aggDF.drop(aggDF[(aggDF.name == name) & (aggDF.harvest_year == year) & (
+                                                aggDF.indicator == 'area') & (aggDF.admin_1 == admin1)].index,
+                                                    inplace=True)
+                            elif len(iDFArea) < len(iDFProd):
+                                for year in iDFProd.harvest_year:
+                                    if len(iDFArea[iDFArea.harvest_year == year]) == 0:
+                                        aggDF.drop(aggDF[(aggDF.name == name) & (aggDF.harvest_year == year) & (
+                                                aggDF.indicator == 'production') & (aggDF.admin_1 == admin1)].index,
+                                                    inplace=True)
+                        if admin_level==3:
+                            if len(iDFArea) > len(iDFProd):
+                                for year in iDFArea.harvest_year:
+                                    if len(iDFProd[iDFProd.harvest_year == year]) == 0:
+                                        aggDF.drop(aggDF[(aggDF.name == name) & (aggDF.harvest_year == year) & (
+                                                aggDF.indicator == 'area') & (aggDF.admin_2 == admin2)].index,
+                                                   inplace=True)
+                            elif len(iDFArea) < len(iDFProd):
+                                for year in iDFProd.harvest_year:
+                                    if len(iDFArea[iDFArea.harvest_year == year]) == 0:
+                                        aggDF.drop(aggDF[(aggDF.name == name) & (aggDF.harvest_year == year) & (
+                                                aggDF.indicator == 'production') & (aggDF.admin_2 == admin2)].index,
+                                                   inplace=True)
+                if admin_level==2:
+                    aggProd = aggDF.loc[
+                            aggDF.indicator == 'Quantity Produced', ['country','country_code', 'admin_1','product','season_name','planting_year','planting_month','harvest_year','harvest_month',
+                                                            'crop_production_system', 'value']].groupby(
+                            ['country','country_code', 'admin_1','product','season_name','planting_year','planting_month','harvest_year','harvest_month',
+                                                            'crop_production_system' ]).sum()
+                    aggArea = aggDF.loc[
+                            aggDF.indicator == 'Area Harvested', ['country','country_code', 'admin_1','product','season_name','planting_year','planting_month','harvest_year','harvest_month',
+                                                            'crop_production_system', 'value']].groupby(
+                            ['country','country_code', 'admin_1','product','season_name','planting_year','planting_month','harvest_year','harvest_month',
+                                                            'crop_production_system']).sum()
+                if admin_level == 3:
+                    aggProd = aggDF.loc[
+                        aggDF.indicator == 'Quantity Produced', ['country', 'country_code', 'admin_1','admin_2', 'product',
+                                                          'season_name', 'planting_year', 'planting_month',
+                                                          'harvest_year', 'harvest_month',
+                                                          'crop_production_system', 'value']].groupby(
+                        ['country', 'country_code', 'admin_1','admin_2', 'product', 'season_name', 'planting_year',
+                         'planting_month', 'harvest_year', 'harvest_month',
+                         'crop_production_system',]).sum()
+                    aggArea = aggDF.loc[
+                        aggDF.indicator == 'Area Harvested', ['country', 'country_code', 'admin_1','admin_2', 'product', 'season_name',
+                                                    'planting_year', 'planting_month', 'harvest_year', 'harvest_month',
+                                                    'crop_production_system', 'value']].groupby(
+                        ['country', 'country_code', 'admin_1','admin_2', 'product', 'season_name', 'planting_year',
+                         'planting_month', 'harvest_year', 'harvest_month',
+                         'crop_production_system']).sum()
+                aggProd.reset_index(inplace=True)
+                aggArea.reset_index(inplace=True)
+                if len(aggProd) != len(aggArea):
+                    if admin_level==2:
+                        for admin1 in aggArea.admin_1.unique():
+                            iDFArea = aggArea[aggArea.admin_1 == admin1]
+                            iDFProd = aggProd[aggProd.admin_1 == admin1]
+                            if len(iDFArea) > len(iDFProd):
+                                for year in iDFArea.harvest_year:
+                                    if len(iDFProd[iDFProd.harvest_year == year]) == 0:
+                                        aggArea.drop(
+                                            aggArea[(aggArea.admin_1 == admin1) & (aggArea.harvest_year == year)].index,
+                                            inplace=True)
+                            elif len(iDFArea) < len(iDFProd):
+                                for year in iDFProd.harvest_year:
+                                    if len(iDFArea[iDFArea.harvest_year == year]) == 0:
+                                        aggProd.drop(
+                                            aggProd[(aggProd.admin_1 == admin1) & (aggProd.harvest_year == year)].index,
+                                            inplace=True)
+                    if admin_level==3:
+                        for admin2 in aggArea.admin_2.unique():
+                            iDFArea = aggArea[aggArea.admin_2 == admin2]
+                            iDFProd = aggProd[aggProd.admin_2 == admin2]
+                            if len(iDFArea) > len(iDFProd):
+                                for year in iDFArea.harvest_year:
+                                    if len(iDFProd[iDFProd.harvest_year == year]) == 0:
+                                        aggArea.drop(
+                                            aggArea[(aggArea.admin_2 == admin2) & (aggArea.harvest_year == year)].index,
+                                            inplace=True)
+                            elif len(iDFArea) < len(iDFProd):
+                                for year in iDFProd.harvest_year:
+                                    if len(iDFArea[iDFArea.harvest_year == year]) == 0:
+                                        aggProd.drop(
+                                            aggProd[(aggProd.admin_2 == admin2) & (aggProd.harvest_year == year)].index,
+                                            inplace=True)
+                aggProd.reset_index(inplace=True)
+                aggArea.reset_index(inplace=True)
+                tempProd = aggProd.copy()
+                aggYld = tempProd
+                aggYld['value'] = tempProd['value'] / aggArea['value']
+                aggYield1 = pd.concat([aggYield1, aggYld])
+                aggProd['indicator'] = 'Quantity Produced'
+                aggArea['indicator'] = 'Area Harvested'
+                aggYld['indicator'] = 'Yield'
+                # aggYld.drop(columns='index', axis=1, inplace=True)
+                aggAdmin = pd.concat([aggProd, aggArea, aggYld])
+                aggActualAdmin1 = pd.concat([aggActualAdmin1, aggAdmin])
+    aggActualAdmin1.drop(columns='index', axis=1, inplace=True)
+    aggYield1.drop(columns='index', axis=1, inplace=True)
+    aggYield1['season_name'].replace('Long/Dry', 'Long(Dry)', inplace=True)
+    if admin_level == 2:
+        aggActualAdmin1['admin_2']='None'
+        aggActualAdmin1['name'] = aggActualAdmin1['admin_1']
+        aggYield1['admin_2']='None'
+        aggYield1['name'] = aggYield1['admin_1']
+        aggYield1['indicator'] ='Yield'
+        aggYield1['fnid'] = aggYield1['admin_1']
+        aggYield1['fnid'] = aggYield1['fnid'].map(fnidMap)
+        aggActualAdmin1['fnid'] = aggActualAdmin1['admin_1']
+        aggActualAdmin1['fnid'] = aggActualAdmin1['fnid'].map(fnidMap)
+    if admin_level == 3:
+        aggActualAdmin1['admin_3']='None'
+        aggActualAdmin1['name'] = aggActualAdmin1['admin_2']
+        aggYield1['admin_3']='None'
+        aggYield1['name'] = aggYield1['admin_2']
+        aggYield1['indicator'] ='Yield'
+        aggYield1['fnid'] = aggYield1['admin_2']
+        aggYield1['fnid'] = aggYield1['fnid'].map(fnidMap)
+        aggActualAdmin1['fnid'] = aggActualAdmin1['admin_2']
+        aggActualAdmin1['fnid'] = aggActualAdmin1['fnid'].map(fnidMap)
+    return aggYield1,aggActualAdmin1
+
+def merge_admin1(df,admin_level,country,country_iso,fnidMap):
+
+    newDF = pd.DataFrame(
+        columns=['fnid','country','country_code', 'admin_1','admin_2', 'name', 'product','season_name','planting_year','planting_month', 'harvest_year', 'harvest_month', 'crop_production_system', 'indicator',
+                 'value'])
+    aggYield1,aggActualAdmin1=agg_admin1(df,admin_level,country,country_iso,fnidMap)
+    df = pd.read_hdf('./data/crop/adm_crop_production_'+country_iso+'_admin1.hdf')
+    df = df[df['gscd_code'] == 'calibrated']
+    if country == 'Tanzania':
+        df['country'].replace('Tanzania, United Republic of', 'Tanzania', inplace=True)
+    df=pd.concat([df,aggActualAdmin1])
+    for crop in df['product'].unique():
+        couDF = df[(df['country']==country)&(df['product']==crop)]
+        if len(couDF) == 0:
+            continue
+        cropSys = couDF.crop_production_system.unique()
+        for crop_sys in couDF.crop_production_system.unique():
+            for season_name in couDF[couDF['crop_production_system']==crop_sys].season_name.unique():
+                csDF = couDF[(couDF.season_name == season_name)&(couDF.crop_production_system==crop_sys)]
+                admin1=csDF.admin_1.unique()
+                admin2 = csDF.admin_2.unique()
+                if admin_level == 2:
+                    for admin in admin1:
+                        admin1DF= csDF[ csDF['admin_1']==admin]
+                        admin1DF.sort_values(by='harvest_year',inplace=True)
+                        newDF=pd.concat([newDF,admin1DF])
+                if admin_level==3:
+                    for admin in admin2:
+                        admin2DF= csDF[ csDF['admin_2']==admin]
+                        admin2DF.sort_values(by='harvest_year',inplace=True)
+                        newDF=pd.concat([newDF,admin2DF])
+    newDF.reset_index(inplace=True)
+    newDF.drop(columns='index', axis=1, inplace=True)
+    newDF['fnid'] =  newDF['admin_1']
+    newDF['fnid'] =  newDF['fnid'].map(fnidMap)
+    return newDF
+
+def cleanPA(df_o,admin_level,country,country_iso,Ocrop_list, duplicate_positions,non_repeated_positions):
+    newCroDF = pd.DataFrame()
+    for positions in non_repeated_positions:
+        cropDF = df_o[(df_o['product'] == Ocrop_list[positions])]
+        newCroDF=pd.concat([newCroDF,cropDF])
+    for positions in duplicate_positions:
+        cropDF = df_o[(df_o['product'] == Ocrop_list[positions])]
+        cropSys = cropDF.crop_production_system.unique()
+        for crop_sys in cropSys:
+            for season_name in cropDF[cropDF['crop_production_system'] == crop_sys].season_name.unique():
+                csDF = cropDF[(cropDF.season_name == season_name) & (cropDF.crop_production_system == crop_sys)]
+                csDF = csDF.drop_duplicates()
+                # names = csDF.name.unique()
+                admins=csDF[admin_level].unique()
+                for admin in admins:
+                    for season_year in csDF[csDF[admin_level] == admin].season_year.unique():
+                        iDF = csDF[(csDF[admin_level] == admin) & (csDF['season_year'] == season_year)]
+                        if (len(iDF) == 3):
+                            newCroDF = pd.concat([iDF, newCroDF])
+                            continue
+                        if (len(iDF) == 1):
+                            continue
+                        # if (len(iDF) == 4):
+                        #     subCrop1 = iDF[iDF['product'] == 'Millet (Bulrush)']
+                        #     subCrop2 = iDF[iDF['product'] == 'Millet (Finger)']
+                        #     if len(subCrop2) == 3:
+                        #         newMilDF = pd.concat([subCrop2, newMilDF])
+                        #     else:
+                        #         newMilDF = pd.concat([subCrop1, newMilDF])
+                        if (len(iDF) == 6) | (len(iDF) == 5):
+                            print('There are two area values or two production values')
+                        if len(iDF) == 2:
+                            if len(iDF.indicator.unique()) == 1:
+                                continue
+                            else:
+                                newCroDF = pd.concat([iDF, newCroDF])
+    df = newCroDF
+    return df
+
+def combine(df,crop_list, duplicate_positions,non_repeated_positions):
+    for positions in duplicate_positions:
+        crop=crop_list[positions]
+        for season_name in df[df['product'] == crop]['season_name'].unique():
+            xcz = df[(df['product'] == crop) & (df['season_name'] == season_name)]['name'].unique()
+            for admin in df[(df['product'] == crop) & (df['season_name'] == season_name)]['name'].unique():
+                for year in df[(df['product'] == crop) & (df['season_name'] == season_name) & (df['name'] == admin)][
+                    'harvest_year'].unique():
+                    df.loc[(df['product'] == crop) & (df['name'] == admin) & (df['season_name'] == season_name) & (
+                                df['harvest_year'] == year) & (df['indicator'] == 'yield'), 'value'].values[0] = df.loc[(df[
+                                                                                                                             'product'] == crop) & (
+                                                                                                                                  df[
+                                                                                                                                        'name'] == admin) & (
+                                                                                                                                    df[
+                                                                                                                                        'season_name'] == season_name) & (
+                                                                                                                                    df[
+                                                                                                                                        'harvest_year'] == year) & (
+                                                                                                                                    df[
+                                                                                                                                        'indicator'] == 'production'), 'value'].values[
+                                                                                                                 0] / \
+                                                                                                             df.loc[(df[
+                                                                                                                         'product'] == crop) & (
+                                                                                                                                df[
+                                                                                                                                    'name'] == admin) & (
+                                                                                                                                df[
+                                                                                                                                    'season_name'] == season_name) & (
+                                                                                                                                df[
+                                                                                                                                    'harvest_year'] == year) & (
+                                                                                                                                df[
+                                                                                                                                    'indicator'] == 'area'), 'value'].values[
+                                                                                                                 0]
+                    return df
+
