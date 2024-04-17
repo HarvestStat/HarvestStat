@@ -17,6 +17,7 @@ notebook/CP*.ipynb
 # Crop data
 data/fao
 data/auxiliary
+data/crop/faostat.csv
 data/crop/adm0_*
 data/crop/adm1_*
 data/crop/*SD*
