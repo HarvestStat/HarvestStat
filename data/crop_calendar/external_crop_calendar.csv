@@ -541,12 +541,6 @@ Mozambique,Annual,Cashew (unshelled),All (PS),10,6,-1,0
 Mozambique,Annual,Cassava,All (PS),10,6,-1,0
 Mozambique,Annual,Other root/tuber vegetable,All (PS),10,6,-1,0
 Mozambique,Annual,Tea leaves,All (PS),10,6,-1,0
-Mozambique,Annual,Jute,All (PS),10,6,-1,0
-Mozambique,Annual,Macadamia (unspecified),All (PS),10,6,-1,0
-Mozambique,Annual,Sugarcane,All (PS),10,6,-1,0
-Mozambique,Main,Chili pepper (Unspecified),All (PS),10,6,-1,0
-Mozambique,Main,Mung bean (unspecified),All (PS),10,6,-1,0
-Mozambique,Rice season,Banana (unspecified),All (PS),10,6,-1,0
 Mozambique,Cotton season,Cotton,All (PS),10,6,-1,0
 Mozambique,Main,Bambara groundnut,All (PS),10,6,-1,0
 Mozambique,Main,Beans (Lima),All (PS),10,6,-1,0
@@ -688,31 +682,135 @@ Uganda,Second,Sesame Seed,none,8,12,0,0
 Uganda,Second,Sorghum,none,8,12,0,0
 Uganda,Second,Soybean,none,8,12,0,0
 Uganda,Second,Sweet Potatoes,none,8,12,0,0
-"Tanzania, United Republic of",Annual,Bambara groundnut,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Banana (unspecified),none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Barley,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Beans (mixed),none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Cassava,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Chick Peas,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Cocoyam,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Cowpeas,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Field Peas,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Gram (Green),none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Groundnuts (In Shell),none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Maize,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Millet,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Pea (unspecified),none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Pigeon Peas,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Potato (Irish),none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Rice,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Sesame Seed,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Sorghum,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Soybean,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Sugarcane,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Sunflower seed,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Sweet Potatoes,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Wheat,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Yams,none,9,7,-1,0
+Sierra Leone,Main,Cassava,none,5,9,0,0
+Sierra Leone,Main,Groundnuts (In Shell),none,5,9,0,0
+Sierra Leone,Main,Maize,none,5,9,0,0
+Sierra Leone,Main,Okras,none,5,9,0,0
+Sierra Leone,Main,Rice,none,5,9,0,0
+Sierra Leone,Main,Sesame Seed,none,5,9,0,0
+Sierra Leone,Main,Sorghum,none,5,9,0,0
+Sierra Leone,Main,Sweet Potatoes,none,5,9,0,0
+Benin,Annual,Cabbage,All (PS),3,10,0,0
+Benin,Annual,Carrots,All (PS),3,10,0,0
+Benin,Annual,Cassava,All (PS),3,10,0,0
+Benin,Annual,Colocynth,All (PS),3,10,0,0
+Benin,Annual,Cucumber,All (PS),3,10,0,0
+Benin,Annual,Eggplant,All (PS),3,10,0,0
+Benin,Annual,Green pea,All (PS),3,10,0,0
+Benin,Annual,Lettuce,All (PS),3,10,0,0
+Benin,Annual,Okras,All (PS),3,10,0,0
+Benin,Annual,Pineapple,All (PS),3,10,0,0
+Benin,Annual,Rice,All (PS),3,10,0,0
+Benin,Annual,Tomato,All (PS),3,10,0,0
+Benin,Main,Bambara groundnut,All (PS),3,10,0,0
+Benin,Main,Cowpeas,All (PS),3,10,0,0
+Benin,Main,Fonio,All (PS),3,10,0,0
+Benin,Main,Geocarpa groundnut,All (PS),3,10,0,0
+Benin,Main,Goussi,All (PS),3,10,0,0
+Benin,Main,Groundnuts (In Shell),All (PS),3,10,0,0
+Benin,Main,Maize,All (PS),3,10,0,0
+Benin,Main,Millet,All (PS),3,10,0,0
+Benin,Main,Molokhia,All (PS),3,10,0,0
+Benin,Main,Onions,All (PS),3,10,0,0
+Benin,Main,Pea,All (PS),3,10,0,0
+Benin,Main,Sesame Seed,All (PS),3,10,0,0
+Benin,Main,Sorghum,All (PS),3,10,0,0
+Benin,Main,Soybean,All (PS),3,10,0,0
+Benin,Main,Sugarcane,All (PS),3,10,0,0
+Benin,Main,Sweet Potatoes,All (PS),3,10,0,0
+Benin,Main,Taro,All (PS),3,10,0,0
+Benin,Main,Watermelon,All (PS),3,10,0,0
+Benin,Main,Yams,All (PS),3,10,0,0
+Cameroon,1st Season,Bambara groundnut,none,6,12,0,0
+Cameroon,1st Season,Beans (mixed),none,6,12,0,0
+Cameroon,1st Season,Groundnuts (In Shell),none,6,12,0,0
+Cameroon,1st Season,Maize,none,6,12,0,0
+Cameroon,1st Season,Melon,none,6,12,0,0
+Cameroon,1st Season,Millet,none,6,12,0,0
+Cameroon,1st Season,Potato,none,6,12,0,0
+Cameroon,1st Season,Rice,none,6,12,0,0
+Cameroon,1st Season,Sesame Seed,none,6,12,0,0
+Cameroon,1st Season,Soybean,none,6,12,0,0
+Cameroon,1st Season,Squash and Melon seeds,none,6,12,0,0
+Cameroon,1st Season,Sweet Potatoes,none,6,12,0,0
+Cameroon,1st Season,Tomato,none,6,12,0,0
+Cameroon,1st Season,Watermelon,none,6,12,0,0
+Cameroon,2nd Season,Bambara groundnut,none,6,12,0,0
+Cameroon,2nd Season,Beans (mixed),none,6,12,0,0
+Cameroon,2nd Season,Groundnuts (In Shell),none,6,12,0,0
+Cameroon,2nd Season,Maize,none,6,12,0,0
+Cameroon,2nd Season,Melon,none,6,12,0,0
+Cameroon,2nd Season,Millet,none,6,12,0,0
+Cameroon,2nd Season,Potato,none,6,12,0,0
+Cameroon,2nd Season,Rice,none,6,12,0,0
+Cameroon,2nd Season,Soybean,none,6,12,0,0
+Cameroon,2nd Season,Squash and Melon seeds,none,6,12,0,0
+Cameroon,2nd Season,Sweet Potatoes,none,6,12,0,0
+Cameroon,2nd Season,Tomato,none,6,12,0,0
+Cameroon,2nd Season,Watermelon,none,6,12,0,0
+Cameroon,Annual,Bambara groundnut,none,6,12,0,0
+Cameroon,Annual,Banana,none,6,12,0,0
+Cameroon,Annual,Beans (mixed),none,6,12,0,0
+Cameroon,Annual,Cassava,none,6,12,0,0
+Cameroon,Annual,Cooking Banana,none,6,12,0,0
+Cameroon,Annual,Cowpeas,none,6,12,0,0
+Cameroon,Annual,Groundnuts (In Shell),none,6,12,0,0
+Cameroon,Annual,Maize,none,6,12,0,0
+Cameroon,Annual,Melon,none,6,12,0,0
+Cameroon,Annual,Millet,none,6,12,0,0
+Cameroon,Annual,Okras,none,6,12,0,0
+Cameroon,Annual,Onions,none,6,12,0,0
+Cameroon,Annual,Pam nut or kerna,none,6,12,0,0
+Cameroon,Annual,Pineapple,none,6,12,0,0
+Cameroon,Annual,Potato,none,6,12,0,0
+Cameroon,Annual,Rice,none,6,12,0,0
+Cameroon,Annual,Squash and Melon seeds,none,6,12,0,0
+Cameroon,Annual,Sweet Potatoes,none,6,12,0,0
+Cameroon,Annual,Taro (move to 1594AA),none,6,12,0,0
+Cameroon,Annual,Tomato,none,6,12,0,0
+Cameroon,Annual,Watermelon,none,6,12,0,0
+Cameroon,Annual,Yams,none,6,12,0,0
+Cameroon,North 1st Season,Beans (mixed),none,6,12,0,0
+Cameroon,North 1st Season,Groundnuts (In Shell),none,6,12,0,0
+Cameroon,North 1st Season,Maize,none,6,12,0,0
+Cameroon,North 1st Season,Millet,none,6,12,0,0
+Cameroon,North 1st Season,Potato,none,6,12,0,0
+Cameroon,North 1st Season,Rice,none,6,12,0,0
+Cameroon,North 1st Season,Sesame Seed,none,6,12,0,0
+Cameroon,North 1st Season,Soybean,none,6,12,0,0
+Cameroon,North 1st Season,Squash and Melon seeds,none,6,12,0,0
+Cameroon,North 1st Season,Sweet Potatoes,none,6,12,0,0
+Cameroon,North 2nd Season,Beans (mixed),none,6,12,0,0
+Cameroon,North 2nd Season,Maize,none,6,12,0,0
+Cameroon,North 2nd Season,Millet,none,6,12,0,0
+Cameroon,North 2nd Season,Onions,none,6,12,0,0
+Cameroon,North 2nd Season,Rice,none,6,12,0,0
+Cameroon,North 2nd Season,Sweet Potatoes,none,6,12,0,0
+"Tanzania, United Republic of",Annual,Bambara groundnut,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Banana,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Barley,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Beans (mixed),none,1,12,0,0
+"Tanzania, United Republic of",Annual,Cassava,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Chick Peas,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Cocoyam,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Cowpeas,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Field Peas,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Gram (Green),none,1,12,0,0
+"Tanzania, United Republic of",Annual,Groundnuts (In Shell),none,1,12,0,0
+"Tanzania, United Republic of",Annual,Maize,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Millet,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Pea,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Pigeon Peas,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Potato (Irish),none,1,12,0,0
+"Tanzania, United Republic of",Annual,Rice,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Sesame Seed,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Sorghum,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Soybean,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Sugarcane,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Sunflower seed,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Sweet Potatoes,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Wheat,none,1,12,0,0
+"Tanzania, United Republic of",Annual,Yams,none,1,12,0,0
 "Tanzania, United Republic of",Long,Bambara groundnut,none,3,8,0,0
 "Tanzania, United Republic of",Long,Barley,none,3,8,0,0
 "Tanzania, United Republic of",Long,Beans (mixed),none,3,8,0,0
@@ -743,66 +841,26 @@ Uganda,Second,Sweet Potatoes,none,8,12,0,0
 "Tanzania, United Republic of",Long/Dry,Maize,none,3,8,0,0
 "Tanzania, United Republic of",Long/Dry,Mung bean,none,3,8,0,0
 "Tanzania, United Republic of",Long/Dry,Soybean,none,3,8,0,0
-"Tanzania, United Republic of",Short,Bambara groundnut,none,3,8,0,0
-"Tanzania, United Republic of",Short,Barley,none,10,4,-1,0
-"Tanzania, United Republic of",Short,Beans (mixed),none,10,4,-1,0
-"Tanzania, United Republic of",Short,Cassava,none,10,4,-1,0
-"Tanzania, United Republic of",Short,Chick Peas,none,10,4,-1,0
-"Tanzania, United Republic of",Short,Cocoyam,none,10,4,-1,0
-"Tanzania, United Republic of",Short,Cowpeas,none,10,4,-1,0
-"Tanzania, United Republic of",Short,Field Peas,none,10,4,-1,0
-"Tanzania, United Republic of",Short,Gram (Green),none,10,4,-1,0
-"Tanzania, United Republic of",Short,Groundnuts (In Shell),none,10,4,-1,0
-"Tanzania, United Republic of",Short,Maize,none,10,4,-1,0
-"Tanzania, United Republic of",Short,Millet,none,10,4,-1,0
-"Tanzania, United Republic of",Short,Mung bean,none,10,4,-1,0
-"Tanzania, United Republic of",Short,Pigeon Peas,none,10,4,-1,0
-"Tanzania, United Republic of",Short,Potato (Irish),none,10,4,-1,0
-"Tanzania, United Republic of",Short,Rice,none,10,4,-1,0
-"Tanzania, United Republic of",Short,Sesame Seed,none,10,4,-1,0
-"Tanzania, United Republic of",Short,Sorghum,none,10,4,-1,0
-"Tanzania, United Republic of",Short,Soybean,none,10,4,-1,0
-"Tanzania, United Republic of",Short,Sunflower seed,none,10,4,-1,0
-"Tanzania, United Republic of",Short,Sweet Potatoes,none,10,4,-1,0
-"Tanzania, United Republic of",Short,Wheat,none,10,4,-1,0
-"Tanzania, United Republic of",Short,Yams,none,10,4,-1,0
-,,,,,,,
-,,,,,,,
-Sierra Leone,Main season,Cassava,none,5,9,0,0
-Sierra Leone,Main season,Groundnuts,none,5,9,0,0
-Sierra Leone,Main season,Maize,none,5,9,0,0
-Sierra Leone,Main season,Okras,none,5,9,0,0
-Sierra Leone,Main season,Rice,none,5,9,0,0
-Sierra Leone,Main season,Sesame Seed,none,5,9,0,0
-Sierra Leone,Main season,Sorghum,none,5,9,0,0
-Sierra Leone,Main season,Sweet Potatoes,none,5,9,0,0
-Benin,Annual,Cabbage,All (PS),3,10,0,0
-Benin,Annual,Carrots,All (PS),3,10,0,0
-Benin,Annual,Cassava,All (PS),3,10,0,0
-Benin,Annual,Colocynth,All (PS),3,10,0,0
-Benin,Annual,Cucumber,All (PS),3,10,0,0
-Benin,Annual,Eggplant,All (PS),3,10,0,0
-Benin,Annual,Green pea,All (PS),3,10,0,0
-Benin,Annual,Lettuce,All (PS),3,10,0,0
-Benin,Annual,Okras,All (PS),3,10,0,0
-Benin,Annual,Pineapple,All (PS),3,10,0,0
-Benin,Annual,Rice,All (PS),3,10,0,0
-Benin,Annual,Tomato,All (PS),3,10,0,0
-Benin,Main,Cowpeas,All (PS),3,10,0,0
-Benin,Main,Fonio,All (PS),3,10,0,0
-Benin,Main,Geocarpa groundnut,All (PS),3,10,0,0
-Benin,Main,Goussi,All (PS),3,10,0,0
-Benin,Main,Groundnuts,All (PS),3,10,0,0
-Benin,Main,Maize,All (PS),3,10,0,0
-Benin,Main,Millet,All (PS),3,10,0,0
-Benin,Main,Molokhia,All (PS),3,10,0,0
-Benin,Main,Onions,All (PS),3,10,0,0
-Benin,Main,Pea,All (PS),3,10,0,0
-Benin,Main,Sesame Seed,All (PS),3,10,0,0
-Benin,Main,Sorghum,All (PS),3,10,0,0
-Benin,Main,Soybean,All (PS),3,10,0,0
-Benin,Main,Sugarcane,All (PS),3,10,0,0
-Benin,Main,Sweet Potatoes,All (PS),3,10,0,0
-Benin,Main,Taro,All (PS),3,10,0,0
-Benin,Main,Watermelon,All (PS),3,10,0,0
-Benin,Main,Yams,All (PS),3,10,0,0
+"Tanzania, United Republic of",Short,Bambara groundnut,none,10,2,-1,0
+"Tanzania, United Republic of",Short,Barley,none,10,2,-1,0
+"Tanzania, United Republic of",Short,Beans (mixed),none,10,2,-1,0
+"Tanzania, United Republic of",Short,Cassava,none,10,2,-1,0
+"Tanzania, United Republic of",Short,Chick Peas,none,10,2,-1,0
+"Tanzania, United Republic of",Short,Cocoyam,none,10,2,-1,0
+"Tanzania, United Republic of",Short,Cowpeas,none,10,2,-1,0
+"Tanzania, United Republic of",Short,Field Peas,none,10,2,-1,0
+"Tanzania, United Republic of",Short,Gram (Green),none,10,2,-1,0
+"Tanzania, United Republic of",Short,Groundnuts (In Shell),none,10,2,-1,0
+"Tanzania, United Republic of",Short,Maize,none,10,2,-1,0
+"Tanzania, United Republic of",Short,Millet,none,10,2,-1,0
+"Tanzania, United Republic of",Short,Mung bean,none,10,2,-1,0
+"Tanzania, United Republic of",Short,Pigeon Peas,none,10,2,-1,0
+"Tanzania, United Republic of",Short,Potato (Irish),none,10,2,-1,0
+"Tanzania, United Republic of",Short,Rice,none,10,2,-1,0
+"Tanzania, United Republic of",Short,Sesame Seed,none,10,2,-1,0
+"Tanzania, United Republic of",Short,Sorghum,none,10,2,-1,0
+"Tanzania, United Republic of",Short,Soybean,none,10,2,-1,0
+"Tanzania, United Republic of",Short,Sunflower seed,none,10,2,-1,0
+"Tanzania, United Republic of",Short,Sweet Potatoes,none,10,2,-1,0
+"Tanzania, United Republic of",Short,Wheat,none,10,2,-1,0
+"Tanzania, United Republic of",Short,Yams,none,10,2,-1,0
