@@ -474,6 +474,9 @@ Togo,Main,Rice,All (PS),5,11,0,0
 Togo,Main,Sorghum,All (PS),5,11,0,0
 Togo,Main,Soybean,All (PS),5,11,0,0
 Togo,Main,Yams,All (PS),5,11,0,0
+Togo,Annual,Rice,All (PS),5,11,0,0
+Togo,Main,Cowpeas,All (PS),5,11,0,0
+Togo,Main,Sweet Potatoes,All (PS),5,11,0,0
 Malawi,Main,Bambara groundnut,none,11,5,0,0
 Malawi,Main,Banana,none,11,5,0,0
 Malawi,Main,Bean (Hyacinth),none,11,5,0,0
@@ -509,6 +512,71 @@ Malawi,Winter,Pigeon Peas,none,3,8,0,0
 Malawi,Winter,Potato (Irish),none,3,8,0,0
 Malawi,Winter,Sweet Potatoes,none,3,8,0,0
 Malawi,Winter,Wheat,none,3,8,0,0
+Malawi,Annual,Beans (mixed),All (PS),11,10,0,0
+Malawi,Annual,Cassava,All (PS),11,10,0,0
+Malawi,Annual,Groundnuts (In Shell),All (PS),11,10,0,0
+Malawi,Annual,Maize,All (PS),11,10,0,0
+Malawi,Annual,Rice,All (PS),11,10,0,0
+Malawi,Annual,Soybean,All (PS),11,10,0,0
+Malawi,Main,Bambara groundnut,Rainfed (PS),11,5,0,0
+Malawi,Main,Bambara groundnut,irrigated,11,5,0,0
+Malawi,Main,Banana,Rainfed (PS),11,5,0,0
+Malawi,Main,Bean (Hyacinth),Rainfed (PS),11,5,0,0
+Malawi,Main,Bean (Hyacinth),irrigated,11,5,0,0
+Malawi,Main,Beans (Pinto),Rainfed (PS),11,5,0,0
+Malawi,Main,Beans (Pinto),irrigated,11,5,0,0
+Malawi,Main,Beans (mixed),Rainfed (PS),11,5,0,0
+Malawi,Main,Cabbage,Rainfed (PS),11,5,0,0
+Malawi,Main,Cassava,Rainfed (PS),11,5,0,0
+Malawi,Main,Chick Peas,Rainfed (PS),11,5,0,0
+Malawi,Main,Chick Peas,irrigated,11,5,0,0
+Malawi,Main,Chili pepper,Rainfed (PS),11,5,0,0
+Malawi,Main,Chili pepper,irrigated,11,5,0,0
+Malawi,Main,Coffee,Rainfed (PS),11,5,0,0
+Malawi,Main,Cotton,Rainfed (PS),11,5,0,0
+Malawi,Main,Cowpeas,Rainfed (PS),11,5,0,0
+Malawi,Main,Cowpeas,irrigated,11,5,0,0
+Malawi,Main,Field Peas,Rainfed (PS),11,5,0,0
+Malawi,Main,Garlic (fresh),Rainfed (PS),11,5,0,0
+Malawi,Main,Groundnuts (In Shell),Rainfed (PS),11,5,0,0
+Malawi,Main,Groundnuts (In Shell),irrigated,11,5,0,0
+Malawi,Main,Maize,Rainfed (PS),11,5,0,0
+Malawi,Main,Maize,irrigated,11,5,0,0
+Malawi,Main,Millet,Rainfed (PS),11,5,0,0
+Malawi,Main,Millet (Finger),Rainfed (PS),11,5,0,0
+Malawi,Main,Millet (Pearl),Rainfed (PS),11,5,0,0
+Malawi,Main,Onions,Rainfed (PS),11,5,0,0
+Malawi,Main,Paprika,Rainfed (PS),11,5,0,0
+Malawi,Main,Pigeon Peas,Rainfed (PS),11,5,0,0
+Malawi,Main,Pigeon Peas,irrigated,11,5,0,0
+Malawi,Main,Potato (Irish),Rainfed (PS),11,5,0,0
+Malawi,Main,Potato (Irish),irrigated,11,5,0,0
+Malawi,Main,Rice,Rainfed (PS),11,5,0,0
+Malawi,Main,Sesame Seed,Rainfed (PS),11,5,0,0
+Malawi,Main,Sorghum,Rainfed (PS),11,5,0,0
+Malawi,Main,Soybean,Rainfed (PS),11,5,0,0
+Malawi,Main,Sunflower Seed,Rainfed (PS),11,5,0,0
+Malawi,Main,Sunflower Seed,irrigated,11,5,0,0
+Malawi,Main,Sweet Potatoes,Rainfed (PS),11,5,0,0
+Malawi,Main,Sweet Potatoes,irrigated,11,5,0,0
+Malawi,Main,Tobacco,Rainfed (PS),11,5,0,0
+Malawi,Main,Tobacco,irrigated,11,5,0,0
+Malawi,Main,Tomato,Rainfed (PS),11,5,0,0
+Malawi,Main,Velvet bean,Rainfed (PS),11,5,0,0
+Malawi,Main,Velvet bean,irrigated,11,5,0,0
+Malawi,Winter,Beans (Pinto),irrigated,3,8,0,0
+Malawi,Winter,Beans (mixed),irrigated,3,8,0,0
+Malawi,Winter,Cabbage,irrigated,3,8,0,0
+Malawi,Winter,Cowpeas,irrigated,3,8,0,0
+Malawi,Winter,Field Peas,irrigated,3,8,0,0
+Malawi,Winter,Garlic (fresh),irrigated,3,8,0,0
+Malawi,Winter,Onions,irrigated,3,8,0,0
+Malawi,Winter,Paprika,irrigated,3,8,0,0
+Malawi,Winter,Pigeon Peas,irrigated,3,8,0,0
+Malawi,Winter,Potato (Irish),irrigated,3,8,0,0
+Malawi,Winter,Sweet Potatoes,irrigated,3,8,0,0
+Malawi,Winter,Tomato,irrigated,3,8,0,0
+Malawi,Winter,Wheat,irrigated,3,8,0,0
 Mauritania,Annual,Cowpeas,none,6,5,0,0
 Mauritania,Annual,Groundnuts (In Shell),none,6,5,0,0
 Mauritania,Annual,Maize,none,6,5,0,0
@@ -766,8 +834,6 @@ Uganda,Second,Sweet Potatoes,none,8,12,0,0
 "Tanzania, United Republic of",Short,Sweet Potatoes,none,10,4,-1,0
 "Tanzania, United Republic of",Short,Wheat,none,10,4,-1,0
 "Tanzania, United Republic of",Short,Yams,none,10,4,-1,0
-,,,,,,,
-,,,,,,,
 Sierra Leone,Main season,Cassava,none,5,9,0,0
 Sierra Leone,Main season,Groundnuts,none,5,9,0,0
 Sierra Leone,Main season,Maize,none,5,9,0,0
@@ -806,3 +872,24 @@ Benin,Main,Sweet Potatoes,All (PS),3,10,0,0
 Benin,Main,Taro,All (PS),3,10,0,0
 Benin,Main,Watermelon,All (PS),3,10,0,0
 Benin,Main,Yams,All (PS),3,10,0,0
+Benin,Main,Potato,All (PS),3,10,0,0
+Nigeria,Annual,Cassava,All (PS),3,10,0,0
+Nigeria,Annual,Cocoyam,All (PS),3,10,0,0
+Nigeria,Annual,Yams,All (PS),3,10,0,0
+Nigeria,Wet,"Bananas/Plantains, mixed",All (PS),3,10,0,0
+Nigeria,Wet,Cotton,All (PS),3,10,0,0
+Nigeria,Wet,Cowpeas,All (PS),3,10,0,0
+Nigeria,Wet,Ginger,All (PS),3,10,0,0
+Nigeria,Wet,Groundnuts (In Shell),All (PS),3,10,0,0
+Nigeria,Wet,Maize,All (PS),3,10,0,0
+Nigeria,Wet,Melon,All (PS),3,10,0,0
+Nigeria,Wet,Millet,All (PS),3,10,0,0
+Nigeria,Wet,Okras,All (PS),3,10,0,0
+Nigeria,Wet,Onions,All (PS),3,10,0,0
+Nigeria,Wet,Rice (Paddy),All (PS),3,10,0,0
+Nigeria,Wet,Sesame Seed,All (PS),3,10,0,0
+Nigeria,Wet,Sorghum,All (PS),3,10,0,0
+Nigeria,Wet,Soybean,All (PS),3,10,0,0
+Nigeria,Wet,Sweet Potatoes,All (PS),3,10,0,0
+Nigeria,Wet,Tomato,All (PS),3,10,0,0
+Nigeria,Wet,Wheat,All (PS),3,10,0,0
