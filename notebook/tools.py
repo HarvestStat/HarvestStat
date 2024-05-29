@@ -82,7 +82,7 @@ def PrintAdminUnits(shape_all):
     return
 
 
-def FDW_PD_Sweeper(df, area_priority='Area Harvested'):
+def FDW_PD_Sweeper(df, area_priority='Area Planted'):
     assert area_priority in ['Area Planted','Area Harvested']
     df_raw = df.copy()
     # Remove missing records ----------------------------- # 
