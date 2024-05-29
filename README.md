@@ -35,7 +35,7 @@ HarvetStat currently contains subnational crop statistics for **`28`** countries
 ## Contributors
 - Dr. Donghoon Lee (University of Manitoba | UCSB)
 - Dr. Weston Anderson (NASA)
-- Chen Xuan (IFPRI)
+- Xuan Chen (IFPRI)
 
 ## Contact 
 - Please contact Donghoon Lee ([Donghoon.Lee@umanitoba.ca](Donghoon.Lee@umanitoba.ca)) for any questions or collaborations.</br>
