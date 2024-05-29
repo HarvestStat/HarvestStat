@@ -16,7 +16,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import cm
-import seaborn as sns
+import proplot as pplt
 warnings.simplefilter(action='ignore', category=pd.errors.PerformanceWarning)
 pd.options.mode.chained_assignment = None
 
@@ -322,53 +322,59 @@ def PlotHeatCropSystem(data, code, comb, comb_name, footnote, fn_save=False):
         print('%s is saved.' % fn_save)
     return fig
 
-
-def PlotLinePAY(df, year, footnote, fn_save=False):
+def PlotLinePAY(df, year, footnote, fn_save=None):
     # Restacking to add missing values
     df = df.pivot_table(index='year', columns=['fnid','country','name','product','season_name','harvest_month','indicator'], values='value')
-    df = df.reindex(index=np.arange(df.index[0], df.index[-1]+1))
-    df = df.T.stack(dropna=False).reset_index().rename(columns={0:'value'})
-
-    # Plotly Express without buttons --------- #
-    fig = px.line(df, x='year', y='value', color='fnid', markers=True,
-                  range_x=year,
-                  facet_row='indicator', facet_row_spacing=0.01,
-                  category_orders = {'indicator': ['production','area','yield']},
-                 )
-    legend = dict(yanchor="top",xanchor="left",y=0.99, x=1)
-    fig.update_layout(legend=legend)
-    fig.update_layout(
-        width=900, height=600,
-        font=dict(family='arial', size=16, color='black'),
-        margin={"r":0,"t":0,"l":0,"b":25},
-        annotations=[],
-        xaxis=dict(range=year, title={'text': ''}),
-        yaxis3=dict(title='Production (mt)'),
-        yaxis2=dict(title='Area (ha)'),
-        yaxis=dict(title='Yield (mt/ha)'),
-        template='plotly',
-        legend=dict(title='FNID',font_size=14,x=1.0,y=1.0),
-    )
-    fig.for_each_annotation(lambda x: x.update(text=''))
-    fig.update_xaxes(dtick=1)
-    fig.update_yaxes(matches=None)
-    fig.add_annotation(
-        xref='paper',yref='paper',
-        x=-0.014, y= -0.14,
-        text=footnote,
-        align="left",
-        showarrow=False,
-        font = {'family':'arial','size':15, 'color':'dimgrey'},
-    )
-    fig.update_traces(connectgaps=False)
+    df = df.reindex(index=np.arange(year[0], year[-1]+1))
+    df = df.T.stack(dropna=False).reset_index().rename(columns={0: 'value'})
+    # Plotting
+    indicators = ['production', 'area', 'yield']
+    fig, axes = plt.subplots(nrows=len(indicators), ncols=1, figsize=(9, 6), sharex=True, gridspec_kw={'height_ratios': [1, 1, 1]})
+    fig.patch.set_facecolor('white')
+    for ax, indicator in zip(axes, indicators):
+        ax.set_ylabel(f'{indicator.capitalize()} (mt)' if indicator == 'production' else f'{indicator.capitalize()} (ha)' if indicator == 'area' else f'{indicator.capitalize()} (mt/ha)')
+        if len(df[df['indicator'] == indicator]) == 0:
+            # No data
+            continue
+        sns.pointplot(
+            ax=ax,
+            data=df[df['indicator'] == indicator],
+            x='year', 
+            y='value', 
+            hue='fnid',
+            linewidth=1.5,
+            markers='o',
+            markersize=6,
+            markeredgecolor='white',
+            markeredgewidth=1,
+            legend=True
+        )
+        if indicator != 'production':
+            ax.get_legend().remove()
+        ax.grid(which='major', axis='both', linestyle='-')
+    # Legend settings
+    axes[0].legend(bbox_to_anchor=(1.01, 1.03), loc='upper left', frameon=False, labelspacing=0.2)
+    # Remove minor xticks
+    axes[0].xaxis.set_tick_params(which='both', bottom=False)
+    axes[1].xaxis.set_tick_params(which='both', bottom=False)
+    axes[2].xaxis.set_tick_params(which='minor', bottom=False)
+    # Set xtick labels
+    plt.setp(axes[2].xaxis.get_majorticklabels(), rotation=90)
+    # Title and footnote
+    ax.set_xlabel('')
+    plt.figtext(0.07, 0.015, footnote, wrap=True, horizontalalignment='left', fontsize=11)
+    # Layout settings
+    plt.subplots_adjust(left=0.08, right=0.85, top=0.95, bottom=0.12, hspace=0.1)
+    plt.show()
+    # Save figure
     if fn_save:
-        fig.write_image(fn_save, scale=2)
-        print('%s is saved.' % fn_save)
-    return fig
+        fig.savefig(fn_save, bbox_inches='tight', dpi=100)
+        print(f'{fn_save} is saved.')
+    return
 
 
-def PlotBarProduction(df, year, product_order, footnote, fn_save=False):
-    # product_order = df[df['indicator'] == 'production'].groupby('product')['value'].sum().sort_values().index[::-1]
+def PlotBarProduction(df, year, footnote, fn_save=None):
+    # Filtering and preparing data
     indicator_exist = df['indicator'].unique()
     indicator_exist = indicator_exist[~np.isin(indicator_exist, 'yield')]
     table = df.pivot_table(
@@ -376,10 +382,8 @@ def PlotBarProduction(df, year, product_order, footnote, fn_save=False):
         columns=['fnid','country','name','product','season_name','harvest_month','indicator'],         
         values='value'
     )
-
     # National production
     nat = df.groupby(['season_name','product','indicator','year']).sum(min_count=1).reset_index()
-
     # National production in percentage
     container = []
     for (indicator,season_name) in product(indicator_exist,df.season_name.unique()):
@@ -391,7 +395,6 @@ def PlotBarProduction(df, year, product_order, footnote, fn_save=False):
         container.append(temp)
     natp = pd.concat(container, axis=0).reset_index(drop=True)
     natp = natp[['season_name','product','indicator','year','value']]
-
     # Aggregation
     nat['type'] = 'orig_unit'
     natp['type'] = 'percent'
@@ -400,50 +403,46 @@ def PlotBarProduction(df, year, product_order, footnote, fn_save=False):
         (both['indicator'] == 'production') &
         (both['season_name'] == season_name)
     ]
-
-    # National Production
-    fig = px.bar(both, x='year',y='value',color='product',
-                 facet_row='type', facet_row_spacing=0.05,
-                 category_orders={'product':product_order},
-                 animation_frame='season_name'
-                )
-    fig.update_layout(
-        width=900, height=600,
-        margin={"r":0,"t":0,"l":0,"b":0},
-        font = {'family':'arial','size':15, 'color':'black'},
-        xaxis=dict(
-            title='',
-            dtick=1,
-            range = [year[0]-0.5,year[1]+0.5]
-        ),
-        yaxis2 = dict(
-            title='Production (t)',
-        ),
-        yaxis=dict(
-            title='Production (%)',
-            range=[0,100]
-        ),
-        legend=dict(
-            title='Product',
-            x=1.0,y=1.01
-        ),
-        template='plotly'
-    )
-    fig.update_yaxes(matches=None)
-    fig.for_each_annotation(lambda x: x.update(text=''))
-    fig.add_annotation(
-        xref='paper',yref='paper',
-        x=0, y= -0.13,
-        text=footnote,
-        align="left",
-        showarrow=False,
-        font = {'family':'arial','size':15, 'color':'dimgrey'},
-    )
+    # Plotting
+    fig, axes = plt.subplots(nrows=2, ncols=1, figsize=(9, 6), sharex=True, gridspec_kw={'height_ratios': [1, 1]})
+    fig.patch.set_facecolor('white')
+    # Seasonal production (t)
+    data_orig = both[both['type'] == 'orig_unit'].pivot_table(index='year', columns='product', values='value', aggfunc='sum')
+    product_rank = data_orig.mean(0).sort_values(ascending=False).index
+    data_orig = data_orig.reindex(np.arange(year[0], year[1]+1)).fillna(np.nan)
+    data_orig = data_orig[product_rank].sort_index()
+    # Seasonal production (%)
+    data_percent = both[both['type'] == 'percent'].pivot_table(index='year', columns='product', values='value', aggfunc='sum')
+    data_percent = data_percent.reindex(np.arange(year[0], year[1]+1)).fillna(np.nan)
+    data_percent = data_percent[product_rank].sort_index()
+    # Plotting settings
+    ax = axes[0]
+    data_orig.plot(ax=ax, kind='bar', stacked=True, width=0.8, colormap='tab20', alpha=1.0, legend=False)
+    ax.set_ylabel('Production (t)')
+    ax.set_ylim(0, data_orig.sum(1).max()*1.1)
+    ax.grid(which='major', axis='both', linestyle='-')
+    ax = axes[1]
+    data_percent.plot(ax=ax, kind='bar', stacked=True, width=0.8, colormap='tab20', alpha=1.0, legend=False)
+    ax.set_ylabel('Production (%)')
+    ax.set_ylim(0, 100)
+    ax.grid(which='major', axis='both', linestyle='-')
+    # Legend settings
+    axes[0].legend(bbox_to_anchor=(1.01, 1.03), loc='upper left', frameon=False, labelspacing=0.2)
+    # Set xticks
+    axes[1].set_xlabel('')
+    axes[1].grid(which='minor', axis='x', linestyle='-', color='black', visible=False)
+    axes[0].xaxis.set_tick_params(which='both', bottom=False)
+    axes[1].xaxis.set_tick_params(which='minor', bottom=False)
+    # Title and footnote
+    plt.figtext(0.07, 0.015, footnote, wrap=True, horizontalalignment='left', fontsize=11)
+    # Layout settings
+    plt.subplots_adjust(left=0.07, right=0.85, top=0.95, bottom=0.12, hspace=0.1)
+    plt.show()
+    # Save figure
     if fn_save:
-        fig.write_image(fn_save, scale=2)
-        print('%s is saved.' % fn_save)
-    
-    return fig
+        fig.savefig(fn_save, bbox_inches='tight', dpi=150)
+        print(f'{fn_save} is saved.')
+    return
 
 
 def discrete_colorscale(bvals, colors):

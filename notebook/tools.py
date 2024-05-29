@@ -14,10 +14,14 @@ import os
 import random
 import requests
 from scipy import ndimage
-
-
 # Suppress specific RuntimeWarning from shapely
 warnings.filterwarnings("ignore", message="invalid value encountered in intersection", category=RuntimeWarning, module="shapely.set_operations")
+
+def load_shapefile(fn, epsg):
+    shape = gpd.read_file(fn)
+    shape = shape.to_crs(epsg)
+    shape['area'] = shape['geometry'].area / 10**6
+    return shape
 
 def sort_dict(d):
     return dict(sorted(d.items()))
@@ -231,9 +235,12 @@ def FDW_PD_AvalTable(df, shape_all):
     temp = temp.groupby(['product','year','season_name','crop_production_system','fnid_short'])['fnid'].apply(list).rename('fnid').reset_index()
     temp['percent'] = np.nan
     for i, row in temp.iterrows():
-        if row['fnid_short'][-2] == 'R': continue
-        temp.loc[i, 'percent'] = len(np.unique(row['fnid']))/len(fnid_dict[row['fnid_short']])*100
-        temp.loc[i, 'string'] = '%d/%d' % (len(np.unique(row['fnid'])), len(fnid_dict[row['fnid_short']]))
+        if row['fnid_short'][-2] == 'R':
+            temp.loc[i, 'percent'] = '-'
+            temp.loc[i, 'string'] = '%d' % (len(np.unique(row['fnid'])))
+        else:
+            temp.loc[i, 'percent'] = len(np.unique(row['fnid']))/len(fnid_dict[row['fnid_short']])*100
+            temp.loc[i, 'string'] = '%d/%d' % (len(np.unique(row['fnid'])), len(fnid_dict[row['fnid_short']]))
     table_dict = dict()
     for product_name in temp['product'].unique():
         sub = temp[temp['product'] == product_name]
@@ -324,9 +331,11 @@ def FDW_PD_ValidateFnidName(df, shape_used, shape_latest):
     df.loc[df['fnid'].apply(lambda x: x[6:8] == 'R3'), 'name'] = df.loc[df['fnid'].apply(lambda x: x[6:8] == 'R3'), 'admin_3']
     df.loc[df['fnid'].apply(lambda x: x[6:8] == 'R4'), 'name'] = df.loc[df['fnid'].apply(lambda x: x[6:8] == 'R4'), 'admin_4']
     for gdf in [shape_used, shape_latest]:
-        fdx = gdf.FNID.apply(lambda x: x[7] == '1'); gdf.loc[fdx,'name'] = gdf.loc[fdx, 'ADMIN1']
-        if 'ADMIN2' in shape_used.columns:
-            fdx = gdf.FNID.apply(lambda x: x[7] == '2'); gdf.loc[fdx,'name'] = gdf.loc[fdx, 'ADMIN2']
+        fdx = gdf.FNID.apply(lambda x: x[7] == '1')
+        gdf.loc[fdx,'name'] = gdf.loc[fdx, 'ADMIN1']
+        if ('ADMIN2' in gdf.columns):
+            fdx = gdf.FNID.apply(lambda x: x[7] == '2')
+            gdf.loc[fdx,'name'] = gdf.loc[fdx, 'ADMIN2']
     return df
 
 
