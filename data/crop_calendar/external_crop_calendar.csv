@@ -325,22 +325,6 @@ Senegal,Main,Sweet Potatoes,none,6,11,0,0
 Senegal,Main-off,Groundnuts (In Shell),irrigated,2,7,0,0
 Senegal,Main-off,Maize,irrigated,2,7,0,0
 Senegal,Main-off,Rice,irrigated,2,7,0,0
-Niger,Main,Bambara groundnut,none,6,12,0,0
-Niger,Main,Cassava,none,6,12,0,0
-Niger,Main,Cotton,none,6,12,0,0
-Niger,Main,Cowpeas,none,6,12,0,0
-Niger,Main,Fonio,none,6,12,0,0
-Niger,Main,Groundnuts (In Shell),none,6,12,0,0
-Niger,Main,Maize,none,6,12,0,0
-Niger,Main,Millet,none,6,12,0,0
-Niger,Main,Okras,none,6,12,0,0
-Niger,Main,Onions,none,6,12,0,0
-Niger,Main,Rice,none,6,12,0,0
-Niger,Main,Sesame Seed,none,6,12,0,0
-Niger,Main,Sorghum,none,6,12,0,0
-Niger,Main,Sorrel,none,6,12,0,0
-Niger,Main,Tigernut,none,6,12,0,0
-Niger,Main,Tomato,none,6,12,0,0
 Central African Republic,Main,Cassava,none,4,9,0,-1
 Central African Republic,Main,Groundnuts (In Shell),none,4,9,0,-1
 Central African Republic,Main,Maize,none,4,9,0,-1
@@ -567,33 +551,34 @@ Malawi,Winter,Potato (Irish),irrigated,3,8,0,0
 Malawi,Winter,Sweet Potatoes,irrigated,3,8,0,0
 Malawi,Winter,Tomato,irrigated,3,8,0,0
 Malawi,Winter,Wheat,irrigated,3,8,0,0
-Mauritania,Annual,Cowpeas,none,6,5,0,0
-Mauritania,Annual,Groundnuts (In Shell),none,6,5,0,0
-Mauritania,Annual,Maize,none,6,5,0,0
-Mauritania,Annual,Millet,none,6,5,0,0
-Mauritania,Annual,Sorghum,none,6,5,0,0
+Mauritania,Annual,Cowpeas,All (PS),6,5,0,0
+Mauritania,Annual,Groundnuts (In Shell),All (PS),6,5,0,0
+Mauritania,Annual,Maize,All (PS),6,5,0,0
+Mauritania,Annual,Maize,irrigated,6,5,0,0
+Mauritania,Annual,Millet,All (PS),6,5,0,0
+Mauritania,Annual,Rice,irrigated,6,5,0,0
+Mauritania,Annual,Sorghum,All (PS),6,5,0,0
+Mauritania,Annual,Sorghum,irrigated,6,5,0,0
+Mauritania,Bas-fond,Cowpeas,surface water,10,3,0,0
 Mauritania,Bas-fond,Maize,surface water,10,3,0,0
 Mauritania,Bas-fond,Rice,surface water,10,3,0,0
 Mauritania,Bas-fond,Sorghum,surface water,10,3,0,0
 Mauritania,Bas-fond,Wheat,surface water,10,3,0,0
 Mauritania,Cold off-season,Wheat,irrigated,11,2,0,0
+Mauritania,Dam retention,Cowpeas,dam irrigation,10,3,0,0
 Mauritania,Dam retention,Maize,dam irrigation,10,3,0,0
 Mauritania,Dam retention,Rice,dam irrigation,10,3,0,0
 Mauritania,Dam retention,Sorghum,dam irrigation,10,3,0,0
 Mauritania,Dam retention,Wheat,dam irrigation,10,3,0,0
+Mauritania,Decrue controlee,Maize,parastatal recessional,10,3,0,0
+Mauritania,Decrue controlee,Sorghum,parastatal recessional,10,3,0,0
 Mauritania,Hot off-season,Rice,irrigated,3,6,0,0
+Mauritania,Main,Cowpeas,dieri,6,11,0,0
 Mauritania,Main,Maize,dieri,6,11,0,0
-Mauritania,Main,Maize,irrigated,6,11,0,0
 Mauritania,Main,Millet,dieri,6,11,0,0
-Mauritania,Main,Rice,irrigated,6,11,0,0
 Mauritania,Main,Sorghum,dieri,6,11,0,0
-Mauritania,Main,Sorghum,irrigated,6,11,0,0
-Mauritania,Walo,Maize,flood recessional,11,4,0,0
-Mauritania,Walo,Maize,none,11,4,0,0
+Mauritania,Walo,Cowpeas,parastatal recessional,11,4,0,0
 Mauritania,Walo,Maize,parastatal recessional,11,4,0,0
-Mauritania,Walo,Rice,flood recessional,11,4,0,0
-Mauritania,Walo,Sorghum,flood recessional,11,4,0,0
-Mauritania,Walo,Sorghum,none,11,4,0,0
 Mauritania,Walo,Sorghum,parastatal recessional,11,4,0,0
 Mozambique,Annual,Cashew (unshelled),All (PS),10,6,-1,0
 Mozambique,Annual,Cassava,All (PS),10,6,-1,0
@@ -782,10 +767,12 @@ Nigeria,Annual,Cassava,All (PS),3,10,0,0
 Nigeria,Annual,Cocoyam,All (PS),3,10,0,0
 Nigeria,Annual,Yams,All (PS),3,10,0,0
 Nigeria,Wet,"Bananas/Plantains, mixed",All (PS),3,10,0,0
+Nigeria,Wet,Cassava,All (PS),3,10,0,0
 Nigeria,Wet,Cotton,All (PS),3,10,0,0
 Nigeria,Wet,Cowpeas,All (PS),3,10,0,0
 Nigeria,Wet,Ginger,All (PS),3,10,0,0
 Nigeria,Wet,Groundnuts (In Shell),All (PS),3,10,0,0
+Nigeria,Wet,Groundnuts (Without Shell),All (PS),3,10,0,0
 Nigeria,Wet,Maize,All (PS),3,10,0,0
 Nigeria,Wet,Melon,All (PS),3,10,0,0
 Nigeria,Wet,Millet,All (PS),3,10,0,0
@@ -1078,3 +1065,66 @@ Madagascar,Annual,Yams,All (PS),11,6,-1,-1
 "Tanzania, United Republic of",Short,Sweet Potatoes,none,10,4,-1,0
 "Tanzania, United Republic of",Short,Wheat,none,10,4,-1,0
 "Tanzania, United Republic of",Short,Yams,none,10,4,-1,0
+Niger,Dry,Anise,irrigated,6,12,0,0
+Niger,Dry,Basil,irrigated,6,12,0,0
+Niger,Dry,Bean (Hyacinth),irrigated,6,12,0,0
+Niger,Dry,Cabbage,irrigated,6,12,0,0
+Niger,Dry,Capsicum chinense,irrigated,6,12,0,0
+Niger,Dry,Carrots,irrigated,6,12,0,0
+Niger,Dry,Cassava,irrigated,6,12,0,0
+Niger,Dry,Celery,irrigated,6,12,0,0
+Niger,Dry,Chili pepper,irrigated,6,12,0,0
+Niger,Dry,Coriander,irrigated,6,12,0,0
+Niger,Dry,Cowpeas,irrigated,6,12,0,0
+Niger,Dry,Cucumber,irrigated,6,12,0,0
+Niger,Dry,Eggplant,irrigated,6,12,0,0
+Niger,Dry,Garlic,irrigated,6,12,0,0
+Niger,Dry,Gourd,irrigated,6,12,0,0
+Niger,Dry,Groundnuts (In Shell),irrigated,6,12,0,0
+Niger,Dry,Henna,irrigated,6,12,0,0
+Niger,Dry,Lettuce,irrigated,6,12,0,0
+Niger,Dry,Maize,irrigated,6,12,0,0
+Niger,Dry,Melon,irrigated,6,12,0,0
+Niger,Dry,Okras,irrigated,6,12,0,0
+Niger,Dry,Onions,irrigated,6,12,0,0
+Niger,Dry,Pea,irrigated,6,12,0,0
+Niger,Dry,Potato,irrigated,6,12,0,0
+Niger,Dry,Rape fodder,irrigated,6,12,0,0
+Niger,Dry,Rice,irrigated,6,12,0,0
+Niger,Dry,Sorghum,irrigated,6,12,0,0
+Niger,Dry,Sorrel,irrigated,6,12,0,0
+Niger,Dry,Squash,irrigated,6,12,0,0
+Niger,Dry,"Squash (Pumpkin, Zucchini)",irrigated,6,12,0,0
+Niger,Dry,Sugarcane,irrigated,6,12,0,0
+Niger,Dry,Sweet Potatoes,irrigated,6,12,0,0
+Niger,Dry,Tobacco,irrigated,6,12,0,0
+Niger,Dry,Tomato,irrigated,6,12,0,0
+Niger,Dry,Watermelon,irrigated,6,12,0,0
+Niger,Dry,Wheat,irrigated,6,12,0,0
+Niger,Main,Bambara groundnut,Rainfed (PS),6,12,0,0
+Niger,Main,Cabbage,Rainfed (PS),6,12,0,0
+Niger,Main,Capsicum chinense,Rainfed (PS),6,12,0,0
+Niger,Main,Cassava,Rainfed (PS),6,12,0,0
+Niger,Main,Chili pepper,Rainfed (PS),6,12,0,0
+Niger,Main,Cotton,Rainfed (PS),6,12,0,0
+Niger,Main,Cowpeas,Rainfed (PS),6,12,0,0
+Niger,Main,Cucumber,Rainfed (PS),6,12,0,0
+Niger,Main,Fonio,Rainfed (PS),6,12,0,0
+Niger,Main,Groundnuts (In Shell),Rainfed (PS),6,12,0,0
+Niger,Main,Lettuce,Rainfed (PS),6,12,0,0
+Niger,Main,Maize,All (PS),6,12,0,0
+Niger,Main,Maize,Rainfed (PS),6,12,0,0
+Niger,Main,Millet,Rainfed (PS),6,12,0,0
+Niger,Main,Okras,Rainfed (PS),6,12,0,0
+Niger,Main,Onions,Rainfed (PS),6,12,0,0
+Niger,Main,Potato,Rainfed (PS),6,12,0,0
+Niger,Main,Potato,irrigated,6,12,0,0
+Niger,Main,Rice,Rainfed (PS),6,12,0,0
+Niger,Main,Sesame Seed,Rainfed (PS),6,12,0,0
+Niger,Main,Sorghum,Rainfed (PS),6,12,0,0
+Niger,Main,Sorrel,Rainfed (PS),6,12,0,0
+Niger,Main,Squash,Rainfed (PS),6,12,0,0
+Niger,Main,Sugarcane,Rainfed (PS),6,12,0,0
+Niger,Main,Sweet Potatoes,Rainfed (PS),6,12,0,0
+Niger,Main,Tigernut,Rainfed (PS),6,12,0,0
+Niger,Main,Tomato,Rainfed (PS),6,12,0,0
