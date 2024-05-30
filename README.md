@@ -30,7 +30,7 @@ HarvetStat currently contains subnational crop statistics for **`34`** countries
 - Admin-1 level: Afghanistan, Angola, Burundi, Central African Republic, Chad, DRC, Kenya, Lesotho, Liberia, Mali, Mauritania, Mozambique, Nigeria, South Africa, South Sudan, Sudan, Tanzania, Yemen, Zimbabwe
 - Admin-2 level: Benin, Burkina Faso, Cameroon, Ethiopia, Guinea, Madagascar, Malawi, Niger, Rwanda, Senegal, Sierra Leone, Somalia, Togo, Uganda, Zambia
 
-<img src="./docs/current_status_map.svg" alt="drawing" width="800"/>
+<img src="./docs/current_status_map.png" alt="drawing" width="900"/>
 
 ## Contributors
 - Dr. Donghoon Lee (University of Manitoba)
