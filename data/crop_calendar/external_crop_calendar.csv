@@ -41,24 +41,24 @@ South Africa,Summer,Sunflower Seed,Commercial (PS),10,4,-1,-1
 South Africa,Winter,Barley,Commercial (PS),5,11,0,0
 South Africa,Winter,Canola seed,Commercial (PS),5,11,0,0
 South Africa,Winter,Wheat,Commercial (PS),5,11,0,0
-Mali,Main,Bambara groundnut,none,6,12,0,0
-Mali,Main,Barley,none,6,12,0,0
-Mali,Main,Beans (mixed),none,6,12,0,0
-Mali,Main,Cotton,none,6,12,0,0
-Mali,Main,Cowpeas,none,6,12,0,0
-Mali,Main,Fonio,none,6,12,0,0
-Mali,Main,Gram,none,6,12,0,0
-Mali,Main,Groundnuts (In Shell),none,6,12,0,0
-Mali,Main,Maize,none,6,12,0,0
-Mali,Main,Millet,none,6,12,0,0
-Mali,Main,Rice,none,6,12,0,0
-Mali,Main,Sesame Seed,none,6,12,0,0
-Mali,Main,Sorghum,none,6,12,0,0
-Mali,Main,Soybean,none,6,12,0,0
-Mali,Main,Sugarcane,none,6,12,0,0
-Mali,Main,Sweet Potatoes,none,6,12,0,0
-Mali,Main,Wheat,none,6,12,0,0
-Mali,Main,Yams,none,6,12,0,0
+Mali,Main,Bambara groundnut,All (PS),6,12,0,0
+Mali,Main,Barley,All (PS),6,12,0,0
+Mali,Main,Beans (mixed),All (PS),6,12,0,0
+Mali,Main,Cotton,All (PS),6,12,0,0
+Mali,Main,Cowpeas,All (PS),6,12,0,0
+Mali,Main,Fonio,All (PS),6,12,0,0
+Mali,Main,Groundnuts (In Shell),All (PS),6,12,0,0
+Mali,Main,Maize,All (PS),6,12,0,0
+Mali,Main,Millet,All (PS),6,12,0,0
+Mali,Main,Rice,All (PS),6,12,0,0
+Mali,Main,Sesame Seed,All (PS),6,12,0,0
+Mali,Main,Sorghum,All (PS),6,12,0,0
+Mali,Main,Soybean,All (PS),6,12,0,0
+Mali,Main,Sugarcane,All (PS),6,12,0,0
+Mali,Main,Sweet Potatoes,All (PS),6,12,0,0
+Mali,Main,Tomato,All (PS),6,12,0,0
+Mali,Main,Wheat,All (PS),6,12,0,0
+Mali,Main,Yams,All (PS),6,12,0,0
 Somalia,Deyr,Cowpeas,agro_pastoral,10,3,-1,0
 Somalia,Deyr,Cowpeas,none,10,3,-1,0
 Somalia,Deyr,Cowpeas,riverine,10,3,-1,0
@@ -325,32 +325,6 @@ Senegal,Main,Sweet Potatoes,none,6,11,0,0
 Senegal,Main-off,Groundnuts (In Shell),irrigated,2,7,0,0
 Senegal,Main-off,Maize,irrigated,2,7,0,0
 Senegal,Main-off,Rice,irrigated,2,7,0,0
-Niger,Main,Bambara groundnut,none,6,12,0,0
-Niger,Main,Cassava,none,6,12,0,0
-Niger,Main,Cotton,none,6,12,0,0
-Niger,Main,Cowpeas,none,6,12,0,0
-Niger,Main,Fonio,none,6,12,0,0
-Niger,Main,Groundnuts (In Shell),none,6,12,0,0
-Niger,Main,Maize,none,6,12,0,0
-Niger,Main,Millet,none,6,12,0,0
-Niger,Main,Okras,none,6,12,0,0
-Niger,Main,Onions,none,6,12,0,0
-Niger,Main,Rice,none,6,12,0,0
-Niger,Main,Sesame Seed,none,6,12,0,0
-Niger,Main,Sorghum,none,6,12,0,0
-Niger,Main,Sorrel,none,6,12,0,0
-Niger,Main,Tigernut,none,6,12,0,0
-Niger,Main,Tomato,none,6,12,0,0
-Madagascar,Annual,Beans (mixed),none,11,6,-1,-1
-Madagascar,Annual,Cassava,none,11,6,-1,-1
-Madagascar,Annual,Coffee,none,11,6,-1,-1
-Madagascar,Annual,Groundnuts (In Shell),none,11,6,-1,-1
-Madagascar,Annual,Maize,none,11,6,-1,-1
-Madagascar,Annual,Pigeon Peas,none,11,6,-1,-1
-Madagascar,Annual,Potato,none,11,6,-1,-1
-Madagascar,Annual,Rice,none,11,6,-1,-1
-Madagascar,Annual,Sugarcane,none,11,6,-1,-1
-Madagascar,Annual,Sweet Potatoes,none,11,6,-1,-1
 Central African Republic,Main,Cassava,none,4,9,0,-1
 Central African Republic,Main,Groundnuts (In Shell),none,4,9,0,-1
 Central African Republic,Main,Maize,none,4,9,0,-1
@@ -577,33 +551,34 @@ Malawi,Winter,Potato (Irish),irrigated,3,8,0,0
 Malawi,Winter,Sweet Potatoes,irrigated,3,8,0,0
 Malawi,Winter,Tomato,irrigated,3,8,0,0
 Malawi,Winter,Wheat,irrigated,3,8,0,0
-Mauritania,Annual,Cowpeas,none,6,5,0,0
-Mauritania,Annual,Groundnuts (In Shell),none,6,5,0,0
-Mauritania,Annual,Maize,none,6,5,0,0
-Mauritania,Annual,Millet,none,6,5,0,0
-Mauritania,Annual,Sorghum,none,6,5,0,0
+Mauritania,Annual,Cowpeas,All (PS),6,5,0,0
+Mauritania,Annual,Groundnuts (In Shell),All (PS),6,5,0,0
+Mauritania,Annual,Maize,All (PS),6,5,0,0
+Mauritania,Annual,Maize,irrigated,6,5,0,0
+Mauritania,Annual,Millet,All (PS),6,5,0,0
+Mauritania,Annual,Rice,irrigated,6,5,0,0
+Mauritania,Annual,Sorghum,All (PS),6,5,0,0
+Mauritania,Annual,Sorghum,irrigated,6,5,0,0
+Mauritania,Bas-fond,Cowpeas,surface water,10,3,0,0
 Mauritania,Bas-fond,Maize,surface water,10,3,0,0
 Mauritania,Bas-fond,Rice,surface water,10,3,0,0
 Mauritania,Bas-fond,Sorghum,surface water,10,3,0,0
 Mauritania,Bas-fond,Wheat,surface water,10,3,0,0
 Mauritania,Cold off-season,Wheat,irrigated,11,2,0,0
+Mauritania,Dam retention,Cowpeas,dam irrigation,10,3,0,0
 Mauritania,Dam retention,Maize,dam irrigation,10,3,0,0
 Mauritania,Dam retention,Rice,dam irrigation,10,3,0,0
 Mauritania,Dam retention,Sorghum,dam irrigation,10,3,0,0
 Mauritania,Dam retention,Wheat,dam irrigation,10,3,0,0
+Mauritania,Decrue controlee,Maize,parastatal recessional,10,3,0,0
+Mauritania,Decrue controlee,Sorghum,parastatal recessional,10,3,0,0
 Mauritania,Hot off-season,Rice,irrigated,3,6,0,0
+Mauritania,Main,Cowpeas,dieri,6,11,0,0
 Mauritania,Main,Maize,dieri,6,11,0,0
-Mauritania,Main,Maize,irrigated,6,11,0,0
 Mauritania,Main,Millet,dieri,6,11,0,0
-Mauritania,Main,Rice,irrigated,6,11,0,0
 Mauritania,Main,Sorghum,dieri,6,11,0,0
-Mauritania,Main,Sorghum,irrigated,6,11,0,0
-Mauritania,Walo,Maize,flood recessional,11,4,0,0
-Mauritania,Walo,Maize,none,11,4,0,0
+Mauritania,Walo,Cowpeas,parastatal recessional,11,4,0,0
 Mauritania,Walo,Maize,parastatal recessional,11,4,0,0
-Mauritania,Walo,Rice,flood recessional,11,4,0,0
-Mauritania,Walo,Sorghum,flood recessional,11,4,0,0
-Mauritania,Walo,Sorghum,none,11,4,0,0
 Mauritania,Walo,Sorghum,parastatal recessional,11,4,0,0
 Mozambique,Annual,Cashew (unshelled),All (PS),10,6,-1,0
 Mozambique,Annual,Cassava,All (PS),10,6,-1,0
@@ -756,8 +731,264 @@ Uganda,Second,Sesame Seed,none,8,12,0,0
 Uganda,Second,Sorghum,none,8,12,0,0
 Uganda,Second,Soybean,none,8,12,0,0
 Uganda,Second,Sweet Potatoes,none,8,12,0,0
+Benin,Annual,Cabbage,All (PS),3,10,0,0
+Benin,Annual,Carrots,All (PS),3,10,0,0
+Benin,Annual,Cassava,All (PS),3,10,0,0
+Benin,Annual,Colocynth,All (PS),3,10,0,0
+Benin,Annual,Cucumber,All (PS),3,10,0,0
+Benin,Annual,Eggplant,All (PS),3,10,0,0
+Benin,Annual,Green pea,All (PS),3,10,0,0
+Benin,Annual,Lettuce,All (PS),3,10,0,0
+Benin,Annual,Okras,All (PS),3,10,0,0
+Benin,Annual,Pineapple,All (PS),3,10,0,0
+Benin,Annual,Rice,All (PS),3,10,0,0
+Benin,Annual,Tomato,All (PS),3,10,0,0
+Benin,Main,Bambara groundnut,All (PS),3,10,0,0
+Benin,Main,Cowpeas,All (PS),3,10,0,0
+Benin,Main,Fonio,All (PS),3,10,0,0
+Benin,Main,Geocarpa groundnut,All (PS),3,10,0,0
+Benin,Main,Goussi,All (PS),3,10,0,0
+Benin,Main,Groundnuts (In Shell),All (PS),3,10,0,0
+Benin,Main,Maize,All (PS),3,10,0,0
+Benin,Main,Millet,All (PS),3,10,0,0
+Benin,Main,Molokhia,All (PS),3,10,0,0
+Benin,Main,Onions,All (PS),3,10,0,0
+Benin,Main,Pea,All (PS),3,10,0,0
+Benin,Main,Potato,All (PS),3,10,0,0
+Benin,Main,Sesame Seed,All (PS),3,10,0,0
+Benin,Main,Sorghum,All (PS),3,10,0,0
+Benin,Main,Soybean,All (PS),3,10,0,0
+Benin,Main,Sugarcane,All (PS),3,10,0,0
+Benin,Main,Sweet Potatoes,All (PS),3,10,0,0
+Benin,Main,Taro,All (PS),3,10,0,0
+Benin,Main,Watermelon,All (PS),3,10,0,0
+Benin,Main,Yams,All (PS),3,10,0,0
+Nigeria,Annual,Cassava,All (PS),3,10,0,0
+Nigeria,Annual,Cocoyam,All (PS),3,10,0,0
+Nigeria,Annual,Yams,All (PS),3,10,0,0
+Nigeria,Wet,"Bananas/Plantains, mixed",All (PS),3,10,0,0
+Nigeria,Wet,Cassava,All (PS),3,10,0,0
+Nigeria,Wet,Cotton,All (PS),3,10,0,0
+Nigeria,Wet,Cowpeas,All (PS),3,10,0,0
+Nigeria,Wet,Ginger,All (PS),3,10,0,0
+Nigeria,Wet,Groundnuts (In Shell),All (PS),3,10,0,0
+Nigeria,Wet,Groundnuts (Without Shell),All (PS),3,10,0,0
+Nigeria,Wet,Maize,All (PS),3,10,0,0
+Nigeria,Wet,Melon,All (PS),3,10,0,0
+Nigeria,Wet,Millet,All (PS),3,10,0,0
+Nigeria,Wet,Okras,All (PS),3,10,0,0
+Nigeria,Wet,Onions,All (PS),3,10,0,0
+Nigeria,Wet,Rice (Paddy),All (PS),3,10,0,0
+Nigeria,Wet,Sesame Seed,All (PS),3,10,0,0
+Nigeria,Wet,Sorghum,All (PS),3,10,0,0
+Nigeria,Wet,Soybean,All (PS),3,10,0,0
+Nigeria,Wet,Sweet Potatoes,All (PS),3,10,0,0
+Nigeria,Wet,Tomato,All (PS),3,10,0,0
+Nigeria,Wet,Wheat,All (PS),3,10,0,0
+Cameroon,1st Season,Bambara groundnut,none,6,12,0,0
+Cameroon,1st Season,Beans (mixed),none,6,12,0,0
+Cameroon,1st Season,Groundnuts (In Shell),none,6,12,0,0
+Cameroon,1st Season,Maize,none,6,12,0,0
+Cameroon,1st Season,Melon,none,6,12,0,0
+Cameroon,1st Season,Millet,none,6,12,0,0
+Cameroon,1st Season,Potato,none,6,12,0,0
+Cameroon,1st Season,Rice,none,6,12,0,0
+Cameroon,1st Season,Sesame Seed,none,6,12,0,0
+Cameroon,1st Season,Soybean,none,6,12,0,0
+Cameroon,1st Season,Squash and Melon seeds,none,6,12,0,0
+Cameroon,1st Season,Sweet Potatoes,none,6,12,0,0
+Cameroon,1st Season,Tomato,none,6,12,0,0
+Cameroon,1st Season,Watermelon,none,6,12,0,0
+Cameroon,2nd Season,Bambara groundnut,none,6,12,0,0
+Cameroon,2nd Season,Beans (mixed),none,6,12,0,0
+Cameroon,2nd Season,Groundnuts (In Shell),none,6,12,0,0
+Cameroon,2nd Season,Maize,none,6,12,0,0
+Cameroon,2nd Season,Melon,none,6,12,0,0
+Cameroon,2nd Season,Millet,none,6,12,0,0
+Cameroon,2nd Season,Potato,none,6,12,0,0
+Cameroon,2nd Season,Rice,none,6,12,0,0
+Cameroon,2nd Season,Soybean,none,6,12,0,0
+Cameroon,2nd Season,Squash and Melon seeds,none,6,12,0,0
+Cameroon,2nd Season,Sweet Potatoes,none,6,12,0,0
+Cameroon,2nd Season,Tomato,none,6,12,0,0
+Cameroon,2nd Season,Watermelon,none,6,12,0,0
+Cameroon,Annual,Bambara groundnut,none,6,12,0,0
+Cameroon,Annual,Banana,none,6,12,0,0
+Cameroon,Annual,Beans (mixed),none,6,12,0,0
+Cameroon,Annual,Cassava,none,6,12,0,0
+Cameroon,Annual,Cooking Banana,none,6,12,0,0
+Cameroon,Annual,Cowpeas,none,6,12,0,0
+Cameroon,Annual,Groundnuts (In Shell),none,6,12,0,0
+Cameroon,Annual,Maize,none,6,12,0,0
+Cameroon,Annual,Melon,none,6,12,0,0
+Cameroon,Annual,Millet,none,6,12,0,0
+Cameroon,Annual,Okras,none,6,12,0,0
+Cameroon,Annual,Onions,none,6,12,0,0
+Cameroon,Annual,Pam nut or kerna,none,6,12,0,0
+Cameroon,Annual,Pineapple,none,6,12,0,0
+Cameroon,Annual,Potato,none,6,12,0,0
+Cameroon,Annual,Rice,none,6,12,0,0
+Cameroon,Annual,Squash and Melon seeds,none,6,12,0,0
+Cameroon,Annual,Sweet Potatoes,none,6,12,0,0
+Cameroon,Annual,Taro (move to 1594AA),none,6,12,0,0
+Cameroon,Annual,Tomato,none,6,12,0,0
+Cameroon,Annual,Watermelon,none,6,12,0,0
+Cameroon,Annual,Yams,none,6,12,0,0
+Cameroon,North 1st Season,Beans (mixed),none,6,12,0,0
+Cameroon,North 1st Season,Groundnuts (In Shell),none,6,12,0,0
+Cameroon,North 1st Season,Maize,none,6,12,0,0
+Cameroon,North 1st Season,Millet,none,6,12,0,0
+Cameroon,North 1st Season,Potato,none,6,12,0,0
+Cameroon,North 1st Season,Rice,none,6,12,0,0
+Cameroon,North 1st Season,Sesame Seed,none,6,12,0,0
+Cameroon,North 1st Season,Soybean,none,6,12,0,0
+Cameroon,North 1st Season,Squash and Melon seeds,none,6,12,0,0
+Cameroon,North 1st Season,Sweet Potatoes,none,6,12,0,0
+Cameroon,North 2nd Season,Beans (mixed),none,6,12,0,0
+Cameroon,North 2nd Season,Maize,none,6,12,0,0
+Cameroon,North 2nd Season,Millet,none,6,12,0,0
+Cameroon,North 2nd Season,Onions,none,6,12,0,0
+Cameroon,North 2nd Season,Rice,none,6,12,0,0
+Cameroon,North 2nd Season,Sweet Potatoes,none,6,12,0,0
+Sierra Leone,Main,Banana,none,5,9,0,0
+Sierra Leone,Main,Cashew,none,5,9,0,0
+Sierra Leone,Main,Cassava,none,5,9,0,0
+Sierra Leone,Main,Groundnuts (In Shell),none,5,9,0,0
+Sierra Leone,Main,Maize,none,5,9,0,0
+Sierra Leone,Main,Millet,none,5,9,0,0
+Sierra Leone,Main,Okras,none,5,9,0,0
+Sierra Leone,Main,Potato,none,5,9,0,0
+Sierra Leone,Main,Rice,none,5,9,0,0
+Sierra Leone,Main,Sesame Seed,none,5,9,0,0
+Sierra Leone,Main,Sorghum,none,5,9,0,0
+Sierra Leone,Main,Sweet Potatoes,none,5,9,0,0
+Rwanda,Season A,Avocado,none,9,2,-1,0
+Rwanda,Season A,Banana,none,9,2,-1,0
+Rwanda,Season A,Beans,none,9,2,-1,0
+Rwanda,Season A,Beet,none,9,2,-1,0
+Rwanda,Season A,Bush bean,none,9,2,-1,0
+Rwanda,Season A,Cabbage,none,9,2,-1,0
+Rwanda,Season A,Carrots,none,9,2,-1,0
+Rwanda,Season A,Cassava,none,9,2,-1,0
+Rwanda,Season A,Cauliflowers,none,9,2,-1,0
+Rwanda,Season A,Celery,none,9,2,-1,0
+Rwanda,Season A,Cereal Crops,none,9,2,-1,0
+Rwanda,Season A,Champignon,none,9,2,-1,0
+Rwanda,Season A,Cooking Banana,none,9,2,-1,0
+Rwanda,Season A,Eggplant,none,9,2,-1,0
+Rwanda,Season A,Green bean,none,9,2,-1,0
+Rwanda,Season A,Green pea,none,9,2,-1,0
+Rwanda,Season A,Groundnuts (In Shell),none,9,2,-1,0
+Rwanda,Season A,Leeks,none,9,2,-1,0
+Rwanda,Season A,Maize,none,9,2,-1,0
+Rwanda,Season A,Okras,none,9,2,-1,0
+Rwanda,Season A,Pea,none,9,2,-1,0
+Rwanda,Season A,Pole bean,none,9,2,-1,0
+Rwanda,Season A,Potato,none,9,2,-1,0
+Rwanda,Season A,Rice,none,9,2,-1,0
+Rwanda,Season A,Sorghum,none,9,2,-1,0
+Rwanda,Season A,Soybean,none,9,2,-1,0
+Rwanda,Season A,Spinach,none,9,2,-1,0
+Rwanda,Season A,Squash,none,9,2,-1,0
+Rwanda,Season A,Sugarcane,none,9,2,-1,0
+Rwanda,Season A,Sunflower Seed,none,9,2,-1,0
+Rwanda,Season A,Sweet Potatoes,none,9,2,-1,0
+Rwanda,Season A,Taro,none,9,2,-1,0
+Rwanda,Season A,Tomato,none,9,2,-1,0
+Rwanda,Season A,Wheat,none,9,2,-1,0
+Rwanda,Season A,Yams,none,9,2,-1,0
+Rwanda,Season B,Avocado,none,2,7,0,0
+Rwanda,Season B,Banana,none,2,7,0,0
+Rwanda,Season B,Beans,none,2,7,0,0
+Rwanda,Season B,Beet,none,2,7,0,0
+Rwanda,Season B,Bush bean,none,2,7,0,0
+Rwanda,Season B,Cabbage,none,2,7,0,0
+Rwanda,Season B,Carrots,none,2,7,0,0
+Rwanda,Season B,Cassava,none,2,7,0,0
+Rwanda,Season B,Cauliflowers,none,2,7,0,0
+Rwanda,Season B,Celery,none,2,7,0,0
+Rwanda,Season B,Cereal Crops,none,2,7,0,0
+Rwanda,Season B,Champignon,none,2,7,0,0
+Rwanda,Season B,Cooking Banana,none,2,7,0,0
+Rwanda,Season B,Eggplant,none,2,7,0,0
+Rwanda,Season B,Green bean,none,2,7,0,0
+Rwanda,Season B,Green pea,none,2,7,0,0
+Rwanda,Season B,Groundnuts (In Shell),none,2,7,0,0
+Rwanda,Season B,Leeks,none,2,7,0,0
+Rwanda,Season B,Maize,none,2,7,0,0
+Rwanda,Season B,Okras,none,2,7,0,0
+Rwanda,Season B,Pea,none,2,7,0,0
+Rwanda,Season B,Pole bean,none,2,7,0,0
+Rwanda,Season B,Potato,none,2,7,0,0
+Rwanda,Season B,Rice,none,2,7,0,0
+Rwanda,Season B,Sorghum,none,2,7,0,0
+Rwanda,Season B,Soybean,none,2,7,0,0
+Rwanda,Season B,Spinach,none,2,7,0,0
+Rwanda,Season B,Squash,none,2,7,0,0
+Rwanda,Season B,Sugarcane,none,2,7,0,0
+Rwanda,Season B,Sunflower Seed,none,2,7,0,0
+Rwanda,Season B,Sweet Potatoes,none,2,7,0,0
+Rwanda,Season B,Taro,none,2,7,0,0
+Rwanda,Season B,Tomato,none,2,7,0,0
+Rwanda,Season B,Wheat,none,2,7,0,0
+Rwanda,Season B,Yams,none,2,7,0,0
+Rwanda,Season C,Bush bean,none,6,9,0,0
+Rwanda,Season C,Pea,none,6,9,0,0
+Rwanda,Season C,Pole bean,none,6,9,0,0
+Rwanda,Season C,Potato,none,6,9,0,0
+Rwanda,Season C,Soybean,none,6,9,0,0
+Madagascar,Annual,African oil palm nut,All (PS),11,6,-1,-1
+Madagascar,Annual,Artichoke,All (PS),11,6,-1,-1
+Madagascar,Annual,Bambara groundnut,All (PS),11,6,-1,-1
+Madagascar,Annual,Banana (unspecified),All (PS),11,6,-1,-1
+Madagascar,Annual,Barley (Unspecified),All (PS),11,6,-1,-1
+Madagascar,Annual,Beans (mixed),All (PS),11,6,-1,-1
+Madagascar,Annual,Beet,All (PS),11,6,-1,-1
+Madagascar,Annual,Broad Beans,All (PS),11,6,-1,-1
+Madagascar,Annual,Broccoli,All (PS),11,6,-1,-1
+Madagascar,Annual,Carrots,All (PS),11,6,-1,-1
+Madagascar,Annual,Cassava,All (PS),11,6,-1,-1
+Madagascar,Annual,Chili pepper (Unspecified),All (PS),11,6,-1,-1
+Madagascar,Annual,Clove,All (PS),11,6,-1,-1
+Madagascar,Annual,Cocoa,All (PS),11,6,-1,-1
+Madagascar,Annual,Coffee,All (PS),11,6,-1,-1
+Madagascar,Annual,Cotton (Unspecified),All (PS),11,6,-1,-1
+Madagascar,Annual,Cowpea (unspecified),All (PS),11,6,-1,-1
+Madagascar,Annual,Cucumber,All (PS),11,6,-1,-1
+Madagascar,Annual,Eggplant,All (PS),11,6,-1,-1
+Madagascar,Annual,Fibers (unspecified),All (PS),11,6,-1,-1
+Madagascar,Annual,Fodder crop (unspecified),All (PS),11,6,-1,-1
+Madagascar,Annual,Garlic (fresh),All (PS),11,6,-1,-1
+Madagascar,Annual,Ginger,All (PS),11,6,-1,-1
+Madagascar,Annual,Green pea,All (PS),11,6,-1,-1
+Madagascar,Annual,Groundnuts (In Shell),All (PS),11,6,-1,-1
+Madagascar,Annual,Jute,All (PS),11,6,-1,-1
+Madagascar,Annual,Lentils,All (PS),11,6,-1,-1
+Madagascar,Annual,Lettuce (Unspecified),All (PS),11,6,-1,-1
+Madagascar,Annual,Maize,All (PS),11,6,-1,-1
+Madagascar,Annual,Millet,All (PS),11,6,-1,-1
+Madagascar,Annual,Onions,All (PS),11,6,-1,-1
+Madagascar,Annual,Other stem vegetables,All (PS),11,6,-1,-1
+Madagascar,Annual,Pepper (Piper spp.),All (PS),11,6,-1,-1
+Madagascar,Annual,Pigeon pea (Unspecified),All (PS),11,6,-1,-1
+Madagascar,Annual,Pineapple (unspecified),All (PS),11,6,-1,-1
+Madagascar,Annual,Potato,All (PS),11,6,-1,-1
+Madagascar,Annual,Potato (unspecified),All (PS),11,6,-1,-1
+Madagascar,Annual,"Pulses, dry, unspecified",All (PS),11,6,-1,-1
+Madagascar,Annual,Rice,All (PS),11,6,-1,-1
+Madagascar,Annual,Soybean (unspecified),All (PS),11,6,-1,-1
+Madagascar,Annual,Squash (Unspecified),All (PS),11,6,-1,-1
+Madagascar,Annual,Strawberry (unspecified),All (PS),11,6,-1,-1
+Madagascar,Annual,Sugarcane,All (PS),11,6,-1,-1
+Madagascar,Annual,Sweet Potatoes,All (PS),11,6,-1,-1
+Madagascar,Annual,Taro/Cocoyam (Unspecified),All (PS),11,6,-1,-1
+Madagascar,Annual,Tobacco (unspecified),All (PS),11,6,-1,-1
+Madagascar,Annual,Tomato,All (PS),11,6,-1,-1
+Madagascar,Annual,Vanilla,All (PS),11,6,-1,-1
+Madagascar,Annual,Wheat Grain,All (PS),11,6,-1,-1
+Madagascar,Annual,Yams,All (PS),11,6,-1,-1
 "Tanzania, United Republic of",Annual,Bambara groundnut,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Banana (unspecified),none,9,7,-1,0
+"Tanzania, United Republic of",Annual,Banana,none,9,7,-1,0
 "Tanzania, United Republic of",Annual,Barley,none,9,7,-1,0
 "Tanzania, United Republic of",Annual,Beans (mixed),none,9,7,-1,0
 "Tanzania, United Republic of",Annual,Cassava,none,9,7,-1,0
@@ -769,7 +1000,7 @@ Uganda,Second,Sweet Potatoes,none,8,12,0,0
 "Tanzania, United Republic of",Annual,Groundnuts (In Shell),none,9,7,-1,0
 "Tanzania, United Republic of",Annual,Maize,none,9,7,-1,0
 "Tanzania, United Republic of",Annual,Millet,none,9,7,-1,0
-"Tanzania, United Republic of",Annual,Pea (unspecified),none,9,7,-1,0
+"Tanzania, United Republic of",Annual,Pea,none,9,7,-1,0
 "Tanzania, United Republic of",Annual,Pigeon Peas,none,9,7,-1,0
 "Tanzania, United Republic of",Annual,Potato (Irish),none,9,7,-1,0
 "Tanzania, United Republic of",Annual,Rice,none,9,7,-1,0
@@ -811,7 +1042,7 @@ Uganda,Second,Sweet Potatoes,none,8,12,0,0
 "Tanzania, United Republic of",Long/Dry,Maize,none,3,8,0,0
 "Tanzania, United Republic of",Long/Dry,Mung bean,none,3,8,0,0
 "Tanzania, United Republic of",Long/Dry,Soybean,none,3,8,0,0
-"Tanzania, United Republic of",Short,Bambara groundnut,none,3,8,0,0
+"Tanzania, United Republic of",Short,Bambara groundnut,none,10,4,-1,0
 "Tanzania, United Republic of",Short,Barley,none,10,4,-1,0
 "Tanzania, United Republic of",Short,Beans (mixed),none,10,4,-1,0
 "Tanzania, United Republic of",Short,Cassava,none,10,4,-1,0
@@ -834,62 +1065,66 @@ Uganda,Second,Sweet Potatoes,none,8,12,0,0
 "Tanzania, United Republic of",Short,Sweet Potatoes,none,10,4,-1,0
 "Tanzania, United Republic of",Short,Wheat,none,10,4,-1,0
 "Tanzania, United Republic of",Short,Yams,none,10,4,-1,0
-Sierra Leone,Main season,Cassava,none,5,9,0,0
-Sierra Leone,Main season,Groundnuts,none,5,9,0,0
-Sierra Leone,Main season,Maize,none,5,9,0,0
-Sierra Leone,Main season,Okras,none,5,9,0,0
-Sierra Leone,Main season,Rice,none,5,9,0,0
-Sierra Leone,Main season,Sesame Seed,none,5,9,0,0
-Sierra Leone,Main season,Sorghum,none,5,9,0,0
-Sierra Leone,Main season,Sweet Potatoes,none,5,9,0,0
-Benin,Annual,Cabbage,All (PS),3,10,0,0
-Benin,Annual,Carrots,All (PS),3,10,0,0
-Benin,Annual,Cassava,All (PS),3,10,0,0
-Benin,Annual,Colocynth,All (PS),3,10,0,0
-Benin,Annual,Cucumber,All (PS),3,10,0,0
-Benin,Annual,Eggplant,All (PS),3,10,0,0
-Benin,Annual,Green pea,All (PS),3,10,0,0
-Benin,Annual,Lettuce,All (PS),3,10,0,0
-Benin,Annual,Okras,All (PS),3,10,0,0
-Benin,Annual,Pineapple,All (PS),3,10,0,0
-Benin,Annual,Rice,All (PS),3,10,0,0
-Benin,Annual,Tomato,All (PS),3,10,0,0
-Benin,Main,Cowpeas,All (PS),3,10,0,0
-Benin,Main,Fonio,All (PS),3,10,0,0
-Benin,Main,Geocarpa groundnut,All (PS),3,10,0,0
-Benin,Main,Goussi,All (PS),3,10,0,0
-Benin,Main,Groundnuts,All (PS),3,10,0,0
-Benin,Main,Maize,All (PS),3,10,0,0
-Benin,Main,Millet,All (PS),3,10,0,0
-Benin,Main,Molokhia,All (PS),3,10,0,0
-Benin,Main,Onions,All (PS),3,10,0,0
-Benin,Main,Pea,All (PS),3,10,0,0
-Benin,Main,Sesame Seed,All (PS),3,10,0,0
-Benin,Main,Sorghum,All (PS),3,10,0,0
-Benin,Main,Soybean,All (PS),3,10,0,0
-Benin,Main,Sugarcane,All (PS),3,10,0,0
-Benin,Main,Sweet Potatoes,All (PS),3,10,0,0
-Benin,Main,Taro,All (PS),3,10,0,0
-Benin,Main,Watermelon,All (PS),3,10,0,0
-Benin,Main,Yams,All (PS),3,10,0,0
-Benin,Main,Potato,All (PS),3,10,0,0
-Nigeria,Annual,Cassava,All (PS),3,10,0,0
-Nigeria,Annual,Cocoyam,All (PS),3,10,0,0
-Nigeria,Annual,Yams,All (PS),3,10,0,0
-Nigeria,Wet,"Bananas/Plantains, mixed",All (PS),3,10,0,0
-Nigeria,Wet,Cotton,All (PS),3,10,0,0
-Nigeria,Wet,Cowpeas,All (PS),3,10,0,0
-Nigeria,Wet,Ginger,All (PS),3,10,0,0
-Nigeria,Wet,Groundnuts (In Shell),All (PS),3,10,0,0
-Nigeria,Wet,Maize,All (PS),3,10,0,0
-Nigeria,Wet,Melon,All (PS),3,10,0,0
-Nigeria,Wet,Millet,All (PS),3,10,0,0
-Nigeria,Wet,Okras,All (PS),3,10,0,0
-Nigeria,Wet,Onions,All (PS),3,10,0,0
-Nigeria,Wet,Rice (Paddy),All (PS),3,10,0,0
-Nigeria,Wet,Sesame Seed,All (PS),3,10,0,0
-Nigeria,Wet,Sorghum,All (PS),3,10,0,0
-Nigeria,Wet,Soybean,All (PS),3,10,0,0
-Nigeria,Wet,Sweet Potatoes,All (PS),3,10,0,0
-Nigeria,Wet,Tomato,All (PS),3,10,0,0
-Nigeria,Wet,Wheat,All (PS),3,10,0,0
+Niger,Dry,Anise,irrigated,6,12,0,0
+Niger,Dry,Basil,irrigated,6,12,0,0
+Niger,Dry,Bean (Hyacinth),irrigated,6,12,0,0
+Niger,Dry,Cabbage,irrigated,6,12,0,0
+Niger,Dry,Capsicum chinense,irrigated,6,12,0,0
+Niger,Dry,Carrots,irrigated,6,12,0,0
+Niger,Dry,Cassava,irrigated,6,12,0,0
+Niger,Dry,Celery,irrigated,6,12,0,0
+Niger,Dry,Chili pepper,irrigated,6,12,0,0
+Niger,Dry,Coriander,irrigated,6,12,0,0
+Niger,Dry,Cowpeas,irrigated,6,12,0,0
+Niger,Dry,Cucumber,irrigated,6,12,0,0
+Niger,Dry,Eggplant,irrigated,6,12,0,0
+Niger,Dry,Garlic,irrigated,6,12,0,0
+Niger,Dry,Gourd,irrigated,6,12,0,0
+Niger,Dry,Groundnuts (In Shell),irrigated,6,12,0,0
+Niger,Dry,Henna,irrigated,6,12,0,0
+Niger,Dry,Lettuce,irrigated,6,12,0,0
+Niger,Dry,Maize,irrigated,6,12,0,0
+Niger,Dry,Melon,irrigated,6,12,0,0
+Niger,Dry,Okras,irrigated,6,12,0,0
+Niger,Dry,Onions,irrigated,6,12,0,0
+Niger,Dry,Pea,irrigated,6,12,0,0
+Niger,Dry,Potato,irrigated,6,12,0,0
+Niger,Dry,Rape fodder,irrigated,6,12,0,0
+Niger,Dry,Rice,irrigated,6,12,0,0
+Niger,Dry,Sorghum,irrigated,6,12,0,0
+Niger,Dry,Sorrel,irrigated,6,12,0,0
+Niger,Dry,Squash,irrigated,6,12,0,0
+Niger,Dry,"Squash (Pumpkin, Zucchini)",irrigated,6,12,0,0
+Niger,Dry,Sugarcane,irrigated,6,12,0,0
+Niger,Dry,Sweet Potatoes,irrigated,6,12,0,0
+Niger,Dry,Tobacco,irrigated,6,12,0,0
+Niger,Dry,Tomato,irrigated,6,12,0,0
+Niger,Dry,Watermelon,irrigated,6,12,0,0
+Niger,Dry,Wheat,irrigated,6,12,0,0
+Niger,Main,Bambara groundnut,Rainfed (PS),6,12,0,0
+Niger,Main,Cabbage,Rainfed (PS),6,12,0,0
+Niger,Main,Capsicum chinense,Rainfed (PS),6,12,0,0
+Niger,Main,Cassava,Rainfed (PS),6,12,0,0
+Niger,Main,Chili pepper,Rainfed (PS),6,12,0,0
+Niger,Main,Cotton,Rainfed (PS),6,12,0,0
+Niger,Main,Cowpeas,Rainfed (PS),6,12,0,0
+Niger,Main,Cucumber,Rainfed (PS),6,12,0,0
+Niger,Main,Fonio,Rainfed (PS),6,12,0,0
+Niger,Main,Groundnuts (In Shell),Rainfed (PS),6,12,0,0
+Niger,Main,Lettuce,Rainfed (PS),6,12,0,0
+Niger,Main,Maize,All (PS),6,12,0,0
+Niger,Main,Maize,Rainfed (PS),6,12,0,0
+Niger,Main,Millet,Rainfed (PS),6,12,0,0
+Niger,Main,Okras,Rainfed (PS),6,12,0,0
+Niger,Main,Onions,Rainfed (PS),6,12,0,0
+Niger,Main,Potato,Rainfed (PS),6,12,0,0
+Niger,Main,Potato,irrigated,6,12,0,0
+Niger,Main,Rice,Rainfed (PS),6,12,0,0
+Niger,Main,Sesame Seed,Rainfed (PS),6,12,0,0
+Niger,Main,Sorghum,Rainfed (PS),6,12,0,0
+Niger,Main,Sorrel,Rainfed (PS),6,12,0,0
+Niger,Main,Squash,Rainfed (PS),6,12,0,0
+Niger,Main,Sugarcane,Rainfed (PS),6,12,0,0
+Niger,Main,Sweet Potatoes,Rainfed (PS),6,12,0,0
+Niger,Main,Tigernut,Rainfed (PS),6,12,0,0
+Niger,Main,Tomato,Rainfed (PS),6,12,0,0
