@@ -6,11 +6,10 @@ This repository provides access to a comprehensive crop dataset that allows rese
 
 ## Data Sources
 The data in this repository is compiled from various sources, including:
-- Famine Early Warning Systems Network (FEWS NET) of the United States Agency for International Development (USAID)
+- Famine Early Warning Systems Network (FEWS NET) of the United States Agency for International Development (USAID). This is the primary source of information
     - [FEWS NET Data Warehouse (FDW)](https://fews.net/data) (login required)
 - Food and Agriculture Organization (FAO)
     - [FAO-STAT](https://www.fao.org/faostat/en/#home)
-    - [Agro-MAPS](https://gaez.fao.org/pages/agromaps)
 - National agricultural agencies
 
 ## Data Processing and Sharing
@@ -34,11 +33,11 @@ HarvetStat currently contains subnational crop statistics for **`34`** countries
 
 ## Contributors
 - Dr. Donghoon Lee (University of Manitoba)
-- Dr. Weston Anderson (NASA)
+- Dr. Weston Anderson (UMD, NASA)
 - Xuan Chen (IFPRI)
 
 ## Contact 
-- Please contact Donghoon Lee ([Donghoon.Lee@umanitoba.ca](Donghoon.Lee@umanitoba.ca)) for any questions or collaborations.</br>
+- Please contact Donghoon Lee ([Donghoon.Lee@umanitoba.ca](Donghoon.Lee@umanitoba.ca) and Weston Anderson [Weston@umd.edu](Weston@umd.edu)) for any questions or collaborations.</br>
 - Users are welcome to open an [issue](https://github.com/chc-ucsb/gscd/issues).
 
 <!-- ## Usage
