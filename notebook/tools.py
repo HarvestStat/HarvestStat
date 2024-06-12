@@ -17,6 +17,206 @@ from scipy import ndimage
 # Suppress specific RuntimeWarning from shapely
 warnings.filterwarnings("ignore", message="invalid value encountered in intersection", category=RuntimeWarning, module="shapely.set_operations")
 
+def product_name_mapping(stack, list_except=None):
+    # Here we list all the product names to track the total number of products and their potential changes.
+    product_name_dict = {
+        'African Eggplant': 'Eggplant',
+        'African oil palm nut': 'African oil palm nut',
+        'Almond (unspecified)': 'Almond',
+        'Anise': 'Anise',
+        'Apple (unspecified)': 'Apple',
+        'Apricot': 'Apricot',
+        'Artichoke': 'Artichoke',
+        'Avocado (Hass)': 'Avocado (Hass)',
+        'Avocado (unspecified)': 'Avocado',
+        'Bambara groundnut': 'Bambara groundnut',
+        'Banana (unspecified)': 'Banana',
+        'Bananas/Plantains, mixed': 'Banana',
+        'Barley': 'Barley',
+        'Barley (Unspecified)': 'Barley',
+        'Basil': 'Basil',
+        'Bean (Green, unspecified)': 'Beans (Green)',
+        'Bean (Hyacinth)': 'Bean (Hyacinth)',
+        'Beans (Lima)': 'Beans (Lima)',
+        'Beans (Pinto)': 'Beans (Pinto)',
+        'Beans (Red Kidney)': 'Beans (Red Kidney)',
+        'Beans (Red)': 'Beans (Red)',
+        'Beans (Rosecoco)': 'Beans (Rosecoco)',
+        'Beans (White)': 'Beans (White)',
+        'Beans (mixed)': 'Beans (mixed)',
+        'Beet': 'Beet',
+        'Broad Beans': 'Broad Beans',
+        'Broccoli': 'Broccoli',
+        'Bush bean': 'Bush Bean',
+        'Cabbage (Unspecified)': 'Cabbage',
+        'Canola seed': 'Canola Seed',
+        'Cantaloupe': 'Cantaloupe',
+        'Capsicum chinense, unspecified': 'Capsicum Chinense',
+        'Carrots': 'Carrots',
+        'Cashew (unshelled)': 'Cashew (unshelled)',
+        'Cassava': 'Cassava',
+        'Cassava (non-bitter)': 'Cassava (non-bitter)',
+        'Cauliflowers': 'Cauliflowers',
+        'Celery': 'Celery',
+        'Cereal Crops (Mixed)': 'Cereal Crops',
+        'Champignon': 'Champignon',
+        'Chick Peas': 'Chick Peas',
+        'Chili pepper (Unspecified)': 'Chili Pepper',
+        'Chilles and Peppers': 'Chili Pepper',
+        'Clove': 'Clove',
+        'Cocoa': 'Cocoa',
+        'Cocoyam, move to 1594aa': 'Cocoyam',
+        'Coffee (Unspecified)': 'Coffee',
+        'Coffee (unspecified)': 'Coffee',
+        'Colocynth': 'Colocynth',
+        'Cooking Banana (unspecified)': 'Cooking Banana',
+        'Coriander': 'Coriander',
+        'Cotton (Acala)': 'Cotton (Acala)',
+        'Cotton (American)': 'Cotton (American)',
+        'Cotton (Egyptian)': 'Cotton (Egyptian)',
+        'Cotton (Unspecified)': 'Cotton',
+        'Cottonseed (Other)': 'Cottonseed',
+        'Cowpea (unspecified)': 'Cowpea',
+        'Cowpeas (Mixed)': 'Cowpea',
+        'Cucumber': 'Cucumber',
+        'Date (unspecified)': 'Date',
+        'Eggplant': 'Eggplant',
+        'Enset': 'Enset',
+        'Ethiopian cabbage': 'Ethiopian Cabbage',
+        'Fava bean': 'Fava Bean',
+        'Fenugreek': 'Fenugreek',
+        'Fibers (unspecified)': 'Fibers',
+        'Field Peas': 'Field Peas',
+        'Fig (unspecified)': 'Fig',
+        'Fodder crop (unspecified)': 'Fodder crop',
+        'Fonio': 'Fonio',
+        'Garlic': 'Garlic',
+        'Garlic (dry)': 'Garlic',
+        'Garlic (fresh)': 'Garlic',
+        'Geocarpa groundnut': 'Geocarpa groundnut',
+        'Gibto': 'Gibto',
+        'Ginger': 'Ginger',
+        'Gourd (Unspecified)': 'Gourd',
+        'Goussi': 'Goussi',
+        'Gram (Green)': 'Mung bean',
+        'Grape (unspecified)': 'Grape',
+        'Grass Pea': 'Grass Pea',
+        'Green Peppers': 'Green Peppers',
+        'Green bean (fresh)': 'Green Bean',
+        'Green pea': 'Green Pea',
+        'Groundnut (without shell)': 'Groundnuts (Without Shell)',
+        'Groundnuts (In Shell)': 'Groundnuts (In Shell)',
+        'Groundnuts (In Shell, Large)': 'Groundnuts (In Shell, Large)',
+        'Groundnuts (In Shell, Small)': 'Groundnuts (In Shell, Small)',
+        'Guava (unspecified)': 'Guava',
+        'Henna': 'Henna',
+        'Hops': 'Hops',
+        'Hot red pepper': 'Chili Pepper',
+        'Jews mallow leaves': 'Molokhia',
+        'Jute': 'Jute',
+        'Kabuli chick pea': 'Kabuli Chick Pea',
+        'Leeks': 'Leeks',
+        'Lemon (unspecified)': 'Lemon',
+        'Lentils': 'Lentils',
+        'Lettuce (Unspecified)': 'Lettuce',
+        'Linseed (unspecified)': 'Linseed',
+        'Macadamia (unspecified)': 'Macadamia',
+        'Maize': 'Maize',
+        'Maize (Corn)': 'Maize',
+        'Maize Grain (White)': 'Maize',
+        'Maize Grain (Yellow)': 'Maize (Yellow)',
+        'Mandarin orange': 'Mandarin Orange',
+        'Mango (unspecified)': 'Mango',
+        'Melon (unspecified)': 'Melon',
+        'Millet': 'Millet',
+        'Millet (Bulrush)': 'Millet',
+        'Millet (Finger)': 'Millet',
+        'Millet (Foxtail)': 'Millet',
+        'Millet (Pearl)': 'Millet',
+        'Mixed Teff': 'Teff',
+        'Mung bean (unspecified)': 'Mung bean',
+        'Mung bean, n.e.c.': 'Mung bean',
+        'Neug': 'Neug',
+        'Oats (Unspecified)': 'Oats',
+        'Okras (Fresh)': 'Okras',
+        'Onions': 'Onions',
+        'Orange (unspecified)': 'Orange',
+        'Other root/tuber vegetable (unspecified)': 'Other root/tuber vegetable',
+        'Other stem vegetables': 'Other stem vegetables',
+        'Pam nut or kernal (unspecified)': 'Pam Nut',
+        'Papaya (unspecified)': 'Papaya',
+        'Paprika (unspecified)': 'Paprika',
+        'Pea (unspecified)': 'Pea',
+        'Peach (unspecified)': 'Peach',
+        'Pepper (Piper spp.)': 'Pepper',
+        'Pigeon Peas': 'Pigeon Pea',
+        'Pigeon pea (Unspecified)': 'Pigeon Pea',
+        'Pineapple (unspecified)': 'Pineapple',
+        'Pole bean': 'Pole Bean',
+        'Pomegranate': 'Pomegranate',
+        'Potato (Irish)': 'Potato',
+        'Potato (unspecified)': 'Potato',
+        'Pulses, dry, unspecified': 'Pulses (dry)',
+        'Quince (unspecified)': 'Quince',
+        'Rape': 'Rape',
+        'Rape fodder': 'Rape',
+        'Rice': 'Rice',
+        'Rice (Paddy)': 'Rice',
+        'Rice, not husked': 'Rice (not husked)',
+        'Safflower Seed': 'Safflower Seed',
+        'Sesame Seed': 'Sesame Seed',
+        'Sorghum': 'Sorghum',
+        'Sorghum (Red)': 'Sorghum (Red)',
+        'Sorrel': 'Sorrel',
+        'Soybean (unspecified)': 'Soybean',
+        'Spanish peanut (in shell)': 'Spanish Peanut',
+        'Spinach': 'Spinach',
+        'Squash (Pumpkin, Zucchini)': 'Squash',
+        'Squash (Unspecified)': 'Squash',
+        'Squash and Melon seeds': 'Squash and Melon Seeds',
+        'Strawberry (unspecified)': 'Strawberry',
+        'Sugarcane (for sugar)': 'Sugarcane',
+        'Sunflower Seed': 'Sunflower Seed',
+        'Sunflower seed': 'Sunflower Seed',
+        'Sweet Potatoes': 'Sweet Potatoes',
+        'Sweet Potatoes (Non-Orange)': 'Sweet Potatoes (Non-Orange)',
+        'Sweet Potatoes (Orange)': 'Sweet Potatoes (Orange)',
+        'Swiss Chard': 'Swiss Chard',
+        'Taro (move to 1594AA)': 'Taro',
+        'Taro, move to 1594AA': 'Taro',
+        'Taro/Cocoyam (Unspecified)': 'Taro',
+        'Tea Plant': 'Tea',
+        'Tea leaves (Mixed)': 'Tea',
+        'Tigernut': 'Tigernut',
+        'Tobacco (Burley)': 'Tobacco',
+        'Tobacco (unspecified)': 'Tobacco',
+        'Tomato': 'Tomato',
+        'Tomatoes (Roma, medium)': 'Tomato',
+        'Vanilla': 'Vanilla',
+        'Vegetables (unspecified)': 'Vegetables',
+        'Velvet bean': 'Velvet Bean',
+        'Vetch': 'Vetch',
+        'Virginia peanut (in shell)': 'Virginia Peanut',
+        'Watermelon': 'Watermelon',
+        'Wheat': 'Wheat',
+        'Wheat Grain': 'Wheat',
+        'Yams': 'Yams'
+    }
+    not_in_custom = [p for p in stack['product'].unique() if p not in product_name_dict.keys()]
+    if len(not_in_custom) > 0:
+        print(f'Warning: {not_in_custom} are not in the product_name_list.')
+    # Exception
+    if list_except is not None:
+        sub1 = stack[stack['product'].isin(list_except)]
+        sub2 = stack[~stack['product'].isin(list_except)]
+        sub2['product'] = sub2['product'].replace(product_name_dict)
+        stack = pd.concat([sub1, sub2], axis=0).reset_index(drop=True).sort_values(by=['fnid','product','season_name'])
+    else:
+        stack['product'] = stack['product'].replace(product_name_dict)
+    return stack
+
+
+
 def load_shapefile(fn, epsg):
     shape = gpd.read_file(fn)
     shape = shape.to_crs(epsg)
@@ -586,36 +786,36 @@ def FDW_PD_ConnectAdminLink(link_ratio, area, prod, validation=True):
     return area_new, prod_new
 
 
-def FDW_PD_CaliSeasonYear(stack, ecc, link_ratio=None):
+def FDW_PD_CaliSeasonYear(stack, esc, link_ratio=None):
     # Trim all the text in the tables
     stack[['country','season_name','product','crop_production_system']] = stack[['country','season_name','product','crop_production_system']].applymap(lambda x: x.strip())
-    ecc[['country','season_name','product','crop_production_system']] = ecc[['country','season_name','product','crop_production_system']].applymap(lambda x: x.strip())
+    esc[['country','season_name']] = esc[['country','season_name']].applymap(lambda x: x.strip())
     # Check all rows of cspc_table_stack are in cspc_table_ecc
-    cspc_table_stack = stack[['country','season_name','product','crop_production_system']].drop_duplicates().sort_values(by=['country','season_name','product','crop_production_system']).reset_index(drop=True)
-    cspc_table_ecc = ecc[['country','season_name','product','crop_production_system']].drop_duplicates().sort_values(by=['country','season_name','product','crop_production_system']).reset_index(drop=True)
+    cs_table_stack = stack[['country','season_name']].drop_duplicates().sort_values(by=['country','season_name']).reset_index(drop=True)
+    cs_table_ecs = esc[['country','season_name']].drop_duplicates().sort_values(by=['country','season_name']).reset_index(drop=True)
     # Use merge to find matching rows, with an indicator to show the match status
-    result = pd.merge(cspc_table_stack, cspc_table_ecc, how='left', on=['country','season_name','product','crop_production_system'], indicator=True)
+    result = pd.merge(cs_table_stack, cs_table_ecs, how='left', on=['country','season_name'], indicator=True)
     try: 
         assert result['_merge'].eq('both').all()
-        print('All [season_name, product, crop_production_system] are in the external crop calendar.')
+        print('All [country, season_name] are in the external season calendar.')
     except:
-        print('Below data are not in external crop calendar:')
+        print('Below data are not in external season calendar:')
         print(result[~result['_merge'].eq('both')].to_string())
         # Warning message
-        raise ValueError('Some data are not in the external crop calendar. Please check the data.')
+        raise ValueError('Some data are not in the external season calendar. Please check the data.')
     # Calibrate "stack"
-    for (c, s, p, cps, pm, hm, py, hy) in ecc.values:
-        query_str = f'country == "{c}" and season_name == "{s}" and product == "{p}" and crop_production_system == "{cps}"'
+    for (c, s, pm, hm, py, hy) in esc.values:
+        query_str = f'country == "{c}" and season_name == "{s}"'
         stack.loc[stack.query(query_str).index, 'planting_month'] = pm
         stack.loc[stack.query(query_str).index, 'planting_year'] += py
         stack.loc[stack.query(query_str).index, 'harvest_month'] = hm
         stack.loc[stack.query(query_str).index, 'harvest_year'] += hy
     if link_ratio is not None:
         # Calibrate "link_ratio"
-        ecc_season = ecc[['season_name','planting_month','harvest_month']].drop_duplicates()
+        esc_season = esc[['season_name','planting_month','harvest_month']].drop_duplicates()
         for fnid, ratio in link_ratio.items():
             mdx = ratio.index.to_frame().reset_index(drop=True)
-            for (s, pm, hm) in ecc_season.values:
+            for (s, pm, hm) in esc_season.values:
                 query_str = f'season_name == "{s}"'
                 mdx.loc[mdx.query(query_str).index, 'planting_month'] = pm
                 mdx.loc[mdx.query(query_str).index, 'harvest_month'] = hm
