@@ -16,7 +16,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import cm
-import proplot as pplt
+#import proplot as pplt
 warnings.simplefilter(action='ignore', category=pd.errors.PerformanceWarning)
 pd.options.mode.chained_assignment = None
 
