@@ -68,7 +68,7 @@ product_name_dict = {
     'Coffee (Unspecified)': 'Coffee',
     'Coffee (unspecified)': 'Coffee',
     'Colocynth': 'Colocynth',
-    'Cooking Banana (unspecified)': 'Cooking Banana',
+    'Cooking Banana (unspecified)': 'Banana',
     'Coriander': 'Coriander',
     'Cotton (Acala)': 'Cotton (Acala)',
     'Cotton (American)': 'Cotton (American)',
