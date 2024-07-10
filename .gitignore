@@ -23,7 +23,7 @@ data/crop/adm1_*
 data/crop/*SD*
 data/crop/adm_fao_agromaps.csv
 data/crop/adm_fao_stat.csv
-data/crop/adm_crop_production_*.*
+data/crop/adm_crop_production_*.npz
 data/crop/admFull_crop_production_anomalies.hdf
 data/crop/admFull_crop_production_ALL.hdf
 data/crop/data_points_table.xlsx
