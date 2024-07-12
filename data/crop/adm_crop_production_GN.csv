@@ -1,0 +1,781 @@
+,fnid,country,country_code,admin_1,admin_2,name,product,season_name,planting_year,planting_month,harvest_year,harvest_month,crop_production_system,indicator,value,QC_flag
+0,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Cassava,Main,2010,5,2010,12,none,production,7316.0,0
+1,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Cassava,Main,2011,5,2011,12,none,production,7683.0,0
+2,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Cassava,Main,2012,5,2012,12,none,production,8069.0,0
+3,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Cassava,Main,2013,5,2013,12,none,production,8474.0,0
+4,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Cassava,Main,2014,5,2014,12,none,production,8900.0,0
+5,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Cassava,Main,2015,5,2015,12,none,production,9347.0,0
+6,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,8007.0,0
+7,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,8567.0,0
+8,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,9167.0,0
+9,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,9809.0,0
+10,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,10496.0,0
+11,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,11231.0,0
+12,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Rice,Main,2010,5,2010,12,none,production,70217.0,0
+13,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Rice,Main,2011,5,2011,12,none,production,74559.0,0
+14,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Rice,Main,2012,5,2012,12,none,production,79170.0,0
+15,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Rice,Main,2013,5,2013,12,none,production,84066.0,0
+16,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Rice,Main,2014,5,2014,12,none,production,89265.0,0
+17,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Rice,Main,2015,5,2015,12,none,production,94785.0,0
+18,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Maize,Main,2010,5,2010,12,none,production,96.0,0
+19,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Maize,Main,2011,5,2011,12,none,production,105.0,0
+20,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Maize,Main,2012,5,2012,12,none,production,114.0,0
+21,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Maize,Main,2013,5,2013,12,none,production,124.0,0
+22,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Maize,Main,2014,5,2014,12,none,production,135.0,0
+23,GN1990A20101,Guinea,GN,Boke,Boffa,Boffa,Maize,Main,2015,5,2015,12,none,production,148.0,0
+24,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Cassava,Main,2010,5,2010,12,none,production,21477.0,0
+25,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Cassava,Main,2011,5,2011,12,none,production,22555.0,0
+26,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Cassava,Main,2012,5,2012,12,none,production,23688.0,0
+27,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Cassava,Main,2013,5,2013,12,none,production,24877.0,0
+28,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Cassava,Main,2014,5,2014,12,none,production,26127.0,0
+29,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Cassava,Main,2015,5,2015,12,none,production,27438.0,0
+30,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,22419.0,0
+31,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,23989.0,0
+32,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,25669.0,0
+33,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,27467.0,0
+34,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,29390.0,0
+35,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,31448.0,0
+36,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Rice,Main,2010,5,2010,12,none,production,5856.0,0
+37,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Rice,Main,2011,5,2011,12,none,production,6218.0,0
+38,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Rice,Main,2012,5,2012,12,none,production,6602.0,0
+39,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Rice,Main,2013,5,2013,12,none,production,7011.0,0
+40,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Rice,Main,2014,5,2014,12,none,production,7446.0,0
+41,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Rice,Main,2015,5,2015,12,none,production,7905.0,0
+42,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Maize,Main,2010,5,2010,12,none,production,1200.0,0
+43,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Maize,Main,2011,5,2011,12,none,production,1307.0,0
+44,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Maize,Main,2012,5,2012,12,none,production,1423.0,0
+45,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Maize,Main,2013,5,2013,12,none,production,1550.0,0
+46,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Maize,Main,2014,5,2014,12,none,production,1688.0,0
+47,GN1990A20102,Guinea,GN,Boke,Boke,Boke,Maize,Main,2015,5,2015,12,none,production,1838.0,0
+48,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Cassava,Main,2010,5,2010,12,none,production,17308.0,0
+49,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Cassava,Main,2011,5,2011,12,none,production,18177.0,0
+50,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Cassava,Main,2012,5,2012,12,none,production,19089.0,0
+51,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Cassava,Main,2013,5,2013,12,none,production,20048.0,0
+52,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Cassava,Main,2014,5,2014,12,none,production,21055.0,0
+53,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Cassava,Main,2015,5,2015,12,none,production,22112.0,0
+54,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,10122.0,0
+55,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,10831.0,0
+56,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,11589.0,0
+57,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,12401.0,0
+58,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,13269.0,0
+59,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,14198.0,0
+60,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Rice,Main,2010,5,2010,12,none,production,15648.0,0
+61,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Rice,Main,2011,5,2011,12,none,production,16616.0,0
+62,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Rice,Main,2012,5,2012,12,none,production,17643.0,0
+63,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Rice,Main,2013,5,2013,12,none,production,18734.0,0
+64,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Rice,Main,2014,5,2014,12,none,production,19893.0,0
+65,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Rice,Main,2015,5,2015,12,none,production,21123.0,0
+66,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Maize,Main,2010,5,2010,12,none,production,1662.0,0
+67,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Maize,Main,2011,5,2011,12,none,production,1810.0,0
+68,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Maize,Main,2012,5,2012,12,none,production,1971.0,0
+69,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Maize,Main,2013,5,2013,12,none,production,2146.0,0
+70,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Maize,Main,2014,5,2014,12,none,production,2337.0,0
+71,GN1990A20103,Guinea,GN,Boke,Fria,Fria,Maize,Main,2015,5,2015,12,none,production,2545.0,0
+72,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Cassava,Main,2010,5,2010,12,none,production,34848.0,0
+73,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Cassava,Main,2011,5,2011,12,none,production,36598.0,0
+74,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Cassava,Main,2012,5,2012,12,none,production,38435.0,0
+75,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Cassava,Main,2013,5,2013,12,none,production,40365.0,0
+76,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Cassava,Main,2014,5,2014,12,none,production,42392.0,0
+77,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Cassava,Main,2015,5,2015,12,none,production,44521.0,0
+78,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,9035.0,0
+79,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,9668.0,0
+80,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,10345.0,0
+81,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,11070.0,0
+82,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,11845.0,0
+83,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,12674.0,0
+84,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Rice,Main,2010,5,2010,12,none,production,41436.0,0
+85,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Rice,Main,2011,5,2011,12,none,production,43998.0,0
+86,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Rice,Main,2012,5,2012,12,none,production,46719.0,0
+87,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Rice,Main,2013,5,2013,12,none,production,49608.0,0
+88,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Rice,Main,2014,5,2014,12,none,production,52676.0,0
+89,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Rice,Main,2015,5,2015,12,none,production,55933.0,0
+90,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Maize,Main,2010,5,2010,12,none,production,4733.0,0
+91,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Maize,Main,2011,5,2011,12,none,production,5155.0,0
+92,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Maize,Main,2012,5,2012,12,none,production,5614.0,0
+93,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Maize,Main,2013,5,2013,12,none,production,6114.0,0
+94,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Maize,Main,2014,5,2014,12,none,production,6658.0,0
+95,GN1990A20104,Guinea,GN,Boke,Gaoual,Gaoual,Maize,Main,2015,5,2015,12,none,production,7251.0,0
+96,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Cassava,Main,2010,5,2010,12,none,production,2060.0,0
+97,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Cassava,Main,2011,5,2011,12,none,production,2164.0,0
+98,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Cassava,Main,2012,5,2012,12,none,production,2272.0,0
+99,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Cassava,Main,2013,5,2013,12,none,production,2387.0,0
+100,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Cassava,Main,2014,5,2014,12,none,production,2506.0,0
+101,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Cassava,Main,2015,5,2015,12,none,production,2632.0,0
+102,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,8428.0,0
+103,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,9018.0,0
+104,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,9650.0,0
+105,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,10326.0,0
+106,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,11049.0,0
+107,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,11822.0,0
+108,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Rice,Main,2010,5,2010,12,none,production,11848.0,0
+109,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Rice,Main,2011,5,2011,12,none,production,12580.0,0
+110,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Rice,Main,2012,5,2012,12,none,production,13358.0,0
+111,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Rice,Main,2013,5,2013,12,none,production,14185.0,0
+112,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Rice,Main,2014,5,2014,12,none,production,15062.0,0
+113,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Rice,Main,2015,5,2015,12,none,production,15993.0,0
+114,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Maize,Main,2010,5,2010,12,none,production,810.0,0
+115,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Maize,Main,2011,5,2011,12,none,production,882.0,0
+116,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Maize,Main,2012,5,2012,12,none,production,960.0,0
+117,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Maize,Main,2013,5,2013,12,none,production,1046.0,0
+118,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Maize,Main,2014,5,2014,12,none,production,1139.0,0
+119,GN1990A20105,Guinea,GN,Boke,Koundara,Koundara,Maize,Main,2015,5,2015,12,none,production,1240.0,0
+120,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Cassava,Main,2010,5,2010,12,none,production,10590.0,0
+121,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Cassava,Main,2011,5,2011,12,none,production,11122.0,0
+122,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Cassava,Main,2012,5,2012,12,none,production,11681.0,0
+123,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Cassava,Main,2013,5,2013,12,none,production,12267.0,0
+124,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Cassava,Main,2014,5,2014,12,none,production,12883.0,0
+125,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Cassava,Main,2015,5,2015,12,none,production,13530.0,0
+126,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,12498.0,0
+127,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,13374.0,0
+128,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,14310.0,0
+129,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,15312.0,0
+130,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,16384.0,0
+131,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,17532.0,0
+132,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Rice,Main,2010,5,2010,12,none,production,26619.0,0
+133,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Rice,Main,2011,5,2011,12,none,production,28265.0,0
+134,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Rice,Main,2012,5,2012,12,none,production,30013.0,0
+135,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Rice,Main,2013,5,2013,12,none,production,31869.0,0
+136,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Rice,Main,2014,5,2014,12,none,production,33840.0,0
+137,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Rice,Main,2015,5,2015,12,none,production,35933.0,0
+138,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Maize,Main,2010,5,2010,12,none,production,14541.0,0
+139,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Maize,Main,2011,5,2011,12,none,production,15837.0,0
+140,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Maize,Main,2012,5,2012,12,none,production,17247.0,0
+141,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Maize,Main,2013,5,2013,12,none,production,18783.0,0
+142,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Maize,Main,2014,5,2014,12,none,production,20456.0,0
+143,GN1990A20301,Guinea,GN,Faranah,Dabola,Dabola,Maize,Main,2015,5,2015,12,none,production,22278.0,0
+144,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Cassava,Main,2010,5,2010,12,none,production,13573.0,0
+145,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Cassava,Main,2011,5,2011,12,none,production,14254.0,0
+146,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Cassava,Main,2012,5,2012,12,none,production,14970.0,0
+147,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Cassava,Main,2013,5,2013,12,none,production,15722.0,0
+148,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Cassava,Main,2014,5,2014,12,none,production,16511.0,0
+149,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Cassava,Main,2015,5,2015,12,none,production,17340.0,0
+150,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,24890.0,0
+151,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,26633.0,0
+152,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,28498.0,0
+153,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,30494.0,0
+154,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,32629.0,0
+155,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,34914.0,0
+156,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Rice,Main,2010,5,2010,12,none,production,39535.0,0
+157,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Rice,Main,2011,5,2011,12,none,production,41980.0,0
+158,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Rice,Main,2012,5,2012,12,none,production,44576.0,0
+159,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Rice,Main,2013,5,2013,12,none,production,47332.0,0
+160,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Rice,Main,2014,5,2014,12,none,production,50259.0,0
+161,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Rice,Main,2015,5,2015,12,none,production,53367.0,0
+162,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Maize,Main,2010,5,2010,12,none,production,47743.0,0
+163,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Maize,Main,2011,5,2011,12,none,production,51995.0,0
+164,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Maize,Main,2012,5,2012,12,none,production,56626.0,0
+165,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Maize,Main,2013,5,2013,12,none,production,61669.0,0
+166,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Maize,Main,2014,5,2014,12,none,production,67162.0,0
+167,GN1990A20302,Guinea,GN,Faranah,Dinguiraye,Dinguiraye,Maize,Main,2015,5,2015,12,none,production,73143.0,0
+168,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Cassava,Main,2010,5,2010,12,none,production,8021.0,0
+169,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Cassava,Main,2011,5,2011,12,none,production,8424.0,0
+170,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Cassava,Main,2012,5,2012,12,none,production,8847.0,0
+171,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Cassava,Main,2013,5,2013,12,none,production,9291.0,0
+172,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Cassava,Main,2014,5,2014,12,none,production,9757.0,0
+173,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Cassava,Main,2015,5,2015,12,none,production,10247.0,0
+174,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,6164.0,0
+175,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,6596.0,0
+176,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,7058.0,0
+177,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,7552.0,0
+178,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,8081.0,0
+179,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,8646.0,0
+180,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Rice,Main,2010,5,2010,12,none,production,54385.0,0
+181,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Rice,Main,2011,5,2011,12,none,production,57748.0,0
+182,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Rice,Main,2012,5,2012,12,none,production,61319.0,0
+183,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Rice,Main,2013,5,2013,12,none,production,65111.0,0
+184,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Rice,Main,2014,5,2014,12,none,production,69138.0,0
+185,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Rice,Main,2015,5,2015,12,none,production,73413.0,0
+186,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Maize,Main,2010,5,2010,12,none,production,3109.0,0
+187,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Maize,Main,2011,5,2011,12,none,production,3386.0,0
+188,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Maize,Main,2012,5,2012,12,none,production,3688.0,0
+189,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Maize,Main,2013,5,2013,12,none,production,4016.0,0
+190,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Maize,Main,2014,5,2014,12,none,production,4374.0,0
+191,GN1990A20303,Guinea,GN,Faranah,Faranah,Faranah,Maize,Main,2015,5,2015,12,none,production,4763.0,0
+192,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Cassava,Main,2010,5,2010,12,none,production,22562.0,0
+193,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Cassava,Main,2011,5,2011,12,none,production,23695.0,0
+194,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Cassava,Main,2012,5,2012,12,none,production,24884.0,0
+195,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Cassava,Main,2013,5,2013,12,none,production,26134.0,0
+196,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Cassava,Main,2014,5,2014,12,none,production,27446.0,0
+197,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Cassava,Main,2015,5,2015,12,none,production,28824.0,0
+198,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,7639.0,0
+199,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,8174.0,0
+200,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,8747.0,0
+201,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,9359.0,0
+202,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,10015.0,0
+203,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,10716.0,0
+204,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Rice,Main,2010,5,2010,12,none,production,104569.0,0
+205,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Rice,Main,2011,5,2011,12,none,production,111036.0,0
+206,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Rice,Main,2012,5,2012,12,none,production,117902.0,0
+207,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Rice,Main,2013,5,2013,12,none,production,125193.0,0
+208,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Rice,Main,2014,5,2014,12,none,production,132935.0,0
+209,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Rice,Main,2015,5,2015,12,none,production,141156.0,0
+210,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Maize,Main,2010,5,2010,12,none,production,32809.0,0
+211,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Maize,Main,2011,5,2011,12,none,production,35731.0,0
+212,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Maize,Main,2012,5,2012,12,none,production,38913.0,0
+213,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Maize,Main,2013,5,2013,12,none,production,42379.0,0
+214,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Maize,Main,2014,5,2014,12,none,production,46153.0,0
+215,GN1990A20304,Guinea,GN,Faranah,Kissidougou,Kissidougou,Maize,Main,2015,5,2015,12,none,production,50263.0,0
+216,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Cassava,Main,2010,5,2010,12,none,production,207804.0,0
+217,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Cassava,Main,2011,5,2011,12,none,production,218239.0,0
+218,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Cassava,Main,2012,5,2012,12,none,production,229197.0,0
+219,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Cassava,Main,2013,5,2013,12,none,production,240706.0,0
+220,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Cassava,Main,2014,5,2014,12,none,production,252792.0,0
+221,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Cassava,Main,2015,5,2015,12,none,production,265486.0,0
+222,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,18080.0,0
+223,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,19347.0,0
+224,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,20701.0,0
+225,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,22151.0,0
+226,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,23702.0,0
+227,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,25362.0,0
+228,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Rice,Main,2010,5,2010,12,none,production,121857.0,0
+229,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Rice,Main,2011,5,2011,12,none,production,129392.0,0
+230,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Rice,Main,2012,5,2012,12,none,production,137394.0,0
+231,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Rice,Main,2013,5,2013,12,none,production,145890.0,0
+232,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Rice,Main,2014,5,2014,12,none,production,154912.0,0
+233,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Rice,Main,2015,5,2015,12,none,production,164492.0,0
+234,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Maize,Main,2010,5,2010,12,none,production,19534.0,0
+235,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Maize,Main,2011,5,2011,12,none,production,21274.0,0
+236,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Maize,Main,2012,5,2012,12,none,production,23169.0,0
+237,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Maize,Main,2013,5,2013,12,none,production,25232.0,0
+238,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Maize,Main,2014,5,2014,12,none,production,27479.0,0
+239,GN1990A20401,Guinea,GN,Kankan,Kankan,Kankan,Maize,Main,2015,5,2015,12,none,production,29927.0,0
+240,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Cassava,Main,2010,5,2010,12,none,production,34989.0,0
+241,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Cassava,Main,2011,5,2011,12,none,production,36746.0,0
+242,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Cassava,Main,2012,5,2012,12,none,production,38591.0,0
+243,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Cassava,Main,2013,5,2013,12,none,production,40529.0,0
+244,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Cassava,Main,2014,5,2014,12,none,production,42564.0,0
+245,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Cassava,Main,2015,5,2015,12,none,production,44701.0,0
+246,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,81.0,0
+247,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,87.0,0
+248,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,93.0,0
+249,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,99.0,0
+250,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,106.0,0
+251,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,114.0,0
+252,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Rice,Main,2010,5,2010,12,none,production,46156.0,0
+253,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Rice,Main,2011,5,2011,12,none,production,49011.0,0
+254,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Rice,Main,2012,5,2012,12,none,production,52041.0,0
+255,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Rice,Main,2013,5,2013,12,none,production,55260.0,0
+256,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Rice,Main,2014,5,2014,12,none,production,58677.0,0
+257,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Rice,Main,2015,5,2015,12,none,production,62305.0,0
+258,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Maize,Main,2010,5,2010,12,none,production,2122.0,0
+259,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Maize,Main,2011,5,2011,12,none,production,2312.0,0
+260,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Maize,Main,2012,5,2012,12,none,production,2517.0,0
+261,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Maize,Main,2013,5,2013,12,none,production,2742.0,0
+262,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Maize,Main,2014,5,2014,12,none,production,2986.0,0
+263,GN1990A20402,Guinea,GN,Kankan,Kerouane,Kerouane,Maize,Main,2015,5,2015,12,none,production,3252.0,0
+264,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Cassava,Main,2010,5,2010,12,none,production,44599.0,0
+265,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Cassava,Main,2011,5,2011,12,none,production,46839.0,0
+266,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Cassava,Main,2012,5,2012,12,none,production,49191.0,0
+267,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Cassava,Main,2013,5,2013,12,none,production,51661.0,0
+268,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Cassava,Main,2014,5,2014,12,none,production,54255.0,0
+269,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Cassava,Main,2015,5,2015,12,none,production,56979.0,0
+270,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,15163.0,0
+271,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,16225.0,0
+272,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,17361.0,0
+273,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,18576.0,0
+274,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,19877.0,0
+275,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,21269.0,0
+276,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Rice,Main,2010,5,2010,12,none,production,49312.0,0
+277,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Rice,Main,2011,5,2011,12,none,production,52361.0,0
+278,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Rice,Main,2012,5,2012,12,none,production,55599.0,0
+279,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Rice,Main,2013,5,2013,12,none,production,59037.0,0
+280,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Rice,Main,2014,5,2014,12,none,production,62688.0,0
+281,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Rice,Main,2015,5,2015,12,none,production,66565.0,0
+282,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Maize,Main,2010,5,2010,12,none,production,20711.0,0
+283,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Maize,Main,2011,5,2011,12,none,production,22556.0,0
+284,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Maize,Main,2012,5,2012,12,none,production,24564.0,0
+285,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Maize,Main,2013,5,2013,12,none,production,26752.0,0
+286,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Maize,Main,2014,5,2014,12,none,production,29135.0,0
+287,GN1990A20403,Guinea,GN,Kankan,Kouroussa,Kouroussa,Maize,Main,2015,5,2015,12,none,production,31730.0,0
+288,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Cassava,Main,2010,5,2010,12,none,production,51932.0,0
+289,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Cassava,Main,2011,5,2011,12,none,production,54540.0,0
+290,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Cassava,Main,2012,5,2012,12,none,production,57278.0,0
+291,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Cassava,Main,2013,5,2013,12,none,production,60154.0,0
+292,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Cassava,Main,2014,5,2014,12,none,production,63175.0,0
+293,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Cassava,Main,2015,5,2015,12,none,production,66347.0,0
+294,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,21350.0,0
+295,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,22845.0,0
+296,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,24445.0,0
+297,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,26157.0,0
+298,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,27988.0,0
+299,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,29948.0,0
+300,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Rice,Main,2010,5,2010,12,none,production,34405.0,0
+301,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Rice,Main,2011,5,2011,12,none,production,36533.0,0
+302,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Rice,Main,2012,5,2012,12,none,production,38792.0,0
+303,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Rice,Main,2013,5,2013,12,none,production,41191.0,0
+304,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Rice,Main,2014,5,2014,12,none,production,43738.0,0
+305,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Rice,Main,2015,5,2015,12,none,production,46443.0,0
+306,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Maize,Main,2010,5,2010,12,none,production,90494.0,0
+307,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Maize,Main,2011,5,2011,12,none,production,98553.0,0
+308,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Maize,Main,2012,5,2012,12,none,production,107331.0,0
+309,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Maize,Main,2013,5,2013,12,none,production,116890.0,0
+310,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Maize,Main,2014,5,2014,12,none,production,127300.0,0
+311,GN1990A20404,Guinea,GN,Kankan,Mandiana,Mandiana,Maize,Main,2015,5,2015,12,none,production,138638.0,0
+312,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Cassava,Main,2010,5,2010,12,none,production,31286.0,0
+313,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Cassava,Main,2011,5,2011,12,none,production,32857.0,0
+314,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Cassava,Main,2012,5,2012,12,none,production,34507.0,0
+315,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Cassava,Main,2013,5,2013,12,none,production,36240.0,0
+316,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Cassava,Main,2014,5,2014,12,none,production,38060.0,0
+317,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Cassava,Main,2015,5,2015,12,none,production,39971.0,0
+318,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,14515.0,0
+319,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,15531.0,0
+320,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,16619.0,0
+321,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,17783.0,0
+322,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,19028.0,0
+323,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,20360.0,0
+324,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Rice,Main,2010,5,2010,12,none,production,26841.0,0
+325,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Rice,Main,2011,5,2011,12,none,production,28501.0,0
+326,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Rice,Main,2012,5,2012,12,none,production,30264.0,0
+327,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Rice,Main,2013,5,2013,12,none,production,32135.0,0
+328,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Rice,Main,2014,5,2014,12,none,production,34122.0,0
+329,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Rice,Main,2015,5,2015,12,none,production,36232.0,0
+330,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Maize,Main,2010,5,2010,12,none,production,39955.0,0
+331,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Maize,Main,2011,5,2011,12,none,production,43513.0,0
+332,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Maize,Main,2012,5,2012,12,none,production,47389.0,0
+333,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Maize,Main,2013,5,2013,12,none,production,51609.0,0
+334,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Maize,Main,2014,5,2014,12,none,production,56206.0,0
+335,GN1990A20405,Guinea,GN,Kankan,Siguiri,Siguiri,Maize,Main,2015,5,2015,12,none,production,61211.0,0
+336,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Cassava,Main,2010,5,2010,12,none,production,15092.0,0
+337,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Cassava,Main,2011,5,2011,12,none,production,15850.0,0
+338,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Cassava,Main,2012,5,2012,12,none,production,16646.0,0
+339,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Cassava,Main,2013,5,2013,12,none,production,17482.0,0
+340,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Cassava,Main,2014,5,2014,12,none,production,18360.0,0
+341,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Cassava,Main,2015,5,2015,12,none,production,19282.0,0
+342,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,2034.0,0
+343,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,2177.0,0
+344,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,2329.0,0
+345,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,2492.0,0
+346,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,2667.0,0
+347,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,2853.0,0
+348,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Rice,Main,2010,5,2010,12,none,production,11400.0,0
+349,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Rice,Main,2011,5,2011,12,none,production,12105.0,0
+350,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Rice,Main,2012,5,2012,12,none,production,12853.0,0
+351,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Rice,Main,2013,5,2013,12,none,production,13648.0,0
+352,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Rice,Main,2014,5,2014,12,none,production,14492.0,0
+353,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Rice,Main,2015,5,2015,12,none,production,15388.0,0
+354,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Maize,Main,2010,5,2010,12,none,production,1133.0,0
+355,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Maize,Main,2011,5,2011,12,none,production,1234.0,0
+356,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Maize,Main,2012,5,2012,12,none,production,1344.0,0
+357,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Maize,Main,2013,5,2013,12,none,production,1464.0,0
+358,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Maize,Main,2014,5,2014,12,none,production,1594.0,0
+359,GN1990A20501,Guinea,GN,Kindia,Coyah,Coyah,Maize,Main,2015,5,2015,12,none,production,1736.0,0
+360,GN1990A20502,Guinea,GN,Kindia,Dubreka,Dubreka,Cassava,Main,2010,5,2010,12,none,production,2425.0,0
+361,GN1990A20502,Guinea,GN,Kindia,Dubreka,Dubreka,Cassava,Main,2011,5,2011,12,none,production,2547.0,0
+362,GN1990A20502,Guinea,GN,Kindia,Dubreka,Dubreka,Cassava,Main,2012,5,2012,12,none,production,2675.0,0
+363,GN1990A20502,Guinea,GN,Kindia,Dubreka,Dubreka,Cassava,Main,2013,5,2013,12,none,production,2809.0,0
+364,GN1990A20502,Guinea,GN,Kindia,Dubreka,Dubreka,Cassava,Main,2014,5,2014,12,none,production,2950.0,0
+365,GN1990A20502,Guinea,GN,Kindia,Dubreka,Dubreka,Cassava,Main,2015,5,2015,12,none,production,3098.0,0
+366,GN1990A20502,Guinea,GN,Kindia,Dubreka,Dubreka,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,49564.0,0
+367,GN1990A20502,Guinea,GN,Kindia,Dubreka,Dubreka,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,53035.0,0
+368,GN1990A20502,Guinea,GN,Kindia,Dubreka,Dubreka,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,56749.0,0
+369,GN1990A20502,Guinea,GN,Kindia,Dubreka,Dubreka,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,60722.0,0
+370,GN1990A20502,Guinea,GN,Kindia,Dubreka,Dubreka,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,64975.0,0
+371,GN1990A20502,Guinea,GN,Kindia,Dubreka,Dubreka,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,69524.0,0
+372,GN1990A20502,Guinea,GN,Kindia,Dubreka,Dubreka,Rice,Main,2010,5,2010,12,none,production,35563.0,0
+373,GN1990A20502,Guinea,GN,Kindia,Dubreka,Dubreka,Rice,Main,2011,5,2011,12,none,production,37762.0,0
+374,GN1990A20502,Guinea,GN,Kindia,Dubreka,Dubreka,Rice,Main,2012,5,2012,12,none,production,40097.0,0
+375,GN1990A20502,Guinea,GN,Kindia,Dubreka,Dubreka,Rice,Main,2013,5,2013,12,none,production,42577.0,0
+376,GN1990A20502,Guinea,GN,Kindia,Dubreka,Dubreka,Rice,Main,2014,5,2014,12,none,production,45210.0,0
+377,GN1990A20502,Guinea,GN,Kindia,Dubreka,Dubreka,Rice,Main,2015,5,2015,12,none,production,48006.0,0
+378,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Cassava,Main,2010,5,2010,12,none,production,7280.0,0
+379,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Cassava,Main,2011,5,2011,12,none,production,7645.0,0
+380,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Cassava,Main,2012,5,2012,12,none,production,8029.0,0
+381,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Cassava,Main,2013,5,2013,12,none,production,8432.0,0
+382,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Cassava,Main,2014,5,2014,12,none,production,8855.0,0
+383,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Cassava,Main,2015,5,2015,12,none,production,9300.0,0
+384,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,9148.0,0
+385,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,9788.0,0
+386,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,10474.0,0
+387,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,11207.0,0
+388,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,11992.0,0
+389,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,12831.0,0
+390,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Rice,Main,2010,5,2010,12,none,production,54938.0,0
+391,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Rice,Main,2011,5,2011,12,none,production,58336.0,0
+392,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Rice,Main,2012,5,2012,12,none,production,61943.0,0
+393,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Rice,Main,2013,5,2013,12,none,production,65774.0,0
+394,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Rice,Main,2014,5,2014,12,none,production,69841.0,0
+395,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Rice,Main,2015,5,2015,12,none,production,7416.0,0
+396,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Maize,Main,2010,5,2010,12,none,production,5807.0,0
+397,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Maize,Main,2011,5,2011,12,none,production,6325.0,0
+398,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Maize,Main,2012,5,2012,12,none,production,6888.0,0
+399,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Maize,Main,2013,5,2013,12,none,production,7501.0,0
+400,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Maize,Main,2014,5,2014,12,none,production,8169.0,0
+401,GN1990A20503,Guinea,GN,Kindia,Forecariah,Forecariah,Maize,Main,2015,5,2015,12,none,production,8897.0,0
+402,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Cassava,Main,2010,5,2010,12,none,production,50533.0,0
+403,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Cassava,Main,2011,5,2011,12,none,production,53070.0,0
+404,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Cassava,Main,2012,5,2012,12,none,production,55735.0,0
+405,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Cassava,Main,2013,5,2013,12,none,production,58534.0,0
+406,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Cassava,Main,2014,5,2014,12,none,production,61473.0,0
+407,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Cassava,Main,2015,5,2015,12,none,production,64559.0,0
+408,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,26205.0,0
+409,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,28040.0,0
+410,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,30004.0,0
+411,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,32105.0,0
+412,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,34353.0,0
+413,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,36758.0,0
+414,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Rice,Main,2010,5,2010,12,none,production,72735.0,0
+415,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Rice,Main,2011,5,2011,12,none,production,77233.0,0
+416,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Rice,Main,2012,5,2012,12,none,production,82009.0,0
+417,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Rice,Main,2013,5,2013,12,none,production,87080.0,0
+418,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Rice,Main,2014,5,2014,12,none,production,92465.0,0
+419,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Rice,Main,2015,5,2015,12,none,production,98183.0,0
+420,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Maize,Main,2010,5,2010,12,none,production,8701.0,0
+421,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Maize,Main,2011,5,2011,12,none,production,9476.0,0
+422,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Maize,Main,2012,5,2012,12,none,production,1032.0,0
+423,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Maize,Main,2013,5,2013,12,none,production,1239.0,0
+424,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Maize,Main,2014,5,2014,12,none,production,1224.0,0
+425,GN1990A20504,Guinea,GN,Kindia,Kindia,Kindia,Maize,Main,2015,5,2015,12,none,production,1333.0,0
+426,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Cassava,Main,2010,5,2010,12,none,production,91372.0,0
+427,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Cassava,Main,2011,5,2011,12,none,production,95960.0,0
+428,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Cassava,Main,2012,5,2012,12,none,production,100778.0,0
+429,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Cassava,Main,2013,5,2013,12,none,production,105838.0,0
+430,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Cassava,Main,2014,5,2014,12,none,production,111153.0,0
+431,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Cassava,Main,2015,5,2015,12,none,production,116734.0,0
+432,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,33365.0,0
+433,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,35701.0,0
+434,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,38201.0,0
+435,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,40876.0,0
+436,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,43739.0,0
+437,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,46802.0,0
+438,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Rice,Main,2010,5,2010,12,none,production,114280.0,0
+439,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Rice,Main,2011,5,2011,12,none,production,121347.0,0
+440,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Rice,Main,2012,5,2012,12,none,production,128851.0,0
+441,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Rice,Main,2013,5,2013,12,none,production,136819.0,0
+442,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Rice,Main,2014,5,2014,12,none,production,145280.0,0
+443,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Rice,Main,2015,5,2015,12,none,production,154264.0,0
+444,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Maize,Main,2010,5,2010,12,none,production,59044.0,0
+445,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Maize,Main,2011,5,2011,12,none,production,64303.0,0
+446,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Maize,Main,2012,5,2012,12,none,production,70030.0,0
+447,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Maize,Main,2013,5,2013,12,none,production,76267.0,0
+448,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Maize,Main,2014,5,2014,12,none,production,83059.0,0
+449,GN1990A20505,Guinea,GN,Kindia,Telimele,Telimele,Maize,Main,2015,5,2015,12,none,production,90457.0,0
+450,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Cassava,Main,2010,5,2010,12,none,production,50648.0,0
+451,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Cassava,Main,2011,5,2011,12,none,production,53191.0,0
+452,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Cassava,Main,2012,5,2012,12,none,production,55862.0,0
+453,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Cassava,Main,2013,5,2013,12,none,production,58667.0,0
+454,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Cassava,Main,2014,5,2014,12,none,production,61613.0,0
+455,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Cassava,Main,2015,5,2015,12,none,production,64707.0,0
+456,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,11711.0,0
+457,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,12531.0,0
+458,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,13409.0,0
+459,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,14348.0,0
+460,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,15353.0,0
+461,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,16428.0,0
+462,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Rice,Main,2010,5,2010,12,none,production,6525.0,0
+463,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Rice,Main,2011,5,2011,12,none,production,6928.0,0
+464,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Rice,Main,2012,5,2012,12,none,production,7356.0,0
+465,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Rice,Main,2013,5,2013,12,none,production,7811.0,0
+466,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Rice,Main,2014,5,2014,12,none,production,8294.0,0
+467,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Rice,Main,2015,5,2015,12,none,production,8807.0,0
+468,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Maize,Main,2010,5,2010,12,none,production,53396.0,0
+469,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Maize,Main,2011,5,2011,12,none,production,58152.0,0
+470,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Maize,Main,2012,5,2012,12,none,production,63331.0,0
+471,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Maize,Main,2013,5,2013,12,none,production,68972.0,0
+472,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Maize,Main,2014,5,2014,12,none,production,75114.0,0
+473,GN1990A20601,Guinea,GN,Labe,Koubia,Koubia,Maize,Main,2015,5,2015,12,none,production,81804.0,0
+474,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Cassava,Main,2010,5,2010,12,none,production,62015.0,0
+475,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Cassava,Main,2011,5,2011,12,none,production,65129.0,0
+476,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Cassava,Main,2012,5,2012,12,none,production,68399.0,0
+477,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Cassava,Main,2013,5,2013,12,none,production,71834.0,0
+478,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Cassava,Main,2014,5,2014,12,none,production,75441.0,0
+479,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Cassava,Main,2015,5,2015,12,none,production,79229.0,0
+480,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,3935.0,0
+481,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,4210.0,0
+482,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,4505.0,0
+483,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,4821.0,0
+484,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,5158.0,0
+485,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,5519.0,0
+486,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Rice,Main,2010,5,2010,12,none,production,3497.0,0
+487,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Rice,Main,2011,5,2011,12,none,production,3713.0,0
+488,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Rice,Main,2012,5,2012,12,none,production,3943.0,0
+489,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Rice,Main,2013,5,2013,12,none,production,4187.0,0
+490,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Rice,Main,2014,5,2014,12,none,production,4445.0,0
+491,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Rice,Main,2015,5,2015,12,none,production,4720.0,0
+492,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Maize,Main,2010,5,2010,12,none,production,50760.0,0
+493,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Maize,Main,2011,5,2011,12,none,production,55281.0,0
+494,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Maize,Main,2012,5,2012,12,none,production,60204.0,0
+495,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Maize,Main,2013,5,2013,12,none,production,65566.0,0
+496,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Maize,Main,2014,5,2014,12,none,production,71406.0,0
+497,GN1990A20602,Guinea,GN,Labe,Labe,Labe,Maize,Main,2015,5,2015,12,none,production,77765.0,0
+498,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Cassava,Main,2010,5,2010,12,none,production,38701.0,0
+499,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Cassava,Main,2011,5,2011,12,none,production,40644.0,0
+500,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Cassava,Main,2012,5,2012,12,none,production,42685.0,0
+501,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Cassava,Main,2013,5,2013,12,none,production,44829.0,0
+502,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Cassava,Main,2014,5,2014,12,none,production,47080.0,0
+503,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Cassava,Main,2015,5,2015,12,none,production,49443.0,0
+504,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,1468.0,0
+505,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,1570.0,0
+506,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,1680.0,0
+507,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,1798.0,0
+508,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,1924.0,0
+509,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,2059.0,0
+510,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Rice,Main,2010,5,2010,12,none,production,13730.0,0
+511,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Rice,Main,2011,5,2011,12,none,production,14579.0,0
+512,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Rice,Main,2012,5,2012,12,none,production,15481.0,0
+513,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Rice,Main,2013,5,2013,12,none,production,16438.0,0
+514,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Rice,Main,2014,5,2014,12,none,production,17455.0,0
+515,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Rice,Main,2015,5,2015,12,none,production,18534.0,0
+516,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Maize,Main,2010,5,2010,12,none,production,21050.0,0
+517,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Maize,Main,2011,5,2011,12,none,production,22925.0,0
+518,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Maize,Main,2012,5,2012,12,none,production,24967.0,0
+519,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Maize,Main,2013,5,2013,12,none,production,27190.0,0
+520,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Maize,Main,2014,5,2014,12,none,production,29612.0,0
+521,GN1990A20603,Guinea,GN,Labe,Lelouma,Lelouma,Maize,Main,2015,5,2015,12,none,production,32249.0,0
+522,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Cassava,Main,2010,5,2010,12,none,production,59076.0,0
+523,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Cassava,Main,2011,5,2011,12,none,production,62043.0,0
+524,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Cassava,Main,2012,5,2012,12,none,production,65158.0,0
+525,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Cassava,Main,2013,5,2013,12,none,production,68430.0,0
+526,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Cassava,Main,2014,5,2014,12,none,production,71866.0,0
+527,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Cassava,Main,2015,5,2015,12,none,production,75475.0,0
+528,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,19113.0,0
+529,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,20451.0,0
+530,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,21883.0,0
+531,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,23416.0,0
+532,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,25056.0,0
+533,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,26810.0,0
+534,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Rice,Main,2010,5,2010,12,none,production,15768.0,0
+535,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Rice,Main,2011,5,2011,12,none,production,16743.0,0
+536,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Rice,Main,2012,5,2012,12,none,production,17778.0,0
+537,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Rice,Main,2013,5,2013,12,none,production,18877.0,0
+538,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Rice,Main,2014,5,2014,12,none,production,20045.0,0
+539,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Rice,Main,2015,5,2015,12,none,production,21284.0,0
+540,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Maize,Main,2010,5,2010,12,none,production,77183.0,0
+541,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Maize,Main,2011,5,2011,12,none,production,84057.0,0
+542,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Maize,Main,2012,5,2012,12,none,production,91544.0,0
+543,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Maize,Main,2013,5,2013,12,none,production,99697.0,0
+544,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Maize,Main,2014,5,2014,12,none,production,108576.0,0
+545,GN1990A20604,Guinea,GN,Labe,Mali,Mali,Maize,Main,2015,5,2015,12,none,production,118246.0,0
+546,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Cassava,Main,2010,5,2010,12,none,production,9964.0,0
+547,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Cassava,Main,2011,5,2011,12,none,production,10465.0,0
+548,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Cassava,Main,2012,5,2012,12,none,production,10990.0,0
+549,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Cassava,Main,2013,5,2013,12,none,production,11542.0,0
+550,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Cassava,Main,2014,5,2014,12,none,production,12122.0,0
+551,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Cassava,Main,2015,5,2015,12,none,production,12730.0,0
+552,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,7400.0,0
+553,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,7918.0,0
+554,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,8472.0,0
+555,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,9065.0,0
+556,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,9700.0,0
+557,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,10380.0,0
+558,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Rice,Main,2010,5,2010,12,none,production,10677.0,0
+559,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Rice,Main,2011,5,2011,12,none,production,11338.0,0
+560,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Rice,Main,2012,5,2012,12,none,production,12039.0,0
+561,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Rice,Main,2013,5,2013,12,none,production,12783.0,0
+562,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Rice,Main,2014,5,2014,12,none,production,13574.0,0
+563,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Rice,Main,2015,5,2015,12,none,production,14413.0,0
+564,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Maize,Main,2010,5,2010,12,none,production,21451.0,0
+565,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Maize,Main,2011,5,2011,12,none,production,23362.0,0
+566,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Maize,Main,2012,5,2012,12,none,production,25442.0,0
+567,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Maize,Main,2013,5,2013,12,none,production,27708.0,0
+568,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Maize,Main,2014,5,2014,12,none,production,30176.0,0
+569,GN1990A20605,Guinea,GN,Labe,Tougue,Tougue,Maize,Main,2015,5,2015,12,none,production,32863.0,0
+570,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Cassava,Main,2010,5,2010,12,none,production,86906.0,0
+571,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Cassava,Main,2011,5,2011,12,none,production,91269.0,0
+572,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Cassava,Main,2012,5,2012,12,none,production,95852.0,0
+573,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Cassava,Main,2013,5,2013,12,none,production,100665.0,0
+574,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Cassava,Main,2014,5,2014,12,none,production,105720.0,0
+575,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Cassava,Main,2015,5,2015,12,none,production,111028.0,0
+576,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,8564.0,0
+577,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,9163.0,0
+578,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,9805.0,0
+579,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,10492.0,0
+580,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,11226.0,0
+581,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,12012.0,0
+582,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Rice,Main,2010,5,2010,12,none,production,14113.0,0
+583,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Rice,Main,2011,5,2011,12,none,production,14985.0,0
+584,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Rice,Main,2012,5,2012,12,none,production,15912.0,0
+585,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Rice,Main,2013,5,2013,12,none,production,16896.0,0
+586,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Rice,Main,2014,5,2014,12,none,production,17941.0,0
+587,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Rice,Main,2015,5,2015,12,none,production,19050.0,0
+588,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Maize,Main,2010,5,2010,12,none,production,36658.0,0
+589,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Maize,Main,2011,5,2011,12,none,production,39923.0,0
+590,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Maize,Main,2012,5,2012,12,none,production,43478.0,0
+591,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Maize,Main,2013,5,2013,12,none,production,47351.0,0
+592,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Maize,Main,2014,5,2014,12,none,production,51568.0,0
+593,GN1990A20701,Guinea,GN,Mamou,Dalaba,Dalaba,Maize,Main,2015,5,2015,12,none,production,56161.0,0
+594,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Cassava,Main,2010,5,2010,12,none,production,30836.0,0
+595,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Cassava,Main,2011,5,2011,12,none,production,32385.0,0
+596,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Cassava,Main,2012,5,2012,12,none,production,34011.0,0
+597,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Cassava,Main,2013,5,2013,12,none,production,35719.0,0
+598,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Cassava,Main,2014,5,2014,12,none,production,37512.0,0
+599,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Cassava,Main,2015,5,2015,12,none,production,39396.0,0
+600,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,11665.0,0
+601,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,12482.0,0
+602,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,13356.0,0
+603,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,14291.0,0
+604,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,15292.0,0
+605,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,16363.0,0
+606,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Rice,Main,2010,5,2010,12,none,production,25070.0,0
+607,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Rice,Main,2011,5,2011,12,none,production,26620.0,0
+608,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Rice,Main,2012,5,2012,12,none,production,28266.0,0
+609,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Rice,Main,2013,5,2013,12,none,production,30014.0,0
+610,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Rice,Main,2014,5,2014,12,none,production,31870.0,0
+611,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Rice,Main,2015,5,2015,12,none,production,33841.0,0
+612,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Maize,Main,2010,5,2010,12,none,production,24021.0,0
+613,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Maize,Main,2011,5,2011,12,none,production,26160.0,0
+614,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Maize,Main,2012,5,2012,12,none,production,28490.0,0
+615,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Maize,Main,2013,5,2013,12,none,production,31027.0,0
+616,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Maize,Main,2014,5,2014,12,none,production,33791.0,0
+617,GN1990A20702,Guinea,GN,Mamou,Mamou,Mamou,Maize,Main,2015,5,2015,12,none,production,36800.0,0
+618,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Cassava,Main,2010,5,2010,12,none,production,68362.0,0
+619,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Cassava,Main,2011,5,2011,12,none,production,71795.0,0
+620,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Cassava,Main,2012,5,2012,12,none,production,75400.0,0
+621,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Cassava,Main,2013,5,2013,12,none,production,79186.0,0
+622,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Cassava,Main,2014,5,2014,12,none,production,83162.0,0
+623,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Cassava,Main,2015,5,2015,12,none,production,87338.0,0
+624,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,6771.0,0
+625,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,7245.0,0
+626,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,7753.0,0
+627,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,8296.0,0
+628,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,8877.0,0
+629,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,9498.0,0
+630,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Rice,Main,2010,5,2010,12,none,production,17309.0,0
+631,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Rice,Main,2011,5,2011,12,none,production,18379.0,0
+632,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Rice,Main,2012,5,2012,12,none,production,19516.0,0
+633,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Rice,Main,2013,5,2013,12,none,production,20723.0,0
+634,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Rice,Main,2014,5,2014,12,none,production,22004.0,0
+635,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Rice,Main,2015,5,2015,12,none,production,23365.0,0
+636,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Maize,Main,2010,5,2010,12,none,production,25732.0,0
+637,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Maize,Main,2011,5,2011,12,none,production,28024.0,0
+638,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Maize,Main,2012,5,2012,12,none,production,30520.0,0
+639,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Maize,Main,2013,5,2013,12,none,production,33238.0,0
+640,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Maize,Main,2014,5,2014,12,none,production,36198.0,0
+641,GN1990A20703,Guinea,GN,Mamou,Pita,Pita,Maize,Main,2015,5,2015,12,none,production,39422.0,0
+642,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Cassava,Main,2010,5,2010,12,none,production,26148.0,0
+643,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Cassava,Main,2011,5,2011,12,none,production,27461.0,0
+644,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Cassava,Main,2012,5,2012,12,none,production,28839.0,0
+645,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Cassava,Main,2013,5,2013,12,none,production,30288.0,0
+646,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Cassava,Main,2014,5,2014,12,none,production,31808.0,0
+647,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Cassava,Main,2015,5,2015,12,none,production,33406.0,0
+648,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,2450.0,0
+649,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,2621.0,0
+650,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,2805.0,0
+651,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,3001.0,0
+652,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,3211.0,0
+653,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,3436.0,0
+654,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Rice,Main,2010,5,2010,12,none,production,98262.0,0
+655,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Rice,Main,2011,5,2011,12,none,production,104339.0,0
+656,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Rice,Main,2012,5,2012,12,none,production,110791.0,0
+657,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Rice,Main,2013,5,2013,12,none,production,117643.0,0
+658,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Rice,Main,2014,5,2014,12,none,production,124918.0,0
+659,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Rice,Main,2015,5,2015,12,none,production,132642.0,0
+660,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Maize,Main,2010,5,2010,12,none,production,979.0,0
+661,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Maize,Main,2011,5,2011,12,none,production,1066.0,0
+662,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Maize,Main,2012,5,2012,12,none,production,1161.0,0
+663,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Maize,Main,2013,5,2013,12,none,production,1265.0,0
+664,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Maize,Main,2014,5,2014,12,none,production,1377.0,0
+665,GN1990A20801,Guinea,GN,N'Zerekore,Beyla,Beyla,Maize,Main,2015,5,2015,12,none,production,1500.0,0
+666,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Cassava,Main,2010,5,2010,12,none,production,21393.0,0
+667,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Cassava,Main,2011,5,2011,12,none,production,22468.0,0
+668,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Cassava,Main,2012,5,2012,12,none,production,23596.0,0
+669,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Cassava,Main,2013,5,2013,12,none,production,24781.0,0
+670,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Cassava,Main,2014,5,2014,12,none,production,26025.0,0
+671,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Cassava,Main,2015,5,2015,12,none,production,27332.0,0
+672,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,4037.0,0
+673,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,4320.0,0
+674,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,4622.0,0
+675,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,4946.0,0
+676,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,5292.0,0
+677,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,5663.0,0
+678,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Rice,Main,2010,5,2010,12,none,production,133077.0,0
+679,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Rice,Main,2011,5,2011,12,none,production,141306.0,0
+680,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Rice,Main,2012,5,2012,12,none,production,150044.0,0
+681,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Rice,Main,2013,5,2013,12,none,production,159323.0,0
+682,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Rice,Main,2014,5,2014,12,none,production,169176.0,0
+683,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Rice,Main,2015,5,2015,12,none,production,179637.0,0
+684,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Maize,Main,2010,5,2010,12,none,production,5918.0,0
+685,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Maize,Main,2011,5,2011,12,none,production,6445.0,0
+686,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Maize,Main,2012,5,2012,12,none,production,7019.0,0
+687,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Maize,Main,2013,5,2013,12,none,production,7644.0,0
+688,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Maize,Main,2014,5,2014,12,none,production,8325.0,0
+689,GN1990A20802,Guinea,GN,N'Zerekore,Gueckedou,Gueckedou,Maize,Main,2015,5,2015,12,none,production,9066.0,0
+690,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Cassava,Main,2010,5,2010,12,none,production,88229.0,0
+691,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Cassava,Main,2011,5,2011,12,none,production,92660.0,0
+692,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Cassava,Main,2012,5,2012,12,none,production,97312.0,0
+693,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Cassava,Main,2013,5,2013,12,none,production,102199.0,0
+694,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Cassava,Main,2014,5,2014,12,none,production,107330.0,0
+695,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Cassava,Main,2015,5,2015,12,none,production,112720.0,0
+696,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,984.0,0
+697,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,1053.0,0
+698,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,1127.0,0
+699,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,1206.0,0
+700,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,1290.0,0
+701,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,1381.0,0
+702,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Rice,Main,2010,5,2010,12,none,production,78654.0,0
+703,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Rice,Main,2011,5,2011,12,none,production,83518.0,0
+704,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Rice,Main,2012,5,2012,12,none,production,88682.0,0
+705,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Rice,Main,2013,5,2013,12,none,production,94167.0,0
+706,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Rice,Main,2014,5,2014,12,none,production,99990.0,0
+707,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Rice,Main,2015,5,2015,12,none,production,106173.0,0
+708,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Maize,Main,2010,5,2010,12,none,production,47232.0,0
+709,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Maize,Main,2011,5,2011,12,none,production,51439.0,0
+710,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Maize,Main,2012,5,2012,12,none,production,56020.0,0
+711,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Maize,Main,2013,5,2013,12,none,production,61009.0,0
+712,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Maize,Main,2014,5,2014,12,none,production,66442.0,0
+713,GN1990A20803,Guinea,GN,N'Zerekore,Lola,Lola,Maize,Main,2015,5,2015,12,none,production,7236.0,0
+714,GN1990A20804,Guinea,GN,N'Zerekore,Macenta,Macenta,Cassava,Main,2010,5,2010,12,none,production,21670.0,0
+715,GN1990A20804,Guinea,GN,N'Zerekore,Macenta,Macenta,Cassava,Main,2011,5,2011,12,none,production,22758.0,0
+716,GN1990A20804,Guinea,GN,N'Zerekore,Macenta,Macenta,Cassava,Main,2012,5,2012,12,none,production,23901.0,0
+717,GN1990A20804,Guinea,GN,N'Zerekore,Macenta,Macenta,Cassava,Main,2013,5,2013,12,none,production,25101.0,0
+718,GN1990A20804,Guinea,GN,N'Zerekore,Macenta,Macenta,Cassava,Main,2014,5,2014,12,none,production,26361.0,0
+719,GN1990A20804,Guinea,GN,N'Zerekore,Macenta,Macenta,Cassava,Main,2015,5,2015,12,none,production,27685.0,0
+720,GN1990A20804,Guinea,GN,N'Zerekore,Macenta,Macenta,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,6446.0,0
+721,GN1990A20804,Guinea,GN,N'Zerekore,Macenta,Macenta,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,6898.0,0
+722,GN1990A20804,Guinea,GN,N'Zerekore,Macenta,Macenta,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,7381.0,0
+723,GN1990A20804,Guinea,GN,N'Zerekore,Macenta,Macenta,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,7898.0,0
+724,GN1990A20804,Guinea,GN,N'Zerekore,Macenta,Macenta,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,8451.0,0
+725,GN1990A20804,Guinea,GN,N'Zerekore,Macenta,Macenta,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,9042.0,0
+726,GN1990A20804,Guinea,GN,N'Zerekore,Macenta,Macenta,Rice,Main,2010,5,2010,12,none,production,74391.0,0
+727,GN1990A20804,Guinea,GN,N'Zerekore,Macenta,Macenta,Rice,Main,2011,5,2011,12,none,production,78992.0,0
+728,GN1990A20804,Guinea,GN,N'Zerekore,Macenta,Macenta,Rice,Main,2012,5,2012,12,none,production,83876.0,0
+729,GN1990A20804,Guinea,GN,N'Zerekore,Macenta,Macenta,Rice,Main,2013,5,2013,12,none,production,89063.0,0
+730,GN1990A20804,Guinea,GN,N'Zerekore,Macenta,Macenta,Rice,Main,2014,5,2014,12,none,production,94571.0,0
+731,GN1990A20804,Guinea,GN,N'Zerekore,Macenta,Macenta,Rice,Main,2015,5,2015,12,none,production,100419.0,0
+732,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Cassava,Main,2010,5,2010,12,none,production,25892.0,0
+733,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Cassava,Main,2011,5,2011,12,none,production,27192.0,0
+734,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Cassava,Main,2012,5,2012,12,none,production,28558.0,0
+735,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Cassava,Main,2013,5,2013,12,none,production,29992.0,0
+736,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Cassava,Main,2014,5,2014,12,none,production,31498.0,0
+737,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Cassava,Main,2015,5,2015,12,none,production,33079.0,0
+738,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,2682.0,0
+739,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,2870.0,0
+740,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,3071.0,0
+741,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,3286.0,0
+742,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,3516.0,0
+743,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,3762.0,0
+744,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Rice,Main,2010,5,2010,12,none,production,61782.0,0
+745,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Rice,Main,2011,5,2011,12,none,production,65602.0,0
+746,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Rice,Main,2012,5,2012,12,none,production,69659.0,0
+747,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Rice,Main,2013,5,2013,12,none,production,73967.0,0
+748,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Rice,Main,2014,5,2014,12,none,production,78541.0,0
+749,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Rice,Main,2015,5,2015,12,none,production,83398.0,0
+750,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Maize,Main,2010,5,2010,12,none,production,2228.0,0
+751,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Maize,Main,2011,5,2011,12,none,production,2426.0,0
+752,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Maize,Main,2012,5,2012,12,none,production,2642.0,0
+753,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Maize,Main,2013,5,2013,12,none,production,2878.0,0
+754,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Maize,Main,2014,5,2014,12,none,production,3134.0,0
+755,GN1990A20805,Guinea,GN,N'Zerekore,N'Zerekore,N'Zerekore,Maize,Main,2015,5,2015,12,none,production,3413.0,0
+756,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Cassava,Main,2010,5,2010,12,none,production,34934.0,0
+757,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Cassava,Main,2011,5,2011,12,none,production,36689.0,0
+758,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Cassava,Main,2012,5,2012,12,none,production,38531.0,0
+759,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Cassava,Main,2013,5,2013,12,none,production,40466.0,0
+760,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Cassava,Main,2014,5,2014,12,none,production,42497.0,0
+761,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Cassava,Main,2015,5,2015,12,none,production,44631.0,0
+762,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Groundnuts (In Shell),Main,2010,5,2010,12,none,production,122.0,0
+763,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Groundnuts (In Shell),Main,2011,5,2011,12,none,production,130.0,0
+764,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Groundnuts (In Shell),Main,2012,5,2012,12,none,production,139.0,0
+765,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Groundnuts (In Shell),Main,2013,5,2013,12,none,production,149.0,0
+766,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Groundnuts (In Shell),Main,2014,5,2014,12,none,production,160.0,0
+767,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Groundnuts (In Shell),Main,2015,5,2015,12,none,production,171.0,0
+768,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Rice,Main,2010,5,2010,12,none,production,59600.0,0
+769,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Rice,Main,2011,5,2011,12,none,production,63286.0,0
+770,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Rice,Main,2012,5,2012,12,none,production,67199.0,0
+771,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Rice,Main,2013,5,2013,12,none,production,71355.0,0
+772,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Rice,Main,2014,5,2014,12,none,production,75767.0,0
+773,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Rice,Main,2015,5,2015,12,none,production,80453.0,0
+774,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Maize,Main,2010,5,2010,12,none,production,48334.0,0
+775,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Maize,Main,2011,5,2011,12,none,production,52639.0,0
+776,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Maize,Main,2012,5,2012,12,none,production,57327.0,0
+777,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Maize,Main,2013,5,2013,12,none,production,62433.0,0
+778,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Maize,Main,2014,5,2014,12,none,production,67993.0,0
+779,GN1990A20806,Guinea,GN,N'Zerekore,Yomou,Yomou,Maize,Main,2015,5,2015,12,none,production,74049.0,0
