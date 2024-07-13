@@ -1,0 +1,481 @@
+,fnid,country,country_code,admin_1,admin_2,name,product,season_name,planting_year,planting_month,harvest_year,harvest_month,crop_production_system,indicator,value,QC_flag
+0,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2000,11,2001,6,none,area,198919.0,0
+1,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2000,11,2001,6,none,area,140175.0,0
+2,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2000,11,2001,6,none,area,220136.0,0
+3,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2000,11,2001,6,none,area,158629.0,0
+4,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2000,11,2001,6,none,area,209348.0,0
+5,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2000,11,2001,6,none,area,170270.0,0
+6,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2000,11,2001,6,none,area,90076.0,0
+7,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2000,11,2001,6,none,area,35513.0,0
+9,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2002,11,2003,6,none,area,155210.0,0
+10,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2002,11,2003,6,none,area,221005.0,0
+11,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2002,11,2003,6,none,area,282000.0,0
+12,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2002,11,2003,6,none,area,171155.0,0
+13,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2002,11,2003,6,none,area,269649.0,0
+14,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2002,11,2003,6,none,area,217571.0,0
+15,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2002,11,2003,6,none,area,46154.0,0
+16,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2002,11,2003,6,none,area,24782.0,0
+18,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2003,11,2004,6,none,area,181995.0,0
+19,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2003,11,2004,6,none,area,138390.0,0
+20,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2003,11,2004,6,none,area,255369.0,0
+21,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2003,11,2004,6,none,area,121199.0,0
+22,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2003,11,2004,6,none,area,354599.0,0
+23,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2003,11,2004,6,none,area,310823.0,0
+24,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2003,11,2004,6,none,area,85232.0,0
+25,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2003,11,2004,6,none,area,72874.0,0
+27,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2005,11,2006,6,none,area,199000.0,0
+28,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2005,11,2006,6,none,area,202000.0,0
+29,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2005,11,2006,6,none,area,245000.0,0
+30,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2005,11,2006,6,none,area,292000.0,0
+31,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2005,11,2006,6,none,area,358000.0,0
+32,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2005,11,2006,6,none,area,242000.0,0
+33,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2005,11,2006,6,none,area,93000.0,0
+34,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2005,11,2006,6,none,area,81000.0,0
+36,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2006,11,2007,6,none,area,216000.0,0
+37,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2006,11,2007,6,none,area,207000.0,0
+38,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2006,11,2007,6,none,area,281000.0,0
+39,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2006,11,2007,6,none,area,237000.0,0
+40,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2006,11,2007,6,none,area,326000.0,0
+41,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2006,11,2007,6,none,area,245000.0,0
+42,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2006,11,2007,6,none,area,63000.0,0
+43,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2006,11,2007,6,none,area,52000.0,0
+45,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2007,11,2008,6,none,area,190594.0,0
+46,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2007,11,2008,6,none,area,226106.0,0
+47,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2007,11,2008,6,none,area,322341.0,0
+48,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2007,11,2008,6,none,area,315063.0,0
+49,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2007,11,2008,6,none,area,294297.0,0
+50,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2007,11,2008,6,none,area,229717.0,0
+51,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2007,11,2008,6,none,area,76246.0,0
+52,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2007,11,2008,6,none,area,67958.0,0
+54,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2008,11,2009,6,none,area,195679.0,0
+55,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2008,11,2009,6,none,area,180094.0,0
+56,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2008,11,2009,6,none,area,241768.0,0
+57,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2008,11,2009,6,none,area,216585.0,0
+58,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2008,11,2009,6,none,area,301765.0,0
+59,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2008,11,2009,6,none,area,207459.0,0
+60,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2008,11,2009,6,none,area,80971.0,0
+61,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2008,11,2009,6,none,area,97459.0,0
+63,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2009,11,2010,6,none,area,263621.0,0
+64,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2009,11,2010,6,none,area,179839.0,0
+65,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2009,11,2010,6,none,area,243995.0,0
+66,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2009,11,2010,6,none,area,237052.0,0
+67,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2009,11,2010,6,none,area,408569.0,0
+68,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2009,11,2010,6,none,area,229887.0,0
+69,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2009,11,2010,6,none,area,100936.0,0
+70,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2009,11,2010,6,none,area,139643.0,0
+72,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2010,11,2011,6,none,area,379066.0,0
+73,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2010,11,2011,6,none,area,231814.0,0
+74,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2010,11,2011,6,none,area,247511.0,0
+75,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2010,11,2011,6,none,area,262106.0,0
+76,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2010,11,2011,6,none,area,384246.0,0
+77,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2010,11,2011,6,none,area,276105.0,0
+78,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2010,11,2011,6,none,area,166265.0,0
+79,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2010,11,2011,6,none,area,148922.0,0
+81,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2011,11,2012,6,none,area,257153.0,0
+82,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2011,11,2012,6,none,area,185706.0,0
+83,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2011,11,2012,6,none,area,229926.0,0
+84,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2011,11,2012,6,none,area,247334.0,0
+85,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2011,11,2012,6,none,area,316116.0,0
+86,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2011,11,2012,6,none,area,212124.0,0
+87,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2011,11,2012,6,none,area,110283.0,0
+88,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2011,11,2012,6,none,area,131144.0,0
+90,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2012,11,2013,6,none,area,224362.0,0
+91,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2012,11,2013,6,none,area,144083.0,0
+92,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2012,11,2013,6,none,area,156719.0,0
+93,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2012,11,2013,6,none,area,189663.0,0
+94,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2012,11,2013,6,none,area,239856.0,0
+95,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2012,11,2013,6,none,area,150213.0,0
+96,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2012,11,2013,6,none,area,100566.0,0
+97,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2012,11,2013,6,none,area,47251.0,0
+99,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2013,11,2014,6,none,area,265714.0,0
+100,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2013,11,2014,6,none,area,193320.0,0
+101,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2013,11,2014,6,none,area,201589.0,0
+102,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2013,11,2014,6,none,area,217648.0,0
+103,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2013,11,2014,6,none,area,351829.0,0
+104,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2013,11,2014,6,none,area,216062.0,0
+105,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2013,11,2014,6,none,area,131273.0,0
+106,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2013,11,2014,6,none,area,127239.0,0
+108,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2014,11,2015,6,none,area,230880.0,0
+109,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2014,11,2015,6,none,area,180652.0,0
+110,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2014,11,2015,6,none,area,186058.0,0
+111,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2014,11,2015,6,none,area,209392.0,0
+112,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2014,11,2015,6,none,area,295450.0,0
+113,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2014,11,2015,6,none,area,193680.0,0
+114,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2014,11,2015,6,none,area,128430.0,0
+115,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2014,11,2015,6,none,area,109968.0,0
+117,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2015,11,2016,6,none,area,202898.0,0
+118,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2015,11,2016,6,none,area,154041.0,0
+119,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2015,11,2016,6,none,area,146796.0,0
+120,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2015,11,2016,6,none,area,188460.0,0
+121,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2015,11,2016,6,none,area,209417.0,0
+122,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2015,11,2016,6,none,area,123320.0,0
+123,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2015,11,2016,6,none,area,76276.0,0
+124,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2015,11,2016,6,none,area,60789.0,0
+126,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2016,11,2017,6,none,area,279456.0,0
+127,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2016,11,2017,6,none,area,229917.0,0
+128,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2016,11,2017,6,none,area,218559.0,0
+129,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2016,11,2017,6,none,area,264695.0,0
+130,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2016,11,2017,6,none,area,392777.0,0
+131,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2016,11,2017,6,none,area,245178.0,0
+132,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2016,11,2017,6,none,area,127184.0,0
+133,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2016,11,2017,6,none,area,117531.0,0
+135,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2017,11,2018,6,none,area,297539.0,0
+136,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2017,11,2018,6,none,area,208124.0,0
+137,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2017,11,2018,6,none,area,219003.0,0
+138,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2017,11,2018,6,none,area,257468.0,0
+139,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2017,11,2018,6,none,area,336848.0,0
+140,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2017,11,2018,6,none,area,191359.0,0
+141,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2017,11,2018,6,none,area,114414.0,0
+142,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2017,11,2018,6,none,area,97963.0,0
+144,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2018,11,2019,6,none,area,297360.0,0
+145,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2018,11,2019,6,none,area,208699.0,0
+146,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2018,11,2019,6,none,area,206960.0,0
+147,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2018,11,2019,6,none,area,233414.0,0
+148,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2018,11,2019,6,none,area,333118.0,0
+149,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2018,11,2019,6,none,area,157953.0,0
+150,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2018,11,2019,6,none,area,98736.0,0
+151,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2018,11,2019,6,none,area,87517.0,0
+153,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2019,11,2020,6,none,area,302611.0,0
+154,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2019,11,2020,6,none,area,202361.0,0
+155,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2019,11,2020,6,none,area,193053.0,0
+156,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2019,11,2020,6,none,area,229996.0,0
+157,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2019,11,2020,6,none,area,302653.0,0
+158,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2019,11,2020,6,none,area,178403.0,0
+159,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2019,11,2020,6,none,area,90321.0,0
+160,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2019,11,2020,6,none,area,83368.0,0
+162,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2020,11,2021,6,none,area,356356.0,0
+163,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2020,11,2021,6,none,area,231665.0,0
+164,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2020,11,2021,6,none,area,219610.0,0
+165,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2020,11,2021,6,none,area,265759.0,0
+166,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2020,11,2021,6,none,area,360336.0,0
+167,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2020,11,2021,6,none,area,242908.0,0
+168,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2020,11,2021,6,none,area,149584.0,0
+169,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2020,11,2021,6,none,area,125632.0,0
+171,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2021,11,2022,6,none,area,343053.0,0
+172,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2021,11,2022,6,none,area,215235.0,0
+173,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2021,11,2022,6,none,area,190048.0,0
+174,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2021,11,2022,6,none,area,250032.0,0
+175,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2021,11,2022,6,none,area,392038.0,0
+176,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2021,11,2022,6,none,area,241453.0,0
+177,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2021,11,2022,6,none,area,132668.0,0
+178,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2021,11,2022,6,none,area,136227.0,0
+0,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2000,11,2001,6,none,production,475210.0,0
+1,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2000,11,2001,6,none,production,247981.0,0
+2,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2000,11,2001,6,none,production,293628.0,0
+3,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2000,11,2001,6,none,production,176919.0,0
+4,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2000,11,2001,6,none,production,83680.0,0
+5,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2000,11,2001,6,none,production,114244.0,0
+6,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2000,11,2001,6,none,production,65052.0,0
+7,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2000,11,2001,6,none,production,10034.0,0
+9,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2002,11,2003,6,none,production,131929.0,0
+10,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2002,11,2003,6,none,production,167964.0,0
+11,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2002,11,2003,6,none,production,200220.0,0
+12,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2002,11,2003,6,none,production,94135.0,0
+13,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2002,11,2003,6,none,production,80895.0,0
+14,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2002,11,2003,6,none,production,100083.0,0
+15,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2002,11,2003,6,none,production,18462.0,0
+16,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2002,11,2003,6,none,production,4956.0,0
+18,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2003,11,2004,6,none,production,109197.0,0
+19,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2003,11,2004,6,none,production,76115.0,0
+20,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2003,11,2004,6,none,production,140453.0,0
+21,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2003,11,2004,6,none,production,42420.0,0
+22,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2003,11,2004,6,none,production,141840.0,0
+23,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2003,11,2004,6,none,production,130546.0,0
+24,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2003,11,2004,6,none,production,38354.0,0
+25,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2003,11,2004,6,none,production,29150.0,0
+27,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2005,11,2006,6,none,production,208000.0,0
+28,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2005,11,2006,6,none,production,234000.0,0
+29,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2005,11,2006,6,none,production,206000.0,0
+30,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2005,11,2006,6,none,production,258000.0,0
+31,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2005,11,2006,6,none,production,282000.0,0
+32,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2005,11,2006,6,none,production,178000.0,0
+33,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2005,11,2006,6,none,production,68000.0,0
+34,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2005,11,2006,6,none,production,51000.0,0
+36,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2006,11,2007,6,none,production,155000.0,0
+37,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2006,11,2007,6,none,production,170000.0,0
+38,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2006,11,2007,6,none,production,151000.0,0
+39,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2006,11,2007,6,none,production,134000.0,0
+40,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2006,11,2007,6,none,production,81000.0,0
+41,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2006,11,2007,6,none,production,96000.0,0
+42,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2006,11,2007,6,none,production,8000.0,0
+43,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2006,11,2007,6,none,production,4000.0,0
+45,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2007,11,2008,6,none,production,84814.0,0
+46,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2007,11,2008,6,none,production,113279.0,0
+47,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2007,11,2008,6,none,production,87999.0,0
+48,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2007,11,2008,6,none,production,108697.0,0
+49,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2007,11,2008,6,none,production,28841.0,0
+50,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2007,11,2008,6,none,production,32390.0,0
+51,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2007,11,2008,6,none,production,8540.0,0
+52,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2007,11,2008,6,none,production,6592.0,0
+54,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2008,11,2009,6,none,production,246556.0,0
+55,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2008,11,2009,6,none,production,174691.0,0
+56,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2008,11,2009,6,none,production,186161.0,0
+57,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2008,11,2009,6,none,production,168936.0,0
+58,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2008,11,2009,6,none,production,202183.0,0
+59,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2008,11,2009,6,none,production,141072.0,0
+60,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2008,11,2009,6,none,production,51821.0,0
+61,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2008,11,2009,6,none,production,71145.0,0
+63,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2009,11,2010,6,none,production,336855.0,0
+64,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2009,11,2010,6,none,production,223516.0,0
+65,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2009,11,2010,6,none,production,181994.0,0
+66,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2009,11,2010,6,none,production,118658.0,0
+67,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2009,11,2010,6,none,production,278747.0,0
+68,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2009,11,2010,6,none,production,56201.0,0
+69,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2009,11,2010,6,none,production,73311.0,0
+70,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2009,11,2010,6,none,production,58290.0,0
+72,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2010,11,2011,6,none,production,451089.0,0
+73,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2010,11,2011,6,none,production,296722.0,0
+74,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2010,11,2011,6,none,production,148507.0,0
+75,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2010,11,2011,6,none,production,159885.0,0
+76,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2010,11,2011,6,none,production,199808.0,0
+77,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2010,11,2011,6,none,production,80070.0,0
+78,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2010,11,2011,6,none,production,79807.0,0
+79,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2010,11,2011,6,none,production,35741.0,0
+81,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2011,11,2012,6,none,production,245989.0,0
+82,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2011,11,2012,6,none,production,155383.0,0
+83,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2011,11,2012,6,none,production,129657.0,0
+84,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2011,11,2012,6,none,production,157655.0,0
+85,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2011,11,2012,6,none,production,179161.0,0
+86,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2011,11,2012,6,none,production,41314.0,0
+87,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2011,11,2012,6,none,production,38447.0,0
+88,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2011,11,2012,6,none,production,20435.0,0
+90,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2012,11,2013,6,none,production,175002.0,0
+91,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2012,11,2013,6,none,production,157050.0,0
+92,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2012,11,2013,6,none,production,98732.0,0
+93,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2012,11,2013,6,none,production,138454.0,0
+94,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2012,11,2013,6,none,production,100740.0,0
+95,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2012,11,2013,6,none,production,49570.0,0
+96,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2012,11,2013,6,none,production,36204.0,0
+97,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2012,11,2013,6,none,production,17010.0,0
+99,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2013,11,2014,6,none,production,340114.0,0
+100,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2013,11,2014,6,none,production,245516.0,0
+101,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2013,11,2014,6,none,production,163287.0,0
+102,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2013,11,2014,6,none,production,176294.0,0
+103,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2013,11,2014,6,none,production,239244.0,0
+104,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2013,11,2014,6,none,production,116673.0,0
+105,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2013,11,2014,6,none,production,78764.0,0
+106,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2013,11,2014,6,none,production,77616.0,0
+108,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2014,11,2015,6,none,production,215827.0,0
+109,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2014,11,2015,6,none,production,190117.0,0
+110,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2014,11,2015,6,none,production,102978.0,0
+111,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2014,11,2015,6,none,production,89384.0,0
+112,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2014,11,2015,6,none,production,80362.0,0
+113,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2014,11,2015,6,none,production,27946.0,0
+114,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2014,11,2015,6,none,production,23532.0,0
+115,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2014,11,2015,6,none,production,12080.0,0
+117,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2015,11,2016,6,none,production,143573.0,0
+118,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2015,11,2016,6,none,production,110316.0,0
+119,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2015,11,2016,6,none,production,89338.0,0
+120,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2015,11,2016,6,none,production,71774.0,0
+121,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2015,11,2016,6,none,production,52049.0,0
+122,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2015,11,2016,6,none,production,11818.0,0
+123,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2015,11,2016,6,none,production,15155.0,0
+124,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2015,11,2016,6,none,production,17793.0,0
+126,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2016,11,2017,6,none,production,543622.0,0
+127,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2016,11,2017,6,none,production,455666.0,0
+128,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2016,11,2017,6,none,production,274491.0,0
+129,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2016,11,2017,6,none,production,267369.0,0
+130,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2016,11,2017,6,none,production,321394.0,0
+131,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2016,11,2017,6,none,production,150938.0,0
+132,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2016,11,2017,6,none,production,67759.0,0
+133,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2016,11,2017,6,none,production,74287.0,0
+135,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2017,11,2018,6,none,production,461463.0,0
+136,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2017,11,2018,6,none,production,359877.0,0
+137,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2017,11,2018,6,none,production,224817.0,0
+138,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2017,11,2018,6,none,production,211105.0,0
+139,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2017,11,2018,6,none,production,228515.0,0
+140,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2017,11,2018,6,none,production,102800.0,0
+141,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2017,11,2018,6,none,production,46142.0,0
+142,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2017,11,2018,6,none,production,65983.0,0
+144,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2018,11,2019,6,none,production,228073.0,0
+145,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2018,11,2019,6,none,production,159184.0,0
+146,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2018,11,2019,6,none,production,153831.0,0
+147,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2018,11,2019,6,none,production,51070.0,0
+148,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2018,11,2019,6,none,production,93703.0,0
+149,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2018,11,2019,6,none,production,60962.0,0
+150,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2018,11,2019,6,none,production,13031.0,0
+151,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2018,11,2019,6,none,production,16781.0,0
+153,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2019,11,2020,6,none,production,309984.0,0
+154,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2019,11,2020,6,none,production,182938.0,0
+155,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2019,11,2020,6,none,production,129385.0,0
+156,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2019,11,2020,6,none,production,65867.0,0
+157,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2019,11,2020,6,none,production,123162.0,0
+158,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2019,11,2020,6,none,production,50458.0,0
+159,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2019,11,2020,6,none,production,20002.0,0
+160,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2019,11,2020,6,none,production,25833.0,0
+162,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2020,11,2021,6,none,production,833566.0,0
+163,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2020,11,2021,6,none,production,544786.0,0
+164,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2020,11,2021,6,none,production,408880.0,0
+165,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2020,11,2021,6,none,production,297059.0,0
+166,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2020,11,2021,6,none,production,300845.0,0
+167,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2020,11,2021,6,none,production,131872.0,0
+168,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2020,11,2021,6,none,production,115240.0,0
+169,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2020,11,2021,6,none,production,84923.0,0
+171,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2021,11,2022,6,none,production,619997.0,0
+172,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2021,11,2022,6,none,production,336998.0,0
+173,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2021,11,2022,6,none,production,139169.0,0
+174,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2021,11,2022,6,none,production,143426.0,0
+175,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2021,11,2022,6,none,production,165702.0,0
+176,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2021,11,2022,6,none,production,78231.0,0
+177,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2021,11,2022,6,none,production,30533.0,0
+178,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2021,11,2022,6,none,production,43877.0,0
+0,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2000,11,2001,6,none,yield,2.388962341455567,0
+1,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2000,11,2001,6,none,yield,1.7690815052612805,0
+2,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2000,11,2001,6,none,yield,1.3338481665879274,0
+3,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2000,11,2001,6,none,yield,1.115300480996539,0
+4,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2000,11,2001,6,none,yield,0.3997172172650324,0
+5,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2000,11,2001,6,none,yield,0.6709578904093498,0
+6,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2000,11,2001,6,none,yield,0.7221901505395444,0
+7,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2000,11,2001,6,none,yield,0.2825444203531101,0
+9,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2002,11,2003,6,none,yield,0.8500032214419174,0
+10,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2002,11,2003,6,none,yield,0.7600009049569014,0
+11,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2002,11,2003,6,none,yield,0.71,0
+12,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2002,11,2003,6,none,yield,0.5499985393356899,0
+13,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2002,11,2003,6,none,yield,0.3000011125574358,0
+14,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2002,11,2003,6,none,yield,0.46000156270826537,0
+15,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2002,11,2003,6,none,yield,0.4000086666377779,0
+16,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2002,11,2003,6,none,yield,0.1999838592526834,0
+18,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2003,11,2004,6,none,yield,0.6,0
+19,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2003,11,2004,6,none,yield,0.5500036129778163,0
+20,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2003,11,2004,6,none,yield,0.5500001957951043,0
+21,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2003,11,2004,6,none,yield,0.3500028878126057,0
+22,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2003,11,2004,6,none,yield,0.400001128034766,0
+23,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2003,11,2004,6,none,yield,0.4200010938701447,0
+24,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2003,11,2004,6,none,yield,0.44999530692697576,0
+25,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2003,11,2004,6,none,yield,0.4000054889260916,0
+27,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2005,11,2006,6,none,yield,1.0452261306532664,0
+28,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2005,11,2006,6,none,yield,1.1584158415841583,0
+29,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2005,11,2006,6,none,yield,0.8408163265306122,0
+30,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2005,11,2006,6,none,yield,0.8835616438356164,0
+31,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2005,11,2006,6,none,yield,0.7877094972067039,0
+32,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2005,11,2006,6,none,yield,0.7355371900826446,0
+33,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2005,11,2006,6,none,yield,0.7311827956989247,0
+34,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2005,11,2006,6,none,yield,0.6296296296296297,0
+36,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2006,11,2007,6,none,yield,0.7175925925925926,0
+37,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2006,11,2007,6,none,yield,0.821256038647343,0
+38,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2006,11,2007,6,none,yield,0.5373665480427047,0
+39,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2006,11,2007,6,none,yield,0.5654008438818565,0
+40,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2006,11,2007,6,none,yield,0.24846625766871167,0
+41,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2006,11,2007,6,none,yield,0.39183673469387753,0
+42,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2006,11,2007,6,none,yield,0.12698412698412698,0
+43,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2006,11,2007,6,none,yield,0.07692307692307693,0
+45,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2007,11,2008,6,none,yield,0.4449982685708889,0
+46,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2007,11,2008,6,none,yield,0.5009995311933341,0
+47,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2007,11,2008,6,none,yield,0.2729997114856627,0
+48,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2007,11,2008,6,none,yield,0.34500084110162094,0
+49,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2007,11,2008,6,none,yield,0.09799963981963798,0
+50,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2007,11,2008,6,none,yield,0.14099957774130778,0
+51,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2007,11,2008,6,none,yield,0.11200587571807046,0
+52,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2007,11,2008,6,none,yield,0.09700108890785485,0
+54,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2008,11,2009,6,none,yield,1.2600023507887919,0
+55,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2008,11,2009,6,none,yield,0.9699990005219497,0
+56,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2008,11,2009,6,none,yield,0.7699985109691936,0
+57,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2008,11,2009,6,none,yield,0.7799986148625251,0
+58,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2008,11,2009,6,none,yield,0.6700014912266168,0
+59,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2008,11,2009,6,none,yield,0.6799994215724553,0
+60,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2008,11,2009,6,none,yield,0.6399945659557126,0
+61,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2008,11,2009,6,none,yield,0.7299992817492484,0
+63,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2009,11,2010,6,none,yield,1.2778003269845726,0
+64,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2009,11,2010,6,none,yield,1.2428672312457254,0
+65,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2009,11,2010,6,none,yield,0.7458923338593004,0
+66,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2009,11,2010,6,none,yield,0.5005568398494845,0
+67,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2009,11,2010,6,none,yield,0.6822519574417051,0
+68,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2009,11,2010,6,none,yield,0.24447228420919842,0
+69,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2009,11,2010,6,none,yield,0.7263117222794642,0
+70,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2009,11,2010,6,none,yield,0.41742156785517354,0
+72,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2010,11,2011,6,none,yield,1.1900012135089932,0
+73,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2010,11,2011,6,none,yield,1.2800003451042645,0
+74,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2010,11,2011,6,none,yield,0.60000161608979,0
+75,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2010,11,2011,6,none,yield,0.6100012971851083,0
+76,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2010,11,2011,6,none,yield,0.5200002081999552,0
+77,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2010,11,2011,6,none,yield,0.2899983701852556,0
+78,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2010,11,2011,6,none,yield,0.47999879710101345,0
+79,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2010,11,2011,6,none,yield,0.2399981198211144,0
+81,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2011,11,2012,6,none,yield,0.9565861568793675,0
+82,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2011,11,2012,6,none,yield,0.8367150226702422,0
+83,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2011,11,2012,6,none,yield,0.5639075180710316,0
+84,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2011,11,2012,6,none,yield,0.6374174193600556,0
+85,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2011,11,2012,6,none,yield,0.5667571397841299,0
+86,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2011,11,2012,6,none,yield,0.19476344025192813,0
+87,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2011,11,2012,6,none,yield,0.3486212743577886,0
+88,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2011,11,2012,6,none,yield,0.15582108216921856,0
+90,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2012,11,2013,6,none,yield,0.7799983954502099,0
+91,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2012,11,2013,6,none,yield,1.0899967379912967,0
+92,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2012,11,2013,6,none,yield,0.6299938105781686,0
+93,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2012,11,2013,6,none,yield,0.7300000527250966,0
+94,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2012,11,2013,6,none,yield,0.42000200120072045,0
+95,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2012,11,2013,6,none,yield,0.32999806940810716,0
+96,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2012,11,2013,6,none,yield,0.3600023864924527,0
+97,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2012,11,2013,6,none,yield,0.35999238111362725,0
+99,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2013,11,2014,6,none,yield,1.2800003010755925,0
+100,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2013,11,2014,6,none,yield,1.2699979308917857,0
+101,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2013,11,2014,6,none,yield,0.8099995535470685,0
+102,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2013,11,2014,6,none,yield,0.809995956774241,0
+103,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2013,11,2014,6,none,yield,0.6800007958411615,0
+104,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2013,11,2014,6,none,yield,0.5399977784154548,0
+105,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2013,11,2014,6,none,yield,0.6000015235425411,0
+106,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2013,11,2014,6,none,yield,0.6100016504373659,0
+108,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2014,11,2015,6,none,yield,0.9348016285516285,0
+109,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2014,11,2015,6,none,yield,1.0523935522440937,0
+110,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2014,11,2015,6,none,yield,0.553472573068613,0
+111,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2014,11,2015,6,none,yield,0.42687399709635515,0
+112,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2014,11,2015,6,none,yield,0.27199864613301744,0
+113,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2014,11,2015,6,none,yield,0.14428954977282116,0
+114,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2014,11,2015,6,none,yield,0.18322821770614342,0
+115,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2014,11,2015,6,none,yield,0.10985013822202823,0
+117,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2015,11,2016,6,none,yield,0.7076117063746316,0
+118,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2015,11,2016,6,none,yield,0.716146999824722,0
+119,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2015,11,2016,6,none,yield,0.6085860650153955,0
+120,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2015,11,2016,6,none,yield,0.38084474158972725,0
+121,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2015,11,2016,6,none,yield,0.2485423819460693,0
+122,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2015,11,2016,6,none,yield,0.09583198183587414,0
+123,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2015,11,2016,6,none,yield,0.19868634957260475,0
+124,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2015,11,2016,6,none,yield,0.2927009820855747,0
+126,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2016,11,2017,6,none,yield,1.945286556738807,0
+127,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2016,11,2017,6,none,yield,1.9818717189246555,0
+128,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2016,11,2017,6,none,yield,1.255912591108122,0
+129,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2016,11,2017,6,none,yield,1.0101021930901604,0
+130,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2016,11,2017,6,none,yield,0.8182607433734663,0
+131,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2016,11,2017,6,none,yield,0.6156261981091289,0
+132,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2016,11,2017,6,none,yield,0.5327635551641716,0
+133,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2016,11,2017,6,none,yield,0.6320630301792719,0
+135,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2017,11,2018,6,none,yield,1.550932818890969,0
+136,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2017,11,2018,6,none,yield,1.729147046952778,0
+137,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2017,11,2018,6,none,yield,1.026547581539979,0
+138,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2017,11,2018,6,none,yield,0.8199271365761959,0
+139,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2017,11,2018,6,none,yield,0.6783920343893982,0
+140,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2017,11,2018,6,none,yield,0.5372101651869,0
+141,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2017,11,2018,6,none,yield,0.4032898071914276,0
+142,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2017,11,2018,6,none,yield,0.6735502179394262,0
+144,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2018,11,2019,6,none,yield,0.7669928705945656,0
+145,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2018,11,2019,6,none,yield,0.7627444309747531,0
+146,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2018,11,2019,6,none,yield,0.7432885581754929,0
+147,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2018,11,2019,6,none,yield,0.21879578774195207,0
+148,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2018,11,2019,6,none,yield,0.28129071380111553,0
+149,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2018,11,2019,6,none,yield,0.3859502510240388,0
+150,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2018,11,2019,6,none,yield,0.13197820450494246,0
+151,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2018,11,2019,6,none,yield,0.19174560371127894,0
+153,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2019,11,2020,6,none,yield,1.0243646133154445,0
+154,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2019,11,2020,6,none,yield,0.9040180667223428,0
+155,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2019,11,2020,6,none,yield,0.670204555225767,0
+156,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2019,11,2020,6,none,yield,0.28638324144767735,0
+157,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2019,11,2020,6,none,yield,0.406941282590954,0
+158,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2019,11,2020,6,none,yield,0.28283156673374327,0
+159,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2019,11,2020,6,none,yield,0.22145458974103474,0
+160,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2019,11,2020,6,none,yield,0.30986709528836004,0
+162,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2020,11,2021,6,none,yield,2.3391383897001874,0
+163,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2020,11,2021,6,none,yield,2.351611162670235,0
+164,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2020,11,2021,6,none,yield,1.8618459997267884,0
+165,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2020,11,2021,6,none,yield,1.1177758796503598,0
+166,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2020,11,2021,6,none,yield,0.8349013143288486,0
+167,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2020,11,2021,6,none,yield,0.5428886656676601,0
+168,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2020,11,2021,6,none,yield,0.7704032516846722,0
+169,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2020,11,2021,6,none,yield,0.6759663143148242,0
+171,ZW2011A114,Zimbabwe,ZW,Mashonaland West,none,Mashonaland West,Maize,Main,2021,11,2022,6,none,yield,1.8072921676825446,0
+172,ZW2011A112,Zimbabwe,ZW,Mashonaland Central,none,Mashonaland Central,Maize,Main,2021,11,2022,6,none,yield,1.5657211884684183,0
+173,ZW2011A113,Zimbabwe,ZW,Mashonaland East,none,Mashonaland East,Maize,Main,2021,11,2022,6,none,yield,0.732283423135208,0
+174,ZW2011A111,Zimbabwe,ZW,Manicaland,none,Manicaland,Maize,Main,2021,11,2022,6,none,yield,0.5736305752863633,0
+175,ZW2011A117,Zimbabwe,ZW,Midlands,none,Midlands,Maize,Main,2021,11,2022,6,none,yield,0.4226682107346737,0
+176,ZW2011A118,Zimbabwe,ZW,Masvingo,none,Masvingo,Maize,Main,2021,11,2022,6,none,yield,0.3240009442831524,0
+177,ZW2011A115,Zimbabwe,ZW,Matabeleland North,none,Matabeleland North,Maize,Main,2021,11,2022,6,none,yield,0.23014592818162632,0
+178,ZW2011A116,Zimbabwe,ZW,Matabeleland South,none,Matabeleland South,Maize,Main,2021,11,2022,6,none,yield,0.32208739823970284,0
