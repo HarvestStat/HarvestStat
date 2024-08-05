@@ -172,3 +172,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+data/crop/adm_crop_production_ALL.hdf
+data/crop/Harvestat_crop_yield_anomalies.hdf
