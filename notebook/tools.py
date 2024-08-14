@@ -167,6 +167,7 @@ product_name_dict = {
     'Sesame Seed': 'Sesame Seed',
     'Sorghum': 'Sorghum',
     'Sorghum (Red)': 'Sorghum (Red)',
+    'Sorghum (Brown)': 'Sorghum',
     'Sorrel': 'Sorrel',
     'Soybean (unspecified)': 'Soybean',
     'Spanish peanut (in shell)': 'Spanish Peanut',
