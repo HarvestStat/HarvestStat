@@ -6,7 +6,7 @@ Benin,Annual,3,10,0,0
 Benin,Main,3,10,0,0
 Burkina Faso,Annual,1,12,0,0
 Burkina Faso,Main,6,12,0,0
-Burundi,Season A,9,1,0,0
+Burundi,Season A,9,1,-1,0
 Burundi,Season B,2,8,0,0
 Burundi,Season C,6,11,0,0
 Cameroon,1st Season,6,12,0,0
@@ -14,31 +14,31 @@ Cameroon,2nd Season,6,12,0,0
 Cameroon,Annual,6,12,0,0
 Cameroon,North 1st Season,6,12,0,0
 Cameroon,North 2nd Season,6,12,0,0
-Central African Republic,Main,4,9,0,-1
+Central African Republic,Main,4,9,-1,-1
 Chad,Cold-off,1,3,0,0
 Chad,Main,6,11,0,0
 "Congo, The Democratic Republic of the",Main,1,12,0,0
 Ethiopia,Meher,5,1,-1,-1
 Guinea,Main,5,12,0,0
-Kenya,Annual,1,12,0,-1
+Kenya,Annual,1,12,-1,-1
 Kenya,Long,3,8,0,0
 Kenya,Short,10,3,-1,0
 Lesotho,Summer,10,7,-1,0
 Lesotho,Winter,5,11,0,0
 Liberia,Main,4,12,0,0
-Madagascar,Annual,11,6,0,0
-Malawi,Annual,11,10,0,0
-Malawi,Main,11,5,0,0
+Madagascar,Annual,11,6,-1,0
+Malawi,Annual,11,10,-1,0
+Malawi,Main,11,5,-1,0
 Malawi,Winter,3,8,0,0
 Mali,Main,6,12,0,0
 Mauritania,Annual,6,11,0,0
-Mauritania,Bas-fond,10,3,0,0
-Mauritania,Cold off-season,11,2,0,0
-Mauritania,Dam retention,10,3,0,0
-Mauritania,Decrue controlee,10,3,0,0
+Mauritania,Bas-fond,10,3,-1,0
+Mauritania,Cold off-season,11,2,-1,0
+Mauritania,Dam retention,10,3,-1,0
+Mauritania,Decrue controlee,10,3,-1,0
 Mauritania,Hot off-season,3,6,0,0
 Mauritania,Main,6,11,0,0
-Mauritania,Walo,11,4,0,0
+Mauritania,Walo,11,4,-1,0
 Mozambique,Annual,10,6,-1,0
 Mozambique,Cotton season,10,6,-1,0
 Mozambique,Main,10,6,-1,0
@@ -53,11 +53,11 @@ Rwanda,Season C,6,9,0,0
 Senegal,Main,6,11,0,0
 Senegal,Main-off,2,7,0,0
 Sierra Leone,Main,5,9,0,0
-Somalia,Deyr,10,3,0,+1
+Somalia,Deyr,10,3,0,1
 Somalia,Deyr-off,10,4,-1,0
 Somalia,Gu,3,8,0,0
 Somalia,Gu-off,3,9,0,0
-South Africa,Summer,10,4,0,0
+South Africa,Summer,10,4,-1,0
 South Africa,Winter,5,11,0,0
 South Sudan,Main,6,1,-1,-1
 Sudan,Main,6,11,-1,0
