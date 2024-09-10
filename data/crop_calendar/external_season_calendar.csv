@@ -1,6 +1,7 @@
 country,season_name,planting_month,harvest_month,planting_year,harvest_year
 Afghanistan,Spring,1,6,0,0
 Afghanistan,Winter,10,7,-1,0
+Afghanistan,Annual,1,12,0,0
 Angola,Main,10,4,-1,0
 Benin,Annual,3,10,0,0
 Benin,Main,3,10,0,0
