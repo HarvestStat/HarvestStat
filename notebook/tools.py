@@ -164,6 +164,7 @@ product_name_dict = {
     'Rice (Paddy)': 'Rice',
     'Rice, not husked': 'Rice (not husked)',
     'Safflower Seed': 'Safflower Seed',
+    'Saffron': 'Saffron',
     'Sesame Seed': 'Sesame Seed',
     'Sorghum': 'Sorghum',
     'Sorghum (Red)': 'Sorghum (Red)',
